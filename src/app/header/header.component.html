@@ -1,0 +1,78 @@
+<!-- <nav class="navbar navbar-custom shadow p-3 mb-5 bg-white rounded">
+    <div class="container-fluid">
+        <a class="navbar-brand text-bold" href="#">
+        <img src="/assets/images/logo.png" alt="logo" width="50">
+        <span>&nbsp;&nbsp;Driver Quiz Buddy</span>
+        </a>
+    </div>
+  </nav> -->
+
+  <!-- <button id ='navButton' mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <mat-icon>dialpad</mat-icon>
+      <span>Redial</span>
+    </button>
+    <button mat-menu-item disabled>
+      <mat-icon>voicemail</mat-icon>
+      <span>Check voice mail</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>notifications_off</mat-icon>
+      <span>Disable alerts</span>
+    </button>
+  </mat-menu> -->
+
+
+  <!-- <mat-toolbar color="primary">
+    <div fxHide.gt-xs>
+        <button mat-icon-button (click)="onToggleSidenav()">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+    <div>
+        <a routerLink="/home">Owner-Account</a>
+    </div>
+    <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+        <ul fxLayout fxLayoutGap="15px" class="navigation-items">
+            <li>
+                <a routerLink="/owner">Owner Actions</a>
+            </li>
+            <li>
+                <a routerLink="/account">Account Actions</a>
+            </li>
+        </ul>
+    </div>
+  </mat-toolbar> -->
+
+
+ <mat-toolbar class="mat-elevation-z4">
+  <mat-toolbar-row>
+    <button class="nav-icon" mat-icon-button (click)="onToggleSidenav()">
+      <mat-icon class="icon">menu</mat-icon>
+  </button>
+    &nbsp;&nbsp;
+    <a mat-flat-button routerLink="/welcome">
+      <img src="/assets/images/logo.png" alt="logo" width="50">
+      &nbsp;&nbsp;Driver Quiz Buddy
+    </a>
+    <div class="parent">
+      <div class="children right-children">
+        <div class="child"><a mat-flat-button routerLink="/aboutus">About Us</a></div>
+        &nbsp;&nbsp;
+        <div class="child">
+          <a href="https://github.com/kliu57" mat-icon-button class="nav-icon" aria-label="github icon">
+            <mat-icon class="custom-icon" svgIcon="github"></mat-icon>
+          </a>
+        </div>
+        <div class="child">
+          <button (click)="onShare()" mat-icon-button class="nav-icon" aria-label="share icon">
+            <mat-icon class="icon">share</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

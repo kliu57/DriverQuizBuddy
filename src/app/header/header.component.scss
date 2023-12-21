@@ -1,0 +1,101 @@
+a {
+    text-decoration: none;
+    color: #66a9e8;
+    font-size:120%;
+    font-weight: 900;
+}
+
+a:hover, a:active{
+    color: #90bfee;
+}
+
+.navigation-items{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+mat-toolbar{
+    border-radius: 3px;
+}
+
+@media(max-width: 959px){
+    mat-toolbar{
+        border-radius: 0px;
+    }
+}
+
+mat-toolbar-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+  }
+  
+  h3 {
+    white-space: nowrap;
+    color: #90bfee;
+  }
+  
+  .parent {
+      display: flex;
+      flex: 1;
+      height: 100px;
+      align-items: center; 
+      justify-content: end; 
+      white-space: nowrap;
+    }
+    
+    .children {
+      display: flex;
+    }
+    
+    .child {
+      margin: 0 5px;
+      padding: 0 5px;
+      font-size: 70%;
+      // color: #000;
+    }
+  
+.nav-icon {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+#menu-icon {
+  border: none;
+  outline: none;
+  background-color: transparent;
+
+}
+
+.icon {
+  color: #66a9e8;
+}
+
+.icon:hover {
+  color: #90bfee;
+  cursor: pointer;
+}
+
+.icon:active {
+  color: #90bfee;
+}
+
+.icon:visited {
+  color: #90bfee;
+}
+
+.custom-icon {
+  width: 24px; 
+  height: 24px; 
+  line-height: 10px; 
+}
+
+.custom-icon:hover{
+
+  cursor: pointer;
+  opacity: .5;
+}
+

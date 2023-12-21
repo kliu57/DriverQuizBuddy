@@ -1,0 +1,117 @@
+
+
+* {
+    font-family: 'Nunito', sans-serif;
+    /* color: #353d44; */
+    /* font-size: 1.02em; */
+}
+
+h1 {
+    font-weight: 900;
+    color: #353d44;
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 2em;
+}
+
+h2 {
+    font-weight: 800;
+    color: #353d44;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+h3 {
+    font-weight: 800;
+    color: #353d44;
+    font-family: 'Nunito', sans-serif !important;
+    
+}
+
+h4 {
+    font-weight: 800;
+    color: #66a9e8;
+}
+
+p {
+    font-size: 1.25em;
+    font-weight: 800;
+    color: #8b939c;
+}
+
+li {
+    font-size: 1.1em;
+    font-weight: 800;
+    color: #8b939c;
+}
+
+ul {
+    list-style-type: '⁃  ';
+    color: #353d44;
+}
+
+/* .navbar-custom {
+    background-color: #fff
+
+} */
+ 
+/* .navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #353d44;
+    font-weight: 900;
+    font-size: 1.5em;
+    font-style: italic;
+} */
+
+.btn-primary {
+    background-color: #66a9e8 !important;
+    font-weight: 800;
+}
+
+.btn-primary:hover {
+    background-color: #90bfee !important;
+}
+
+.btn-primary:active {
+    background-color: #90bfee !important;
+}
+
+.btn-primary:visited {
+    background-color: #66a9e8 !important;
+}
+
+.btn {
+    border-radius: 40px;
+    border: none;
+    box-shadow: none;
+}
+
+
+/* #navButton {
+    border: none;
+    background-color: #fff;
+}
+
+#navButton:active {
+    border: none;
+    outline: none;
+}
+
+#navButton:focus {
+    border: none;
+    outline: none;
+} */
+
+
+
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    /* font-family: Roboto,"Helvetica Neue", sans-serif; */
+    /* font-family: 'Nunito', sans-serif !important; */
+    padding: 0;
+}
+
+.flexExpand {
+    flex: 1 1 auto;
+}
