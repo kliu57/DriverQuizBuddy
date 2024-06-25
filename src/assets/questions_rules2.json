@@ -1,0 +1,295 @@
+{
+  "questions": [
+    {
+      "questionText": "Some drivers believe that vehicle safety features allow them to pay less attention when they drive - is this a correct way of thinking?",
+      "info": "Many Canadian drivers believe that having safety features on their vehicle makes it less dangerous to drive while distracted. A concerning 19.2% of drivers reported that they would be likely to drive while distracted if their vehicle was equipped with modern safety features. Drivers who believe that safety features compensate for safe driving place themselves and other road users at a higher risk of a collision.",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes and some vehicles even drive themselves - sit back and relax as the vehicle is certain to let us know when there is a problem for us to solve."
+        },
+        {
+          "text": "No as that is very dangerous thinking - driving takes a significant amount of mental concentration and activities that diminish a driver’s ability to focus on driving and road conditions increase the risk of a collision regardless of the safety features in the vehicle.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Is it true that with the current level of vehicle technology, new drivers don't have to worry about their lack of experience?",
+      "info": "In particular, it takes time for new drivers to develop a sense of situational awareness. This refers to the driver’s ability to get the ‘big picture’ of what is going on around them. It involves keeping an eye on other drivers and the road, anticipating future events and identifying potentially hazardous situations quickly.",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes - newer vehicle technologies make driving much easier, such as not having to check blind spots when changing lanes or turning since vehicles have blind spot indicators and there is no worry about backing up because there are cameras."
+        },
+        {
+          "text": "No, as young and new drivers have a higher collision risk than all other age groups and vehicle safety technologies may not protect them from a lack of driving experience. Driving is a complex task that requires visual, manual and cognitive skills.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Do you agree that the best hand position is '9 and 3'?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes since that is what I read online and some high-performance race vehicle courses say that it's the best."
+        },
+        {
+          "text": "No - the best hand position is '10 and 2' for the average driver on regular roads because it allows for smooth hand-over-hand steering and keeps the vehicle under control at all times and in all conditions. (Racing vehicles have smaller steering wheels so that the driver can turn the wheel and never take their hands off, which is necessary at the high speeds they drive.)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Is it true that if you're driving a vehicle with an Anti-Lock Braking System (ABS), the right method to stop the vehicle on a slippery surface in an emergency is to pump the brakes?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes, that's what my family taught me who have many years of driving experience and surely must be right."
+        },
+        {
+          "text": "No, that is incorrect because when driving a vehicle equipped with ABS, the driver needs to slam the brake pedal to the floor and keep it there. (The pedal pulsations and noises are normal as the ABS system engages and will bring the vehicle to a safe stop.)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Do you agree that if you set up your outside sideview mirrors a certain way, they'll eliminate the blind spots and therefore the need to turn your head to check them?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes since the outside sideview mirrors can be manipulated to increase your vision to see more lanes beside you and reveal what would be in your blind spots. Turning your head for shoulder checks is very dangerous and drivers should never take their eyes off the road."
+        },
+        {
+          "text": "No, as adjusting the outside sideview mirrors only creates different blind spots and risks. The outside mirrors help the driver spot cyclists and motorcycles that are much smaller and harder to see coming up on the side of a vehicle. If the mirrors are turned out from the vehicle, you would never see these risks coming, including danger coming from behind.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "In the winter, when roads are snow-covered, is it better to let the air out of your tires to make them softer to help grip the road?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes, because when you underinflate a tire, it sags, letting more of the tire touch the road."
+        },
+        {
+          "text": "No, this is not the best tactic. Depending on the depth of the snow or surface you're driving on, properly inflated tires can sometimes dig through the surface to the pavement below while wider underinflated tires ride only on the surface of the snow.  The tire patch in the tire centre may start to lose contact with the road as the weight of the vehicle presses down with the tire centre starting to curl inwards as the tire loses more and more air. Underinflation is also damaging to the tires and wheels.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "When stopping at a red light, have you left enough space for the vehicle in front as long as you can see their back tires?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes, there is more than enough room to steer around them if they stall or have a problem.  "
+        },
+        {
+          "text": "No, that may not be sufficient space. That logic comes from a time in the past when vehicles used to have a much longer front end than they do now. Secondly, since the most common collision is the rear-end collision, if you have more room to maneuver, you increase your chances of being able to escape a collision from behind.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "In Ontario, what do these double yellow lines mean? (Choose the two correct answers)",
+      "info": "Lines and pavement markings are guidelines in many jurisdictions, not law. If a collision or emergency results from not following these guidelines, the driver could be charged. Charges may include: failure to share the road, careless driving, and dangerous driving (a criminal code offense).",
+      "image": "/assets/images/markings/double_yellow_lines.jpg",
+      "options": [
+        { "text": "The lines don't mean anything" },
+        { "text": "Do not pass", "correct": true },
+        { "text": "It's okay to pass at any time" },
+        { "text": "Do not travel over the lines", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Why is there a double line here?",
+      "info": "",
+      "image": "/assets/images/markings/double_yellow_lines2.jpg",
+      "options": [
+        { "text": "There is no need for it - it is a mistake" },
+        {
+          "text": "Too close to an intersection to be safe to pass",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "When deciding to pass a slow moving vehicle, what factors should you take into account?",
+      "info": "Slow-moving vehicles may pull to the shoulder, however, only pass if visibility is good. Harvesters have been known to travel all night to go as far as 20 kilometres between farms so it may be impractical to not pass - pass safely.",
+      "image": "/assets/images/signs/tractor.jpg",
+      "options": [
+        { "text": "All of these answers are correct", "correct": true },
+        { "text": "Not passing before a curve" },
+        { "text": "Not passing before a hill" },
+        { "text": "How close oncoming traffic is" }
+      ]
+    },
+    {
+      "questionText": "What does it mean when the line on our side of the road has just changed from solid to broken?",
+      "info": "Slow-moving vehicles may pull to the shoulder, however, only pass if visibility is good. Harvesters have been known to travel all night to go as far as 20 kilometres between farms so it may be impractical to not pass - pass safely.",
+      "image": "/assets/images/markings/solid_to_broken.jpg",
+      "options": [
+        { "text": "It might be safe to pass", "correct": true },
+        { "text": "It might not be safe to pass" }
+      ]
+    },
+    {
+      "questionText": "What does this line change from solid to broken indicate about the road?",
+      "info": "",
+      "image": "/assets/images/markings/solid_to_broken.jpg",
+      "options": [
+        { "text": "We may have just passed over a hill" },
+        { "text": "All of these answers are correct", "correct": true },
+        { "text": "We may have just come out of a curve" },
+        {
+          "text": "It might be safer to pass in our direction due to increased visibility in ideal conditions"
+        }
+      ]
+    },
+    {
+      "questionText": "Would it be legal for vehicles to go around this tractor if it is safe to do so?",
+      "info": "",
+      "image": "/assets/images/markings/double_yellow_lines4.jpg",
+      "options": [{ "text": "Yes", "correct": true }, { "text": "No" }]
+    },
+    {
+      "questionText": "Why are there double lines in this picture?",
+      "info": "",
+      "image": "/assets/images/markings/double_yellow_lines3.jpg",
+      "options": [
+        { "text": "All of these answers are correct", "correct": true },
+        { "text": "There are hidden intersections" },
+        { "text": "Visibility is not great" },
+        { "text": "Speeds are faster in areas like this" },
+        { "text": "There are a lot of driveways" }
+      ]
+    },
+    {
+      "questionText": "It is less dangerous to pass over a single yellow line than double yellow lines.",
+      "info": "A single yellow line means the same as a double yellow line. Both indicate that it might not be safe to pass.",
+      "image": "/assets/images/markings/single_yellow_line.jpg",
+      "options": [{ "text": "Yes" }, { "text": "No", "correct": true }]
+    },
+    {
+      "questionText": "Why might it not be safe to pass here?",
+      "info": "A single yellow line means the same as a double yellow line. Both indicate that it might not be safe to pass.",
+      "image": "/assets/images/markings/single_yellow_line.jpg",
+      "options": [
+        {
+          "text": "You cannot see what is coming from beyond the hill and there are several driveways on both sides with possible turning traffic.",
+          "correct": true
+        },
+        {
+          "text": "There is no problem with passing here because there are no visible vehicles."
+        }
+      ]
+    },
+    {
+      "questionText": "Why is it not safe to pass here?",
+      "info": "",
+      "image": "/assets/images/markings/solid_to_broken.jpg",
+      "options": [
+        { "text": "You cannot see in front of the large vehicle" },
+        { "text": "There is an oncoming vehicle" },
+        { "text": "You may already be going the speed limit" },
+        { "text": "All of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What will happen to the lines as the hill is approached?",
+      "info": "",
+      "image": "/assets/images/markings/solid_to_broken.jpg",
+      "options": [
+        { "text": "Our side will become a solid line before the hill" },
+        { "text": "Both of these answers are correct" },
+        {
+          "text": "The line on the left will become broken since the oncoming vehicle can see a greater distance",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What light would the oncoming drivers have?",
+      "info": "",
+      "image": "/assets/images/situation/green_light_left.jpg",
+      "options": [
+        { "text": "Red", "correct": true },
+        { "text": "Amber" },
+        { "text": "Green" }
+      ]
+    },
+    {
+      "questionText": "What light would pedestrians have?",
+      "info": "",
+      "image": "/assets/images/situation/green_light_left.jpg",
+      "options": [
+        { "text": "'Walk' to the right of this intersection" },
+        { "text": "'Don't Walk' to the left of this intersection" },
+        { "text": "Both of these answers are correct", "correct": true },
+        { "text": "Neither of these answers are correct" }
+      ]
+    },
+    {
+      "questionText": "What does an amber light mean? (Choose the two correct answers)",
+      "info": "",
+      "image": "/assets/images/situation/yellow_light.jpg",
+      "options": [
+        {
+          "text": "Speed up to get through the intersection as fast as possible"
+        },
+        {
+          "text": "Stop before the crosswalk if it is safe to do so no matter if going straight or turning",
+          "correct": true
+        },
+        {
+          "text": "If you have been waiting in the intersection to turn, you must clear the intersection as soon as it is safe to do so",
+          "correct": true
+        },
+        { "text": "Go if it is safe to do so" }
+      ]
+    },
+    {
+      "questionText": "What does the amber turn arrow mean?",
+      "info": "",
+      "image": "/assets/images/situation/red_light_yellow_left.jpg",
+      "options": [
+        {
+          "text": "Stop in the proper waiting position if it's safe to do so and if it's not, then finish the turn",
+          "correct": true
+        },
+        {
+          "text": "Stop before the crosswalk if it is safe to do so no matter if going straight or turning"
+        },
+        { "text": "Speed up to get through the light as fast as possible" }
+      ]
+    },
+    {
+      "questionText": "What does a red light mean?",
+      "info": "",
+      "image": "/assets/images/situation/red_light.jpg",
+      "options": [{ "text": "Stop", "correct": true }, { "text": "Go" }]
+    },
+    {
+      "questionText": "Why might a city not allow right turns on red lights at certain intersections?",
+      "info": "",
+      "image": "/assets/images/situation/no_right_turn.jpg",
+      "options": [
+        {
+          "text": "Visibility at the intersection could be such that a driver cannot see well enough to judge if it is safe to go"
+        },
+        { "text": "It adds too much traffic to the area at that time of day" },
+        { "text": "All of these answers could be correct", "correct": true },
+        { "text": "Other vehicles could be turning into the same lane" },
+        { "text": "There is heavy pedestrian traffic in the area" }
+      ]
+    }
+  ]
+}

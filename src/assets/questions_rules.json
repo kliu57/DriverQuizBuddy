@@ -1,1 +1,37 @@
-{"questions": [{"questionText": "What is this sign?", "image": "/assets/images/signs/stop.jpg", "options": [{"text": "Stop", "correct": true}, {"text": "Bears"}, {"text": "No U-turn"}, {"text": "Ducks"}]}, {"questionText": "Which of the following is NOT a type used in TypeScript?", "options": [{"text": "number"}, {"text": "string"}, {"text": "boolean"}, {"text": "enum", "correct": true}]}]}
+{
+  "questions": [
+    {
+      "questionText": "?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "" },
+        { "text": "" },
+        { "text": "" },
+        { "text": "" }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "" },
+        { "text": "" },
+        { "text": "" },
+        { "text": "" }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "" },
+        { "text": "" },
+        { "text": "" },
+        { "text": "" }
+      ]
+    }
+  ]
+}
