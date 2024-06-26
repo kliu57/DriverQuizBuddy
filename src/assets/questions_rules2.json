@@ -290,6 +290,335 @@
         { "text": "Other vehicles could be turning into the same lane" },
         { "text": "There is heavy pedestrian traffic in the area" }
       ]
+    },
+    {
+      "questionText": "What must you do if you are approaching the green arrow and it turns amber?",
+      "info": "",
+      "image": "/assets/images/situation/red_light_yellow_left.jpg",
+      "options": [
+        { "text": "Speed up to get through as fast as possible" },
+        {
+          "text": "Stop if it is safe to do so and if not safe to stop, move into the waiting position",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Can you turn right at this light after stopping?",
+      "info": "",
+      "image": "/assets/images/situation/red_light_yellow_left.jpg",
+      "options": [
+        {
+          "text": "Yes, as long as you yield to turning traffic, pedestrians, cyclists and there is no sign saying you cannot turn right on a red",
+          "correct": true
+        },
+        { "text": "No you cannot, it's illegal" }
+      ]
+    },
+    {
+      "questionText": "In the image above, you are approaching a flashing red light - is this an all-way stop?",
+      "info": "",
+      "image": "/assets/images/situation/flashing_red_light.jpg",
+      "options": [{ "text": "Yes" }, { "text": "No", "correct": true }]
+    },
+    {
+      "questionText": "This is a two-way stop where you also have a stop sign but the cross traffic does not - what traffic light do they have?",
+      "info": "",
+      "image": "/assets/images/situation/flashing_red_light.jpg",
+      "options": [
+        { "text": "Flashing yellow light", "correct": true },
+        { "text": "Flashing green light" },
+        { "text": "Flashing red light" }
+      ]
+    },
+    {
+      "questionText": "What is the most common type of collision in Canada?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Loss of Control " },
+        { "text": "Head-On" },
+        { "text": "Turning" },
+        { "text": "Rear-End", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What is the most common fatal type of collision?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Loss of Control ", "correct": true },
+        { "text": "Head-On" },
+        { "text": "Turning" },
+        { "text": "Rear-End" }
+      ]
+    },
+    {
+      "questionText": "What do solid yellow lines mean on a highway?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "You cannot pass" },
+        { "text": "You can pass " },
+        { "text": "You should not pass", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Which of these is NOT a negative factor for beginner drivers?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Vehicle technology", "correct": true },
+        { "text": "Inappropriate speed" },
+        { "text": "Driver experience" },
+        { "text": "Risk perception" },
+        { "text": "Overconfidence" },
+        { "text": "Peer pressure" },
+        { "text": "Dangerous driving" }
+      ]
+    },
+    {
+      "questionText": "Which of the following is NOT a factor that affects driver risk perception?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Vehicle technology", "correct": true },
+        { "text": "Driving environment" },
+        { "text": "Driver age" },
+        { "text": "Self control" },
+        { "text": "Mental factors" }
+      ]
+    },
+    {
+      "questionText": "Who is legally responsible for what happens inside a vehicle when in motion?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "The passengers" },
+        { "text": "The vehicle owner" },
+        { "text": "Other drivers on the road" },
+        { "text": "The driver", "correct": true }
+      ]
+    },
+    {
+      "questionText": "When approaching a yield sign, do you always have to stop?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Yes, you must treat all yield signs like a stop sign" },
+        {
+          "text": "No, you only have to stop if you are going to be taking the right-of-way away from another vehicle, pedestrian or cyclist",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What does an amber (yellow) light mean? ",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "I do not know the difference between all the light colours"
+        },
+        { "text": "Speed up because the light is about to change to red" },
+        { "text": "Go through if it is safe to do so" },
+        {
+          "text": "Stop if it is safe to do so and if not safe to stop, proceed with caution",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What does a green light mean?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Stop" },
+        { "text": "Go" },
+        { "text": "Slow down" },
+        { "text": "Go if it is safe to do so", "correct": true },
+        { "text": "Stop if it is safe to do so" }
+      ]
+    },
+    {
+      "questionText": "Listening to traffic reports before starting your trip will help you to (choose all answers that apply):",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Estimate the volume of traffic and time it will take to get to your destination"
+        },
+        {
+          "text": "Decide if it's worth your time and effort to program your GPS/Navigation system for a routine drive"
+        },
+        { "text": "Note the streets that are a good option to use" },
+        { "text": "All of these answers are correct", "correct": true },
+        {
+          "text": "Plan alternate routes if there is a collision or construction"
+        }
+      ]
+    },
+    {
+      "questionText": "In the image below, a driver did not leave enough time to clear their vehicle of snow. They ran late for work and excessively sped to make up for lost time. The driver lost control on a lane change, hit another vehicle and caused this serious collision. How could this driver have planned better?",
+      "info": "",
+      "image": "/assets/images/situation/collision1.jpeg",
+      "options": [
+        { "text": "Drove a vehicle with more horsepower" },
+        { "text": "Drove with the snow still on the vehicle" },
+        {
+          "text": "Woke up earlier and cleaned the snow off their vehicle",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "In major cities, there are often traffic delays due to collisions, stalled vehicles and volume of vehicles. What could you do to make this easier on yourself?",
+      "info": "",
+      "image": "/assets/images/situation/traffic1.jpg",
+      "options": [
+        {
+          "text": "Listen to the radio for traffic updates and move into the best lane"
+        },
+        { "text": "All of these answers are correct", "correct": true },
+        {
+          "text": "Use an app that gives live updates of the traffic and makes suggestions for lane choice"
+        },
+        { "text": "Use an alternative route" },
+        { "text": "Estimate the volume of traffic and leave earlier" }
+      ]
+    },
+    {
+      "questionText": "If you want to proceed straight ahead, what should you do now?",
+      "info": "",
+      "image": "/assets/images/situation/road1.jpg",
+      "options": [
+        { "text": "Do a lane change to the left", "correct": true },
+        { "text": "Turn right, then left, another left and then right" },
+        { "text": "Nothing" }
+      ]
+    },
+    {
+      "questionText": "Which lane ends in 200 metres?",
+      "info": "",
+      "image": "/assets/images/signs/lane_signs.jpg",
+      "options": [
+        { "text": "Lane 1" },
+        { "text": "Lane 2" },
+        { "text": "Lane 3" },
+        { "text": "Lane 4", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Is having low fuel going to affect your route plan?",
+      "info": "",
+      "image": "/assets/images/car/fuel_gauge.jpg",
+      "options": [{ "text": "Yes", "correct": true }, { "text": "No" }]
+    },
+    {
+      "questionText": "When drivers are low on fuel, they likely have to find a gas station to fill up which is often not on the same route they usually take. When they arrive, extra time is needed if there is a line to get the fuel and also to pay, making some drivers feel anxious about the time they lost in the process. Will some drivers choose to drive over the speed limit to get to their next destination?",
+      "info": "",
+      "image": "/assets/images/car/fuel_gauge.jpg",
+      "options": [{ "text": "Yes", "correct": true }, { "text": "No" }]
+    },
+    {
+      "questionText": "Which of these are possible consequences of speeding?",
+      "info": "",
+      "image": "/assets/images/car/fuel_gauge.jpg",
+      "options": [
+        { "text": "An insurance premium increase" },
+        { "text": "Demerit points" },
+        { "text": "A collision" },
+        { "text": "A conviction registered on your driving record" },
+        {
+          "text": "Any or all of these answers could be possible consequences",
+          "correct": true
+        },
+        { "text": "A fine" }
+      ]
+    },
+    {
+      "questionText": "What problem do you see ahead in your lane?",
+      "info": "",
+      "image": "/assets/images/situation/construction1.jpg",
+      "options": [
+        {
+          "text": "The lane is blocked by construction workers so I must change lanes",
+          "correct": true
+        },
+        { "text": "There is no problem so I can keep going straight" }
+      ]
+    },
+    {
+      "questionText": "If there are two people in a vehicle going for lunch at 12 pm, can they legally use this High Occupancy Vehicle (HOV) lane?",
+      "info": "",
+      "image": "/assets/images/signs/hov_lane.jpg",
+      "options": [{ "text": "Yes", "correct": true }, { "text": "No" }]
+    },
+    {
+      "questionText": "When making a turn on to a new road, what lane must you turn in to?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "The first open lane no matter what" },
+        { "text": "It doesn't matter as long as the turn is safe" },
+        { "text": "The first available lane", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What are the penalties for turning into the wrong lane?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Possible insurance premium increase" },
+        {
+          "text": "Any or all of these answers could be possible",
+          "correct": true
+        },
+        { "text": "A fine" },
+        { "text": "Determination of fault in collision cases" },
+        { "text": "A conviction registered on your driving record " },
+        { "text": "Demerit points" }
+      ]
+    },
+    {
+      "questionText": "If you missed your exit, what would the best response be?",
+      "info": "",
+      "image": "/assets/images/situation/hwy1.png",
+      "options": [
+        { "text": "Keep going and use the next exit", "correct": true },
+        { "text": "Pull onto the shoulder and back up to the ramp needed" },
+        { "text": "Do a U-turn on the freeway and get to the exit needed" }
+      ]
+    },
+    {
+      "questionText": "Where should you be looking for directions?",
+      "info": "",
+      "image": "/assets/images/situation/hwy3.png",
+      "options": [
+        { "text": "On the lamp posts" },
+        { "text": "The signs", "correct": true },
+        { "text": "On the pavement" }
+      ]
+    },
+    {
+      "questionText": "What should you do if you are heading to Toronto?",
+      "info": "",
+      "image": "/assets/images/situation/hwy4.png",
+      "options": [
+        { "text": "I should change into the right lane" },
+        { "text": "I can stay in the left lane", "correct": true }
+      ]
+    },
+    {
+      "questionText": "While a driver is often in the right lane, there can be times when a driver is not sure which lane to be in. This situation is shown in the image below where the red vehicle makes a very late and hasty lane change cutting over the white lines. How could they have solved this better?",
+      "info": "",
+      "image": "/assets/images/situation/hwy5.png",
+      "options": [
+        { "text": "They should have changed lanes early", "correct": true },
+        {
+          "text": "It's not a problem as long as they get where they want to go"
+        }
+      ]
     }
   ]
 }
