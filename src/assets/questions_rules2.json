@@ -619,6 +619,818 @@
           "text": "It's not a problem as long as they get where they want to go"
         }
       ]
+    },
+    {
+      "questionText": "On average, how long does it take to do a vehicle circle check?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "10 - 15 seconds", "correct": true },
+        { "text": "1 - 5 seconds" },
+        { "text": "10 - 15 minutes" }
+      ]
+    },
+    {
+      "questionText": "What could be hidden from your view when sitting in the driver's seat?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Bicycles " },
+        { "text": "Toys" },
+        { "text": "Kids" },
+        { "text": "All of these answers could be correct", "correct": true },
+        { "text": "Pets" }
+      ]
+    },
+    {
+      "questionText": "Is it safe to pull out of the driveway?",
+      "info": "",
+      "image": "/assets/images/situation/driveway1.jpg",
+      "options": [
+        { "text": "Yes" },
+        { "text": "No" },
+        { "text": "I don't know", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Would the driver be able to see this child?",
+      "info": "",
+      "image": "/assets/images/situation/situation1.png",
+      "options": [{ "text": "Yes" }, { "text": "No", "correct": true }]
+    },
+    {
+      "questionText": "If the driver does a circle check, will they see this child?",
+      "info": "",
+      "image": "/assets/images/situation/situation1.png",
+      "options": [{ "text": "Yes", "correct": true }, { "text": "No" }]
+    },
+    {
+      "questionText": "Which color is transmission fluid?",
+      "info": "",
+      "image": "/assets/images/car/transmission_fluid.jpg",
+      "options": [
+        { "text": "Green" },
+        { "text": "Amber" },
+        { "text": "Red", "correct": true },
+        { "text": "Blue" }
+      ]
+    },
+    {
+      "questionText": "Which color is brake fluid?",
+      "info": "",
+      "image": "/assets/images/car/transmission_fluid.jpg",
+      "options": [
+        { "text": "Green" },
+        { "text": "Amber" },
+        { "text": "Red" },
+        { "text": "Blue" },
+        { "text": "Clear or no colour", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Which colour is oil?",
+      "info": "",
+      "image": "/assets/images/car/transmission_fluid.jpg",
+      "options": [
+        { "text": "Green" },
+        { "text": "Amber, brown or black", "correct": true },
+        { "text": "Blue" },
+        { "text": "Clear or no colour" }
+      ]
+    },
+    {
+      "questionText": "Which way should you walk around the vehicle when doing a circle check?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Clockwise" },
+        { "text": "Counterclockwise", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What would you have to do during this circle check?",
+      "info": "",
+      "image": "/assets/images/situation/situation2.jpg",
+      "options": [
+        { "text": "All of these answers are correct", "correct": true },
+        { "text": "Clear off the snow from the entire vehicle" },
+        { "text": "Make sure the tailpipes are clear of any snow" },
+        { "text": "Check the tires for obvious under inflation" }
+      ]
+    },
+    {
+      "questionText": "If you were going to the driver's door of this vehicle, which way would you walk around the vehicle?",
+      "info": "",
+      "image": "/assets/images/situation/situation2.jpg",
+      "options": [
+        { "text": "Clockwise" },
+        { "text": "Counterclockwise", "correct": true }
+      ]
+    },
+    {
+      "questionText": "If you were going to the driver's door of this vehicle, why would you walk counterclockwise to get there?",
+      "info": "",
+      "image": "/assets/images/situation/situation2.jpg",
+      "options": [
+        { "text": "It doesn't really matter which way to circle" },
+        {
+          "text": "To see any danger coming toward me as I approach the driver's door",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What does it mean when a dash light is green?",
+      "info": "",
+      "image": "/assets/images/car/dashboard.jpg",
+      "options": [
+        {
+          "text": "Green (sometimes blue) dashboard lights usually indicate a system is on or is operating, and the light is giving the driver a visual cue",
+          "correct": true
+        },
+        {
+          "text": "Green (sometimes blue) dashboard lights usually indicate a system is broken and needs to be serviced right away"
+        },
+        {
+          "text": "Green (sometimes blue) dashboard lights usually indicate a system is off"
+        }
+      ]
+    },
+    {
+      "questionText": "What does it mean when a dash light is yellow?",
+      "info": "",
+      "image": "/assets/images/car/dashboard.jpg",
+      "options": [
+        {
+          "text": "Yellow (sometimes orange) dashboard lights usually mean something needs to be repaired or serviced soon and to operate with caution",
+          "correct": true
+        },
+        {
+          "text": "Yellow (sometimes orange) dashboard lights usually means everything is fine"
+        },
+        {
+          "text": "Yellow (sometimes orange) dashboard lights usually mean something is broken and it must be repaired right away"
+        }
+      ]
+    },
+    {
+      "questionText": "What does it mean when a dash light is red?",
+      "info": "",
+      "image": "/assets/images/car/dashboard.jpg",
+      "options": [
+        {
+          "text": "Red indicates a potential safety issue or serious problem. It is possible you should stop driving the vehicle immediately. A red dashboard light may also indicate an important reminder that needs immediate attention.",
+          "correct": true
+        },
+        { "text": "Red indicates all vehicle systems are fine." },
+        {
+          "text": "Red indicates a potential safety issue, however it is likely not something serious. Get the vehicle checked when you feel like it."
+        }
+      ]
+    },
+    {
+      "questionText": "In the image below, the driver of this vehicle was lucky to survive the collision. They collided with a parked emergency vehicle at a high speed. The driver noticed the parked vehicle too late, looked at it for too long and didn't have time to slow down or change lanes. The driver was charged with 'Failure to Slow Down and Move Over'. If the driver was looking well ahead, could this collision most likely have been prevented?",
+      "info": "",
+      "image": "/assets/images/situation/collision2.jpeg",
+      "options": [{ "text": "Yes", "correct": true }, { "text": "No" }]
+    },
+    {
+      "questionText": "In the image below, the driver of this vehicle was lucky to survive the collision. They collided with a parked emergency vehicle at a high speed. The driver not it for too long and didn't have time to slow down or change lanes. The driver was charged with 'Failure to Slow Down and Move Over'. Since this collision happened on a freeway, how far ahead should the driver have been looking?",
+      "info": "",
+      "image": "/assets/images/situation/collision2.jpeg",
+      "options": [
+        { "text": "12 to 15 seconds" },
+        { "text": "40 to 50 seconds" },
+        { "text": "30 to 40 seconds" },
+        { "text": "20 to 30 seconds", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Does the driver ahead have a visibility problem?",
+      "info": "",
+      "image": "/assets/images/situation/hwy6.jpg",
+      "options": [
+        {
+          "text": "The driver ahead cannot see through or past the larger vehicle",
+          "correct": true
+        },
+        { "text": "There is no problem" }
+      ]
+    },
+    {
+      "questionText": "Since this is a freeway, what distance should the driver ahead be able to see?",
+      "info": "",
+      "image": "/assets/images/situation/hwy6.jpg",
+      "options": [
+        { "text": "5 to 10 seconds" },
+        { "text": "20 to 30 seconds", "correct": true },
+        { "text": "12 to 15 seconds" }
+      ]
+    },
+    {
+      "questionText": "Since the driver cannot see the proper distance ahead, what should they do?",
+      "info": "",
+      "image": "/assets/images/situation/hwy6.jpg",
+      "options": [
+        {
+          "text": "They should change lanes when it's safe to do so",
+          "correct": true
+        },
+        { "text": "There still is no problem for the vehicle" }
+      ]
+    },
+    {
+      "questionText": "The driver ahead cannot see the proper distance, however, can you see the proper distance from your viewpoint?",
+      "info": "",
+      "image": "/assets/images/situation/hwy6.jpg",
+      "options": [{ "text": "Yes" }, { "text": "No", "correct": true }]
+    },
+    {
+      "questionText": "Since the proper distance cannot be seen, what should be done?",
+      "info": "",
+      "image": "/assets/images/situation/hwy6.jpg",
+      "options": [
+        { "text": "Change lanes when it's safe to do so", "correct": true },
+        { "text": "The driver ahead has the problem, not me" }
+      ]
+    },
+    {
+      "questionText": "What is the Minimum Eye Lead Time (MELT) on a city street?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "20 to 30 seconds" },
+        { "text": "1 to 2 minutes" },
+        { "text": "12 to 15 seconds", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What should your response be when you lose your MELT distance?",
+      "info": "",
+      "image": "/assets/images/situation/hwy7.jpg",
+      "options": [
+        { "text": "Honk the horn and change lanes" },
+        { "text": "Slow down", "correct": true },
+        { "text": "Gesture rudely at the driver next to you" },
+        { "text": "Speed up" }
+      ]
+    },
+    {
+      "questionText": "What should you do here?",
+      "info": "",
+      "image": "/assets/images/situation/hill.jpg",
+      "options": [
+        {
+          "text": "Reduce my speed since I lost my MELT approaching the hill",
+          "correct": true
+        },
+        { "text": "Speed up to get over the hill more quickly" },
+        { "text": "Maintain my speed as there is no risk" }
+      ]
+    },
+    {
+      "questionText": "Novice drivers have a higher collision rate at night, why is this?",
+      "info": "",
+      "image": "/assets/images/situation/night.jpg",
+      "options": [
+        { "text": "Drivers are tired" },
+        { "text": "Night visibility is different than during the day" },
+        { "text": "Impaired drivers are on the road" },
+        { "text": "All of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What lights should be used in fog?",
+      "info": "If you have fog lights on your vehicle, use them, along with your low beams. Fog hovers 15-20 centimetres above the road. Fog lights are designed to shine under the fog.",
+      "image": "/assets/images/situation/fog.jpg",
+      "options": [
+        { "text": "Low beam headlights" },
+        { "text": "Fog lights", "correct": true },
+        { "text": "High beam headlights" }
+      ]
+    },
+    {
+      "questionText": "If fog lights are not available with your vehicle, which headlights work best in fog?",
+      "info": "Avoid using high-beam headlights in fog as fog consists of tiny water droplets that spread and reflect light.",
+      "image": "/assets/images/situation/fog.jpg",
+      "options": [
+        { "text": "Low beam headlights", "correct": true },
+        { "text": "High beam headlights" }
+      ]
+    },
+    {
+      "questionText": "Assuming road conditions are normal, what is the minimum safe following distance at city speeds?",
+      "info": "",
+      "image": "/assets/images/situation/situation3.jpg",
+      "options": [
+        { "text": "Two seconds", "correct": true },
+        { "text": "One second" },
+        { "text": "Four seconds" },
+        { "text": "Three seconds" }
+      ]
+    },
+    {
+      "questionText": "In the image above, how can you measure the following distance from this vehicle directly ahead?",
+      "info": "",
+      "image": "/assets/images/situation/situation3.jpg",
+      "options": [
+        {
+          "text": "Why is there a need to measure as a good driver can stop no matter the distance"
+        },
+        { "text": "There is no way to measure so I just guess the distance" },
+        { "text": "Use the number of vehicle lengths as the best measure" },
+        {
+          "text": "As the vehicle passes the crosswalk - start counting one one thousand, two one thousand, three one thousand, etc.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "In the above image, assuming road conditions are normal, what is the minimum safe following distance on this freeway?",
+      "info": "",
+      "image": "/assets/images/situation/hwy8.png",
+      "options": [
+        { "text": "One second" },
+        { "text": "Four seconds" },
+        { "text": "Two seconds" },
+        { "text": "Three seconds", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Looking at the above image and assuming road conditions are normal, what is the minimum safe following distance on this highway?",
+      "info": "",
+      "image": "/assets/images/situation/hwy9.jpg",
+      "options": [
+        { "text": "Three seconds", "correct": true },
+        { "text": "One second" },
+        { "text": "Four seconds" },
+        { "text": "Two seconds" }
+      ]
+    },
+    {
+      "questionText": "Using the image above as a reference and assuming road conditions are normal, what is the minimum safe following distance when on a ramp to a highway or freeway?",
+      "info": "",
+      "image": "/assets/images/situation/hwy10.jpg",
+      "options": [
+        { "text": "One second" },
+        { "text": "Two seconds" },
+        { "text": "Three seconds" },
+        { "text": "Four seconds", "correct": true }
+      ]
+    },
+    {
+      "questionText": "When the road conditions are adverse and traction is reduced, how should drivers adjust their following distance?",
+      "info": "",
+      "image": "/assets/images/situation/snow.jpg",
+      "options": [
+        {
+          "text": "No adjustment is needed as the vehicle has all-wheel drive"
+        },
+        { "text": "No adjustment is needed as the vehicle has winter tires" },
+        { "text": "Double what is normally done", "correct": true },
+        {
+          "text": "No adjustment needed as the vehicle has both all-wheel drive and winter tires"
+        },
+        { "text": "Do nothing as it is not a problem" }
+      ]
+    },
+    {
+      "questionText": "Is the image above, is the white vehicle in a flow?",
+      "info": "",
+      "image": "/assets/images/situation/situation4.jpg",
+      "options": [
+        { "text": "No" },
+        { "text": "Yes", "correct": true },
+        { "text": "Double what is normally done" },
+        { "text": "Maybe" },
+        { "text": "I do not understand the question" }
+      ]
+    },
+    {
+      "questionText": "In the image above, is the vehicle driving directly in front keeping a safe following distance from the vehicle in front of them?",
+      "info": "",
+      "image": "/assets/images/situation/situation5.jpg",
+      "options": [{ "text": "Yes" }, { "text": "No", "correct": true }]
+    },
+    {
+      "questionText": "What distance should the driver be leaving in this situation?",
+      "info": "",
+      "image": "/assets/images/situation/hwy11.jpg",
+      "options": [
+        { "text": "One second" },
+        { "text": "Two seconds" },
+        { "text": "Three seconds", "correct": true },
+        { "text": "Four seconds" }
+      ]
+    },
+    {
+      "questionText": "What could be a reason this driver lost control and ended up rolling off the ramp?",
+      "info": "",
+      "image": "/assets/images/situation/collision4.jpeg",
+      "options": [
+        { "text": "Distracted by selecting a playlist" },
+        { "text": "Eating a slice of pizza" },
+        { "text": "Going too fast" },
+        { "text": "All of these answers may be correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What should drivers do when their Minimum Eye Lead Time is reduced because of a curved ramp?",
+      "info": "",
+      "image": "/assets/images/situation/hwy7.jpg",
+      "options": [
+        { "text": "Respond by speeding up" },
+        { "text": "Respond by pulling over and stopping" },
+        { "text": "Respond by slowing down", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What advantages would you gain if you covered the horn early for potential problems?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "It engages your mind to be ready to use the horn" },
+        {
+          "text": "Having your hand over the horn saves time if you need to use it"
+        },
+        { "text": "Both answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Would covering the brake reduce the reaction time if you need to stop?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Yes", "correct": true },
+        { "text": "No" },
+        { "text": "Not sure" }
+      ]
+    },
+    {
+      "questionText": "What will covering the brake do to the brake lights?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "It will activate the brake lights", "correct": true },
+        { "text": "It will make them flash " },
+        { "text": "It will turn them off" }
+      ]
+    },
+    {
+      "questionText": "How does covering the brake and horn help respond to problems?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Does not help at all" },
+        {
+          "text": "The driver is ready to respond to problems in advance",
+          "correct": true
+        },
+        { "text": "The driver can see further ahead" }
+      ]
+    },
+    {
+      "questionText": "Why should you cover the horn when you see potential problems ahead?",
+      "info": "",
+      "image": "/assets/images/car/horn.png",
+      "options": [
+        {
+          "text": "More likely to solve the potential problem if you are thinking about a response ahead of time"
+        },
+        { "text": "Both answers are correct", "correct": true },
+        { "text": "Faster response time if you need to honk" }
+      ]
+    },
+    {
+      "questionText": "What advantages does the driver gain by covering the brake?",
+      "info": "",
+      "image": "/assets/images/car/brake.png",
+      "options": [
+        { "text": "Warns the driver behind" },
+        { "text": "Activates the brake lights" },
+        {
+          "text": "More likely to solve the potential problem if thinking about a response ahead of time"
+        },
+        { "text": "Reduces the reaction time if there is a need to stop" },
+        { "text": "All of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Is the braking distance doubled or quadrupled when changing speeds from 50 km to 100km?",
+      "info": "When you compare the braking distance at 50 km/h to 100 km/h, you'll notice that although the speed doubled, the braking distance quadrupled.",
+      "image": "/assets/images/car/brake.png",
+      "options": [
+        { "text": "Quadrupled", "correct": true },
+        { "text": "Doubled" }
+      ]
+    },
+    {
+      "questionText": "When the lanes look equal in terms of traffic volume and you're not planning a left turn soon, which lane should you drive in?",
+      "info": "",
+      "image": "/assets/images/situation/situation5.jpg",
+      "options": [
+        { "text": "It does not matter" },
+        { "text": "Left lane" },
+        { "text": "Right lane", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What advantages does driving in the right lane provide?",
+      "info": "",
+      "image": "/assets/images/situation/situation5.jpg",
+      "options": [
+        { "text": "It is farther away from a potential head-on collision" },
+        { "text": "All of these answers are correct", "correct": true },
+        {
+          "text": "Faster traffic can pass on the left and there is less chance of tailgaters"
+        },
+        {
+          "text": "There are no vehicles to the right, creating an open space for an escape route"
+        }
+      ]
+    },
+    {
+      "questionText": "What factors determine which lane is the Lane of Least Resistance or Risk?",
+      "info": "",
+      "image": "/assets/images/situation/situation5.jpg",
+      "options": [
+        {
+          "text": "The lane with the best view, best flow and least risk",
+          "correct": true
+        },
+        {
+          "text": "The lane with the best view, slowest flow and least cyclists"
+        },
+        {
+          "text": "The lane with the best speed and the least amount of police and construction"
+        }
+      ]
+    },
+    {
+      "questionText": "When there is a street with three lanes, are there any disadvantages to driving in the centre lane?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "It is usually the best lane", "correct": true },
+        {
+          "text": "It is harder to have space on both sides for an escape route"
+        },
+        { "text": "It is harder to do fast lane changes" }
+      ]
+    },
+    {
+      "questionText": "Which lane is the Lane of Least Resistance or Risk?",
+      "info": "",
+      "image": "/assets/images/situation/situation6.jpg",
+      "options": [
+        { "text": "Left lane", "correct": true },
+        { "text": "Right lane" }
+      ]
+    },
+    {
+      "questionText": "Why is the left lane the Lane of Least Resistance?",
+      "info": "",
+      "image": "/assets/images/situation/situation6.jpg",
+      "options": [
+        {
+          "text": "There are parked vehicles on the right that may open doors or pull out as well as pedestrians who may cross inbetween vehicles and be hard to see"
+        },
+        {
+          "text": "The left lane has no problems right now and has a good view, good flow and no parked vehicles which makes it the least risk"
+        },
+        { "text": "It does not matter which lane to drive in" },
+        { "text": "The first and second answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "When trying to protect a cyclist, how far should a vehicle move over?",
+      "info": "",
+      "image": "/assets/images/situation/situation6.jpg",
+      "options": [
+        { "text": "One lane" },
+        { "text": "Half of a lane", "correct": true },
+        { "text": "Two lanes" }
+      ]
+    },
+    {
+      "questionText": "What are common problems in a parking lot?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Vehicles reversing out of parking spots" },
+        { "text": "All of these answers are correct", "correct": true },
+        { "text": "Pedestrians walking in front of vehicles" },
+        { "text": "Vehicles moving in the aisles" }
+      ]
+    },
+    {
+      "questionText": "What is the minimum amount of space needed to pass a cyclist?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Two metres" },
+        { "text": "One metre", "correct": true },
+        { "text": "Six feet" },
+        { "text": "Three metres" }
+      ]
+    },
+    {
+      "questionText": "Will covering the horn reduce a driver's reaction time?",
+      "info": "",
+      "image": "",
+      "options": [{ "text": "Yes", "correct": true }, { "text": "No" }]
+    },
+    {
+      "questionText": "How can you co-operate with other road users?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Anticipate other drivers' needs" },
+        { "text": "Provide other drivers with space" },
+        { "text": "Adjust your speed as needed" },
+        { "text": "All of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Which of these are examples of planning your route? (Choose all that apply)",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Knowing the time of day", "correct": true },
+        { "text": "Listening to music" },
+        { "text": "Using Google Maps", "correct": true },
+        { "text": "Checking how much fuel there is", "correct": true },
+        { "text": "Adjusting the seat controls" }
+      ]
+    },
+    {
+      "questionText": "You are just about to leave the grocery store and have a choice on which way to turn out of the parking lot - which of these choices is safer and therefore a better plan?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "A left turn without a light across two busy lanes of traffic that leads to a more direct route home"
+        },
+        {
+          "text": "A right turn with the flow of traffic, requiring two more right turns to take you back in the direction of your home",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If your vehicle is parked on a regular street and you are approaching the rear to start your Circle Check, which way should you circle it?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Counterclockwise", "correct": true },
+        { "text": "Clockwise" }
+      ]
+    },
+    {
+      "questionText": "What are the main things to check when doing a Circle Check? (Choose all that apply)",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Fluid leaks", "correct": true },
+        { "text": "Tires", "correct": true },
+        { "text": "Windows", "correct": true },
+        { "text": "Sideview (outside) mirrors", "correct": true },
+        { "text": "All lights on the vehicle", "correct": true },
+        { "text": "Only lights on the vehicle and fluid leaks" },
+        { "text": "Only tires and sideview (outside) mirrors" }
+      ]
+    },
+    {
+      "questionText": "If your Minimum Eye Lead Time is reduced by darkness, curves or hills, what should you do?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Respond by slowing down until there is the correct Minimum Eye Lead Time for that situation",
+          "correct": true
+        },
+        {
+          "text": "Respond by speeding up to get past the problem more quickly"
+        },
+        { "text": "Maintain the same speed as no adjustments are needed" }
+      ]
+    },
+    {
+      "questionText": "If you find yourself wandering in your lane, what should you do to correct this immediately?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Look further ahead to the right and get close to the curb - this will help you judge the right distance from the curb and keep you away from the dangerous oncoming traffic"
+        },
+        {
+          "text": "Look further ahead down the road - this will usually straighten up your vehicle and help centre yourself in the lane",
+          "correct": true
+        },
+        {
+          "text": "Look further ahead to the left and get closer to the yellow or white line that might be there - this will keep you away from going into the curb or the ditch"
+        }
+      ]
+    },
+    {
+      "questionText": "If you are driving on a highway or freeway, what is the minimum safe following distance in normal conditions?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "2 seconds" },
+        { "text": "Whatever feels right" },
+        { "text": "3 -  4 vehicle lengths" },
+        { "text": "3 seconds", "correct": true }
+      ]
+    },
+    {
+      "questionText": "When are you considered to be in a flow?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "There is a vehicle behind you" },
+        { "text": "You are by yourself" },
+        {
+          "text": "There is a vehicle in front and behind you",
+          "correct": true
+        },
+        { "text": "There is a vehicle in front of you" }
+      ]
+    },
+    {
+      "questionText": "Why would you want to cover the horn in some situations?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "To be able to use it quicker" },
+        {
+          "text": "To be mentally engaged with the driving situation and prepared to deal with a problem"
+        },
+        {
+          "text": "Both of these answers are correct",
+          "correct": true
+        },
+        { "text": "Neither of the answers are correct" }
+      ]
+    },
+    {
+      "questionText": "What are the advantages of covering the brake?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "To be able to brake more quickly" },
+        {
+          "text": "With enough pressure on the brake pedal, the brake lights will illuminate and warn drivers behind of a potential problem ahead of you"
+        },
+        {
+          "text": "Removing the foot from the accelerator will have the vehicle start reducing speed and the braking distance"
+        },
+        { "text": "All of these answers could be correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Which potential risks are there in this problem? (Choose all that apply)",
+      "info": "",
+      "image": "/assets/images/situation/risk1.png",
+      "options": [
+        { "text": "Cyclist", "correct": true },
+        { "text": "Oncoming vehicle on left", "correct": true },
+        {
+          "text": "Vehicle on the right coming out of a parking lot",
+          "correct": true
+        },
+        { "text": "Vehicle going into the blind spot", "correct": true },
+        { "text": "School bus", "correct": true },
+        { "text": "Vehicle behind us" }
+      ]
+    },
+    {
+      "questionText": "Which are the real risks in this problem? (Choose all that apply)",
+      "info": "School bus is parked. The oncoming car likely would stay in their lane since bus is parked and no pedestrians nearby.",
+      "image": "/assets/images/situation/risk1.png",
+      "options": [
+        { "text": "Cyclist", "correct": true },
+        { "text": "Oncoming vehicle on left" },
+        {
+          "text": "Vehicle on the right coming out of a parking lot",
+          "correct": true
+        },
+        { "text": "Vehicle going into the blind spot", "correct": true },
+        { "text": "School bus" },
+        { "text": "Vehicle behind us" }
+      ]
+    },
+    {
+      "questionText": "Which sub-habit most directly solves the driver's problem?",
+      "info": "",
+      "image": "/assets/images/situation/risk1.png",
+      "options": [
+        { "text": "Respond", "correct": true },
+        { "text": "Circle Check" },
+        { "text": "Maintain" },
+        { "text": "Minimum Eye Lead TIme" },
+        { "text": "Plan" }
+      ]
     }
   ]
 }
