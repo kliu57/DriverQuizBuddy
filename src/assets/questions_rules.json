@@ -1,36 +1,1613 @@
 {
   "questions": [
     {
-      "questionText": "?",
-      "info": "",
+      "questionText": "When are you required to wear a seatbelt?",
+      "info": "Drivers will receive a fine up to $1000 and 2 demerit points for not wearing a seatbelt. Drivers must ensure all passengers under the age of 16 are properly buckled up. Unbuckled passengers 16 years and older can be fined.",
       "image": "",
       "options": [
-        { "text": "" },
-        { "text": "" },
-        { "text": "" },
-        { "text": "" }
+        { "text": "Wearing a seatbelt is optional." },
+        { "text": "Only drivers are required to wear a seatbelt." },
+        { "text": "Only passengers are required to wear a seatbelt." },
+        {
+          "text": "All drivers and passengers are required to wear a seatbelt and be properly buckled up.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What does the law state about seatbelts and children 9-18 kg (20-40 lbs)?",
+      "info": "A child's weight and/or age determines what type of car seat is required. It is important that all child car seats meet safety standards and are properly secured.",
+      "image": "",
+      "options": [
+        {
+          "text": "All infants, toddlers and children under 8 must be in the booster seat."
+        },
+        {
+          "text": "All infants, toddlers and children under 8 must be in a rear-facing child car seat."
+        },
+        {
+          "text": "All infants, toddlers and children under 8 must wear protective head gear."
+        },
+        {
+          "text": "All toddlers 9-18 kg must be in an approved child car seat that is properly attached.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How far away must headlights and rear lights be seen?",
+      "info": "You must also have your rear licence plate illuminated with white lighting when headlights are on. Ensure headlights are on 1/2 an hour before sunset and leave them on for 1/2 an hour after sunrise.",
+      "image": "",
+      "options": [
+        { "text": "From 50 m away." },
+        { "text": "From 150 m away.", "correct": true },
+        { "text": "From 1150 m away." },
+        { "text": "They must be seen clearly in the dark." }
+      ]
+    },
+    {
+      "questionText": "When using highbeam lights when do you have to switch to lowbeam lights?",
+      "info": "Use lowbeam lights when you are less than 60 m behind another vehicle and within 150 m of oncoming vehicles. Never use parking lights for driving. They are only for parking.",
+      "image": "",
+      "options": [
+        { "text": "Within 150 m of oncoming vehicles.", "correct": true },
+        { "text": "Within 50 m of oncoming vehicles." },
+        { "text": "You do not have to switch." },
+        {
+          "text": "If the oncoming car puts their highbeams on you do not have to switch."
+        }
+      ]
+    },
+    {
+      "questionText": "Why must your vehicle undergo emissions testing?",
+      "info": "If you receive notice to get emissions testing, your car must pass in order to get renewal sticker so that you may driver your vehicle.",
+      "image": "",
+      "options": [
+        { "text": "To identify if it's grossly polluting the environment." },
+        {
+          "text": "Your vehicle may be of an age where it's necessary to get tested."
+        },
+        { "text": "So that you may renew your vehicle registration." },
+        { "text": "All of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Why must you use signals when turning?",
+      "info": "Failing to use proper signals can result in a fine and demerit points. Always signal to inform others of your intention. Follow all rules for turning.",
+      "image": "",
+      "options": [
+        { "text": "To inform other drivers of what you want to do." },
+        { "text": "To inform pedestrians of what you want to do." },
+        { "text": "To send out an alert of your intentions." },
+        { "text": "All of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Unless posted in cities, towns, villages and built-up areas the maximum speed limit is?...",
+      "info": "Where no speed limit is posted, the limit is 80 km/h outside these areas.",
+      "image": "",
+      "options": [
+        { "text": "40 km/h." },
+        { "text": "50 km/h.", "correct": true },
+        { "text": "70 km/h." },
+        { "text": "80 km/h." }
+      ]
+    },
+    {
+      "questionText": "What are you required to do if a police officer signals you to pull over?",
+      "info": "Do not get out of your vehicle. Wait for the police officer to come to you.",
+      "image": "",
+      "options": [
+        {
+          "text": "Slow down, safely pull over in the left lane and come to a complete stop."
+        },
+        {
+          "text": "Slow down, safely pull over in the right lane and come to a complete stop.",
+          "correct": true
+        },
+        { "text": "Slow down and stop in the lane you are in." },
+        {
+          "text": "Signal and stop at the next intersection and wait for the police officer."
+        }
+      ]
+    },
+    {
+      "questionText": "How much time do you have to surrender your licence, vehicle permit (or copy) and insurance when asked by a police officer?",
+      "info": "You must present these required documents immediately. Failure to do so can result in a fine.",
+      "image": "",
+      "options": [
+        { "text": "Immediately.", "correct": true },
+        { "text": "Within 12 hours." },
+        { "text": "Within 24 hours." },
+        { "text": "You do not have to, they will look you up in the system." }
+      ]
+    },
+    {
+      "questionText": "How much space should you have between you and any vehicle you are following?",
+      "info": "If driving conditions are not ideal add more space especially if driving in bad weather or following larger vehicles, motorcycles, or when you have a heavy load. Use markers on the road to help determine correct following distance.",
+      "image": "",
+      "options": [
+        {
+          "text": "No rule applies and you will not get a fine or demerit points as long as caution is used."
+        },
+        {
+          "text": "There is a rule of 20 seconds but it is for motorcycle drivers only."
+        },
+        {
+          "text": "At least 12 seconds so you can see around the vehicle ahead and also have enough time to stop."
+        },
+        {
+          "text": "At least 2 seconds so you can see around the vehicle ahead and also have enough time to stop.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If 3 vehicles are at an all-way stop, who has the right-of-way?",
+      "info": "Always yield the right-of-way to the vehicle that came to the stop first",
+      "image": "",
+      "options": [
+        { "text": "The vehicles that got there first.", "correct": true },
+        { "text": "The vehicle on the left." },
+        { "text": "The vehicle turning right" },
+        { "text": "The vehicle turning left." }
+      ]
+    },
+    {
+      "questionText": "If 2 vehicles come to an uncontrolled intersection at the same time, who has the right-of-way?",
+      "info": "The driver on the left must let the driver on the right go first at intersections with no signs or lights.",
+      "image": "",
+      "options": [
+        { "text": "The vehicle on the right.", "correct": true },
+        { "text": "The vehicle on the left." },
+        { "text": "The vehicle turning right." },
+        { "text": "The vehicle turning left." }
+      ]
+    },
+    {
+      "questionText": "If you are turning left at an uncontrolled intersection and a pedestrian is crossing your path, who has the right-of-way?",
+      "info": "Always yield the right-of-way to pedestrians no matter the direction you are turning.",
+      "image": "",
+      "options": [
+        { "text": "You do. Come to a complete stop and make your turn." },
+        { "text": "Any other car at the intersection that is turning right." },
+        {
+          "text": "You must yield the right-of-way to approaching traffic and/or to pedestrians crossing.",
+          "correct": true
+        },
+        { "text": "Whoever is more in a hurry goes first." }
+      ]
+    },
+    {
+      "questionText": "If you approach an intersection on a main road that is blocked with traffic, what should you do?",
+      "info": "Only proceed after stopping and when the way is clear. Do no allow yourself to be stuck in the intersection as the light turns red.",
+      "image": "",
+      "options": [
+        { "text": "Stop before entering the intersection.", "correct": true },
+        { "text": "Move up so cars behind you can move forward." },
+        { "text": "Slowly proceed through the intersection." },
+        { "text": "Turn left or right to avoid the heavy traffic back-up." }
+      ]
+    },
+    {
+      "questionText": "How much room do cyclists need on either side of themselves as a safety zone?",
+      "info": "Failing to leave the required amount of space could result in a fine and 2 demerit points and jeopardize the safety of the cyclist. Also, opening a door of a parked vehicle into the path of a cyclist or traffic could result in 3 demerit points and a fine.",
+      "image": "",
+      "options": [
+        { "text": "4 m." },
+        { "text": "3 m." },
+        { "text": "2 m." },
+        { "text": "1 m.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What challenges do commercial vehicles have that are dangerous for other vehicles?",
+      "info": "Always leave enough road space around large commercial vehicles. Be aware of what they can and cannot do.",
+      "image": "",
+      "options": [
+        { "text": "They have small blind spots." },
+        { "text": "They make wide turns.", "correct": true },
+        { "text": "They roll forward after stopping." },
+        {
+          "text": "They block large amounts of snow and slush from your windshield."
+        }
+      ]
+    },
+    {
+      "questionText": "Coming to complete stop at an intersection is required, but where do you stop if there is no stop line, crosswalk or sidewalk?",
+      "info": "You must also wait for the intersection to clear before entering it.",
+      "image": "",
+      "options": [
+        { "text": "You stop right beside the stop sign." },
+        { "text": "You stop right before the stop sign." },
+        {
+          "text": "You stop at the edge of the intersection.",
+          "correct": true
+        },
+        {
+          "text": "You stop a little into the intersection so that you can see traffic and pedestrians."
+        }
+      ]
+    },
+    {
+      "questionText": "When do you stop for school buses if there is a median?",
+      "info": "School buses also have flashing stop signs that swing out from the driver's side, notifying vehicles to stop. Stay back the required distance.",
+      "image": "",
+      "options": [
+        { "text": "Whenever you approach and see one." },
+        { "text": "Never, because they will stop for you." },
+        { "text": "Whenever they stop." },
+        {
+          "text": "Only if you are behind a stopped bus which has its upper red alternating lights flashing.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If there is no median, how far in front and behind a school bus are you required to stop when its lights are flashing?",
+      "info": "Only proceed when the bus lights have stopped flashing or the bus has moved.",
+      "image": "",
+      "options": [
+        {
+          "text": "At least 20 m behind and far enough in front for children to exit the bus and cross safely.",
+          "correct": true
+        },
+        {
+          "text": "At least 20 ft behind and far enough in front for children to exit the bus and cross safely."
+        },
+        {
+          "text": "At least 10 m behind and far enough in front for children to exit the bus and cross safely."
+        },
+        {
+          "text": "At least 10 ft behind and far enough in front for children to exit the bus and cross safely."
+        }
+      ]
+    },
+    {
+      "questionText": "When you come to a railway crossing and there are flashing signal lights, what must you do?",
+      "info": "Stop at least 5 m back from the nearest rail, gate or barrier. Only cross tracks once gates rise and lights stop flashing.",
+      "image": "",
+      "options": [
+        {
+          "text": "Continue slowly because flashing lights are only a warning to drive slow."
+        },
+        { "text": "Stop and then proceed slowly across the tracks." },
+        {
+          "text": "Stop and wait for the signal lights to stop flashing.",
+          "correct": true
+        },
+        {
+          "text": "Drive around the gate or barrier to avoid getting stuck on the tracks."
+        }
+      ]
+    },
+    {
+      "questionText": "It is illegal to not stop behind a stopped school bus with alternating flashing red lights. If you do not stop what can happen on a first offence?",
+      "info": "You can get 6 demerit points for a first offence and a fine of $400-$2000.",
+      "image": "",
+      "options": [
+        { "text": "You can be fined $40-$200 and get 2 demerit points." },
+        {
+          "text": "You can be fined $400-$2000 and get 6 demerit points.",
+          "correct": true
+        },
+        { "text": "You can be fined $4000-$20000." },
+        {
+          "text": "You will not be fined for the first offence; you will only receive a warning."
+        }
+      ]
+    },
+    {
+      "questionText": "You must share the road with motorcycles, cyclists, commercial vehicles, pedestrians, farm machinery and buses.",
+      "info": "You must share the road with all other vehicles and pedestrians. Failing to do so can result in a fine and demerit points.",
+      "image": "",
+      "options": [
+        { "text": "The above statement is false." },
+        { "text": "The above statement is true.", "correct": true },
+        { "text": "All of the above are correct except for farm machinery." },
+        {
+          "text": "All of the above is correct except for pedestrians because they are not in a vehicle."
+        }
+      ]
+    },
+    {
+      "questionText": "Can you make a right turn on a red light?",
+      "info": "Ensure you first come to a complete stop and that your way is clear before making your turn.",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes, after coming to a complete stop and as long as a sign does not tell you otherwise.",
+          "correct": true
+        },
+        { "text": "Yes, as long as you are in an HOV lane." },
+        {
+          "text": "No, there are no right turns on a red light allowed in Ontario."
+        },
+        {
+          "text": "No, there are no right turns on roadways shared with pedestrians."
+        }
+      ]
+    },
+    {
+      "questionText": "How do you make a left turn from a two-way road onto a two-way road?",
+      "info": "Unless otherwise posted left turns are made from the far left lane. Signal, check all directions and ensure way is clear. After turning move into the right curb lane when it is clear to do so.",
+      "image": "",
+      "options": [
+        {
+          "text": "Turn from the right lane making a smooth arc into the right curb lane."
+        },
+        {
+          "text": "Turn from the right lane making a smooth arc into the lane right of the centre lane."
+        },
+        {
+          "text": "Turn from the closest lane to the centre dividing line into the right curb lane."
+        },
+        {
+          "text": "Turn from the closest lane to the centre dividing line making a smooth arc into the lane to the right of the centre dividing line.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How do you make a left turn from a two-way road onto a two lane one-way road?",
+      "info": "Always signal in advance, check all directions and then proceed slowly making a smooth arc.",
+      "image": "",
+      "options": [
+        {
+          "text": "Turn form the far left lane into the left curb lane.",
+          "correct": true
+        },
+        { "text": "Turn form the far left lane into the right curb lane." },
+        { "text": "Turn from the far right lane into the left curb lane." },
+        { "text": "Turn from the right lane into the right curb lane." }
+      ]
+    },
+    {
+      "questionText": "Why is it a bad idea ot turn your steering wheel to the left while waiting to make a left turn at an intersection?",
+      "info": "Only turn your steering wheel to the left when you can make the turn.",
+      "image": "",
+      "options": [
+        {
+          "text": "In case you need to turn right - it will be harder to steer out of the turn."
+        },
+        {
+          "text": "It is not a bad idea - your vehicle will not be able to make the turn in time if you do not."
+        },
+        {
+          "text": "Another vehicle can push your vehicle into oncoming traffic.",
+          "correct": true
+        },
+        {
+          "text": "Turning your steering wheel unnecessarily will add to your car's wear and tear."
+        }
+      ]
+    },
+    {
+      "questionText": "What do the markings on the road mean and what does the sign represent in the picture?",
+      "info": "Signal and move into the left turn lane. Make your turn carefully and only when the way is clear.",
+      "image": "/assets/images/markings/missing.png",
+      "options": [
+        {
+          "text": "There is a left turn lane in the centre for those travelling north."
+        },
+        {
+          "text": "There is a left turn lane in the centre for those travelling south."
+        },
+        { "text": "There is an extra lane for driving in." },
+        {
+          "text": "There is a two-way left turn lane in the centre for traffic going in both directions.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Can you turn left on a red light from a one-way road onto a one-way road?",
+      "info": "Ensure you yield to pedestrians and traffic after first coming to a complete stop.",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes, if you signal, stop first in the farthest left lane and then proceed when the way is clear.",
+          "correct": true
+        },
+        { "text": "Yes, as long as you drive slowly and cautiously." },
+        { "text": "No left turns are permitted on a red light in Ontario." },
+        {
+          "text": "Left turns are only permitted from two-way roads to two-way roads on a green light."
+        }
+      ]
+    },
+    {
+      "questionText": "To make a U-turn you must be able to see how far in both directions?",
+      "info": "Never make a U-turn on a curve, hill, railway crossing, bridge, tunnel or where your view is blocked It is illegal to do so.",
+      "image": "/assets/images/signs/uturn.jpg",
+      "options": [
+        { "text": "50 m." },
+        { "text": "100 m." },
+        { "text": "150 m.", "correct": true },
+        { "text": "200 m." }
+      ]
+    },
+    {
+      "questionText": "When can you remove your seatbelt while driving?",
+      "info": "To see properly while backing up you can remove your seatbelt ot turn your body. Remember to put it back on as soon as you move forward.",
+      "image": "",
+      "options": [
+        { "text": "When you are backing up.", "correct": true },
+        { "text": "When you are the only person in the car." },
+        { "text": "If you are a G1 driver." },
+        { "text": "If you are on a country road." }
+      ]
+    },
+    {
+      "questionText": "When parking uphill with a curb what should you do?",
+      "info": "Turn your tires to the left and set your parking brake. Always do both.",
+      "image": "",
+      "options": [
+        {
+          "text": "Turn your tires to the left to catch the curb if your vehicle rolls backward.",
+          "correct": true
+        },
+        {
+          "text": "Turn your tires to the right to catch the curb if your vehicle rolls backward."
+        },
+        { "text": "Make your tires straight and parallel with the curb." },
+        {
+          "text": "The direction of your tires does not matter as long as you set the parking brake."
+        }
+      ]
+    },
+    {
+      "questionText": "Who has the right-of-way in a roundabout?",
+      "info": "Slow down when approaching the yield line at roundabouts. Only stop at yield line if necessary. Enter when clear and travel with traffic flow in counter-clockwise direction.",
+      "image": "",
+      "options": [
+        { "text": "Traffic approaching the roundabout." },
+        { "text": "Traffic in the roundabout.", "correct": true },
+        { "text": "Traffic turning right in the roundabout." },
+        { "text": "Traffic turning left in the roundabout." }
+      ]
+    },
+    {
+      "questionText": "When can you pass on a shoulder?",
+      "info": "Passing is generally done from the left but you can pass on the right in this case if there is another vehicle turning left and only if the shoulder is paved.",
+      "image": "",
+      "options": [
+        {
+          "text": "Only if a vehicle is turning left and you have an unpaved shoulder on the right."
+        },
+        {
+          "text": "Only if a vehicle is turning left and you have a paved shoulder on the right.",
+          "correct": true
+        },
+        {
+          "text": "Whenever the vehicle in front of you is moving under 40 km/h."
+        },
+        { "text": "Whenever you can do so safely." }
+      ]
+    },
+    {
+      "questionText": "Two solid yellow painted lines on a roadway as in this diagram do which of the following?",
+      "info": "Steer clear of solid painted road markings that are around fixed objects to avoid a collision.",
+      "image": "/assets/images/markings/double_yellow_lines5.jpg",
+      "options": [
+        { "text": "Help in calculating distances from one exit to the next." },
+        { "text": "Act as left and right turn lane markings." },
+        { "text": "Provide drivers information about upcoming exits." },
+        {
+          "text": "Are warnings to guide drivers away from fixed obstacles like islands, bridges etc.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What do double solid pavement markings mean?",
+      "info": "Solid yellow lines divide traffic going in opposite directions and do allow vehicles to pass in either direction.",
+      "image": "",
+      "options": [
+        {
+          "text": "Vehicles travelling on the right may pass when the way is clear."
+        },
+        {
+          "text": "Vehicles travelling on the left may pass when the way is clear."
+        },
+        {
+          "text": "Both vehicles may pass in either direction when the way is clear."
+        },
+        { "text": "No vehicles may pass in either direction.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What must you do when changing lanes?",
+      "info": "Checks and double checks as well as steering into the new lane at a gradual or slightly greater speed are necessary for proper and safe turns.",
+      "image": "",
+      "options": [
+        {
+          "text": "Check mirrors and blind spots for space, signal, check for space again, steer into lane.",
+          "correct": true
+        },
+        { "text": "Signal and steer into lane slowly." },
+        {
+          "text": "Signal and steer into lane quickly to get into lane safely."
+        },
+        { "text": "Sound horn, signal and move slowly." }
+      ]
+    },
+    {
+      "questionText": "What must drivers do at pedestrian crossovers and school crossings?",
+      "info": "Drivers who do not come to a complete stop and yield the entire roadway at pedestrian crossovers and school crossings where there is a crossing guard present displaying a school crossing stop sign will be fined up to $500 and get 3 demerit points.",
+      "image": "",
+      "options": [
+        { "text": "Stop and wait until the lane you are in is clear." },
+        {
+          "text": "Stop and wait until all pedestrians, including school crossing guards, have completely crossed the road.",
+          "correct": true
+        },
+        {
+          "text": "Stop and wait until all pedestrians have almost crossed the road."
+        },
+        { "text": "Slow down and proceed with caution." }
+      ]
+    },
+    {
+      "questionText": "What are passing or climbing lanes for?",
+      "info": "Advance notice of passing lanes is provided as are signs warning when these lanes end. If driving at a reduced speed, move into the right lane and allow faster moving vehicles to pass. Merge safely back when passing lane ends.",
+      "image": "",
+      "options": [
+        { "text": "They allow for frequent stops and a rest area ahead." },
+        { "text": "They are for vehicles that have trouble climbing hills." },
+        { "text": "They help thin out traffic by providing an extra lane." },
+        {
+          "text": "They allow slower vehicles to move into the right lane so faster ones can pass on the left.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "When can you pass on the right?",
+      "info": "When passing a streetcar ensure passengers are not getting on or off. If they are, stay at least 2 m behind the back doors. If a safety island exists, drive cautiously and be on the look-out for pedestrians.",
+      "image": "",
+      "options": [
+        { "text": "You may never pass on the right." },
+        { "text": "You can ony pass on the right if there is an emergency." },
+        {
+          "text": "On one-way or multi-lane roads, when passing a streetcar or vehicle turning left.",
+          "correct": true
+        },
+        {
+          "text": "On any type of road providing there is an unpaved shoulder."
+        }
+      ]
+    },
+    {
+      "questionText": "Which one of these statements is a basic parking rule?",
+      "info": "Park where you will not block other parked vehicles, sidewalks or roadways. Never park on a curve, near a crosswalk, fire hydrant or near an intersection. Be careful and watch for cyclists and pedestrians when opening your door.",
+      "image": "",
+      "options": [
+        { "text": "Park on a curve or hill so that you can see ahead." },
+        {
+          "text": "Do not park within 3 m of a fire hydrant.",
+          "correct": true
+        },
+        {
+          "text": "Do not park within 150 m of intersections with traffic lights."
+        },
+        { "text": "Do not look while opening your door." }
+      ]
+    },
+    {
+      "questionText": "High Occupancy Vehicle lanes on provincial highways are reserved for vehicles carrying at least how many passengers?",
+      "info": "Other roadways will specify the number required. Obey the number passengers required or risk getting a fine and demerit points. HOV lanes provide many benefits, from reduced traffic to reduced vehicle emissions.",
+      "image": "",
+      "options": [
+        {
+          "text": "The driver plus 1 other passenger for a total of 2.",
+          "correct": true
+        },
+        { "text": "The driver plus 2 other passenger for a total of 3." },
+        { "text": "The driver plus 3 other passenger for a total of 4." },
+        { "text": "The driver plus 4 other passenger for a total of 5." }
+      ]
+    },
+    {
+      "questionText": "What should you do if you hit a deer or moose?",
+      "info": "Never try to move an injured animal as it may increase your chances of being hit by another vehicle.",
+      "image": "",
+      "options": [
+        {
+          "text": "Try to move the animal off the road so other vehicles will not hit it."
+        },
+        {
+          "text": "Sound your horn to ward off other animals from coming onto the roadway."
+        },
+        {
+          "text": "Report the incident to the Ministry of Natural Resources or local police.",
+          "correct": true
+        },
+        {
+          "text": "Do nothing but drive cautiously as more animals may be in the area."
+        }
+      ]
+    },
+    {
+      "questionText": "What should you do if you are the victim of road rage?",
+      "info": "Be a police and courteous driver. Never compete, retaliate or try to educate other drivers, which can lead to road rage.",
+      "image": "",
+      "options": [
+        { "text": "Lock the doors and remain in your vehicle." },
+        {
+          "text": "If you have a cell phone, safely pull over and call police."
+        },
+        {
+          "text": "Attract attention to your car by honking the horn and using your signals."
+        },
+        { "text": "All of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What should you do when approaching a construction zone?",
+      "info": "Fines for speeding are doubled when workers are present in construction zones.",
+      "image": "",
+      "options": [
+        {
+          "text": "Slow down as signs may be posted with reduced speed limits."
+        },
+        { "text": "Obey all warning signs." },
+        { "text": "Follow the directions of the traffic control worker." },
+        { "text": "All of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What should you do if you feel drowsy while driving?",
+      "info": "Drinking coffee or other measures to make you alert are not effective. Driving while drowsy is linked to many accidents so ensure you are well-rested and alert.",
+      "image": "",
+      "options": [
+        { "text": "Reduce speed." },
+        { "text": "Turn up your radio." },
+        { "text": "Take a nap off the road in a safe area.", "correct": true },
+        { "text": "Open all windows." }
+      ]
+    },
+    {
+      "questionText": "Under what circumstances are cell phones not allowed while driving?",
+      "info": "Convicted drivers face fines, demerit points and licence suspension. Novice drivers face suspension and cancellation.",
+      "image": "",
+      "options": [
+        { "text": "When you use your cell phone to text." },
+        { "text": "When you use your hand-held cell phone to chat." },
+        { "text": "When you use your cell phone to check and send emails." },
+        { "text": "All of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What does the Accessible Parking Permit give you?",
+      "info": "The permit must belong to you or one of your passengers.",
+      "image": "",
+      "options": [
+        {
+          "text": "It gives everyone in your family the privilege to park, stand or stop in any area."
+        },
+        {
+          "text": "Allows parking in designated spaces even if the person with the disability is not a passenger."
+        },
+        { "text": "Allows parking everywhere during specified times." },
+        {
+          "text": "Allows parking in designated spaces for you or passengers with you who qualified for the parking permit.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "When approaching a stopped emergency vehicle with its sirens or red lights flashing, or a towtruck with amber lights flashing you must?",
+      "info": "For a first offence you can be fined $400-$2000, get 3 demerit points and possible licence suspension.",
+      "image": "",
+      "options": [
+        {
+          "text": "Slow down and drive cautiously. You must leave one lane clearance between you and an emergency vehicle if there are multiple lanes in your direction.",
+          "correct": true
+        },
+        { "text": "Maintain the posted rate of speed for the area." },
+        { "text": "Slow down, stop and pull over to the right." },
+        { "text": "Slow down, stop and pull over to the left." }
+      ]
+    },
+    {
+      "questionText": "How can driver distractions be avoided?",
+      "info": "Avoid distracted-driving charges, suspensions and demerit points by avoiding all driving distractions.",
+      "image": "",
+      "options": [
+        { "text": "Plan your trip in advance and know where you are going." },
+        { "text": "Eat before driving to avoid the need to snack." },
+        {
+          "text": "Preset CD players, radios and other controls before driving."
+        },
+        { "text": "All of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What should you do when glare from bright sunshine makes seeing difficult?",
+      "info": "If approaching vehicles at night with glaring headlights, look slightly to the right and above oncoming vehicles. Do not look right at the headlights. Take steps to reduce glare where possible.",
+      "image": "",
+      "options": [
+        { "text": "Wear a good pair of sunglasses that cut glare well." },
+        {
+          "text": "Use your sun visors and adjust them according to the glare."
+        },
+        {
+          "text": "Reduce speed when entering a tunnel, remove sun glasses,  turn on lowbeam headlights."
+        },
+        { "text": "All of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "If driving in fog that becomes very dense, what should you do?",
+      "info": "Do not become the first vehicle hit in a chain reaction. Get off the road completely and keep emergency lights flashing. Wait until fog has lifted before driving.",
+      "image": "",
+      "options": [
+        {
+          "text": "Carefully pass vehicles that are moving too slowly or following too closely."
+        },
+        {
+          "text": "Pull off the road onto the shoulder and wait for the fog to clear."
+        },
+        {
+          "text": "Turn on emergency flashers and pull off the road completely into a safe parking area.",
+          "correct": true
+        },
+        { "text": "Slow down and turn on your fog lights." }
+      ]
+    },
+    {
+      "questionText": "Which statement is false about driving in the rain?",
+      "info": "Reduce speed in rain as roads become slippery, especially at the start when moisture mixes with oil and grease from the road surface.",
+      "image": "",
+      "options": [
+        { "text": "Rain can reduce visibility." },
+        { "text": "Rain can fill potholes and cause damage to your car." },
+        {
+          "text": "Rain can cause your vehicle to hydroplane (ride the water like skis)."
+        },
+        { "text": "Rain can increase your braking ability.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "If you skid on a slippery road surface what should you do?",
+      "info": "Skids generally happen because a vehicle is travelling too fast for road, weather or traffic conditions. Always adapt driving accordingly.",
+      "image": "",
+      "options": [
+        {
+          "text": "Steer your vehicle into the direction you want to go.",
+          "correct": true
+        },
+        {
+          "text": "Steer your vehicle into the opposite direction you want to go."
+        },
+        { "text": "Apply gas to quickly get out of the skid." },
+        { "text": "Turn off the ignition." }
+      ]
+    },
+    {
+      "questionText": "What is black ice?",
+      "info": "Black ice can form anywhere, especially on bridges which get extra cold air from below. This causes the temperature to drop more quickly on the bridge forming a thin layer of ice.",
+      "image": "",
+      "options": [
+        { "text": "When snow is mixed with mud and then freezes." },
+        { "text": "When newly paved roads are wet." },
+        {
+          "text": "When asphalt has a thin layer of ice on it.",
+          "correct": true
+        },
+        { "text": "When ice is mixed with snow." }
+      ]
+    },
+    {
+      "questionText": "Snow may not be as slippery as ice; what should you do when driving on snow-covered roads?",
+      "info": "When possible avoid driving in snow by checking weather forecasts regularly. If it is still necessary to drive, do so cautiously.",
+      "image": "",
+      "options": [
+        { "text": "Look ahead and slow down." },
+        { "text": "Avoid steering suddenly." },
+        { "text": "Avoid braking suddenly." },
+        { "text": "All of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What should you do is you encounter dangerous whiteout conditions?",
+      "info": "Dangerous whiteout conditions can mean serious accidents. Do not risk your life or endanger others. Find a safe parking area and wait for conditions to improve.",
+      "image": "",
+      "options": [
+        {
+          "text": "Pass vehicles that are moving too slowly or following too closely."
+        },
+        {
+          "text": "Pull onto the shoulder and wait for the conditions to change."
+        },
+        {
+          "text": "Turn on emergency flashers and pull off the road completely into a safe parking area.",
+          "correct": true
+        },
+        { "text": "Maintain speed and turn on your emergency flashers." }
+      ]
+    },
+    {
+      "questionText": "What vehicle has flashing blue lights that can be seen 150 m away?",
+      "info": "Snow removal vehicles are slow and can be wide. To clear highways the may be groups of them across the road. Do not try to speed around them.",
+      "image": "",
+      "options": [
+        { "text": "A school bus." },
+        { "text": "A tow truck." },
+        { "text": "A snow removal vehicle.", "correct": true },
+        { "text": "An ambulance." }
+      ]
+    },
+    {
+      "questionText": "If driving and your brakes fail what should you do?",
+      "info": "Regular vehicle service with brake checking is the best way to avoid brake failure.",
+      "image": "",
+      "options": [
+        { "text": "Turn off the ignition." },
+        {
+          "text": "Keep your foot on the brake and apply strong downward pressure."
+        },
+        {
+          "text": "Pump the brakes to restore hydraulic brake pressure.",
+          "correct": true
+        },
+        { "text": "Sound horn and steer to a clear area." }
+      ]
+    },
+    {
+      "questionText": "What should you do if you gas pedal sticks?",
+      "info": "If lifting the pedal with your foot does not work, turn on your emergency lights, shift into neutral and gradually stop, ideally off the road.",
+      "image": "",
+      "options": [
+        {
+          "text": "First try to lift the pedal with your foot.",
+          "correct": true
+        },
+        {
+          "text": "First try to reach down and lift the pedal with your hands."
+        },
+        { "text": "Sound your horn to warn others of your problem." },
+        { "text": "Drive onto a sidewalk." }
+      ]
+    },
+    {
+      "questionText": "What should you do if you car is about to stall on the highway?",
+      "info": "Pull over to the shoulder as carefully and quickly as possible by slowing down, checking all mirrors and putting on your emergency lights.",
+      "image": "",
+      "options": [
+        { "text": "Honk your horn for help." },
+        { "text": "Stop and put on your hazard lights." },
+        {
+          "text": "Pull over to the closest shoulder as quickly as possible.",
+          "correct": true
+        },
+        {
+          "text": "Continue at a reduced speed; you may not even have a problem."
+        }
+      ]
+    },
+    {
+      "questionText": "What should you do if you have tire blown-out?",
+      "info": "Blow-outs at high speeds can be very dangerous. Remain calm, take your foot off the gas pedal and firmly steer where you want to go.",
+      "image": "",
+      "options": [
+        { "text": "Step on the gas pedal and quickly move off the road." },
+        {
+          "text": "Firmly steer into the safest direction and remove your foot from the gas pedal.",
+          "correct": true
+        },
+        { "text": "Stop and put on your hazard lights." },
+        { "text": "Honk you horn for help." }
+      ]
+    },
+    {
+      "questionText": "If you are in an accident with no personal injuries and damages are $2000 or less, you should?",
+      "info": "As long as no one is hurt and damages are less than $2000, move driveable vehicles off the road safely to allow traffic to flow. Then call police services, not 911, and obtain the closest Collision Reporting Centre to report the accident.",
+      "image": "",
+      "options": [
+        { "text": "Call 911 even if damages are less than $2000." },
+        {
+          "text": "Move driveable vehicles off the road to enable traffic to move freely, and exchange information.",
+          "correct": true
+        },
+        {
+          "text": "Leave cars with damages where they are so that police can determine fault."
+        },
+        {
+          "text": "Call an ambulance in case someone hits your car and gets hurt."
+        }
+      ]
+    },
+    {
+      "questionText": "If you are in an accident with no personal injuries, but damages are over $2000, you should?",
+      "info": "Provide as much information to police about the accident as possible giving them information about vehicles and damages. Also obtain witness contact information to give police.",
+      "image": "",
+      "options": [
+        { "text": "Exchange information with the other party and leave." },
+        {
+          "text": "Call police and give them information about the accident and damages.",
+          "correct": true
+        },
+        { "text": "Leave the scene, as 'no fault' insurance handles this." },
+        { "text": "All of the above." }
+      ]
+    },
+    {
+      "questionText": "When involved in or witness to an accident where someone has been injured, you should?",
+      "info": "In case of a fuel leak ensure no one is smoking  or lights a match. Call for help. Stay calm and cover accident victims with a blanket or jacket to reduce shock.",
+      "image": "",
+      "options": [
+        {
+          "text": "Call or have someone else call for help immediately."
+        },
+        { "text": "Turn off the vehicle and turn on the emergency lights." },
+        {
+          "text": "If you are not injured, stay calm and offer help until emergency services arrive."
+        },
+        { "text": "All of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "If a police officer or inspector from the MTO deems your vehicle unsafe, what can happen?",
+      "info": "You must fix whatever problem is identified during an inspection by a police officer or inspector from the Ontario Ministry of TRansportation (MTO) before you can put your vehicle safely and legally back on the road.",
+      "image": "",
+      "options": [
+        { "text": "Your vehicle can be taken off the road." },
+        { "text": "Your licence plates can be removed and taken." },
+        { "text": "You could receive a fine if you refuse the inspection." },
+        { "text": "All of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "When and how often do you have to renew your driver's licence?",
+      "info": "If you do not receive a renewal application or renewal postcard in the mail you are still responsible for ensuring you have a valid driver's licence that hsa not expired. Contact the Ministry of Transportation for further information.",
+      "image": "",
+      "options": [
+        {
+          "text": "Whenever you receive a renewal application in the mail and/or before your licence expires.",
+          "correct": true
+        },
+        {
+          "text": "You do not have to renew as you have already passed all required tests."
+        },
+        { "text": "Every 10 years." },
+        { "text": "Every 20 years." }
+      ]
+    },
+    {
+      "questionText": "If there are continuity lines to the right of your vehicle in the lane you are in what must you do?",
+      "info": "White lines closer together and wider than other white lines are continuity lines. Continuity lines to your left means your lane is ending so you must turn or exit Continuity lines to your right mean your lane is unaffected.",
+      "image": "",
+      "options": [
+        {
+          "text": "You must turn into another lane as your lane is exiting or ending."
+        },
+        {
+          "text": "You are not required to do anything unless you want to exit. Your lane is unaffected.",
+          "correct": true
+        },
+        { "text": "You must merge with the traffic to your left." },
+        { "text": "You must merge with the traffic to your right." }
+      ]
+    },
+    {
+      "questionText": "On a vehicle's left side what does a broken yellow pavement marking beside a solid yellow line mean?",
+      "info": "Broken yellow lines in the lane to your left mean you may pass when the way is clear. There may even be a solid yellow line to the left of that, meaning you may still pass when clear but vehicles in the opposite direction may not.",
+      "image": "",
+      "options": [
+        {
+          "text": "Cars travelling in the other direction may pass when the way is clear."
+        },
+        { "text": "You may pass when the way is clear.", "correct": true },
+        { "text": "No cars may pass in either direction." },
+        {
+          "text": "Both cars may pass in either direction when the way is clear."
+        }
+      ]
+    },
+    {
+      "questionText": "If a traffic light is red, but there is a green arrow pointing left, what does this mean?",
+      "info": "Vehicles in both directions may be turning left. If the arrow turns yellow, a green light will soon appear in one or more directions. Stop if you can safely; if not, complete a left turn cautiously.",
+      "image": "",
+      "options": [
+        {
+          "text": "Vehicles in the left turning lane may turn left.",
+          "correct": true
+        },
+        { "text": "Vehicles in the left turning lane may turn right." },
+        { "text": "No vehicles may turn - only pedestrians may cross." },
+        {
+          "text": "The direction of hte green arrow indicates there is a one-way street."
+        }
+      ]
+    },
+    {
+      "questionText": "What does the round signal with a white vertical on it represent in the picture?",
+      "info": "Pedestrians and non-public transit vehicles must stop on the red light and yield the right-of-way to transit vehicles.",
+      "image": "/assets/images/signs/transit_priority_signal.jpg",
+      "options": [
+        { "text": "It is a left turn signal." },
+        { "text": "It is a spare light should the other ones malfunction." },
+        { "text": "It is a symbol indicating pedestrians may not cross." },
+        {
+          "text": "It is a transit priority signal allowing public transit vehicles the right-of-way.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Some left turn lanes have their own traffic light to direct traffic. What does this light mean?",
+      "info": "When you see this signal and you are turning left you may face other vehicles form the opposite direction also making left turns.",
+      "image": "/assets/images/situation/red_light_left.jpg",
+      "options": [
+        {
+          "text": "Pedestrians crossing the street towards the left may cross."
+        },
+        {
+          "text": "All traffic facing the traffic light may turn left or proceed straight."
+        },
+        {
+          "text": "Vehicles in the left turn lane may turn left while other vehicles will face a red light.",
+          "correct": true
+        },
+        { "text": "This is a transit priority signal." }
+      ]
+    },
+    {
+      "questionText": "What does a flashing amber or yellow light mean?",
+      "info": "Flashing amber lights whether alone or within a traffic light warn you to slow down and proceed cautiously in the direction you are going.",
+      "image": "",
+      "options": [
+        { "text": "Slow down and drive with caution.", "correct": true },
+        { "text": "Stop and proceed when it is safe." },
+        { "text": "Stop and turn left." },
+        { "text": "Stop and turn right." }
+      ]
+    },
+    {
+      "questionText": "What does a flashing red traffic light mean?",
+      "info": "Always bring your vehicles to a complete stop. Proceed into the intersection only when it is safe to do so.",
+      "image": "",
+      "options": [
+        { "text": "Slow down and drive with caution." },
+        { "text": "Stop and proceed when it is safe.", "correct": true },
+        { "text": "Stop and turn left." },
+        { "text": "Stop and turn right." }
+      ]
+    },
+    {
+      "questionText": "What does an amber or yellow light mean?",
+      "info": "If you can stop safely you must do so; otherwise proceed with caution. The light will be turning red soon, at which point you should be stopped.",
+      "image": "",
+      "options": [
+        {
+          "text": "Speed up and clear the intersection so you do not black traffic when the light changes."
+        },
+        {
+          "text": "Proceed with caution only if you cannot stop in time.",
+          "correct": true
+        },
+        {
+          "text": "Keep going and do not stop as another car can hit you from behind."
+        },
+        {
+          "text": "There is road construction ahead so slow down and proceed with caution."
+        }
+      ]
+    },
+    {
+      "questionText": "What statement is correct regarding red lights?",
+      "info": "You must always come to a complete stop at the appropriate road markings or intersection edge on a red light before making any turns.",
+      "image": "",
+      "options": [
+        {
+          "text": "You may turn right on a red light, unless otherwise posted, provided you stop first.",
+          "correct": true
+        },
+        {
+          "text": "From a one-way street to a one-way street you may turn left after slowing for a red light."
+        },
+        {
+          "text": "If you are in a hurry you may drive through red lights with caution only if the way is clear."
+        },
+        {
+          "text": "All of the above is correct except for pedestrians because they are not in a vehicle."
+        }
+      ]
+    },
+    {
+      "questionText": "What do advanced green lights tell you?",
+      "info": "When facing an advanced green light, oncoming traffic faces a red light, enabling you to turn left, go straight or turn right from the appropriate lane.",
+      "image": "",
+      "options": [
+        {
+          "text": "You have the right-of-way to go in any direction in the intersection from the correct lane.",
+          "correct": true
+        },
+        { "text": "They allow pedestrians to go first." },
+        {
+          "text": "A flashing green light means only vehicles turning left may do so."
+        },
+        { "text": "None of the above." }
+      ]
+    },
+    {
+      "questionText": "If pedestrians face a walk signal, what should they do?",
+      "info": "Vehicles must always be aware of their surroundings and yield the right-of-way to pedestrians crossing or those who need more time to cross.",
+      "image": "",
+      "options": [
+        {
+          "text": "Cross the road in the direction of the symbol with the right-of-way over vehicles.",
+          "correct": true
+        },
+        {
+          "text": "Cross the road in the direction of the symbol yielding the right-of-way to vehicles."
+        },
+        { "text": "Stop and yield the right-of-way to vehicles." },
+        { "text": "Cross the intersection in any direction." }
+      ]
+    },
+    {
+      "questionText": "What do the white markings in this diagram represent?",
+      "info": "Intersections may have a stop line, parallel lines or a sidewalk. If these are absent, stop at the intersection edge in order to allow pedestrians to cross; and remember, no passing within 30 m of a crosswalk.",
+      "image": "/assets/images/markings/crosswalk.png",
+      "options": [
+        {
+          "text": "Two parallel white lines at an intersection indicate a crosswalk for pedestrians.",
+          "correct": true
+        },
+        { "text": "They indicate there is a one-way street to the right." },
+        {
+          "text": "These solid lines indicate there is no passing in either direction."
+        },
+        {
+          "text": "These do not indicate anything different from the other direction."
+        }
+      ]
+    },
+    {
+      "questionText": "What is the best way to check your blind spots?",
+      "info": "Mirrors can help reduce the extent of blind spots but they will not get rid of them entirely; only shoulder checks will. Adjust all mirrors to minimize blind spots.",
+      "image": "",
+      "options": [
+        { "text": "Through your side mirrors." },
+        { "text": "Through your rear view mirrors." },
+        {
+          "text": "Turning your head and doing shoulder checks.",
+          "correct": true
+        },
+        { "text": "Asking passengers to check for you." }
+      ]
+    },
+    {
+      "questionText": "How long must new drivers hold a Class G1 licence before their G1 Road Test?",
+      "info": "If you take a Ministry approved Beginner Driver Education Course while you have your G1 and pass it, you can apply for your G1 road test in 8 months.",
+      "image": "",
+      "options": [
+        { "text": "6 months." },
+        { "text": "12 months.", "correct": true },
+        { "text": "18 months." },
+        { "text": "2 years." }
+      ]
+    },
+    {
+      "questionText": "What level must your blood alcohol level be if you hold a Class G1 licence?",
+      "info": "You must have a blood alcohol level of 0; therefore, no alcohol. If you are caught drinking and driving you will get a licence suspension. You will also face penalties that are becoming tougher.",
+      "image": "",
+      "options": [
+        { "text": "Less than 1.0." },
+        { "text": "Less than .08." },
+        { "text": "Less than .05." },
+        { "text": "0.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "How many passengers may you have in a vehicle if you have a Class G1 licence?",
+      "info": "Included must be a Class G driver, meeting all requirements, in the front passenger seat and must be the only other passenger in the front seat with you. All other passengers must have working seatbelts.",
+      "image": "",
+      "options": [
+        {
+          "text": "Only the other driver with the Class G licence may be in the backseat of the car."
+        },
+        { "text": "Up to a maximum of 4." },
+        { "text": "As many as there are working seatbelts.", "correct": true },
+        { "text": "No other passengers may be in the car with you." }
+      ]
+    },
+    {
+      "questionText": "What are the requirement of the G Class driver that may accompany a G1 driver?",
+      "info": "Included in the G Class driver's experience is any valid G2 level experience.",
+      "image": "",
+      "options": [
+        {
+          "text": "The G Class driver must be in the front passenger seat."
+        },
+        {
+          "text": "The G Class driver must have at least 4 years of driving experience."
+        },
+        {
+          "text": "The G Class driver must have less than a .05 % blood alcohol level; 0% if under 21 years old."
+        },
+        { "text": "All of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What are you not allowed to do when you have your G1 licence?",
+      "info": "There are also certain highways you may not drive on. Consult the Ministry of Transportation if unsure which 400-series highways or other highways a G1 driver may drive on.",
+      "image": "",
+      "options": [
+        {
+          "text": "Drive on roads with speeds greater than 100 km/h; drive between 9 pm and 5:00 am."
+        },
+        {
+          "text": "Drive on any 400-series highway with speeds greater than 80km/h.",
+          "correct": true
+        },
+        { "text": "Drive on roads with speeds greater than 80km/h." },
+        {
+          "text": "Drive on roads with speeds greater than 100km/h; drive between 9 pm and 6:00 am."
+        }
+      ]
+    },
+    {
+      "questionText": "Which of the following is false about Level 2 (Class G) drivers?",
+      "info": "Since G2 lasts at least 12 months, more privileges exist with this class than with G1 drivers. However, alcohol is not one of them.",
+      "image": "",
+      "options": [
+        {
+          "text": "You may drive between midnight and 5:00 am."
+        },
+        {
+          "text": "You may have a blood alcohol level of .05 or less.",
+          "correct": true
+        },
+        {
+          "text": "Depending on your age and if no G Class driver is with you, there may be passenger restriction between midnight and 5:00 am."
+        },
+        { "text": "Each passenger must have working seatbelt." }
+      ]
+    },
+    {
+      "questionText": "What changes must you tell the Ministry of Transportation?",
+      "info": "When your name, address or any major physical change to your car occurs, you must tell the Ministry of Transportation within six days.",
+      "image": "",
+      "options": [
+        { "text": "If your name has changed." },
+        { "text": "If you address has changed." },
+        { "text": "If you have a different vehicle such as a new car." },
+        { "text": "All of the above is.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Which of these statements is not true?",
+      "info": "There are licence laws that all licensed drivers must follow, or face a fine.",
+      "image": "",
+      "options": [
+        { "text": "You may not use a licence which has been altered." },
+        { "text": "You may not use an imitation licence." },
+        {
+          "text": "You are allowed to have more than one Ontario licence.",
+          "correct": true
+        },
+        {
+          "text": "You may not lend your licence to anyone or let anyone lend borrow it."
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these situations may result in a driving suspension after a court order?",
+      "info": "You need to abide by all safety measures affecting you, others and your vehicle. Driving while under suspension will results in hefty fines, possible jail time and vehicle impoundment.",
+      "image": "",
+      "options": [
+        {
+          "text": "If you have a medical condition that affect your ability to drive."
+        },
+        { "text": "If you do not have your vehicle properly insured." },
+        { "text": "If you drive over the speed limit by 50 km/h or greater." },
+        { "text": "All of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "If you refuse a police roadside blood alcohol screening test what can happen?",
+      "info": "If you refuse testing you will charged with failing to provide a breath sample, impaired driving and will face fines, licence suspension, vehicle impoundment and more.",
+      "image": "",
+      "options": [
+        {
+          "text": "You get a warning that will go on your record and you cannot refuse when asked next time."
+        },
+        { "text": "You have 24 hours to show up for a test." },
+        {
+          "text": "You have the option of going to the police station and taking a breathalyzer test."
+        },
+        {
+          "text": "You licence will be suspended and you will face criminal charges.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What can give you a suspension or impaired driving charge?",
+      "info": "Having a blood alcohol content from .05-.08, known as the 'warn range', will now give you a licence suspension which will increase with each occurrence. Your age and blood alcohol content also impacts suspension time.",
+      "image": "",
+      "options": [
+        {
+          "text": "If you hold a G1 or G2 licence, are age 21 or under and your blood alcohol level is over 0."
+        },
+        { "text": "If you have a blood alcohol level over .05." },
+        {
+          "text": "If you are behind the wheel of a turned-off vehicle, but your blood alcohol level is over .08."
+        },
+        { "text": "All of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What does compulsory automobile insurance mean?",
+      "info": "The Compulsory Automobile Insurance Act (CAIA) requires all Ontario drivers to carry proof that they are insured. You also have to insure all your vehicles with third party liability insurance of at least $200000.",
+      "image": "",
+      "options": [
+        { "text": "You must have a valid driver's licence to drive on roads." },
+        { "text": "Any passenger must have a valid driver's licence." },
+        { "text": "You must have insurance coverage.", "correct": true },
+        { "text": "Any passengers with you must have insurance coverage." }
+      ]
+    },
+    {
+      "questionText": "If you change the colour of your vehicle, what are you required to do?",
+      "info": "You vehicle registration has 2 parts, licence plate and vehicle permit. The vehicle permit must have an accurate description of your vehicle, so any changes must be reported.",
+      "image": "",
+      "options": [
+        {
+          "text": "Tell the Driver and Vehicle Licence Issuing Office within 6 days of the change.",
+          "correct": true
+        },
+        {
+          "text": "Tell the Driver and Vehicle Licence Issuing Office within 60 days of the change."
+        },
+        { "text": "Nothing, just ensure your vehicle meets safety standards." },
+        { "text": "Book an emissions test with Drive Clean." }
+      ]
+    },
+    {
+      "questionText": "Vehicle tires are critical for safety and they must meet which of the following standards?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": "Have a minimum tread of 1.5 mm.", "correct": true },
+        { "text": "Not have any knots, exposed cords, bumps, bulges, etc., making them unsafe." },
+        { "text": "Match on all 4 wheels as some combinations are illegal." },
+        { "text": "All of the above." }
       ]
     },
     {
       "questionText": "?",
-      "info": "",
+      "info": ".",
       "image": "",
       "options": [
-        { "text": "" },
-        { "text": "" },
-        { "text": "" },
-        { "text": "" }
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
       ]
     },
     {
       "questionText": "?",
-      "info": "",
+      "info": ".",
       "image": "",
       "options": [
-        { "text": "" },
-        { "text": "" },
-        { "text": "" },
-        { "text": "" }
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
+      ]
+    },
+    {
+      "questionText": "?",
+      "info": ".",
+      "image": "",
+      "options": [
+        { "text": ".", "correct": true },
+        { "text": "." },
+        { "text": "." },
+        { "text": "." }
       ]
     }
   ]

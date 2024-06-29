@@ -1389,7 +1389,7 @@
       ]
     },
     {
-      "questionText": "Which potential risks are there in this problem? (Choose all that apply)",
+      "questionText": "Which potential risks do you see? (Choose all that apply)",
       "info": "",
       "image": "/assets/images/situation/risk1.png",
       "options": [
@@ -1421,15 +1421,243 @@
       ]
     },
     {
-      "questionText": "Which sub-habit most directly solves the driver's problem?",
+      "questionText": "This is a close call. Which would have been the best course of action?",
       "info": "",
-      "image": "/assets/images/situation/risk1.png",
+      "image": "/assets/images/situation/risk2.png",
       "options": [
+        {
+          "text": "Speed up to get in front of the vehicle on their left and then change lanes to the lane of least resistance or risk"
+        },
+        {
+          "text": "Maintain speed and as you get close to the cyclist, honk at them to get them to get out of your way"
+        },
+        {
+          "text": "Hit the brakes hard and stop until all the vehicles are gone"
+        },
+        {
+          "text": "Respond by slowing down early to let the vehicle pass and then change lanes to the lane of least resistance or risk",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which potential risks do you see? (Choose all that apply)",
+      "info": "",
+      "image": "/assets/images/situation/risk4.jpg",
+      "options": [
+        { "text": "There is a large vehicle behind" },
+        { "text": "A moose is running out" },
+        {
+          "text": "It's getting dark and our vision is being reduced",
+          "correct": true
+        },
+        { "text": "The hill takes away the sight line", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Which real risks do you see? (Choose all that apply)",
+      "info": "",
+      "image": "/assets/images/situation/risk4.jpg",
+      "options": [
+        { "text": "There is a large vehicle behind" },
+        { "text": "A moose is running out" },
+        {
+          "text": "It's getting dark and our vision is being reduced",
+          "correct": true
+        },
+        { "text": "The hill takes away the sight line", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Which sub-habits should the driver have been thinking about and using properly? (Choose the two correct answers)",
+      "info": "",
+      "image": "/assets/images/situation/risk4.jpg",
+      "options": [
+        { "text": "Minimum Eye Lead Time", "correct": true },
         { "text": "Respond", "correct": true },
         { "text": "Circle Check" },
-        { "text": "Maintain" },
-        { "text": "Minimum Eye Lead TIme" },
-        { "text": "Plan" }
+        { "text": "Plan" },
+        { "text": "Maintain" }
+      ]
+    },
+    {
+      "questionText": "I (car A) signalled for a right turn, moved into the curb lane and turned into a busy street. A blue vehicle was being loaded just around the corner and I had to slam on my brakes to avoid hitting it. which sub-habits could have been used to avoid this situation.",
+      "info": "",
+      "image": "/assets/images/situation/situation7.png",
+      "options": [
+        { "text": "Minimum Eye Lead Time, Respond", "correct": true },
+        { "text": "Plan, Circle Check" },
+        { "text": "Maintain, Respond" },
+        { "text": "Minimum Eye Lead Time, Maintain" }
+      ]
+    },
+    {
+      "questionText": "One night out in the country, I (car A) was driving along at the posted highway speed limit, straining to see the road ahead in my headlight beams. Suddenly, the road was bending to the left and I swung the wheel to stay in my path but I skidded into the ditch. Which sub-habits could have been used to avoid this situation.",
+      "info": "",
+      "image": "/assets/images/situation/situation8.png",
+      "options": [
+        { "text": "Respond, Maintain" },
+        { "text": "Circle Check, Minimum Eye Lead Time" },
+        { "text": "Respond, Plan" },
+        { "text": "Respond, Minimum Eye Lead Time", "correct": true }
+      ]
+    },
+    {
+      "questionText": "The driver in front of me (car B) and I (car A) were following a city bus as it picked up passengers regularly along the route. As we were getting back up to speed again, a squirrel ran between the bus and the vehicle ahead. Driver B baked hard and I braked too but collided with the back of the vehicle. The squirrel was killed. Which sub-habits could have been used to avoid this situation.",
+      "info": "",
+      "image": "/assets/images/situation/situation9.png",
+      "options": [
+        { "text": "Respond, Minimum Eye Lead Time, Maintain", "correct": true },
+        { "text": "Plan, Circle Check, Maintain" },
+        { "text": "Respond, Plan, Maintain" },
+        { "text": "Respond, Circle Check, Plan" }
+      ]
+    },
+    {
+      "questionText": "The driver in front of me (car B) and I (car A) were following a city bus as it picked up passengers regularly along the route. As we were getting back up to speed again, a squirrel ran between the bus and the vehicle ahead. Driver B baked hard and I braked too but collided with the back of the vehicle. The squirrel was killed. What sub-habits and/or choices should driver B have used or done to avoid this crash?",
+      "info": "",
+      "image": "/assets/images/situation/situation9.png",
+      "options": [
+        {
+          "text": "Plan, Circle Check, run over the squirrel. Never endanger human life for animal life especially when the animal is small."
+        },
+        {
+          "text": "Minimum Eye Lead Time, Respond, run over the squirrel. Never endanger human life for animal life especially when the animal is small.",
+          "correct": true
+        },
+        {
+          "text": "Plan, Respond, run over the squirrel. Never endanger human life for animal life especially when the animal is small."
+        }
+      ]
+    },
+    {
+      "questionText": "If you (blue car) are in the outside lane making a right turn, what lane should you turn into if you think the driver on the inside lane will go wide for the bus?",
+      "info": "",
+      "image": "/assets/images/situation/situation10.png",
+      "options": [
+        { "text": "Lane 2" },
+        { "text": "Lane 3 or 4", "correct": true },
+        { "text": "Lane 1" }
+      ]
+    },
+    {
+      "questionText": "If you (blue car) want to make a right turn onto a street with parked cars, what lane should you use to make your turn?",
+      "info": "",
+      "image": "/assets/images/situation/situation10.png",
+      "options": [{ "text": "Lane A", "correct": true }, { "text": "Lane B" }]
+    },
+    {
+      "questionText": "In the image, if driving alone, at what time of day can you drive in this HOV lane?",
+      "info": "",
+      "image": "/assets/images/signs/hov_lane.jpg",
+      "options": [
+        { "text": "8 PM", "correct": true },
+        { "text": "5 PM" },
+        { "text": "9:30 AM" },
+        { "text": "8 AM" }
+      ]
+    },
+    {
+      "questionText": "If you want to turn safely at the lights, when may you enter the restricted lane for the purpose of turning?",
+      "info": "",
+      "image": "/assets/images/situation/situation11.png",
+      "options": [
+        { "text": "45 metres", "correct": true },
+        { "text": "3 metres" },
+        { "text": "100 metres" }
+      ]
+    },
+    {
+      "questionText": "Which sub-habit help you see these overhead black boxes quickly?",
+      "info": "",
+      "image": "/assets/images/situation/situation12.png",
+      "options": [
+        { "text": "Minimum Eye Lead Time", "correct": true },
+        { "text": "Left, Centre, Right" },
+        { "text": "Respond" },
+        { "text": "Stagger" }
+      ]
+    },
+    {
+      "questionText": "What do you need to do if you drive in the wrong lane?",
+      "info": "",
+      "image": "/assets/images/situation/situation12.png",
+      "options": [
+        {
+          "text": " Respond by changing lanes as soon as it's safe to do so",
+          "correct": true
+        },
+        {
+          "text": "Accelerate toward oncoming traffic, flashing your lights to indicate to them to get out of the way"
+        },
+        { "text": "Slam on the brakes and swerve out of the lane" }
+      ]
+    },
+    {
+      "questionText": "If looking well ahead with your Minimum Eye Lead Time, what speed limit is posted?",
+      "info": "",
+      "image": "/assets/images/signs/school_zone2.jpg",
+      "options": [
+        { "text": "There is no speed limit sign" },
+        { "text": "40 km" },
+        { "text": "50 km" },
+        { "text": "20 km", "correct": true },
+        { "text": "30 km" }
+      ]
+    },
+    {
+      "questionText": "What should a driver do when they see a school zone?",
+      "info": "",
+      "image": "/assets/images/signs/school_zone2.jpg",
+      "options": [
+        {
+          "text": "Cover the horn if anyone is close to the edge of the road or walking towards the road"
+        },
+        {
+          "text": "Start scanning from sidewalk to sidewalk or wider for children who may cross"
+        },
+        {
+          "text": "Cover the brake to slow and warn potential drivers behind of possible danger ahead"
+        },
+        { "text": "All of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What should I do when approaching a school bus with flashing red lights and extended stop arm?",
+      "info": "",
+      "image": "/assets/images/situation/school_bus.png",
+      "options": [
+        {
+          "text": "Check the rearview mirror and come to a stop a safe distance away",
+          "correct": true
+        },
+        {
+          "text": "Speed up before any children get off or on the school bus"
+        },
+        {
+          "text": "Go around if there are no children visible"
+        }
+      ]
+    },
+    {
+      "questionText": "What should you have done when you saw the child at the side of the road? (Choose the two correct answers.)",
+      "info": "",
+      "image": "/assets/images/situation/situation13.png",
+      "options": [
+        {
+          "text": "Anticipated the child may cross",
+          "correct": true
+        },
+        {
+          "text": "Covered the brake and horn",
+          "correct": true
+        },
+        {
+          "text": "Speed up before the child thinks of crossing"
+        },
+        {
+          "text": "Nothing as children would never do anything dangerous near a street with traffic"
+        }
       ]
     }
   ]
