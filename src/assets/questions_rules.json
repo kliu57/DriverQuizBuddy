@@ -1370,244 +1370,244 @@
     },
     {
       "questionText": "Vehicle tires are critical for safety and they must meet which of the following standards?",
-      "info": ".",
+      "info": "Check your owners manual for tire safety tips as each will vary depending on vehicle make and weight.",
       "image": "",
       "options": [
-        { "text": "Have a minimum tread of 1.5 mm.", "correct": true },
-        { "text": "Not have any knots, exposed cords, bumps, bulges, etc., making them unsafe." },
+        { "text": "Have a minimum tread of 1.5 mm." },
+        {
+          "text": "Not have any knots, exposed cords, bumps, bulges, etc., making them unsafe."
+        },
         { "text": "Match on all 4 wheels as some combinations are illegal." },
-        { "text": "All of the above." }
+        { "text": "All of the above.", "correct": true }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
+      "questionText": "If you are facing a red light and a police officer instructs traffic in the direction you are travelling to go straight, what should you do?",
+      "info": "Always follow the direction of a police officer that is directing traffic.",
       "image": "",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "First stop at the intersection and then proceed." },
+        { "text": "Slow down to 40 km/h and then proceed through." },
+        {
+          "text": "Follow the direction of the police officer despite what the traffic light or road sign indicates.",
+          "correct": true
+        },
+        { "text": "Treat the intersection as a four-way stop." }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
+      "questionText": "If towing a trailer that is 2.05 m wide or less, what must it have?",
+      "info": "Ensure your trailer has the proper lights and reflectors. Requirements very depending on trailer width. Never carry passengers in a moving trailer.",
       "image": "",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        {
+          "text": "Two far-apart red reflectors at the back, a white licence plate light and a red tail light.",
+          "correct": true
+        },
+        { "text": "Flashing yellow lights at the rear." },
+        { "text": "Flashing red lights at the rear." },
+        { "text": "None of the above." }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
+      "questionText": "Can anyone tow a trailer with a gross weight of up to 4600 kg?",
+      "info": "A trailer requires a special permit and plates that you need to obtain, and a one-time charge, from a Vehicle Licence Issuing Office.",
       "image": "",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        {
+          "text": "As long as you have a valid G, G1, G2 or higher driver's licence."
+        },
+        {
+          "text": "As long as you have a valid G, G1, G2 or higher driver's licence plus a trailer plate and permit.",
+          "correct": true
+        },
+        { "text": "As long as your trailer has trailer plates." },
+        { "text": "Only if you have your commercial vehicle licence." }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
+      "questionText": "Which of the below infractions may cause you to receive 2 demerit points?",
+      "info": "Many infractions exist where you may receive a fine and/or 2 demerit points. Infraction 'a' will give you 7 demerit points, while 'b' and 'c' will give you 6. Demerit points on your record stay for 2 years from the offence date.",
       "image": "",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Failure to stop for a police officer." },
+        { "text": "Reckless or careless driving." },
+        { "text": "Exceeding posted speed limits by more than 50 km/h." },
+        {
+          "text": "Having passengers under 16 not wearing their seatbelts.",
+          "correct": true
+        }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
+      "questionText": "What if you are a G1 or G2 driver and you have 9 or more demerit points within 2 years?",
+      "info": "If you fail to surrender your licence to the Ministry of Transportation, you may lose your licence for up to 2 years. After suspension your demerit point total will be 4. Any other infractions you get will be added to this.",
       "image": "",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        {
+          "text": "You must surrender your licence - your licence will be suspended for 6 days."
+        },
+        {
+          "text": "You must surrender your licence - your licence will be suspended for 60 days.",
+          "correct": true
+        },
+        {
+          "text": "You must surrender your licence - your licence will be suspended for 120 days."
+        },
+        {
+          "text": "You will receive a warning letter in the mail to improve your driving."
+        }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
+      "questionText": "The G2 road test includes highway driving, but before the test, what must you do?",
+      "info": "Among other details on the declaration form, you must indicate how many times in the last 3 months you drove on a highway, which highways and for how much time.",
       "image": "",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Show the instructor your G1 licence." },
+        {
+          "text": "Rewrite your G1 level test and get a higher score than on your first test."
+        },
+        {
+          "text": "Sign a 'Declaration of Highway Driving Experience' detailing your highway driving history.",
+          "correct": true
+        },
+        { "text": "Pass a colour blindness test." }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
-      "image": "",
+      "questionText": "What does this hand signal mean?",
+      "info": "If your brake lights or turn signals do not work, ensure you use proper hand signals to warn other drivers of your intentions. Use both for clarity if in doubt.",
+      "image": "/assets/images/other/left_hand_signal.png",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Driver in vehicle is slowing down or stopping." },
+        { "text": "Driver in vehicle is turning right." },
+        { "text": "Driver in vehicle is turning left.", "correct": true },
+        { "text": "Driver in vehicle is exiting a highway." }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
-      "image": "",
+      "questionText": "What does this hand signal mean?",
+      "info": "If your brake lights or turn signals do not work, ensure you use proper hand signals to warn other drivers of your intentions. Use both for clarity if in doubt.",
+      "image": "/assets/images/other/right_hand_signal.png",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Driver in vehicle is slowing down or stopping." },
+        { "text": "Driver in vehicle is turning right.", "correct": true },
+        { "text": "Driver in vehicle is turning left." },
+        { "text": "Driver in vehicle is exiting a highway." }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
-      "image": "",
+      "questionText": "What does this hand signal mean?",
+      "info": "If your brake lights or turn signals do not work, ensure you use proper hand signals to warn other drivers of your intentions. Use both for clarity if in doubt.",
+      "image": "/assets/images/other/stop_hand_signal.png",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        {
+          "text": "Driver in vehicle is slowing down or stopping.",
+          "correct": true
+        },
+        { "text": "Driver in vehicle is turning right." },
+        { "text": "Driver in vehicle is turning left." },
+        { "text": "Driver in vehicle is exiting a highway." }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
+      "questionText": "As a buyer if a privately used vehicle what must you get from the seller?",
+      "info": "The package will include details about the vehicle for the buyer's benefit. The new owner of a used vehicle has to register their new vehicle within 6 days at a Driver and Vehicle Licence Issuing Office with required documents.",
       "image": "",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "The seller's licence plates and permit." },
+        { "text": "The seller's driver's licence." },
+        { "text": "A bill of sale." },
+        { "text": "A Used Vehicle Information Package.", "correct": true }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
+      "questionText": "How many days do new Ontario residents have to register their vehicles?",
+      "info": "A vehicle permit and licence plate can be obtained at a Driver and Vehicle Licence Issuing Office. Bring all required information.",
       "image": "",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "30 days.", "correct": true },
+        { "text": "60 days." },
+        { "text": "90 days." },
+        { "text": "120 days." }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
+      "questionText": "What does vehicle registration include?",
+      "info": "In Ontario, licence plates do not move with vehicles, they move with vehicle owners. When you buy a new car your existing plates go with you. All vehicle changes must be reported to a Driver and Vehicle Licence Issuing Office.",
       "image": "",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Licence plates and a vehicle permit.", "correct": true },
+        { "text": "Obtaining your G1 licence." },
+        { "text": "Obtaining your G2 licence." },
+        { "text": "None of the above." }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
+      "questionText": "What should you do when entering a freeway?",
+      "info": "Be sure to check you mirrors and blind spots as you move along the entrance ramp.",
       "image": "",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Signal, then stop to wait for an opening in traffic." },
+        {
+          "text": "Signal, then accelerate while merging smoothly into traffic.",
+          "correct": true
+        },
+        { "text": "Signal, then accelerate and enter traffic quickly." },
+        { "text": "Do what the vehicle ahead of you does." }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
+      "questionText": "What should you do when exiting a freeway?",
+      "info": "Ensure you slow down enough when in the deceleration lane because you may not realize how fast you are going, having come off the freeway at a higher speed.",
       "image": "",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Signal, then stop to wait for an opening in traffic." },
+        {
+          "text": "Signal, accelerate while merging smoothly into traffic, then proceed to the exit lane."
+        },
+        {
+          "text": "Signal, move into the deceleration lane, reduce speed gradually and obey exit signs.",
+          "correct": true
+        },
+        { "text": "Do what the vehicle ahead of you does." }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
+      "questionText": "What does the term 'overdriving your headlights' mean?",
+      "info": "Show down while driving at night to ensure you can see ahead far enough to stop appropriately.",
       "image": "",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        {
+          "text": "You are leaving your lowbeam lights on too long at the risk of burning out the bulbs."
+        },
+        {
+          "text": "You are leaving your highbeam headlights on too long at the risk of burning out the bulbs."
+        },
+        {
+          "text": "You are driving slower then your stopping distance allows you to see."
+        },
+        {
+          "text": "You are driving faster then your stopping distance allows you to see.",
+          "correct": true
+        }
       ]
     },
     {
-      "questionText": "?",
-      "info": ".",
+      "questionText": "What should you do when you hear bells or sirens or see flashing lights?",
+      "info": "Remember to check your mirrors and blind spots and use your signals to move to the far right safely; then stop. Do not follow within 150 m of emergency vehicles.",
       "image": "",
       "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
-      ]
-    },
-    {
-      "questionText": "?",
-      "info": ".",
-      "image": "",
-      "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
-      ]
-    },
-    {
-      "questionText": "?",
-      "info": ".",
-      "image": "",
-      "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
-      ]
-    },
-    {
-      "questionText": "?",
-      "info": ".",
-      "image": "",
-      "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
-      ]
-    },
-    {
-      "questionText": "?",
-      "info": ".",
-      "image": "",
-      "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
-      ]
-    },
-    {
-      "questionText": "?",
-      "info": ".",
-      "image": "",
-      "options": [
-        { "text": ".", "correct": true },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        {
+          "text": "Slow down, move to the far right of the roadway and stop when it is safe to do so. Do not block the shoulder if on a freeway.",
+          "correct": true
+        },
+        {
+          "text": "Slow down and move to the far left of the roadway but do not stop."
+        },
+        { "text": "Come to a complete stop wherever you are." },
+        { "text": "Speed up and keep the movement of traffic going." }
       ]
     }
   ]

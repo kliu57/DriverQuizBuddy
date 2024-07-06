@@ -1659,6 +1659,310 @@
           "text": "Nothing as children would never do anything dangerous near a street with traffic"
         }
       ]
+    },
+    {
+      "questionText": "Can you turn left at a red light going from a one-way street to another one-way street?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "No you can only turn on a green light" },
+        { "text": "No never in Ontario" },
+        {
+          "text": "Yes if you make sure to yield the right of way to pedestrians"
+        },
+        {
+          "text": "Yes, if there is no sign saying you cannot, after you come to a full stop and if you make sure to yield to other road users",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If you are preparing to turn left from a two-way street to a one-way street, where is the best waiting position?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Into the crosswalk a little but not past it" },
+        {
+          "text": "With your front tires just into the intersection with the entire vehicle blocking the crosswalk"
+        },
+        { "text": "Behind the crosswalk", "correct": true }
+      ]
+    },
+    {
+      "questionText": "When turning left from a two-way street onto a one-way street, what lane are you supposed turn into?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "The first available lane is always the lane you must turn into."
+        },
+        { "text": "Whatever lane looks the best is the lane you turn into" },
+        {
+          "text": "The first available lane, unless that lane is blocked or the turn would be too dangerous/difficult because of where you waited in the intersection before turning",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What are the benefits of High Occupancy Vehicle (HOV) lanes?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "HOV traffic lanes are generally slower and do not save money"
+        },
+        {
+          "text": "These lanes improve freeway efficiency by moving more vehicles"
+        },
+        { "text": "HOV lanes are always separated by a barrier" },
+        {
+          "text": "These lanes improve public transit reliability by allowing buses to maintain their schedules, generally move faster, move more people in fewer vehicles and reduce carbon emissions",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is the purpose of reverse traffic flow lanes?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "To improve traffic flow during rush hour", "correct": true },
+        { "text": "To improve your evasive maneuvering skills" },
+        {
+          "text": "To create confusion and chaos as vehicles suddenly start coming right in front of you"
+        }
+      ]
+    },
+    {
+      "questionText": "What does a driver need to know when approaching a crossing guard who is typically found in school zones?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Drivers must look far ahead and slow down when passing the crosswalk"
+        },
+        {
+          "text": "Drivers must wait until all pedestrians (including the crossing guard) have cleared most of the crosswalk before proceeding through"
+        },
+        {
+          "text": "Where a crossing guard is displaying a Stop sign, all drivers (including cyclists) must stop and yield to the pedestrians and wait until all pedestrians (including the crossing guard) have cleared the entire crosswalk before proceeding through",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Is littering from your vehicle taken seriously?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes, as there can be fines and you could start a fire if throwing out possible flammable items",
+          "correct": true
+        },
+        { "text": "No as people do it all the time and get away with it" }
+      ]
+    },
+    {
+      "questionText": "In the image above, where should the driver be looking when moving their eyes?",
+      "info": "",
+      "image": "/assets/images/situation/situation14.jpg",
+      "options": [
+        { "text": "Relevant street signs" },
+        { "text": "Rearview and sideview mirrors" },
+        { "text": "Traffic lights ahead" },
+        { "text": "All of these are important to know", "correct": true },
+        { "text": "Traffic on left" },
+        { "text": "Escape route ahead or to the right" }
+      ]
+    },
+    {
+      "questionText": "When waiting to make a left turn at a light, where should you be looking?",
+      "info": "",
+      "image": "/assets/images/situation/situation14.jpg",
+      "options": [
+        {
+          "text": "Gaps in traffic, the speedometer, navigation system and the traffic light"
+        },
+        {
+          "text": "Gaps in traffic, the crosswalk, rearview and sideview mirrors and the traffic light",
+          "correct": true
+        },
+        { "text": "The crosswalk, blind spot, street signs, and mirrors" }
+      ]
+    },
+    {
+      "questionText": "In the image above, where should the driver be checking, by moving their eyes, while waiting to turn left?",
+      "info": "",
+      "image": "/assets/images/situation/situation15.jpg",
+      "options": [
+        { "text": "All of these answers are correct", "correct": true },
+        { "text": "Rearview mirror for danger behind" },
+        { "text": "Pedestrian crosswalk to the left" },
+        { "text": "Gaps in oncoming traffic" },
+        { "text": "Traffic lights to see if they are changing" }
+      ]
+    },
+    {
+      "questionText": "In the above image, where should you be looking when moving your eyes?",
+      "info": "",
+      "image": "/assets/images/situation/situation16.jpg",
+      "options": [
+        { "text": "Traffic on left" },
+        { "text": "All of these answers are correct", "correct": true },
+        { "text": "Past the vehicle in front to see if they will brake" },
+        { "text": "Sideview mirror" },
+        { "text": "Where the exit sign ahead might be" },
+        { "text": "Traffic on right" }
+      ]
+    },
+    {
+      "questionText": "In the above image, where should you be looking when moving your eyes?",
+      "info": "",
+      "image": "/assets/images/situation/situation17.jpg",
+      "options": [
+        { "text": "Well up the road" },
+        { "text": "Fuel consumption gauge " },
+        { "text": "Sideview mirror" },
+        { "text": "Road signs" },
+        { "text": "All of these answers are correct", "correct": true },
+        { "text": "Speedometer" }
+      ]
+    },
+    {
+      "questionText": "If you look away from the road for just two seconds at 50 km, how many metres will you have driven?",
+      "info": "To convert km/h to m/s, multiple by 5/18.",
+      "image": "",
+      "options": [
+        { "text": "28 metres" },
+        { "text": "10 metres" },
+        { "text": "14 metres", "correct": true },
+        { "text": "5 metres" }
+      ]
+    },
+    {
+      "questionText": "If you look at your navigation system for more than two seconds, how will your awareness of what is behind you or in your blindspots be affected?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "My awareness becomes very poor", "correct": true },
+        {
+          "text": " My awareness is fine as I always know what is going on around me"
+        }
+      ]
+    },
+    {
+      "questionText": "If you look at your navigation system for more than two seconds, would your ability to spot a driver running a red light be better or worse?",
+      "info": "",
+      "image": "",
+      "options": [{ "text": "Worse", "correct": true }, { "text": "Better" }]
+    },
+    {
+      "questionText": "Which is the best choice if you're driving and fatigue sets in?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Open all the windows" },
+        { "text": "Pull over to get rest ", "correct": true },
+        { "text": "Speed to your destination as fast as possible" }
+      ]
+    },
+    {
+      "questionText": "What can you do to stay alert while driving?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Clap hands when driving" },
+        { "text": "Drive with one hand to stay focused" },
+        { "text": "Move my eyes every two seconds", "correct": true }
+      ]
+    },
+    {
+      "questionText": "",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "" },
+        { "text": "" },
+        { "text": "" },
+        { "text": "" }
+      ]
+    },
+    {
+      "questionText": "",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "" },
+        { "text": "" },
+        { "text": "" },
+        { "text": "" }
+      ]
+    },
+    {
+      "questionText": "",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "" },
+        { "text": "" },
+        { "text": "" },
+        { "text": "" }
+      ]
+    },
+    {
+      "questionText": "",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "" },
+        { "text": "" },
+        { "text": "" },
+        { "text": "" }
+      ]
+    },
+    {
+      "questionText": "",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "" },
+        { "text": "" },
+        { "text": "" },
+        { "text": "" }
+      ]
+    },
+    {
+      "questionText": "",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "" },
+        { "text": "" },
+        { "text": "" },
+        { "text": "" }
+      ]
+    },
+    {
+      "questionText": "",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "" },
+        { "text": "" },
+        { "text": "" },
+        { "text": "" }
+      ]
+    },
+    {
+      "questionText": "",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "" },
+        { "text": "" },
+        { "text": "" },
+        { "text": "" }
+      ]
     }
   ]
 }
