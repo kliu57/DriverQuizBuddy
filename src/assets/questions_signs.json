@@ -38,233 +38,431 @@
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "Trains could be approaching so look both ways and be prepared to stop.",
+      "image": "/assets/images/signs/railway_crossing.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "This is a pedestrian crosswalk." },
+        { "text": "A railway crossing is X-shaped and filled in with red." },
+        { "text": "Deer cross this area." },
+        {
+          "text": "A railway crossing sign indicating railway tracks cross the road.",
+          "correct": true
+        }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "For everyone's safety bicycles are not allowed.",
+      "image": "/assets/images/signs/no_bikes.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "No bicycles allowed.", "correct": true },
+        { "text": "The is a bicycle route." },
+        { "text": "School zone ahead." },
+        { "text": "Do not watch for bicycles." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "This sign is usually in pairs or groups marking which areas you can park in.",
+      "image": "/assets/images/signs/parking_restriction.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "No parking anytime." },
+        {
+          "text": "Parking only allowed for longer than 30 minutes, 9am - 6pm."
+        },
+        { "text": "You can only park after 5pm." },
+        {
+          "text": "Parking is allowed for a maximum of 30 minutes within times posted.",
+          "correct": true
+        }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "If the traffic light is red at the intersection you may not turn right.",
+      "image": "/assets/images/signs/no_right_turn_red_light.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Turn right only on a red light." },
+        { "text": "No red turn ever." },
+        { "text": "No right turn allowed on a red light.", "correct": true },
+        { "text": "Do not enter." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "Do not enter under any circumstance.",
+      "image": "/assets/images/signs/no_enter.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Enter." },
+        { "text": "Do not enter road.", "correct": true },
+        { "text": "Come to a complete stop." },
+        { "text": "Only bicycles allowed." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "You can only park in this area if your vehicle displays a valid Accessible Parking Permit.",
+      "image": "/assets/images/signs/no_parking_without_permit.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "No wheelchair ramp." },
+        {
+          "text": "No parking at any time unless vehicle has a valid Accessible Parking Permit.",
+          "correct": true
+        },
+        {
+          "text": "No stopping at any time unless vehicle has a valid Accessible Parking Permit."
+        },
+        { "text": "No parking at any time." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "Vehicles must display a valid Accessible Parking Permit in order to sto to load and unload people with disabilities.",
+      "image": "/assets/images/signs/no_standing_without_permit.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        {
+          "text": "Curb area reserved for picking up and dropping off people with disabilities.",
+          "correct": true
+        },
+        {
+          "text": "Curb area reserved for loading and unloading all passengers."
+        },
+        {
+          "text": "Curb area reserved for vehicles parking with a valid permit."
+        },
+        { "text": "Curb area reserved for all vehicles after 6pm." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "Stopping is only allowed if loading or unloading passengers. This sign is used in groups or pairs.",
+      "image": "/assets/images/signs/no_standing.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "No stopping.", "correct": true },
+        { "text": "No parking." },
+        { "text": "You may stand in the area between the signs." },
+        { "text": "Bus stop is to the right and left." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "Do not turn around and go in the opposite direction.",
+      "image": "/assets/images/signs/no_uturn.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "No left turn." },
+        { "text": "You may go in the opposite direction." },
+        { "text": "No U-turn.", "correct": true },
+        { "text": "Turning allowed after 6pm.." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "Besides no stopping, you are not allowed to load or unload passengers between signs that look like this.",
+      "image": "/assets/images/signs/no_stopping.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "No stopping except to unload passengers." },
+        { "text": "There is a stop sign ahead." },
+        { "text": "Come to a complete stop" },
+        {
+          "text": "No stopping at any time between the signs.",
+          "correct": true
+        }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "Carefully read the date and time as there is no left turn during days and times posted.",
+      "image": "/assets/images/signs/no_left_turn_restriction.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        {
+          "text": "No left turn during days and times posted.",
+          "correct": true
+        },
+        { "text": "No left turn ever." },
+        { "text": "Left turn allowed after 5pm." },
+        { "text": "No left turn on Saturday or Sunday." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "When used in pairs, there is no parking between the signs unless you are loading or unloading people or merchandise.",
+      "image": "/assets/images/signs/no_parking.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Parking allowed on either side of the signs." },
+        { "text": "Parking available after 6pm." },
+        { "text": "No parking allowed between the signs.", "correct": true },
+        { "text": "There is parking available on either side of the arrows." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "You are not allowed to drive through the intersection so be prepared to turn.",
+      "image": "/assets/images/signs/no_straight.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        {
+          "text": "You are allowed to go straight through the intersection.",
+          "correct": true
+        },
+        {
+          "text": "You are not allowed to go straight through the intersection."
+        },
+        { "text": "You are not allowed to turn right or left." },
+        { "text": "Stop at the intersection ahead." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "The speed is lower during school hours when the yellow lights are flashing. School sign may be neon yellow or blue.",
+      "image": "/assets/images/signs/school_zone_lights.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "You are approaching a school bus loading zone." },
+        { "text": "Reduce speed to 40 km/h at all times." },
+        {
+          "text": "Reduce speed to 40 km/h when lights are flashing in this school zone.",
+          "correct": true
+        },
+        { "text": "Watch for pedestrians at the crosswalk." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "This sign is for multi-lane highways when there is no centre median divider.",
+      "image": "/assets/images/signs/stop_for_school_bus_both.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "You are approaching a school zone crosswalk." },
+        { "text": "You are entering a school zone." },
+        {
+          "text": "All vehicles must stop on the side of the road where the school bus is."
+        },
+        {
+          "text": "All vehicles must stop for a school bus in all directions when lights are flashing.",
+          "correct": true
+        }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "There is a traffic island ahead and you must keep to the right of it.",
+      "image": "/assets/images/signs/keep_right_island.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "There is an intersection ahead on the right." },
+        { "text": "Stay to the left of the island." },
+        { "text": "Stay to the right of the island.", "correct": true },
+        { "text": "The road curves to the left for 1 km." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "The speed limit ahead is changing from what it is to 50 km/h.",
+      "image": "/assets/images/signs/speed_limit_changes.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "The speed limit is 50 km/h." },
+        { "text": "The speed limit is 50 km/h ahead.", "correct": true },
+        { "text": "It is 50 km to the next rest area." },
+        { "text": "The speed limit is 50 km/h for a distance of 50 km." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "You can only travel in the direction of the arrow.",
+      "image": "/assets/images/signs/one_way.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Reduce speed." },
+        { "text": "Exit to the right." },
+        {
+          "text": "One-way traffic in the direction indicated by the arrow.",
+          "correct": true
+        },
+        { "text": "Two-way traffic permitted." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "Pedestrians are not allowed on this road.",
+      "image": "/assets/images/signs/no_pedestrians.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "No pedestrians allowed on roadway.", "correct": true },
+        { "text": "Pedestrians may not cross this road." },
+        { "text": "There is no crosswalk in the area." },
+        { "text": "Do not enter." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "For safety reasons there is no passing on this roadway.",
+      "image": "/assets/images/signs/no_passing.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "No passing on this road.", "correct": true },
+        { "text": "You may pass on this road." },
+        { "text": "Two-way traffic ahead." },
+        { "text": "Do not enter." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "You are permitted to pass on the left; otherwise, keep to the right.",
+      "image": "/assets/images/signs/keep_right.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Right turn and passing lane ahead." },
+        {
+          "text": "Keep to the right except when passing on two-way road sections.",
+          "correct": true
+        },
+        { "text": "Road turns to the right." },
+        { "text": "Do not enter." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "You are approaching a pedestrian crosswalk. Slow down, yield to pedestrians and be prepared to stop.",
+      "image": "/assets/images/signs/pedestrian_crossover.jpg",
+      "options": [
+        {
+          "text": "Stop and yield right-of-way to pedestrians at crosswalk. Do not pass from sign to crossing.",
+          "correct": true
+        },
+        { "text": "Railroad crossing ahead, no pedestrians allowed." },
+        { "text": "Pedestrians or vehicles may not enter the roadway." },
+        { "text": "Deer crossing ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "These signs are either painted on the roadway or hung above at intersections. They tell drivers the direction they must travel for the lane they are in.",
+      "image": "/assets/images/signs/lane_signs.jpg",
+      "options": [
+        {
+          "text": "If you are in lanes 1, 2 or 3 you must only go in the direction of that lane's arrow.",
+          "correct": true
+        },
+        { "text": "If you are in lane 1 you may go straight and left." },
+        { "text": "If you are in lane 2 you may go in any direction." },
+        { "text": "If you are in lane 3, you may go straight or turn right." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "This sign can be above the ground or on the road which means two-way left turns only.",
+      "image": "/assets/images/signs/two_way_left_turns.jpg",
+      "options": [
+        { "text": "Lane is not for left turns." },
+        { "text": "Lane is only for two-way left turns.", "correct": true },
+        { "text": "Turn left or right." },
+        { "text": "No U-turn." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "These lanes are for bicycles or specific vehicles that carry 3 or more people, for the times indicated or all the time if no time is shown.",
+      "image": "/assets/images/signs/lane_vehicle_types.jpg",
+      "options": [
+        {
+          "text": "Lanes are for pedestrians only, no vehicles permitted during days and times posted."
+        },
+        {
+          "text": "Lanes are for loading and unloading passengers only during days and times posted."
+        },
+        {
+          "text": "Lanes are for 5 or more passengers during days and times posted."
+        },
+        {
+          "text": "Lanes are for 3 or more passengers in the vehicles shown, plus bicycles, during the days and times shown or all the time (depending on the sign).",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "You can not change lanes into or out of the HOV lanes.",
+      "image": "/assets/images/signs/no_crossing.jpg",
+      "options": [
+        { "text": "No passing." },
+        { "text": "No passing except to enter HOV lanes." },
+        { "text": "Do not cross lanes, sidewalk ahead." },
+        {
+          "text": "Do not cross into or out of HOV lanes for area shown.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "When approaching an intersection with this sign the direction of the arrow indicates who has the right-of-way.",
+      "image": "/assets/images/signs/intersection_ahead.jpg",
+      "options": [
+        { "text": "Crosswalk ahead, watch for pedestrians crossing." },
+        {
+          "text": "Intersection ahead, direction of arrow indicates who has right-of-way.",
+          "correct": true
+        },
+        { "text": "Railroad crossing ahead." },
+        { "text": "Quiet, church zone ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Drivers on the hidden road ahead may not see traffic from the main road when they reach the intersection.",
+      "image": "/assets/images/signs/hidden_road_ahead.png",
+      "options": [
+        { "text": "Hidden left turn ahead." },
+        { "text": "Hidden crosswalk ahead." },
+        { "text": "There is a three-way stop ahead that is hidden." },
+        { "text": "There is a hidden road ahead.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "This symbol represents a bridge and that the bridge is narrower than the roadway.",
+      "image": "/assets/images/signs/narrow_bridge_ahead.jpg",
+      "options": [
+        { "text": "The road narrows ahead." },
+        { "text": "The two-way road curves ahead." },
+        { "text": "A narrow bridge ahead.", "correct": true },
+        { "text": "Slower traffic move to the right." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "The pavement will become narrower ahead.",
+      "image": "/assets/images/signs/pavement_narrows_ahead.jpg",
+      "options": [
+        { "text": "There is a narrow bridge ahead." },
+        { "text": "The road narrows ahead.", "correct": true },
+        { "text": "Two-lane roadway ends." },
+        { "text": "Merge with oncoming traffic." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Adjust driving accordingly as the road bends or curves slightly to the right.",
+      "image": "/assets/images/signs/curve_ahead.jpg",
+      "options": [
+        { "text": "The road bends to the right ahead.", "correct": true },
+        { "text": "The road bends to the left ahead." },
+        { "text": "One-way traffic ahead." },
+        { "text": "Right-turn-only lane ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "The road divides ahead. Slow down in case you or others have to turn off the main roadway.",
+      "image": "/assets/images/signs/road_branching_ahead.jpg",
+      "options": [
+        { "text": "One lane ahead." },
+        { "text": "No turns ahead." },
+        { "text": "The road branches off ahead.", "correct": true },
+        { "text": "There is a three-way stop ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "These arrowheads are called chevrons. They warn you about the sharp turns and are posted in groups to guide drivers.",
+      "image": "/assets/images/signs/chevron.jpg",
+      "options": [
+        { "text": "Exit to the right." },
+        { "text": "Sharp turn here." },
+        { "text": "Crosswalk ahead." },
+        { "text": "Railway crossing." }
       ]
     },
     {

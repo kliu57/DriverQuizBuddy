@@ -336,7 +336,7 @@
       "info": "",
       "image": "",
       "options": [
-        { "text": "Loss of Control " },
+        { "text": "Loss of Control" },
         { "text": "Head-On" },
         { "text": "Turning" },
         { "text": "Rear-End", "correct": true }
@@ -347,7 +347,7 @@
       "info": "",
       "image": "",
       "options": [
-        { "text": "Loss of Control ", "correct": true },
+        { "text": "Loss of Control", "correct": true },
         { "text": "Head-On" },
         { "text": "Turning" },
         { "text": "Rear-End" }
@@ -359,7 +359,7 @@
       "image": "",
       "options": [
         { "text": "You cannot pass" },
-        { "text": "You can pass " },
+        { "text": "You can pass" },
         { "text": "You should not pass", "correct": true }
       ]
     },
@@ -413,7 +413,7 @@
       ]
     },
     {
-      "questionText": "What does an amber (yellow) light mean? ",
+      "questionText": "What does an amber (yellow) light mean?",
       "info": "",
       "image": "",
       "options": [
@@ -500,7 +500,7 @@
     {
       "questionText": "Which lane ends in 200 metres?",
       "info": "",
-      "image": "/assets/images/signs/lane_signs.jpg",
+      "image": "/assets/images/signs/lane_signs2.jpg",
       "options": [
         { "text": "Lane 1" },
         { "text": "Lane 2" },
@@ -576,7 +576,7 @@
         },
         { "text": "A fine" },
         { "text": "Determination of fault in collision cases" },
-        { "text": "A conviction registered on your driving record " },
+        { "text": "A conviction registered on your driving record" },
         { "text": "Demerit points" }
       ]
     },
@@ -635,7 +635,7 @@
       "info": "",
       "image": "",
       "options": [
-        { "text": "Bicycles " },
+        { "text": "Bicycles" },
         { "text": "Toys" },
         { "text": "Kids" },
         { "text": "All of these answers could be correct", "correct": true },
@@ -1072,7 +1072,7 @@
       "image": "",
       "options": [
         { "text": "It will activate the brake lights", "correct": true },
-        { "text": "It will make them flash " },
+        { "text": "It will make them flash" },
         { "text": "It will turn them off" }
       ]
     },
@@ -1584,7 +1584,7 @@
       "image": "/assets/images/situation/situation12.png",
       "options": [
         {
-          "text": " Respond by changing lanes as soon as it's safe to do so",
+          "text": "Respond by changing lanes as soon as it's safe to do so",
           "correct": true
         },
         {
@@ -1821,7 +1821,7 @@
       "image": "/assets/images/situation/situation17.jpg",
       "options": [
         { "text": "Well up the road" },
-        { "text": "Fuel consumption gauge " },
+        { "text": "Fuel consumption gauge" },
         { "text": "Sideview mirror" },
         { "text": "Road signs" },
         { "text": "All of these answers are correct", "correct": true },
@@ -1846,7 +1846,7 @@
       "options": [
         { "text": "My awareness becomes very poor", "correct": true },
         {
-          "text": " My awareness is fine as I always know what is going on around me"
+          "text": "My awareness is fine as I always know what is going on around me"
         }
       ]
     },
@@ -1862,7 +1862,7 @@
       "image": "",
       "options": [
         { "text": "Open all the windows" },
-        { "text": "Pull over to get rest ", "correct": true },
+        { "text": "Pull over to get rest", "correct": true },
         { "text": "Speed to your destination as fast as possible" }
       ]
     },
@@ -1877,58 +1877,567 @@
       ]
     },
     {
-      "questionText": "",
+      "questionText": "Where should drivers check BEFORE braking?",
       "info": "",
       "image": "",
       "options": [
-        { "text": "" },
-        { "text": "" },
-        { "text": "" },
-        { "text": "" }
+        { "text": "The dashboard instruments" },
+        { "text": "The rearview inside mirror(s)", "correct": true },
+        { "text": "The back seat" }
       ]
     },
     {
-      "questionText": "",
+      "questionText": "Why is it important to check the rearview mirror now?",
       "info": "",
-      "image": "",
+      "image": "/assets/images/situation/situation18.jpg",
       "options": [
-        { "text": "" },
-        { "text": "" },
-        { "text": "" },
-        { "text": "" }
+        { "text": "To see if I need some personal grooming" },
+        {
+          "text": "Traffic ahead may still be stopped and the driver behind may be thinking 'Go on Green'",
+          "correct": true
+        },
+        { "text": "There is no reason to check the mirror right now" }
       ]
     },
     {
-      "questionText": "",
+      "questionText": "Which lane is the vehicle closest to you in?",
       "info": "",
-      "image": "",
+      "image": "/assets/images/situation/situation19.png",
       "options": [
-        { "text": "" },
-        { "text": "" },
-        { "text": "" },
-        { "text": "" }
+        { "text": "Right lane" },
+        { "text": "Left lane" },
+        { "text": "Same lane", "correct": true },
+        { "text": "Far left lane" }
       ]
     },
     {
-      "questionText": "",
+      "questionText": "Will checking the rearview mirror every five to eight seconds help with lane changes?",
       "info": "",
-      "image": "",
+      "image": "/assets/images/situation/situation19.png",
       "options": [
-        { "text": "" },
-        { "text": "" },
-        { "text": "" },
-        { "text": "" }
+        { "text": "I don't use mirrors" },
+        { "text": "No" },
+        { "text": "Yes", "correct": true }
       ]
     },
     {
-      "questionText": "",
+      "questionText": "Why check the rearview mirror before braking?",
+      "info": "",
+      "image": "/assets/images/situation/situation20.png",
+      "options": [
+        {
+          "text": "There is no need to check the rearview mirror before slowing because the light is clearly red"
+        },
+        {
+          "text": "To make sure the vehicle behind is not following too closely and that they have enough time to stop without hitting you",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Why is it important to recheck the rearview mirror when stopping?",
+      "info": "",
+      "image": "/assets/images/situation/situation20.png",
+      "options": [
+        {
+          "text": "To ensure the driver behind is actually reducing speed",
+          "correct": true
+        },
+        { "text": "There is no need to recheck the rearview mirror" }
+      ]
+    },
+    {
+      "questionText": "In the photo, why is the vehicle in the right lane braking?",
+      "info": "",
+      "image": "/assets/images/situation/situation21.jpg",
+      "options": [
+        {
+          "text": "There is no clear reason and should not brake in that manner"
+        },
+        { "text": "Their lane is closed due to construction", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Why is it important to check the rearview mirror after a turn?",
       "info": "",
       "image": "",
       "options": [
-        { "text": "" },
-        { "text": "" },
-        { "text": "" },
-        { "text": "" }
+        {
+          "text": "You might need to make a lane change quickly and you need to know if the vehicle behind you changed lanes"
+        },
+        { "text": "Neither of these answers are correct" },
+        { "text": "Both of these answers are correct", "correct": true },
+        {
+          "text": "You might have to brake suddenly for a problem you could not see around the corner. If so, knowing how close the vehicle behind is important"
+        }
+      ]
+    },
+    {
+      "questionText": "Why are parked vehicles a potential risk to drivers?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "The driver of the parked vehicle could start to pull out into your path"
+        },
+        {
+          "text": "The parked vehicles could hide your view of pedestrians who may walk out into your path"
+        },
+        {
+          "text": "An occupant in the parked vehicle could open a door into your path"
+        },
+        { "text": "All of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What can you do to lower the risk of parked vehicles?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Cover the brake pedal" },
+        { "text": "Cover the horn to be ready to communicate" },
+        {
+          "text": "If you cannot see into a vehicle because of tinted glass or some other reason, treat the vehicle like there is someone inside"
+        },
+        { "text": "Scan inside for occupants" },
+        { "text": "All of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "If you see a door start to open into your path or close enough to be dangerous, what can you do to be proactive?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Honk the horn" },
+        { "text": "Safely change lanes" },
+        {
+          "text": "Both of these answers could be correct depending on the situation",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What are some clues that a parked vehicle has an occupant?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "There is movement of tires" },
+        { "text": "Vehicle lights are on" },
+        { "text": "Driverside window is open" },
+        { "text": "Exhaust is coming from the vehicle tailpipe" },
+        { "text": "All of these answers could be correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What would the best driving response be for a street shown in the image?",
+      "info": "",
+      "image": "/assets/images/situation/situation22.jpg",
+      "options": [
+        {
+          "text": "Drive in the left lane unless you plan to turn right",
+          "correct": true
+        },
+        {
+          "text": "If you have to drive in the right lane, slow down and cover the horn"
+        },
+        { "text": "Both of these answers are correct" }
+      ]
+    },
+    {
+      "questionText": "Why should a driver glance at the tires of other vehicles?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Tires show movement" },
+        { "text": "Tires show direction" },
+        { "text": "Both answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "If the tires are turned, as in the second image above, what might you be anticipating?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "The driver might be about to leave the curb",
+          "correct": true
+        },
+        {
+          "text": "The tires do not show anything as drivers park like this all the time"
+        }
+      ]
+    },
+    {
+      "questionText": "How can you tell if an oncoming vehicle is going to come into your lane, intentionally or not?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "There is no way to tell when someone is going to come into your lane"
+        },
+        {
+          "text": "Check the front tires moving towards the centre line",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How should you respond if you see an oncoming vehicle moving toward your lane?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Cover the horn" },
+        { "text": "Honk the horn" },
+        { "text": "Look for an escape route" },
+        { "text": "Cover the brake" },
+        {
+          "text": "All of these answers could be correct depending on the situation",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Why is it important to re-establish your Minimum Eye Lead Time after every attempt to Ground Vew?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "To keep track of what is happening ahead of you" },
+        {
+          "text": "To keep the vehicle from wandering to where you are glancing"
+        },
+        { "text": "Both of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Would it be easier to spot a pedestrian's feet under a parked vehicle when closer to the vehicle in question or farther away?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Easier when farther away", "correct": true },
+        { "text": "Easier when up close" }
+      ]
+    },
+    {
+      "questionText": "Now that you know a pedestrian is standing in front of these vehicles, what possible danger do they pose to you?",
+      "info": "",
+      "image": "/assets/images/situation/situation23.png",
+      "options": [
+        {
+          "text": "They could be distracted and not aware they are walking into traffic"
+        },
+        { "text": "They could be planning to walk or run across the street" },
+        {
+          "text": "They could be walking around their vehicle to open the door and get in"
+        },
+        { "text": "All of these answers could be correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "If you think the pedestrian is a potential danger, what will you do to lower the risk and be prepared?",
+      "info": "",
+      "image": "/assets/images/situation/situation23.png",
+      "options": [
+        {
+          "text": "No pedestrian would walk in front of traffic so I don't need to do anything"
+        },
+        { "text": "I might only cover the horn" },
+        {
+          "text": "Cover the horn, cover the brake by slowing down and move a little more to the left",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "In Left Centre Right scan, why is the left scan first?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "The driver on the left is the first vehicle that might hit your vehicle as you travel through the intersection",
+          "correct": true
+        },
+        {
+          "text": "A left scan is wrong as a vehicle turning left from the centre would collide with the vehicle "
+        },
+        {
+          "text": "A left scan is wrong as a vehicle on the right side is the one that would hit the vehicle first"
+        }
+      ]
+    },
+    {
+      "questionText": "In Left Centre Right scan, what are the benefits of doing a centre scan?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "No other vehicle is allowed to turn left in front of a vehicle"
+        },
+        {
+          "text": "When moving, the scan keeps a driver travelling straight and allows the driver to ground view vehicles in the intersection to see what they may do",
+          "correct": true
+        },
+        { "text": "There is no benefit and is distracting" }
+      ]
+    },
+    {
+      "questionText": "In Left Centre Right scan, why is a right scan last?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "It is the last part of the intersection where a vehicle could hit us",
+          "correct": true
+        },
+        { "text": "The right side is not as important as the left side " },
+        { "text": "There is no danger from the right because it is closer" }
+      ]
+    },
+    {
+      "questionText": "What are you looking for on approach and before entering an intersection?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Vehicles" },
+        { "text": "Cyclists" },
+        { "text": "Pedestrians" },
+        { "text": "All of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Why would there be collisions in the intersection right after your light turns green?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Other drivers are purposely or negligently going through their red lights"
+        },
+        {
+          "text": "Drivers who have the fresh green light are not checking the intersection properly before starting up"
+        },
+        {
+          "text": "There are pedestrians crossing where they should not or crossing late"
+        },
+        { "text": "All of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What is NOT a benefit to moving your eyes every 2 seconds?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "You maintain your situational awareness 360 degrees around your vehicle as you drive"
+        },
+        {
+          "text": "You are very situationally aware, allowing time to check your phone",
+          "correct": true
+        },
+        { "text": "It helps fight fatigue and drowsy driving" },
+        {
+          "text": "You eliminate staring which leads to daydreaming while driving"
+        }
+      ]
+    },
+    {
+      "questionText": "What is NOT a reason you check one of your mirrors after completing a turn?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "There could be a cyclist, moped, or motorcycle that turned behind you and because they are smaller you may not know exactly where they are in case you need to change lanes or brake for a problem ahead"
+        },
+        { "text": "To make sure no one passes you", "correct": true },
+        {
+          "text": "There could be a vehicle that turned behind you but swung into the second lane beside you - you need to know this in case there is a problem ahead of you and you need to change lanes"
+        },
+        {
+          "text": "There could be a vehicle that turned right behind you and is following too closely"
+        }
+      ]
+    },
+    {
+      "questionText": "If you are waiting to make a right turn at a red light, why would you need to keep moving your eyes every 2 seconds when surely all you need to do is look left for a safe gap in the traffic to make your turn?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "To keep track of your text messages and navigation system" },
+        {
+          "text": "You have to keep checking your mirrors for a vehicle that may be approaching you from behind too quickly to stop, to be aware of cyclists coming up beside you that may be close to your vehicle and to keep checking the traffic lights to see if they are changing",
+          "correct": true
+        },
+        {
+          "text": "You have to keep checking the traffic lights to see if they are changing"
+        },
+        {
+          "text": "You have to stay aware of cyclists coming up beside you that may be close to your vehicle"
+        }
+      ]
+    },
+    {
+      "questionText": "Which is the correct reason for checking your mirrors every 5 - 8 seconds?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Checking often lets you know when it's okay to change your radio station or check your navigation system"
+        },
+        {
+          "text": "Checking often gives you time to look away from the road to talk to your passengers"
+        },
+        {
+          "text": "Checking often means you don't have to keep as much space in front of you - it gives you more reaction time in case something goes wrong in front of you"
+        },
+        {
+          "text": "Checking often gives you the picture of where potential openings will be in case you want to change lanes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "When you are approaching a parked vehicle, are you only checking for a driver who might open a door?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes, the driver is the one who would be in a hurry and not thinking about approaching traffic"
+        },
+        {
+          "text": "No, also checking for any passengers who could open a door near the vehicle",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Since circumstances like a head restraint, tinted windows or night darkness may make it impossible to tell if someone is in the vehicle, which is the best response?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Treat the vehicle as a possible threat and move as wide as possible while covering the brake to warn drivers behind you"
+        },
+        {
+          "text": "Treat the vehicle as if someone is inside it - cover the horn and possibly the brake and try and get at least a door length away before passing",
+          "correct": true
+        },
+        {
+          "text": "Treat the vehicle as if there could be someone inside who might open a door - cover the brake and honk at each vehicle you are not sure about"
+        },
+        {
+          "text": "Treat the vehicle as normal as it is clear there is no one visible"
+        }
+      ]
+    },
+    {
+      "questionText": "Can Ground View be used to see if a vehicle is approaching too fast to stop in one of your mirrors?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Yes", "correct": true },
+        { "text": "No" },
+        { "text": "I have no idea" }
+      ]
+    },
+    {
+      "questionText": "How can you tell if a vehicle that is approaching an intersection is going to stop for their red light or stop sign?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "You might be able to see their front end dipping down towards the pavement which indicates they are braking hard. You may also see their front end rise, indicating the driver has hit the accelerator hard"
+        },
+        {
+          "text": "You look past the vehicle to a stationary background and as the vehicle moves across the foreground, you should be able to judge if it's changing speed or not"
+        },
+        { "text": "Both of these answers could work", "correct": true },
+        {
+          "text": "Neither of these answers makes sense or is going to work as there is no way to tell if they are going to stop or not"
+        }
+      ]
+    },
+    {
+      "questionText": "Is there any particular reason why it's Left Centre Right and not Right Centre Left?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes. Since you can never see anything to the right at most intersections, it's best to look left first, then ahead to keep yourself straight and then to the right last"
+        },
+        {
+          "text": "No.  It makes no difference where you look first, as your view at most intersections is the same from both directions"
+        },
+        {
+          "text": "Yes. When approaching an intersection, the vehicle that could impact you first will be coming from the left, a vehicle turning left in front of you will impact you second and a vehicle coming from the right will impact you last",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If you are driving down a street that only has a side street to your right or left, is it really necessary to check them as well?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "No.  It is unnecessary to check all the minor side streets as it is highly unlikely that anyone is going to drive through"
+        },
+        {
+          "text": "Yes.  As most side streets have a stop sign and not a traffic light, the signs may be difficult to see with snowbanks or darkness and a driver may not realize they have to stop",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "I was driving home at 2:00 a.m. after a weekend at the cottage. I woke up to the sound of loose gravel hitting the underside of the vehicle. When I woke for a second time, I was upside down, held in place by my seatbelt and I must have banged my head against the window when the vehicle rolled into the ditch. Other than a few bruises, I was unhurt but the vehicle suffered so much damage, it had to be replaced. Which sub-habits should the driver have used to avoid this loss of vehicle and near loss of life? (Choose the correct group)",
+      "info": "",
+      "image": "/assets/images/situation/situation24.png",
+      "options": [
+        { "text": "Plan, Move", "correct": true },
+        { "text": "Scan, Maintain" },
+        { "text": "Respond, Move" },
+        { "text": "Plan, Maintain" }
+      ]
+    },
+    {
+      "questionText": "I was driving in the middle lane of a three-lane road (Driver A), with all lanes going in the same direction. A driver suddenly came up on my left (Driver B) and as the driver was passing, honked the horn. I realized that I was too far left in my lane and swung right to correct the error and nearly hit a parked vehicle. Which sub-habits should Driver A have used to avoid this close call? (Choose the correct group)",
+      "info": "",
+      "image": "/assets/images/situation/situation25.png",
+      "options": [
+        { "text": "Maintain, Ground View" },
+        { "text": "Mirror, Minimum Eye Lead Time", "correct": true },
+        { "text": "Left Centre Right, Minimum Eye Lead Time" },
+        { "text": "Maintain, Scan" }
+      ]
+    },
+    {
+      "questionText": "I was driving in the middle lane of a three-lane road (Driver A), with all lanes going in the same direction. A driver suddenly came up on my left (Driver B) and as the driver was passing, honked the horn. I realized that I was too far left in my lane and swung right to correct the error and nearly hit a parked vehicle. Which sub-habit should Driver B have used to be more proactive in this situation?",
+      "info": "",
+      "image": "/assets/images/situation/situation25.png",
+      "options": [
+        { "text": "Ground View", "correct": true },
+        { "text": "Respond" },
+        { "text": "Scan" },
+        { "text": "Maintain" }
+      ]
+    },
+    {
+      "questionText": "I stopped at a stop sign (Driver A). As I moved forward to cross the intersection, a vehicle opposite me (Driver B) suddenly swung into a left turn and hit my left front fender. Which sub-habits should Driver A have used to avoid this collision? (Choose the correct group)",
+      "info": "",
+      "image": "/assets/images/situation/situation26.png",
+      "options": [
+        { "text": "Respond, Plan, Left Centre Right" },
+        { "text": "Respond, Ground View, Left Centre Right", "correct": true },
+        { "text": "Plan, Maintain, Left Centre Right" },
+        { "text": "Respond, Ground View, Minimum Eye Lead Time" }
+      ]
+    },
+    {
+      "questionText": "I stopped at a stop sign (Driver A). As I moved forward to cross the intersection, a vehicle opposite me (Driver B) suddenly swung into a left turn and hit my left front fender. Which sub-habits should Driver B have used to avoid this collision? (Choose the correct group)",
+      "info": "",
+      "image": "/assets/images/situation/situation26.png",
+      "options": [
+        { "text": "Respond, Ground View, Left Centre Right", "correct": true },
+        { "text": "Respond, Mirror, Left Centre Right" },
+        { "text": "Maintain, Mirror, Scan" },
+        { "text": "Respond, Maintain, Scan" }
       ]
     },
     {
