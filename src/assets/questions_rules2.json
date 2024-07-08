@@ -2441,13 +2441,774 @@
       ]
     },
     {
+      "questionText": "If you are approaching from the bottom of a T-intersection, should you treat it like a stop sign or a yield sign?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Stop sign" },
+        { "text": "Yield sign", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Are you allowed to overtake or change lanes in a roundabout?",
+      "info": "",
+      "image": "",
+      "options": [{ "text": "Yes" }, { "text": "No", "correct": true }]
+    },
+    {
+      "questionText": "Which sign is usually associated with entering a roundabout?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Yield sign", "correct": true },
+        { "text": "Merge sign" },
+        { "text": "Stop sign" }
+      ]
+    },
+    {
+      "questionText": "Which lane in a multi-lane roundabout should be used to do a 'U' turn?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Inside lane", "correct": true },
+        { "text": "Outside lane" }
+      ]
+    },
+    {
+      "questionText": "Which way should you signal before entering a roundabout if you plan to turn left?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Right" },
+        { "text": "Left" },
+        { "text": "No Signal", "correct": true }
+      ]
+    },
+    {
+      "questionText": "If two vehicles stop at the same time, who should be given the right-of-way?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "The vehicle on the right" },
+        { "text": "The vehicle on the left" },
+        {
+          "text": "You do not take the right-of-way, it must be given to you",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If you come to an all-way stop at the same time as other drivers and the right-of-way is difficult to make out because it's at night or for other reasons, which driver should go last?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "The driver doing the least dangerous maneuver should go last"
+        },
+        {
+          "text": "The driver who is making the most dangerous maneuver should go last",
+          "correct": true
+        },
+        { "text": "It does not matter who goes when" }
+      ]
+    },
+    {
+      "questionText": "Which sub-habit can be used to tell if another driver is slowing enough to stop?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Respond" },
+        { "text": "Minimum Eye Lead Time" },
+        { "text": "Maintain" },
+        { "text": "Ground View", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What is NOT a benefit of roundabouts?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Roundabouts are less expensive to build" },
+        { "text": "Roundabouts reduce delays and improve traffic flow" },
+        {
+          "text": "Since there are no stop signs, you don't have to stop or yield and can drive through at higher speeds",
+          "correct": true
+        },
+        { "text": "Roundabouts require less space to build" },
+        {
+          "text": "Due to their one-way travel, there is less chance of a head-on collision"
+        }
+      ]
+    },
+    {
+      "questionText": "When can a driver go if there are pedestrians in a crossover?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Whenever the driver feels like it " },
+        { "text": "As soon as the lights stop flashing" },
+        { "text": "As soon as the pedestrians are safely out of the way" },
+        {
+          "text": "Once the pedestrians are completely out of the crossover in both directions",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If you want to make a left turn using a roundabout, what lane must you enter if there are multiple lanes?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "You must use the outside lane" },
+        { "text": "It does not matter which lane to use" },
+        { "text": "You must use the inside lane", "correct": true },
+        { "text": "You cannot turn left in a roundabout" }
+      ]
+    },
+    {
+      "questionText": "Why can large vehicles be a danger in a roundabout?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Large vehicle drivers may not be as attentive and wander across lanes in a roundabout"
+        },
+        {
+          "text": "There is never any danger driving beside a larger vehicle with a long trailer"
+        },
+        {
+          "text": "If they have a long trailer, the trailer can often drift into the lane beside the large vehicle as it navigates through the roundabout",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "When approaching an intersection, which sub-habit must you use first to see if you have a stop or yield sign?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Minimum Eye Lead Time", "correct": true },
+        { "text": "Circle Check" },
+        { "text": "Respond" },
+        { "text": "eft Centre Right" }
+      ]
+    },
+    {
+      "questionText": "Which sub-habit must be done on approach and before entering an intersection to look for problems?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Maintain" },
+        { "text": "Left Centre Right", "correct": true },
+        { "text": "Scan" },
+        { "text": "Plan" }
+      ]
+    },
+    {
+      "questionText": "When approaching a parked vehicle, which sub-habit should you use to determine if there is an occupant?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Left Centre Right" },
+        { "text": "Scan", "correct": true },
+        { "text": "Mirror" },
+        { "text": "Respond" }
+      ]
+    },
+    {
+      "questionText": "Why is having stagger so important?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Stagger is not important because collisions occur so rarely and there is the safety of the thick vehicle frame."
+        },
+        {
+          "text": "It's your escape route if you need to avoid danger",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Visualize that you have extra space behind you as there is no traffic and the left lane is blocked with a row of vehicles - where are the escape routes? (Choose the two correct answers.)",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Swerve into the vehicles on the left" },
+        { "text": "Reverse into open space" },
+        {
+          "text": "Straight ahead into open space, if possible ",
+          "correct": true
+        },
+        { "text": "There is no escape here" },
+        { "text": "Over the curb to the right if necessary", "correct": true }
+      ]
+    },
+    {
+      "questionText": "When entering a multi-lane road, why should you wait for two open lanes when possible?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Vehicles could change lanes as you turn, causing a collision"
+        },
+        { "text": "You could turn wide and collide with them" },
+        { "text": "Both of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "If there is no sign saying you cannot make a U-turn, are you allowed to make one?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "You are never allowed to make a U-turn unless a sign says you can"
+        },
+        {
+          "text": "Yes, as long as there is clear visibility for 75 metres in all directions"
+        },
+        {
+          "text": "Yes, as long as there is clear visibility for 150 metres in all directions",
+          "correct": true
+        },
+        {
+          "text": "Yes, as long as there is clear visibility for 100 metres in all directions"
+        }
+      ]
+    },
+    {
+      "questionText": "What benefits would you gain by staggering the vehicle in a parking lot when there are no oncoming vehicles, and moving to the right when you near the end of the row?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Other vehicles can see you easier when they back or pull out"
+        },
+        {
+          "text": "Your vision and ability to ground view is better for vehicles backing or pulling out of stalls"
+        },
+        { "text": "You have more room to escape to either side, if necessary" },
+        { "text": "All of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What are the dangers of being in a driver’s blind spot?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "A driver may wander because of distractions" },
+        {
+          "text": "Other drivers may need to swerve away from a problem in front of them and into you"
+        },
+        {
+          "text": "A driver may lose control of their vehicle in adverse conditions"
+        },
+        { "text": "A driver may change lanes into you" },
+        { "text": "All of these answers could be correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What can you do to lower your risk while in another vehicle's blind spot?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Attempt to change speed to get out of their blind spot" },
+        { "text": "Ground view the front tire" },
+        { "text": "Cover the horn" },
+        { "text": "All of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "How quickly should you get out of another vehicle's blind spot?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "You can never get out of their blind spot" },
+        { "text": "Within 3 seconds", "correct": true },
+        { "text": "Within 6 seconds" },
+        { "text": "Within 10 seconds" }
+      ]
+    },
+    {
+      "questionText": "If driving in another driver's blind spot, what should you do?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Cover the horn and ground view" },
+        {
+          "text": "Cover the brake, flash the high beams to tell the driver you are there"
+        },
+        { "text": "Cover the brake and ground view" },
+        {
+          "text": "Change speed, cover the horn and ground view until clear",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What are some ways that you can communicate when driving? (Choose the correct three.)",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Flashing the high beams", "correct": true },
+        { "text": "Honking the horn", "correct": true },
+        { "text": "Using your signal lights" },
+        { "text": "Putting cool tires on the vehicle", "correct": true },
+        { "text": "Putting a racing stripe on the vehicle" }
+      ]
+    },
+    {
+      "questionText": "What is the most important part of trying to communicate?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "There is no need to communicate" },
+        { "text": "Letting others know your feelings" },
+        { "text": "Ensuring a response", "correct": true },
+        { "text": "Getting your way" }
+      ]
+    },
+
+    {
+      "questionText": "When would you use your signals to make turns?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "You don't need to signal all the time if it's obvious what you're going to do"
+        },
+        { "text": "You don't need to signal if nobody is close to you" },
+        {
+          "text": "Always!  Signals should be used early enough back from the turn to give other drivers time to respond, especially ones following too closely",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Normally, when should the signal lights be used with brake lights on a turn and why?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Using your signal before braking for a turn gives the driver behind an opportunity to know why you are slowing down",
+          "correct": true
+        },
+        { "text": "You don't need to brake before a turn" },
+        {
+          "text": "Use your signal after you start to brake as it's obvious now what you're going to do"
+        }
+      ]
+    },
+    {
+      "questionText": "When is it best to signal for a turn when passing multiple streets?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "You have to signal early always, it's the law!" },
+        {
+          "text": "If you're going to turn shortly after a street, speed up to get there faster to complete the turn"
+        },
+        {
+          "text": "If you're going to turn shortly after a street, you don't have to signal at all"
+        },
+        {
+          "text": "If you intend to turn shortly after a street, activate your signal later or reduce your speed later to avoid confusion",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Choose the three reasons another driver might flash their headlights at you.",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Flashing their headlights at an intersection could mean the driver is giving up the right-of-way",
+          "correct": true
+        },
+        {
+          "text": "Someone might flash their high beams to warn the driver behind them to stop"
+        },
+        {
+          "text": "An oncoming vehicle may flash their headlights to warn of a problem ahead",
+          "correct": true
+        },
+        {
+          "text": "Flashing their headlights can indicate that I have my high beams on",
+          "correct": true
+        },
+        {
+          "text": "Someone might flash their high beams to tell you about the lane markings"
+        }
+      ]
+    },
+    {
+      "questionText": "Can you signal a right turn, left turn or indicate you are stopping using hand and arm signals?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes - arm and hand signals can replace turn signals or even brake lights.  The key is to make them as obvious as possible as they are not as noticeable",
+          "correct": true
+        },
+        {
+          "text": "No - Arm and hand signals would make no sense to other drivers and are only for cyclists"
+        }
+      ]
+    },
+    {
+      "questionText": "When lane changing, what responses must you look for after you have signalled?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "The vehicle in the next lane behind you should honk" },
+        { "text": "The vehicle in the next lane behind you should speed up" },
+        {
+          "text": "The vehicle in the next lane behind you should maintain or reduce speed",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "In heavy traffic, when should you activate the turn signal? ",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Signal when the drivers in the next lane leave enough space for you to enter safely"
+        },
+        {
+          "text": "You don't need to signal when changing lanes - honk, start to move over and take the right-of-way"
+        },
+        {
+          "text": "Turn the signal on early in heavy traffic to ask drivers who are following closely to stay where they are or ease back",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Is it fine to wave a pedestrian to go?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes as pedestrians are responsible for themselves and their choices"
+        },
+        {
+          "text": "Be careful when waving someone on. If a pedestrian is a minor, you are taking legal responsibility for them and if they walk out and are hit by a vehicle, you could be legally implicated in the collision",
+          "correct": true
+        },
+        { "text": " Yes as you are only trying to help" }
+      ]
+    },
+    {
+      "questionText": "When do you cancel your signal during a lane change?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Cancel the signal once you're fully in the new lane"
+        },
+        {
+          "text": "Cancel your signal half way through the lane change",
+          "correct": true
+        },
+        { "text": "You don't need to signal during a lane change" }
+      ]
+    },
+    {
+      "questionText": "Why do you cancel your signal ?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "If you leave your signal on for too long, it may confuse other drivers as to your intentions",
+          "correct": true
+        },
+        {
+          "text": "If you leave your signal on for too long, the signal arm will break off"
+        },
+        {
+          "text": "If you leave your signal on for too long, the light bulb will burn out"
+        }
+      ]
+    },
+    {
+      "questionText": "When would you use hazard lights?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Hazard lights are to help you see better in fog and white out conditions"
+        },
+        {
+          "text": "Hazard lights indicate that your vehicle is a hazard to be noticed - the vehicle could be stopped or moving at a slower pace than the other traffic and/or have mechanical problems",
+          "correct": true
+        },
+        {
+          "text": "Hazard lights are to communicate you're having a party inside the vehicle"
+        }
+      ]
+    },
+    {
+      "questionText": "Should you use your turn signal to indicate that you intend to stay stopped at the side of a road?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes, there is no problem as you are using something to communicate your intentions"
+        },
+        {
+          "text": "No, as turn signals mean that you are going to do something and since you are not moving, the indicator should be turned off",
+          "correct": true
+        },
+        {
+          "text": "Yes, it is fine to leave them on so it's clear to other drivers that you intend to stay there for a while"
+        }
+      ]
+    },
+    {
+      "questionText": "What does creeping forward communicate at intersections with traffic lights and all-way stops?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Creeping can indicate that you want to enforce your right-of-way and make other drivers stop"
+        },
+        {
+          "text": "Creeping can indicate that your brakes are failing and that you need other drivers to understand that your vehicle is not under control and they need to get out of your way"
+        },
+        {
+          "text": "Creeping can indicate to drivers approaching our intention to turn at an intersection when the light has turned amber.  This also works at an all-way stop (after stopping) to show drivers you should be given the right-of-way - others should ground view  ",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Besides signalling in advance, how many other ways do you communicate to warn people effectively of your intention to parallel park?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Using the brake lights" },
+        { "text": "Using hand signals to encourage drivers to go around" },
+        { "text": "Using the white reverse lights" },
+        { "text": "All of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Why would someone rear-end another vehicle?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Distracted driving" },
+        { "text": "Driving too fast" },
+        { "text": "Poor brakes" },
+        { "text": "All of these answers could be correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Where should drivers be looking to avoid being rear-ended?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "The vehicle's navigation system" },
+        { "text": "The speedometer" },
+        { "text": "The mirrors", "correct": true },
+        { "text": "The passenger seat" }
+      ]
+    },
+    {
+      "questionText": "If drivers keep an escape route in front of their vehicles and check their mirrors, could they possibly avoid a rear-end collision?",
+      "info": "",
+      "image": "",
+      "options": [{ "text": "Yes", "correct": true }, { "text": "No" }]
+    },
+    {
+      "questionText": "Why is rear-end collision the most commonly reported collision?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Some drivers follow too closely" },
+        { "text": "Some drivers are not looking well ahead" },
+        { "text": "Some drivers are distracted" },
+        { "text": "All of these answers could be correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "How can you avoid colliding with a driver slowing or stopped in front of you?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Look well ahead and anticipate traffic slowing" },
+        { "text": "Stay focused on driving and minimize distractions" },
+        { "text": "Keep a safe following distance" },
+        { "text": "All of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Why does having your full lighting system on during the day lower your chance of having a collision?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "It makes no difference at all since the lights are hard to see and are barely different from the normal daytime running lights."
+        },
+        {
+          "text": "Having full low beams on in daylight helps other drivers see your vehicle better and see you earlier, allowing them to often judge your speed more accurately to know they can safely move in front of you during a turn or lane change",
+          "correct": true
+        },
+        {
+          "text": "Having your full high beams on can help you see better in the daylight as they will illuminate everything in front of the vehicle"
+        }
+      ]
+    },
+    {
+      "questionText": "Some drivers rely on their automatic lights to come on when it starts to get dark - why can this be a dangerous action?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "There is no danger at all as the automatic lights are a safety feature that always works"
+        },
+        {
+          "text": "In some vehicles, the automatic lights feature does not turn on the taillights of their vehicle and the driver may be unaware of this as they can tell their front lights are on, but have no idea that their tail lights are off",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If you find yourself in heavy traffic and it's impossible to get a stagger, what should you do to lower your risk of a collision?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Honk at the drivers around you to let them know you're there"
+        },
+        {
+          "text": "Start drifting towards one side of your lane to encourage those drivers to give you more space"
+        },
+        { "text": "Leave more space in front", "correct": true },
+        {
+          "text": "Get as close as you can to the vehicle in front of you so no one can cut in front of you"
+        }
+      ]
+    },
+    {
+      "questionText": "Why should you wait for two open lanes before turning onto a multi-lane street?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "A vehicle that is approaching in the second lane may decide to make a lane change as you start your turn, causing a potential collision",
+          "correct": true
+        },
+        {
+          "text": "There is no problem with turning as long as the first lane is clear and you are not impeding traffic - if someone does change lanes as you turn, it's their fault because you have the right-of-way."
+        }
+      ]
+    },
+    {
+      "questionText": "Why should you care if there is a vehicle in your blind spot if you do not plan to make a lane change anytime soon?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "If I allow a vehicle to stay in my blind spot then I lose my escape route should I need it suddenly",
+          "correct": true
+        },
+        {
+          "text": "There is no reason to worry about a vehicle being in my blind spot as it happens all the time, totally unavoidable and it's not like they are going to just drive into the side of my vehicle"
+        }
+      ]
+    },
+    {
+      "questionText": "If you're passing through the blind spot of another driver, why should you cover the horn and ground view?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "You want to be prepared in case the driver starts to wander unintentionally or is making a lane change and does not know you are there. By ground viewing the front tire, you can tell when they are starting to move and by covering the horn you can honk, asking them to back off more quickly.",
+          "correct": true
+        },
+        {
+          "text": "You should cover the horn and ground view because the driver might move away from you and you need to be ready for that. They may collide into a vehicle on the other side of the road and that could start a chain reaction involving you."
+        },
+        {
+          "text": "You don't need to cover the horn and ground view every vehicle's blind spot you go through, only for larger vehicles because they can do more damage."
+        }
+      ]
+    },
+    {
+      "questionText": "What colour are the lights of most vehicles when the driver puts their vehicle into reverse?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "White", "correct": true },
+        { "text": "Red" },
+        { "text": "Blue" },
+        { "text": "Yellow" }
+      ]
+    },
+    {
+      "questionText": "If you are turning with an advance arrow or protected turn and a pedestrian has started to cross illegally towards where you're going to turn, what should you do?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Tap the horn, cover the brake and wait to see if the communication was received by the pedestrian.  If they stop a safe distance away, complete your turn if there is time.",
+          "correct": true
+        },
+        {
+          "text": "Tap the horn and continue moving quickly. You need to make it clear to the pedestrian that they are in the wrong and you have the right-of-way - they will get the message and get out of your way."
+        },
+        {
+          "text": "Speed up to try and make the turn before they get in your path - you cannot impede the traffic behind you as they will honk at you if you don't go"
+        },
+        {
+          "text": "Roll down your window and yell at the pedestrian to stop them from crossing"
+        }
+      ]
+    },
+    {
+      "questionText": "If I leave extra space between my vehicle and the white stop line, won't other drivers be really annoyed with me?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "If doing the Control sub-habit correctly, the drivers behind will rarely have much reaction at all. Remember, when vehicles approach from behind, you will be moving up and as you move up, the drivers behind are looking at a red light and will settle in waiting for it to change.",
+          "correct": true
+        },
+        {
+          "text": "Leaving that extra space is not necessary as nobody does it and doing so may cause road rage incidents behind you"
+        }
+      ]
+    },
+    {
+      "questionText": "Which are the two main things you need to avoid a rear collision?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Drive a large vehicle so you don't need to worry about avoiding a rear collision"
+        },
+        { "text": "Fast reflexes and space to drive into" },
+        {
+          "text": "Knowledge that the danger is coming from behind and the space to move away from it",
+          "correct": true
+        },
+        {
+          "text": "Knowledge that the danger is coming from behind and race car driver skills to handle the vehicle"
+        }
+      ]
+    },
+    {
       "questionText": "",
       "info": "",
       "image": "",
       "options": [
         { "text": "" },
         { "text": "" },
-        { "text": "" },
+        { "text": "", "correct": true },
         { "text": "" }
       ]
     },
@@ -2458,18 +3219,7 @@
       "options": [
         { "text": "" },
         { "text": "" },
-        { "text": "" },
-        { "text": "" }
-      ]
-    },
-    {
-      "questionText": "",
-      "info": "",
-      "image": "",
-      "options": [
-        { "text": "" },
-        { "text": "" },
-        { "text": "" },
+        { "text": "", "correct": true },
         { "text": "" }
       ]
     }

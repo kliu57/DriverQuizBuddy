@@ -83,7 +83,7 @@
       "image": "/assets/images/signs/no_right_turn_red_light.jpg",
       "options": [
         { "text": "Turn right only on a red light." },
-        { "text": "No red turn ever." },
+        { "text": "No right turn ever." },
         { "text": "No right turn allowed on a red light.", "correct": true },
         { "text": "Do not enter." }
       ]
@@ -199,12 +199,10 @@
       "info": "You are not allowed to drive through the intersection so be prepared to turn.",
       "image": "/assets/images/signs/no_straight.jpg",
       "options": [
+        { "text": "You are allowed to go straight through the intersection." },
         {
-          "text": "You are allowed to go straight through the intersection.",
+          "text": "You are not allowed to go straight through the intersection.",
           "correct": true
-        },
-        {
-          "text": "You are not allowed to go straight through the intersection."
         },
         { "text": "You are not allowed to turn right or left." },
         { "text": "Stop at the intersection ahead." }
@@ -460,75 +458,740 @@
       "image": "/assets/images/signs/chevron.jpg",
       "options": [
         { "text": "Exit to the right." },
-        { "text": "Sharp turn here." },
+        { "text": "Sharp turn here.", "correct": true },
         { "text": "Crosswalk ahead." },
         { "text": "Railway crossing." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "The road changes and bends sharply so reduce speed in order to follow the roadway safely.",
+      "image": "/assets/images/signs/sharp_turn_ahead.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Winding road ahead." },
+        { "text": "Hidden intersection ahead." },
+        { "text": "Turn right at bridge ahead." },
+        {
+          "text": "Road turns or bends to the right sharply ahead.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "There is a stop sign ahead so slow down.",
+      "image": "/assets/images/signs/stop_sign_ahead.jpg",
+      "options": [
+        { "text": "Intersection ahead." },
+        { "text": "Stop sign ahead.", "correct": true },
+        { "text": "Stop at crosswalk ahead." },
+        { "text": "School children crossing ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "An island or something close to the road is a hazard. Downward lines indicate side to pass hazard on.",
+      "image": "/assets/images/signs/hazard_close.jpg",
+      "options": [
+        { "text": "Truck weigh station ahead." },
+        { "text": "Sharp turn ahead." },
+        { "text": "Hazard close to edge of road.", "correct": true },
+        { "text": "Single lane ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "The two-way road ahead will be split with a median. Each side of the road is one-way traffic.",
+      "image": "/assets/images/signs/divided_hwy_ahead.jpg",
+      "options": [
+        { "text": "Slower traffic keep to the right." },
+        { "text": "Highway ends ahead." },
+        {
+          "text": "The two-way road ahead is split with a median.",
+          "correct": true
+        },
+        { "text": "Merge with traffic ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "You will be required to share the road ahead with oncoming traffic. The road will not be divided with a median.",
+      "image": "/assets/images/signs/two_way_ahead.jpg",
+      "options": [
+        { "text": "Bridge ahead." },
+        { "text": "Gravel road ahead." },
+        {
+          "text": "The two-way road ahead is not divided with a median.",
+          "correct": true
+        },
+        { "text": "The two-way road ahead is divided with a median." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "The road is winding ahead which may obstruct your ability to see other vehicles.",
+      "image": "/assets/images/signs/winding_road_ahead.jpg",
+      "options": [
+        { "text": "A winding road is ahead.", "correct": true },
+        { "text": "Sharp turn in the road ahead." },
+        { "text": "Hazard to the right." },
+        { "text": "Hazard to the left." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "The road is slippery when wet. Reduce speed and drive with caution.",
+      "image": "/assets/images/signs/slippery_when_wet.jpg",
+      "options": [
+        { "text": "Bridge ices." },
+        { "text": "Slippery when wet.", "correct": true },
+        { "text": "You are entering a snowbelt area." },
+        { "text": "Winding road ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "The right lane ends ahead and you are required to merge with traffic in the lane to the left if you are in the left lane.",
+      "image": "/assets/images/signs/right_lane_ends_ahead.jpg",
+      "options": [
+        { "text": "Road has a bend to the right." },
+        { "text": "Road turns sharply to the right." },
+        { "text": "Left lane ends ahead." },
+        { "text": "Right lane ends ahead.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Bicycle crossing ahead so slow down and proceed with caution.",
+      "image": "/assets/images/signs/bike_crossing_ahead.jpg",
+      "options": [
+        { "text": "No bicycles allowed." },
+        { "text": "Official bicycle zone." },
+        { "text": "School zone ahead." },
+        { "text": "Bicycle crossing ahead.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "The bridge ahead will lift or swing up to let boats pass.",
+      "image": "/assets/images/signs/bridge_ahead_lifts.jpg",
+      "options": [
+        { "text": "Broken bridge ahead." },
+        { "text": "Bridge ices ahead." },
+        { "text": "Bridge lifts ahead to let boats pass.", "correct": true },
+        { "text": "Do not drive on bridge ahead." }
       ]
     },
     {
       "questionText": "What is this sign?",
       "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "image": "/assets/images/signs/pavement_ends_ahead.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Paved road ends ahead.", "correct": true },
+        { "text": "Gravel road ends ahead." },
+        { "text": "One-way road ahead." },
+        { "text": "Road ends ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Two lanes are merging into one. Merging is the equal responsibility of drivers in both lanes.",
+      "image": "/assets/images/signs/lane_merge_ahead.jpg",
+      "options": [
+        { "text": "Hidden intersection ahead." },
+        { "text": "Two-lane highway begins." },
+        {
+          "text": "Two lanes will merge to one. Driver on the right has right-of-way."
+        },
+        {
+          "text": "Two lanes will merge to one. Drivers in both lanes are responsible to merge safely.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Traffic goes in both directions ahead so stay on the right.",
+      "image": "/assets/images/signs/divided_hwy_ends_ahead.jpg",
+      "options": [
+        { "text": "Divided highway begins." },
+        { "text": "Divided highway ends.", "correct": true },
+        { "text": "Slower traffic keep to the right." },
+        { "text": "No intersection ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Snowmobiles cross this area so drive cautiously as you may not see them.",
+      "image": "/assets/images/signs/snowmobiles_cross.jpg",
+      "options": [
+        { "text": "Snowmobiles cross this roadway.", "correct": true },
+        { "text": "Only snowmobiles allowed in area." },
+        { "text": "Provincial park area." },
+        { "text": "Snowmobiles may not enter." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "The checkered board pattern warns of danger so slow down and proceed with caution in the direction of the arrow.",
+      "image": "/assets/images/signs/sharp_turn.jpg",
+      "options": [
+        { "text": "Warning - construction zone ahead." },
+        {
+          "text": "Sharp turn ahead in the direction of the arrow.",
+          "correct": true
+        },
+        { "text": "Road is very bumpy ahead." },
+        { "text": "Road closed ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Deer may cross the road in this area. Slow down and be aware of your surroundings.",
+      "image": "/assets/images/signs/deer_cross.jpg",
+      "options": [
+        { "text": "No animals allowed." },
+        { "text": "Deer may cross the road.", "correct": true },
+        { "text": "You are entering a game farm." },
+        { "text": "Watch for deer hunters." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "You will be approaching a traffic light ahead. Slow down as you may have to stop.",
+      "image": "/assets/images/signs/traffic_lights_ahead.jpg",
+      "options": [
+        { "text": "Construction zone ahead." },
+        { "text": "Railroad crossing ahead." },
+        { "text": "Traffic lights ahead.", "correct": true },
+        { "text": "City zone ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "The road has a steep hill ahead. Slow down and be prepared to shift into a lower gear to slow down your vehicle.",
+      "image": "/assets/images/signs/steep_hill_ahead.jpg",
+      "options": [
+        { "text": "There is a steep hill ahead.", "correct": true },
+        { "text": "You are in a mountain zone." },
+        { "text": "Caution, trucks turning." },
+        { "text": "Construction zone ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Truck entrance is on the side of the road where the truck is shown, in this case on the right.",
+      "image": "/assets/images/signs/truck_entrance_ahead.jpg",
+      "options": [
+        {
+          "text": "Trucks may approach the road from the right.",
+          "correct": true
+        },
+        { "text": "Trucks may approach the road from the left." },
+        { "text": "Construction zone." },
+        { "text": "No trucks allowed on road." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "If driving a tall vehicle you may not be able to pass. Take note of clearances before approaching underpasses.",
+      "image": "/assets/images/signs/underpass_ahead.jpg",
+      "options": [
+        { "text": "The road ends in 3.9 km." },
+        { "text": "Only vehicles over 3.9 m permitted ahead." },
+        {
+          "text": "There is a maximum 3.9 m clearance ahead on the overpass.",
+          "correct": true
+        },
+        { "text": "Divided highway ends in 3.9 km." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Watch for pedestrians as the roadway is meant to be shared. Drive cautiously.",
+      "image": "/assets/images/signs/share_road_pedestrians.jpg",
+      "options": [
+        { "text": "Men at work ahead." },
+        { "text": "Pedestrian crossing ahead." },
+        { "text": "School zone ahead." },
+        { "text": "Share the road with pedestrians.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Rocks could be falling so drive carefully and be prepared to avoid a collision.",
+      "image": "/assets/images/signs/fallen_rocks.jpg",
+      "options": [
+        { "text": "Watch out for fallen rocks.", "correct": true },
+        { "text": "Steep hill, shift into lower gear." },
+        { "text": "Construction zone ahead." },
+        { "text": "Large hail stone area." }
       ]
     },
     {
       "questionText": "What is this sign?",
       "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "image": "/assets/images/signs/hidden_school_bus_stop_ahead.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Railroad tracks ahead." },
+        { "text": "Hospital ahead, keep quiet and watch for ambulances." },
+        { "text": "School crossing ahead." },
+        {
+          "text": "You are approaching a hidden school bus stop.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Watch for children crossing and follow the direction of the crossing guard. These signs may be neon yellow or blue.",
+      "image": "/assets/images/signs/school_crossing_ahead.jpg",
+      "options": [
+        { "text": "School crossing ahead.", "correct": true },
+        { "text": "Hidden school bus stop ahead." },
+        { "text": "Children must be accompanied by adults in this area." },
+        { "text": "Intersection ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "All ramps have a maximum safe speed you can travel. Obey these maximums.",
+      "image": "/assets/images/signs/ramp_speed_limit.jpg",
+      "options": [
+        { "text": "There is a winding road for 50 km." },
+        {
+          "text": "Maximum safe speed to drive on ramp is  50 km/h.",
+          "correct": true
+        },
+        { "text": "Drive at least 50 km on ramp." },
+        { "text": "Next rest stop is in 50 km." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Some roads are near high water areas where the road may get covered with water. Reduce speed and drive carefully.",
+      "image": "/assets/images/signs/water_ahead.jpg",
+      "options": [
+        { "text": "Bridge ahead." },
+        { "text": "Bridge ices." },
+        { "text": "Road may have water flowing over it.", "correct": true },
+        { "text": "Road ends at lake." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Slow down and keep both hands on the steering wheel for best control of your vehicle and to avoid sudden shifts.",
+      "image": "/assets/images/signs/bumpy_ahead.jpg",
+      "options": [
+        { "text": "Mountain zone ahead." },
+        { "text": "Bumpy or uneven road ahead.", "correct": true },
+        { "text": "Construction zone ahead." },
+        { "text": "Falling rocks ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Road speed, curve and terrain may change in construction zone ahead. Slow down and drive cautiously.",
+      "image": "/assets/images/signs/construction_ahead.jpg",
+      "options": [
+        { "text": "Survey crew working on road." },
+        { "text": "Road closes ahead." },
+        { "text": "1 km construction zone begins." },
+        { "text": "Construction zone begins in 1 km.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Slow down and pay attention to instructions from the traffic control person ahead.",
+      "image": "/assets/images/signs/traffic_control_person_ahead.jpg",
+      "options": [
+        { "text": "Person controlling traffic ahead.", "correct": true },
+        { "text": "Roadwork ahead." },
+        { "text": "Survey crew assessing road ahead." },
+        { "text": "Construction zone ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Surveyors often have to measure land in new areas. Use caution as surveyors may be near the road.",
+      "image": "/assets/images/signs/survey_crew_ahead.jpg",
+      "options": [
+        { "text": "Movie filming set." },
+        { "text": "Sightseeing binoculars ahead." },
+        { "text": "Survey crew ahead.", "correct": true },
+        { "text": "Bird watchers ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Reduce speed, drive with caution and watch for construction personnel working on the road ahead.",
+      "image": "/assets/images/signs/road_work_ahead.jpg",
+      "options": [
+        { "text": "Fallen rock ahead." },
+        { "text": "Snow removal ahead." },
+        { "text": "Road work occurring ahead.", "correct": true },
+        { "text": "Sand quarry ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "The road detours temporarily from what it usually is due to road work.",
+      "image": "/assets/images/signs/temp_detour_ahead.jpg",
+      "options": [
+        {
+          "text": "There is a temporary detour from the normal traffic roadway.",
+          "correct": true
+        },
+        { "text": "Be prepared to drive around mountains ahead." },
+        { "text": "Downward sloping hill ahead." },
+        { "text": "Closed lane ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "It is very important to obey the posted speed limits in construction zones as fines may be doubled.",
+      "image": "/assets/images/signs/construction_zone_begins.jpg",
+      "options": [
+        {
+          "text": "Reduce speed. You are entering a construction zone.",
+          "correct": true
+        },
+        { "text": "Construction zone begins in 1 km." },
+        { "text": "Worker ahead surveying the land." },
+        { "text": "Gravel road ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "The pavement has been grooved so you may not be able to stop easily. Obey all posted speed limits for this area.",
+      "image": "/assets/images/signs/grooved_pavement_ahead.jpg",
+      "options": [
+        { "text": "Golf course ahead." },
+        { "text": "Fallen rocks ahead." },
+        { "text": "Provincial camp ground ahead." },
+        { "text": "There are grooves in the pavement.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Reduce your speed when merging with traffic in the lane shown by the arrow.",
+      "image": "/assets/images/signs/closed_lane.jpg",
+      "options": [
+        { "text": "Right turn lane only ahead." },
+        {
+          "text": "Lane is closed. Move into lane directed by arrow and merge with traffic.",
+          "correct": true
+        },
+        { "text": "Lane is open. Adjust speed for construction zone." },
+        { "text": "Hidden intersection ahead on right." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Lane ahead is closed and you must merge with traffic in the lane that is open. Obey all posted speed limits.",
+      "image": "/assets/images/signs/right_lane_ends_ahead_roadwork.jpg",
+      "options": [
+        { "text": "Bridge narrows ahead." },
+        { "text": "Bridge ahead." },
+        { "text": "Third lane begins." },
+        { "text": "Lane ends and is closed for roadwork.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Always follow the arrows with flashing lights as they indicate which direction to follow.",
+      "image": "/assets/images/signs/flashing_direction_arrow.jpg",
+      "options": [
+        { "text": "Winding road ahead." },
+        { "text": "Follow the road in the direction shown.", "correct": true },
+        { "text": "Watch for farm vehicles approaching from the left." },
+        { "text": "Construction zone begins to the left." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "These signs may be held by road work personnel. Drive slowly and be prepared to stop.",
+      "image": "/assets/images/signs/stop_slow_hand_signs.jpg",
+      "options": [
+        { "text": "Stop and drive slowly through campground." },
+        { "text": "Obey the crossing guard with the signs they hold up" },
+        { "text": "Slow down and be prepared to stop.", "correct": true },
+        { "text": "Slow down, stop and exit the construction zone." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Do not pass vehicles with this flashing sign.",
+      "image": "/assets/images/signs/no_passing_when_flashing.jpg",
+      "options": [
+        {
+          "text": "Pass the pace vehicle only when you see this sign flashing."
+        },
+        {
+          "text": "Do not pass the pace vehicle that has this sign flashing.",
+          "correct": true
+        },
+        { "text": "Pass only to the left." },
+        { "text": "Pass only to the right." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Follow this sign through the detour until you come to the regular road.",
+      "image": "/assets/images/signs/follow_detour_marker.jpg",
+      "options": [
+        {
+          "text": "The road detours so follow this sign until you come to the regular road.",
+          "correct": true
+        },
+        {
+          "text": "Follow the detour marker only if you choose not to take the regular road."
+        },
+        { "text": "Merge with road that is closed." },
+        { "text": "Lane closed ahead. Slow down and merge with traffic." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Exit signs indicate which lane to drive in if you want to exit or if you want to stay on the main road.",
+      "image": "/assets/images/signs/exit_sign.jpg",
+      "options": [
+        {
+          "text": "An exit sign telling you which lane to drive in if you want to exit to Brennon Street.",
+          "correct": true
+        },
+        { "text": "Two right lanes must exit to Brennon Street." },
+        { "text": "Only the right lane exits to Brennon Street." },
+        { "text": "No left turns on Brennon Street." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Advance signs are also used with exit signs. Ensure you are in the correct lane to exit a highway.",
+      "image": "/assets/images/signs/advance_exit_sign.jpg",
+      "options": [
+        { "text": "A highway exit is coming up in 20 km." },
+        { "text": "A highway exit is coming up in 10 km." },
+        {
+          "text": "An advance exit sign telling you which lanes go off the highway.",
+          "correct": true
+        },
+        {
+          "text": "An advance exit sign telling you 2 right lanes do not exit off the highway."
+        }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "This direction and information sign tells you which direction to travel to get to the city or town posted.",
+      "image": "/assets/images/signs/nearby_cities.jpg",
+      "options": [
+        {
+          "text": "Indicates which direction to go for the city or town posted.",
+          "correct": true
+        },
+        { "text": "All towns or cities posted on this sign are 50 km away." },
+        {
+          "text": "Construction ahead so be prepared to detour by direction shown."
+        },
+        {
+          "text": "Indicates there is provincial park in the city or town posted."
+        }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Sign tells you the distance, in kilometres, from the city or town posted. Helps with rest stops and gas planning.",
+      "image": "/assets/images/signs/distance_cities.jpg",
+      "options": [
+        {
+          "text": "Indicates which direction to go for the city or town posted."
+        },
+        {
+          "text": "Indicates distance, in kilometres, to the city or town posted.",
+          "correct": true
+        },
+        {
+          "text": "Indicates the distance to campgrounds and green conservation areas."
+        },
+        {
+          "text": "Indication by distance shown that London is before Kitchener."
+        }
       ]
     },
     {
       "questionText": "What is this sign?",
       "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "image": "/assets/images/signs/advance_exit_sign2.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "One left lane exits off the highway." },
+        { "text": "Two left lanes exits off the highway." },
+        { "text": "Right lane only exits off the highway." },
+        {
+          "text": "One or more lanes allow you to exit off the highway.",
+          "correct": true
+        }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "Highways are connected and in this case you get to the Q.E.W. by way of (via) the 403.",
+      "image": "/assets/images/signs/interchange_sign.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        {
+          "text": "To get to the Q.E.W. go by way of the 403",
+          "correct": true
+        },
+        { "text": "Both the Q.E.W. and the 401 are coming up on the right." },
+        { "text": "The Q.E.W. is coming up on the right." },
+        { "text": "The 401 is coming up on the right." }
       ]
     },
     {
       "questionText": "What is this sign?",
-      "info": ".",
-      "image": "/assets/images/signs/.jpg",
+      "info": "Highways 401 begins in Windsor so interchange 204, Trafalgar Rd., is 204 km from Windsor.",
+      "image": "/assets/images/signs/interchange_sign2.jpg",
       "options": [
-        { "text": "." },
-        { "text": "." },
-        { "text": "." },
-        { "text": "." }
+        { "text": "Interchange 204 is 204 km from Toronto." },
+        { "text": "It is 20.4 km to Trafalgar Rd." },
+        {
+          "text": "You will be approaching interchange 204 in 1 km.",
+          "correct": true
+        },
+        { "text": "You will be approaching the Traflagar Rd. exit in 204 km." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "These signs inform drivers about current driving conditions so that alternative routes can be taken.",
+      "image": "/assets/images/signs/traffic_bulletin.jpg",
+      "options": [
+        {
+          "text": "Traffic bulletin signs change with updates on traffic, delays and lane closures.",
+          "correct": true
+        },
+        {
+          "text": "Traffic bulletin signs post the same information on traffic, delays and lane closures."
+        },
+        { "text": "Informs drivers about next exits." },
+        {
+          "text": "Informs drivers about nearby parks and recreation information."
+        }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Follow these signs to get to an airport.",
+      "image": "/assets/images/signs/route_to_airport.jpg",
+      "options": [
+        { "text": "Airplane parking area." },
+        { "text": "Route to airport.", "correct": true },
+        { "text": "Route to airplane production." },
+        { "text": "Indicates you are under a fly zone." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Follow these signs to get to a ferry service.",
+      "image": "/assets/images/signs/route_to_ferry.png",
+      "options": [
+        { "text": "Boat docking route." },
+        { "text": "Deep water ahead." },
+        { "text": "Ferry service ahead.", "correct": true },
+        { "text": "No public swimming ahead." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Indicates what services and facilities are available off the road. Other services can include car pool lots, universities, etc.",
+      "image": "/assets/images/signs/off_road_facilities.jpg",
+      "options": [
+        {
+          "text": "Indicates there are police, a hospital, an information desk and an airport in one building."
+        },
+        { "text": "Indicates there is only an airport nearby." },
+        {
+          "text": "Shows what services and facilities are not available nearby or off-road."
+        },
+        {
+          "text": "Shows what services and facilities are located nearby or off-road.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Indicates there are ramps and other wheelchair accessible facilities.",
+      "image": "/assets/images/signs/Wheelchair_accessible_facilities.jpg",
+      "options": [
+        { "text": "Wheelchair parking only." },
+        {
+          "text": "Indicates facilities accessible by wheelchair.",
+          "correct": true
+        },
+        {
+          "text": "Indicated retirement living community. Slow down and keep noise low."
+        },
+        { "text": "Indicates there is a hospital nearby." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Indicates route to where passengers can be met or dropped off at the railway station.",
+      "image": "/assets/images/signs/route_to_railway_station.jpg",
+      "options": [
+        { "text": "Railroad crossing ahead." },
+        { "text": "Train maintenance area." },
+        { "text": "Route to cargo railway station." },
+        { "text": "Route to passenger railway station.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "All vehicles moving less than 40 km/h must display a slow-moving vehicle sign at rear if driving on a road.",
+      "image": "/assets/images/signs/slow_moving_vehicle.jpg",
+      "options": [
+        { "text": "Speed in area is very slow, less than 40 km/h." },
+        {
+          "text": "Slow-moving vehicle on road, travelling less than 40 km/h.",
+          "correct": true
+        },
+        { "text": "Snow removal vehicle ahead." },
+        { "text": "Danger, keep out, road under construction." }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "Bilingual signs have two languages on one sign. Sometimes, there may be two signs, one English and one French.",
+      "image": "/assets/images/signs/bilingual_signs.jpg",
+      "options": [
+        { "text": "Bilingual signs are for educational purposes only." },
+        {
+          "text": "Bilingual signs are posted near French schools for you to follow."
+        },
+        { "text": "Obey bilingual sign only if you read and speak French." },
+        {
+          "text": "Bilingual signs provide important information. Read message in language understood best.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is this sign?",
+      "info": "The numbering system at the bottom of some signs is to help emergency vehicles plan the best route.",
+      "image": "/assets/images/signs/interchange_sign3.jpg",
+      "options": [
+        { "text": "Two exits exist for Bowesville Road." },
+        {
+          "text": "Only exit onto Bowesville Road if you drive an emergency vehicle."
+        },
+        {
+          "text": "Numbers at the bottom assist emergency vehicles to plan best routes.",
+          "correct": true
+        },
+        {
+          "text": "Some information signs have numbers at the bottom to assist you with exits and distances."
+        }
       ]
     }
   ]

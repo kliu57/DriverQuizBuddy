@@ -83,7 +83,7 @@
       ]
     },
     {
-      "questionText": "Unless posted in cities, towns, villages and built-up areas the maximum speed limit is?...",
+      "questionText": "Unless posted in cities, towns, villages and built-up areas the maximum speed limit is?",
       "info": "Where no speed limit is posted, the limit is 80 km/h outside these areas.",
       "image": "",
       "options": [
@@ -147,7 +147,7 @@
       "info": "Always yield the right-of-way to the vehicle that came to the stop first",
       "image": "",
       "options": [
-        { "text": "The vehicles that got there first.", "correct": true },
+        { "text": "The vehicle that got there first.", "correct": true },
         { "text": "The vehicle on the left." },
         { "text": "The vehicle turning right" },
         { "text": "The vehicle turning left." }
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "questionText": "Why is it a bad idea ot turn your steering wheel to the left while waiting to make a left turn at an intersection?",
+      "questionText": "Why is it a bad idea to turn your steering wheel to the left while waiting to make a left turn at an intersection?",
       "info": "Only turn your steering wheel to the left when you can make the turn.",
       "image": "",
       "options": [
@@ -385,7 +385,7 @@
     {
       "questionText": "What do the markings on the road mean and what does the sign represent in the picture?",
       "info": "Signal and move into the left turn lane. Make your turn carefully and only when the way is clear.",
-      "image": "/assets/images/markings/missing.png",
+      "image": "/assets/images/markings/two_way_left_turn_lane.jpg",
       "options": [
         {
           "text": "There is a left turn lane in the centre for those travelling north."
@@ -1018,7 +1018,7 @@
         { "text": "Vehicles in the left turning lane may turn right." },
         { "text": "No vehicles may turn - only pedestrians may cross." },
         {
-          "text": "The direction of hte green arrow indicates there is a one-way street."
+          "text": "The direction of the green arrow indicates there is a one-way street."
         }
       ]
     },
@@ -1082,7 +1082,7 @@
       "image": "",
       "options": [
         {
-          "text": "Speed up and clear the intersection so you do not black traffic when the light changes."
+          "text": "Speed up and clear the intersection so you do not block traffic when the light changes."
         },
         {
           "text": "Proceed with caution only if you cannot stop in time.",
@@ -1119,7 +1119,7 @@
     {
       "questionText": "What do advanced green lights tell you?",
       "info": "When facing an advanced green light, oncoming traffic faces a red light, enabling you to turn left, go straight or turn right from the appropriate lane.",
-      "image": "",
+      "image": "/assets/images/situation/advanced_green_light.jpg",
       "options": [
         {
           "text": "You have the right-of-way to go in any direction in the intersection from the correct lane.",
@@ -1512,7 +1512,7 @@
       ]
     },
     {
-      "questionText": "As a buyer if a privately used vehicle what must you get from the seller?",
+      "questionText": "As a buyer of a privately used vehicle what must you get from the seller?",
       "info": "The package will include details about the vehicle for the buyer's benefit. The new owner of a used vehicle has to register their new vehicle within 6 days at a Driver and Vehicle Licence Issuing Office with required documents.",
       "image": "",
       "options": [
@@ -1608,6 +1608,725 @@
         },
         { "text": "Come to a complete stop wherever you are." },
         { "text": "Speed up and keep the movement of traffic going." }
+      ]
+    },
+    {
+      "questionText": "If you are found guilty of backing on a highway or driving too slowly, ____ demerit points will be added to your driving record.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "5" },
+        { "text": "1" },
+        { "text": "3" },
+        { "text": "2", "correct": true }
+      ]
+    },
+    {
+      "questionText": "If you are found guilty of carrying a child passenger who is not properly secured, ____ demerit points will be added to your driving record.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "4" },
+        { "text": "3" },
+        { "text": "2", "correct": true },
+        { "text": "0" }
+      ]
+    },
+    {
+      "questionText": "If you are convicted of following too closely (tailgating), ____ demerit points will be added to your driving record.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "6" },
+        { "text": "2" },
+        { "text": "4", "correct": true },
+        { "text": "5" }
+      ]
+    },
+    {
+      "questionText": "A G2 driver age 19 or younger who has 6 months or less of driving experience may carry ____ unrelated passenger(s) age 19 or younger between midnight and 5:00 a.m.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "2" },
+        { "text": "4" },
+        { "text": "3" },
+        { "text": "1", "correct": true }
+      ]
+    },
+    {
+      "questionText": "You will receive _____ the first time you are convicted of a Criminal Code offence.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "a one-year licence suspension", "correct": true },
+        { "text": "a one-month licence suspension" },
+        { "text": "a lifetime ban from driving" },
+        { "text": "a two-year licence suspension" }
+      ]
+    },
+    {
+      "questionText": "Under Ontario's Move Over law, you are required to",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "change lanes if safe when passing a stopped emergency vehicle with its lights flashing",
+          "correct": true
+        },
+        {
+          "text": "pull over if an emergency vehicle is following you with its lights flashing"
+        },
+        {
+          "text": "move into the rightmost lane if you are driving slower than other traffic"
+        },
+        { "text": "do none of the above" }
+      ]
+    },
+    {
+      "questionText": "You may NOT park within _______ of an intersection that is NOT controlled by traffic lights.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "9 m", "correct": true },
+        { "text": "5 m" },
+        { "text": "15m" },
+        { "text": "7 m" }
+      ]
+    },
+    {
+      "questionText": "A G2 driver age 19 or younger who has more than 6 months of driving experience may carry ____ unrelated passenger(s) age 19 or younger between midnight and 5:00 a.m.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "3", "correct": true },
+        { "text": "1" },
+        { "text": "2" },
+        { "text": "4" }
+      ]
+    },
+    {
+      "questionText": "If a fully licensed driver is convicted of using a hand-held electronic device while driving, they will face which of the following penalties for a first offence?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "A fine up to $1000 and 3 demerit points", "correct": true },
+        { "text": "A fine up to $500 and 2 demerit points" },
+        { "text": "A 30-day licence suspension" },
+        { "text": "None of the above" }
+      ]
+    },
+    {
+      "questionText": "If you are convicted for the first time of driving while your licence is suspended, you will get an additional six-month suspension, and you will also face which of the following additional penalties?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Neither jail time nor a fine" },
+        { "text": "Either jail time or a fine or both", "correct": true },
+        { "text": "Six months in jail" },
+        { "text": "A fine between $1000 and $5000" }
+      ]
+    },
+    {
+      "questionText": "While driving, a Class G1 learner must be supervised by an accompanying driver. The blood-alcohol level of the accompanying driver must be less than",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "0.07 %" },
+        { "text": "0.08 %" },
+        { "text": "0.05 %", "correct": true },
+        { "text": "0.02 %" }
+      ]
+    },
+    {
+      "questionText": "If you are found guilty of going the wrong way on a one-way road, ____ demerit points will be added to your driving record.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "2" },
+        { "text": "6" },
+        { "text": "3", "correct": true },
+        { "text": "5" }
+      ]
+    },
+    {
+      "questionText": "Do NOT park anywhere that you don't have a clear view for at least _____ metres in both directions.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "150" },
+        { "text": "175" },
+        { "text": "125", "correct": true },
+        { "text": "135" }
+      ]
+    },
+    {
+      "questionText": "If you are convicted of careless driving, you will receive six demerit points and you may face",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "a jail sentence of up to six months" },
+        { "text": "a fine up to $2000" },
+        { "text": "licence suspension for up to two years" },
+        { "text": "all of the above", "correct": true }
+      ]
+    },
+    {
+      "questionText": "When you are in a roundabout,",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "drive in a counter-clockwise direction", "correct": true },
+        { "text": "you can change lanes" },
+        { "text": "you can stop" },
+        { "text": "drive in a clockwise direction" }
+      ]
+    },
+    {
+      "questionText": "If you are approaching an intersection at which the traffic lights are not working, you should",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "treat it as if there were all-way stop signs",
+          "correct": true
+        },
+        { "text": "stop until no other vehicles are approaching and then go" },
+        { "text": "slow down and proceed with caution" },
+        { "text": "yield to the traffic to your right" }
+      ]
+    },
+    {
+      "questionText": "A flashing green light at an intersection where left and right turns are permitted means",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "you may turn right" },
+        { "text": "you may turn left" },
+        { "text": "you may go straight" },
+        { "text": "all of the above", "correct": true }
+      ]
+    },
+    {
+      "questionText": "When approaching a Merging Traffic sign, you should",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "honk your horn" },
+        { "text": "adjust your speed and position", "correct": true },
+        { "text": "stop your vehicle before proceeding" },
+        { "text": "let the cars behind you go first" }
+      ]
+    },
+    {
+      "questionText": "Drivers are prohibited from passing another vehicle within ____ from a pedestrian crossover.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "40 m" },
+        { "text": "50 m" },
+        { "text": "70 m" },
+        { "text": "30 m", "correct": true }
+      ]
+    },
+    {
+      "questionText": "If a fully licensed driver accumulates 15 or more demerit points on his or her record, the driver's licence will be suspended for",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "30 days", "correct": true },
+        { "text": "14 days" },
+        { "text": "90 days" },
+        { "text": "60 days" }
+      ]
+    },
+    {
+      "questionText": "If you are convicted of fleeing a police officer who signaled you to pull over, your licence will be suspended for",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "5 years", "correct": true },
+        { "text": "3 years" },
+        { "text": "4 years" },
+        { "text": "2 years" }
+      ]
+    },
+    {
+      "questionText": "After a license suspension for reaching the point threshold for the first time, a fully licensed driver will have how many points on their license when it is returned?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "7", "correct": true },
+        { "text": "3" },
+        { "text": "5" },
+        { "text": "9" }
+      ]
+    },
+    {
+      "questionText": "New drivers who reached the point threshold for a second time will be given a suspension of?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "6 months", "correct": true },
+        { "text": "3 months" },
+        { "text": "12 months" },
+        { "text": "9 months" }
+      ]
+    },
+    {
+      "questionText": "A fully licensed driver will receive a license suspension once they reach what threshold?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "15 points", "correct": true },
+        { "text": "20 points" },
+        { "text": "10 points" },
+        { "text": "5 points" }
+      ]
+    },
+    {
+      "questionText": "Driving between 30 and 49 km/h over the speed limit, tailgating, or not stopping for a pedestrian crossover incurs how many demerit points?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "5" },
+        { "text": "4", "correct": true },
+        { "text": "6" },
+        { "text": "3" }
+      ]
+    },
+    {
+      "questionText": "New drivers will receive a suspension if they accumulate how many points?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "12+" },
+        { "text": "3+" },
+        { "text": "6+" },
+        { "text": "9+", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Failing to dip your headlight beam when you should incurs how many points?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "3" },
+        { "text": "1" },
+        { "text": "4" },
+        { "text": "2", "correct": true }
+      ]
+    },
+    {
+      "questionText": "New drivers will receive a warning letter if they accumulate more than how many points?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "4" },
+        { "text": "3" },
+        { "text": "2", "correct": true },
+        { "text": "1" }
+      ]
+    },
+    {
+      "questionText": "Ignoring stop signs, signals, traffic control signs or the instructions of a police officer incurs how many demerit points?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "3", "correct": true },
+        { "text": "5" },
+        { "text": "4" },
+        { "text": "2" }
+      ]
+    },
+    {
+      "questionText": "New drivers who breach the points limit will receive a license suspension of",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "30 days" },
+        { "text": "15 days" },
+        { "text": "90 days" },
+        { "text": "60 days", "correct": true }
+      ]
+    },
+    {
+      "questionText": "How long do demerit points remain on a driver's record?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "2 years", "correct": true },
+        { "text": "3 years" },
+        { "text": "4 years" },
+        { "text": "1 year" }
+      ]
+    },
+    {
+      "questionText": "Which of these offences incurs six demerit points?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Exceeding the speed limit by 40 km/h on a road with the speed limit below 80 km/h"
+        },
+        { "text": "Exceeding the speed limit anywhere by 50 km/h" },
+        { "text": "Racing in the street" },
+        { "text": "All of them", "correct": true }
+      ]
+    },
+    {
+      "questionText": "How many demerit points will be issued for leaving the scene of the collision or not stopping for the police when ordered?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "5" },
+        { "text": "4" },
+        { "text": "7", "correct": true },
+        { "text": "9" }
+      ]
+    },
+    {
+      "questionText": "Using a handheld electronic device or holding it when driving incurs how many demerit points?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "2" },
+        { "text": "5" },
+        { "text": "3", "correct": true },
+        { "text": "4" }
+      ]
+    },
+    {
+      "questionText": "Which of these offences incurs two demerit points?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Reversing down a highway" },
+        { "text": "Driving unnecessarily slowly" },
+        { "text": "Not wearing a seatbelt" },
+        { "text": "All of them", "correct": true }
+      ]
+    },
+    {
+      "questionText": "New drivers who have been given a license suspension will have how many points on their license when it is returned?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "4", "correct": true },
+        { "text": "5" },
+        { "text": "3" },
+        { "text": "2" }
+      ]
+    },
+    {
+      "questionText": "A G1 or G2 driver caught drinking and driving will face which penalty?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "An immediate 3-day licence suspension" },
+        { "text": "A 30-day licence suspension if convicted" },
+        { "text": "A fine up to $500 if convicted" },
+        { "text": "All of the above", "correct": true }
+      ]
+    },
+    {
+      "questionText": "A novice driver who is convicted of distracted driving will face which penalty for 3rd offence?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "A fine, licence suspension and 3 demerit points" },
+        {
+          "text": "A fine, licence cancellation and removal form the Graduated Licensing System",
+          "correct": true
+        },
+        {
+          "text": "Licence cancellation and removal form the Graduated Licensing System but no fine"
+        },
+        { "text": "A fine, licence suspension and 6 demerit points" }
+      ]
+    },
+    {
+      "questionText": "If you are convicted of failing to stop when a police officer gave pursuit, you may face",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Licence suspension for 5 years" },
+        { "text": "A fine up to $25000" },
+        { "text": "Up to 6 months in jail" },
+        { "text": "All of the above", "correct": true }
+      ]
+    },
+    {
+      "questionText": "If you are convicted of driving at 50 km/h or more over the speed limit, you will face",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "$2000 - $10000 fine" },
+        { "text": "Jail sentence up to 6 months" },
+        {
+          "text": "Licence suspension for up to two years or 6 demerit points"
+        },
+        { "text": "All of the above", "correct": true }
+      ]
+    },
+    {
+      "questionText": "When passing a cyclist, failing to leave at least 1 m of space may result in a fine and ___ demerit points",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "0" },
+        { "text": "3" },
+        { "text": "2", "correct": true },
+        { "text": "1" }
+      ]
+    },
+    {
+      "questionText": "When approaching a construction area, you should",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Come to a complete stop until the workers signal you to proceed"
+        },
+        { "text": "Honk you horn a few times to warn workers" },
+        {
+          "text": "Slow down and yield right-of-way if necessary",
+          "correct": true
+        },
+        { "text": "Speed up to get out of the area quickly" }
+      ]
+    },
+    {
+      "questionText": "When driving in heavy fog, you should use",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "low-beam headlights", "correct": true },
+        { "text": "parking lights" },
+        { "text": "parking lights and high-beam headlights" },
+        { "text": "high-beam headlights" }
+      ]
+    },
+    {
+      "questionText": "A 'No Parking' sign means",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "you may not stop for any reason" },
+        {
+          "text": "you may stop temporarily to load or unload passengers but not merchandise"
+        },
+        {
+          "text": "you may stop temporarily to load or unload merchandise but not passengers"
+        },
+        {
+          "text": "you may stop temporarily to load or unload passengers or merchandise",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "You are NOT allowed to park within ___ of a bridge",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "150 m" },
+        { "text": "100 m", "correct": true },
+        { "text": "50 m" },
+        { "text": "200 m" }
+      ]
+    },
+    {
+      "questionText": "You are NOT allowed to park within ___ of a railway crossing",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "30 m" },
+        { "text": "15 m", "correct": true },
+        { "text": "25 m" },
+        { "text": "20 m" }
+      ]
+    },
+    {
+      "questionText": "How long will your licence be suspended if you fail to take a breath/blood test?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "60 days" },
+        { "text": "90 days", "correct": true },
+        { "text": "120 days" },
+        { "text": "30 days" }
+      ]
+    },
+    {
+      "questionText": "How many demerit points will you get for being convicted of driving around a railway crossing barrier?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "4" },
+        { "text": "2" },
+        { "text": "3", "correct": true },
+        { "text": "5" }
+      ]
+    },
+    {
+      "questionText": "Drivers who don't follow the stopping requirement at a school crossing may get",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "A fine of $500 - $2000 and 6 demerit points" },
+        { "text": "A substantial fine and 4 demerit points", "correct": true },
+        { "text": "A substantial fine and 3 demerit points" },
+        { "text": "2 years jail time and 8 demerit points" }
+      ]
+    },
+    {
+      "questionText": "As a G1 or G2 driver, you have your licence suspended with 9 demerit points during 2 years. After 60 days you will have",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "4 demerit points", "correct": true },
+        { "text": "0 demerit points" },
+        { "text": "6 demerit points" },
+        { "text": "2 demerit points" }
+      ]
+    },
+    {
+      "questionText": "If a driver is caught with a blood alcohol concentration from ______, the police can suspend the driver's licence up to 3 days for first offence.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "0.05 - 0.08", "correct": true },
+        { "text": "0.07 - 0.08" },
+        { "text": "0.08 - 0.18" },
+        { "text": "0.08 - 0.10" }
+      ]
+    },
+    {
+      "questionText": "When approaching a railway crossing signalling approaching train, you must",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Cross the track as fast as possible" },
+        { "text": "Stop at least 5 m from the nearest rail", "correct": true },
+        { "text": "Stop immediately and stay where you are" },
+        { "text": "Stop at least 15 m from the nearest rail" }
+      ]
+    },
+    {
+      "questionText": "When approaching a railway crossing signalling approaching train, you must",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Cross the track as fast as possible" },
+        { "text": "Stop at least 5 m from the nearest rail", "correct": true },
+        { "text": "Stop immediately and stay where you are" },
+        { "text": "Stop at least 15 m from the nearest rail" }
+      ]
+    },
+    {
+      "questionText": "At 50 km/h the safe distance you should keep from other vehicles in front of you is?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "3 car lengths", "correct": true },
+        { "text": "1 car length" },
+        { "text": "5 car lengths" },
+        { "text": "7 car lengths" }
+      ]
+    },
+    {
+      "questionText": "If you are convicted of drinking and driving, how long will your licence be suspended for the 1st offence?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "12 months", "correct": true },
+        { "text": "3 months" },
+        { "text": "9 months" },
+        { "text": "6 months" }
+      ]
+    },
+    {
+      "questionText": "What is the penalty for driving under influence of drugs on 1st offence?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Automatic licence suspension for 90 days, 7 day vehicle impoundment, $550 fine and $275 licence reinstatement fee",
+          "correct": true
+        },
+        { "text": "Automatic licence suspension for 1 year" },
+        { "text": "A fine of $200" },
+        { "text": "A verbal warning" }
+      ]
+    },
+    {
+      "questionText": "New drivers caught drinking and driving will be charged and get a ___ day suspension.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "120" },
+        { "text": "90" },
+        { "text": "80" },
+        { "text": "30", "correct": true }
+      ]
+    },
+    {
+      "questionText": "When are booster seats required?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Children weigh between 18kg and 36kg with height less than 145cm and under 8 years old",
+          "correct": true
+        },
+        { "text": "Children under age 6" },
+        { "text": "Children weigh between 25kg and 50kg" },
+        { "text": "Children with heigh less than 130cm" }
+      ]
+    },
+    {
+      "questionText": "What is the fine for opening your door and striking a cyclist?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "A fine of $450 and 3 demerit points" },
+        { "text": "A fine of $365 and 3 demerit points", "correct": true },
+        { "text": "A fine of $200" },
+        { "text": "A fine of $450 and 6 demerit points" }
+      ]
+    },
+    {
+      "questionText": "If you are caught driving while licence suspended, how long will your vehicle be impounder for under criminal code?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "6 months" },
+        { "text": "30 days" },
+        { "text": "45 days", "correct": true },
+        { "text": "1 year" }
+      ]
+    },
+    {
+      "questionText": "Set out appropriate flares, lamps, lanterns or portable reflectors as required by the Highway Traffic Act at a distance of approximately ___ to the rear",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "15 m" },
+        { "text": "60 m" },
+        { "text": "45 m" },
+        { "text": "30 m", "correct": true }
+      ]
+    },
+    {
+      "questionText": "what is the mandatory distance that must be maintained between your car and commercial vehicles when going the same way on a highway outside the city except when overtaking?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "150 m" },
+        { "text": "100 m" },
+        { "text": "10 m" },
+        { "text": "60 m", "correct": true }
       ]
     }
   ]
