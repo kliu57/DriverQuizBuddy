@@ -15,7 +15,7 @@ export class QuestionComponent {
   public questionList : any = [];
   public currentQuestion : number = 0;
   public points : number = 0;
-  counter = 10;
+  counter = 30;
   correctAnswer : number = 0;
   incorrectAnswer : number = 0;
   interval$ : any;
@@ -79,7 +79,7 @@ export class QuestionComponent {
     this.isQuestionAnswered = true;
 
     // disable all the options
-    
+
     // get index of correct answer
     const answerIndex = this.questionList[this.currentQuestion].options.findIndex((opt: { correct: boolean; }) => opt.correct === true);
 
@@ -89,7 +89,7 @@ export class QuestionComponent {
     // format that element with green bg
     this.render.setStyle(answerElement, 'background', 'green')
     this.render.setStyle(answerElement, 'color', '#fff')
-    this.render.setStyle(answerElement, 'border', '2px solid grey')  
+    this.render.setStyle(answerElement, 'border', '2px solid grey')
   }
 
   startCounter(){
@@ -108,7 +108,7 @@ export class QuestionComponent {
 
         // get element of correct answer
         const answerElement = this.el.nativeElement.querySelector('.options').children[answerIndex].querySelector("div");
-  
+
         // format that element with green bg
         this.render.setStyle(answerElement, 'background', 'green')
         this.render.setStyle(answerElement, 'color', '#fff')
@@ -126,7 +126,7 @@ export class QuestionComponent {
 
   resetCounter(){
     this.stopCounter();
-    this.counter=10;
+    this.counter=30;
     this.startCounter();
   }
 
