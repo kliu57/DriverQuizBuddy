@@ -2108,24 +2108,6 @@
       ]
     },
     {
-      "questionText": "A 'No Parking' sign means",
-      "info": "",
-      "image": "",
-      "options": [
-        { "text": "you may not stop for any reason" },
-        {
-          "text": "you may stop temporarily to load or unload passengers but not merchandise"
-        },
-        {
-          "text": "you may stop temporarily to load or unload merchandise but not passengers"
-        },
-        {
-          "text": "you may stop temporarily to load or unload passengers or merchandise",
-          "correct": true
-        }
-      ]
-    },
-    {
       "questionText": "You are NOT allowed to park within _____ of a bridge",
       "info": "",
       "image": "",
@@ -2518,6 +2500,26 @@
         },
         {
           "text": "A fine of $1000 - $4000, one year of jail and a possible licence suspension"
+        }
+      ]
+    },
+    {
+      "questionText": "What does a red signal light with a green arrow mean?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "You may turn in the direction of the arrow.",
+          "correct": true
+        },
+        {
+          "text": "Stop and wait for the green light before turning in the direction of the arrow."
+        },
+        {
+          "text": "Stop and wait for a green light. The green arrow is a signal for pedestrians."
+        },
+        {
+          "text": "Stop and then you may turn in the direction of the arrow."
         }
       ]
     }

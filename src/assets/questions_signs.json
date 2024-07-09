@@ -1193,6 +1193,42 @@
           "text": "Some information signs have numbers at the bottom to assist you with exits and distances."
         }
       ]
+    },
+    {
+      "questionText": "What does this sign mean?",
+      "info": "",
+      "image": "/assets/images/signs/no_parking.jpg",
+      "options": [
+        { "text": "You may not stop for any reason." },
+        {
+          "text": "You may stop temporarily to load or unload passengers but not merchandise."
+        },
+        {
+          "text": "You may stop temporarily to load or unload merchandise but not passengers."
+        },
+        {
+          "text": "You may stop temporarily to load or unload passengers or merchandise.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What does this sign mean?",
+      "info": "",
+      "image": "/assets/images/signs/no_standing.jpg",
+      "options": [
+        { "text": "You may not stop for any reason." },
+        {
+          "text": "You may stop temporarily to load or unload passengers but not merchandise.",
+          "correct": true
+        },
+        {
+          "text": "You may stop temporarily to load or unload merchandise but not passengers."
+        },
+        {
+          "text": "You may stop temporarily to load or unload passengers or merchandise."
+        }
+      ]
     }
   ]
 }
