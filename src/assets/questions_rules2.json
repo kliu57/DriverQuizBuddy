@@ -3202,25 +3202,239 @@
       ]
     },
     {
-      "questionText": "",
+      "questionText": "I (Driver A) was stopped for almost thirty seconds waiting for the traffic light to change when I heard the screech of tires behind me. There was a vehicle in front of me so I had nowhere to go. Driver B collided with the back of my vehicle. Which sub-habit should Driver A have used to avoid this collision? (Choose the correct answer)",
       "info": "",
-      "image": "",
+      "image": "/assets/images/situation/situation27.png",
       "options": [
-        { "text": "" },
-        { "text": "" },
-        { "text": "", "correct": true },
-        { "text": "" }
+        { "text": "Maintain" },
+        { "text": "Communicate" },
+        { "text": "Minimum Eye Lead Time" },
+        { "text": "Control", "correct": true },
+        { "text": "Scan" }
       ]
     },
     {
-      "questionText": "",
+      "questionText": "I (Driver A) was stopped for almost thirty seconds waiting for the traffic light to change when I heard the screech of tires behind me. There was a vehicle in front of me so I had nowhere to go. Driver B collided with the back of my vehicle. Which sub-habits should Driver B have used to avoid this collision? (Choose the correct group)",
+      "info": "",
+      "image": "/assets/images/situation/situation27.png",
+      "options": [
+        { "text": "Respond, Mirror, Scan" },
+        { "text": "Stagger, Control, Circle Check" },
+        { "text": "Minimum Eye Lead Time, Control, Respond", "correct": true },
+        { "text": "Maintain, Ground View, Left Centre Right" },
+        { "text": "Left Centre Right, Ground View, Minimum Eye Lead Time" }
+      ]
+    },
+    {
+      "questionText": "I (Driver A) was driving in the middle of a pack of vehicles on a one-way street. I was cut off by Driver B who swerved to avoid a vehicle door being opened in the curb lane. I hit Driver B's left rear door since I could not swerve or brake. Which sub-habits should Driver A have used to avoid this collision?",
+      "info": "",
+      "image": "/assets/images/situation/situation28.png",
+      "options": [
+        { "text": "Respond, Communicate, Scan" },
+        { "text": "Respond, Clear Blind Spots, Communicate" },
+        { "text": "Maintain, Clear Blind Spots, Stagger" },
+        { "text": "Respond, Clear Blind Spots, Stagger", "correct": true }
+      ]
+    },
+    {
+      "questionText": "I (Driver A) was driving in the middle of a pack of vehicles on a one-way street. I was cut off by Driver B who swerved to avoid a vehicle door being opened in the curb lane. I hit Driver B's left rear door since I could not swerve or brake. Which sub-habits should Driver B have used to avoid this collision?",
+      "info": "",
+      "image": "/assets/images/situation/situation28.png",
+      "options": [
+        { "text": "Maintain, Communicate" },
+        { "text": "Scan, Communicate", "correct": true },
+        { "text": "Respond, Communicate" },
+        { "text": "Scan, Clear Blind Spots" }
+      ]
+    },
+    {
+      "questionText": "It was raining hard. A driver on my (Driver A) right stopped for a stop sign, glanced in my direction and then pulled out from the side road just in front of me. I was forced to swerve my vehicle to the left to avoid a collision. Which sub-habits should Driver A have used to avoid this near miss? (Choose the correct group)",
+      "info": "",
+      "image": "/assets/images/situation/situation29.png",
+      "options": [
+        { "text": "Control, Move, Communicate, Ground View" },
+        {
+          "text": "Respond, Lights On, Communicate, Ground View",
+          "correct": true
+        },
+        { "text": "Respond, Mirror, Communicate, Ground View" },
+        {
+          "text": "Respond, Minimum Eye Lead Time, Stagger, Scan"
+        }
+      ]
+    },
+    {
+      "questionText": "It was raining hard. A driver on my (Driver A) right stopped for a stop sign, glanced in my direction and then pulled out from the side road just in front of me. I was forced to swerve my vehicle to the left to avoid a collision. Which sub-habits should Driver B have used to avoid this near miss? (Choose the correct group)",
+      "info": "",
+      "image": "/assets/images/situation/situation29.png",
+      "options": [
+        { "text": "Control, Ground View, Stagger" },
+        { "text": "Respond, Ground View, Left Centre Right", "correct": true },
+        { "text": "Point, Ground View, Left Centre Right" },
+        { "text": "Respond, React, Left Centre Right" }
+      ]
+    },
+    {
+      "questionText": "If you are waiting to make a left turn at a traffic light, what is NOT a reason you have to check the left blind spot before turning?",
       "info": "",
       "image": "",
       "options": [
-        { "text": "" },
-        { "text": "" },
-        { "text": "", "correct": true },
-        { "text": "" }
+        {
+          "text": "To see if there is a squirrel approaching",
+          "correct": true
+        },
+        {
+          "text": "To see if any pedestrians may be walking into the area you are going to turn through"
+        },
+        {
+          "text": "To see if a motorcycle or other vehicle is trying to turn inside your path because they don't want to wait for you to turn"
+        },
+        {
+          "text": "To see if any cyclists may be riding or walking their bikes into the area you are going to turn through"
+        }
+      ]
+    },
+    {
+      "questionText": "What is the key element of the sub-habit 'Spot'?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "To make sure that you and your passengers are not a problem"
+        },
+        {
+          "text": "To make sure that everyone inside your vehicle is having a good time and has equal say in the music"
+        },
+        {
+          "text": "To predict how other drivers are going to solve their problems on the road",
+          "correct": true
+        },
+        { "text": " To make sure you're doing everything right when you drive" }
+      ]
+    },
+    {
+      "questionText": "If you have a rear camera, do you need to worry about the sub-habit Avoid Backing? (Choose all that apply)",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "No, with experience and skill, there is no issue with reversing – everybody does it, and everyone else needs to pay attention when someone is backing out of a driveway or parking stall"
+        },
+        {
+          "text": "Yes, while the back-up camera can have a great view of what is directly behind the vehicle, it is limited in its ability to see what's coming from the sides like a pedestrian or a motorcycle that are small and move quickly",
+          "correct": true
+        },
+        {
+          "text": "No, there are no worries with this technology as many commercials continue to show how easy and safe it is to use when reversing"
+        },
+        {
+          "text": "Yes, the back-up camera can have obstructions to the sides like farther back parked vehicles that obscure your view of what might be coming as well as bushes or snowbanks that can block the camera's view to see what might be on the sidewalk should you be backing out of a driveway",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What type of parking should you always try to avoid?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Backing in straight between two vehicles" },
+        {
+          "text": "Pulling through one parking stall to park in the next one facing out"
+        },
+        { "text": "Backing in straight beside one vehicle" },
+        { "text": "Angle parking driving in forwards", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Some cities use a countdown timer to let pedestrians know how much time they have to get across an intersection before the light may change. Why not use this timer to help decide what to do when approaching a stale green traffic light?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "The countdown timer does not tell what the vehicle behind you is going to do - you may be braking, anticipating the change when the driver behind is speeding up, easily leading to a collision"
+        },
+        {
+          "text": "The green light may not change when the countdown timer reaches 0 - you could be braking at a green light for no reason when the driver behind does not expect you to brake, leading to a possible collision"
+        },
+        { "text": "Neither of these answers is correct" },
+        { "text": "Both of these answers are correct", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Do you need to use the 'Point of No Return' if turning at an intersection with traffic lights?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes, at every stale green traffic light, including protected turn arrows and lights without protected turn arrows",
+          "correct": true
+        },
+        {
+          "text": "No, it is only used at intersections that have countdown timers"
+        },
+        { "text": "No, it is only used when the 'Don't Walk' hand is on" },
+        { "text": "No, it is only used when going straight", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Does it matter which way your wheels are facing if you are turning right and waiting for pedestrians to clear the crosswalk?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes, the wheels must always be facing your escape route and not facing the pedestrians",
+          "correct": true
+        },
+        {
+          "text": "No - it only matters when you are making a left because if you get hit from behind you don't want to get knocked into the path of oncoming traffic"
+        }
+      ]
+    },
+    {
+      "questionText": "If you are stopped at a light and there is a larger vehicle stopped behind you, is it possible to see past it when you are driving a smaller vehicle?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes, since usually before stopping, you can position your vehicle a little to the left or right of your lane to use your sideview mirrors to see past the large vehicle.",
+          "correct": true
+        },
+        {
+          "text": "No, the large vehicle is too wide and hopefully, there is nothing that is going to hit that vehicle behind you to knock it into you"
+        }
+      ]
+    },
+    {
+      "questionText": "The first 19 sub-habits are all proactive - which one is not proactive?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Avoid Backing" },
+        { "text": "Stagger" },
+        { "text": "React", "correct": true },
+        { "text": "Plan" },
+        { "text": "Point" },
+        { "text": "Control" }
+      ]
+    },
+    {
+      "questionText": "Left turn at small intersection - what advantages do you gain by waiting just past the crosswalk?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Doing so makes the turn into the first open lane easier" },
+        { "text": "There is room to escape straight" },
+        {
+          "text": "There is room to creep on the amber light to advance the turn"
+        },
+        {
+          "text": "Vision is better to see past any opposing turning vehicles"
+        },
+        {
+          "text": "Blocking the crosswalk from pedestrians who may try to cross illegally"
+        },
+        { "text": "All of these answers are correct", "correct": true }
       ]
     }
   ]

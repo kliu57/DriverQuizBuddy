@@ -2031,12 +2031,12 @@
     },
     {
       "questionText": "A novice driver who is convicted of distracted driving will face which penalty for 3rd offence?",
-      "info": "",
+      "info": "A novice driver convicted of distracted driving will face escalating sanctions: 30-day licence suspension for a first occurence; 90 days for a second occurence; and licence cancellation and removal from the Graduated Licensing System for a third occurence.",
       "image": "",
       "options": [
         { "text": "A fine, licence suspension and 3 demerit points" },
         {
-          "text": "A fine, licence cancellation and removal form the Graduated Licensing System",
+          "text": "A fine, licence cancellation and removal from the Graduated Licensing System",
           "correct": true
         },
         {
@@ -2126,7 +2126,7 @@
       ]
     },
     {
-      "questionText": "You are NOT allowed to park within ___ of a bridge",
+      "questionText": "You are NOT allowed to park within _____ of a bridge",
       "info": "",
       "image": "",
       "options": [
@@ -2137,7 +2137,7 @@
       ]
     },
     {
-      "questionText": "You are NOT allowed to park within ___ of a railway crossing",
+      "questionText": "You are NOT allowed to park within _____ of a railway crossing",
       "info": "",
       "image": "",
       "options": [
@@ -2200,17 +2200,6 @@
         { "text": "0.07 - 0.08" },
         { "text": "0.08 - 0.18" },
         { "text": "0.08 - 0.10" }
-      ]
-    },
-    {
-      "questionText": "When approaching a railway crossing signalling approaching train, you must",
-      "info": "",
-      "image": "",
-      "options": [
-        { "text": "Cross the track as fast as possible" },
-        { "text": "Stop at least 5 m from the nearest rail", "correct": true },
-        { "text": "Stop immediately and stay where you are" },
-        { "text": "Stop at least 15 m from the nearest rail" }
       ]
     },
     {
@@ -2297,7 +2286,7 @@
       ]
     },
     {
-      "questionText": "If you are caught driving while licence suspended, how long will your vehicle be impounder for under criminal code?",
+      "questionText": "If you are caught driving while licence suspended, how long will your vehicle be impounded for under criminal code?",
       "info": "",
       "image": "",
       "options": [
@@ -2319,7 +2308,7 @@
       ]
     },
     {
-      "questionText": "what is the mandatory distance that must be maintained between your car and commercial vehicles when going the same way on a highway outside the city except when overtaking?",
+      "questionText": "What is the mandatory distance that must be maintained between your car and commercial vehicles when going the same way on a highway outside the city except when overtaking?",
       "info": "",
       "image": "",
       "options": [
@@ -2327,6 +2316,220 @@
         { "text": "100 m" },
         { "text": "10 m" },
         { "text": "60 m", "correct": true }
+      ]
+    },
+    {
+      "questionText": "All vehicles must be insured for third-party liability for at least?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "$50 000" },
+        { "text": "$150 000" },
+        { "text": "$200 000", "correct": true },
+        { "text": "$100 000" }
+      ]
+    },
+    {
+      "questionText": "What are you required to do when approaching a stopped streetcar, loading and unloading passengers on a safety island?",
+      "info": "Keep a minimum of two metres of distance behind the rear doors where passengers are loading or unloading. This does not apply at stops where an area has been set aside for streetcar passengers or there is a safety island. Always pass these areas with extra caution.",
+      "image": "",
+      "options": [
+        { "text": "Stop at least 3 m behind the safety island" },
+        { "text": "Honk your horn and pass cautiously" },
+        { "text": "Pass on the left side of the streetcar" },
+        {
+          "text": "Pass with caution and be ready to stop if a pedestrian makes sudden or unexpected moves",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If you are convicted of _____, you will gain three demerit points.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Improper passing", "correct": true },
+        { "text": "Failing to lower headlight beams" },
+        { "text": "Following too closely" },
+        { "text": "Failing to stop for police" }
+      ]
+    },
+    {
+      "questionText": "What are the penalties for a fully licensed driver being convicted of distracted driving for the first time?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "A 60-day licence suspension" },
+        { "text": "A fine up to $500 and 2 demerit points" },
+        { "text": "A fine up to $1000 and 3 demerit points", "correct": true },
+        { "text": "A fine up to $2000 and 4 demerit points" }
+      ]
+    },
+    {
+      "questionText": "What is the best way to get back on the roadway when your right wheels drop off the roadway?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Apply brakes to slow down" },
+        { "text": "Apply brakes and steer hard to the left" },
+        { "text": "Make a sharp left turn" },
+        {
+          "text": "Take your foot off the gas pedal, and steer back onto the road when the vehicle has slowed",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If you are convicted of driving _____ km/h over the speed limit, you will gain four demerits.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "30 - 49", "correct": true },
+        { "text": "25 - 45" },
+        { "text": "10 - 20" },
+        { "text": "20 - 40" }
+      ]
+    },
+    {
+      "questionText": "How long does new driver have to complete graduated licensing process?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "2 years" },
+        { "text": "7 years" },
+        { "text": "9 years" },
+        { "text": "5 years", "correct": true }
+      ]
+    },
+    {
+      "questionText": "How far can you legally park from a fire hydrant?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "10 m" },
+        { "text": "15 m" },
+        { "text": "3 m", "correct": true },
+        { "text": "5 m" }
+      ]
+    },
+    {
+      "questionText": "What are the penalties for being convicted of violating Ontario's Move Over law for the second time in 5 years?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "You will be fined $1000 - $4000 and face possible jail time and possible licence suspension",
+          "correct": true
+        },
+        {
+          "text": "You will be fined $1000 - $4000 but you won't face licence suspension"
+        },
+        { "text": "You will face licence suspension only" },
+        {
+          "text": "You will be fined $1000 - $4000 but you wont't receive jail time"
+        }
+      ]
+    },
+    {
+      "questionText": "You must hold a G2 licence for at least _____ to be allowed to take the G2 road test for a full G licence.",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "6 months" },
+        { "text": "18 months" },
+        { "text": "24 months" },
+        { "text": "12 months", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What should you do if your brakes fail while you are driving?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Turn on emergency flashers." },
+        { "text": "Apply the parking brake gently but firmly." },
+        { "text": "Pump the brake pedal." },
+        { "text": "Do all of the above.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "Failing to leave at least 1 m of space between you and a cyclist while passing them may result in a fine and _____",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "1 demerit" },
+        { "text": "2 demerit", "correct": true },
+        { "text": "3 demerit" },
+        { "text": "4 demerit" }
+      ]
+    },
+    {
+      "questionText": "Under which conditions is making a U-turn not permitted?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "In a curve or on a hill, where a driver's view is less than 150 m in either direction."
+        },
+        {
+          "text": "On a railway crossing, or when there is 30 m of distance from a railway crossing."
+        },
+        {
+          "text": "Within 150 m of a bridge, viaduct, or tunnel when the driver's view is blocked."
+        },
+        { "text": "All of the above scenarios.", "correct": true }
+      ]
+    },
+    {
+      "questionText": "What penalties will you face for an improper use of the HOV lane?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "A $110 fine and 3 demerit points.", "correct": true },
+        { "text": "No monetary fines, but 2 demerit points." },
+        { "text": "A $200 fine and 4 demerit points." },
+        { "text": "A $500 fine but no demerit points." }
+      ]
+    },
+    {
+      "questionText": "What is the best way to make a quick stop when driving a vehicle not equipped with ABS on a wet road?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Pressing down on the brake pedal, releasing slightly if the wheels are locking up, and reapply.",
+          "correct": true
+        },
+        { "text": "Pumping the brakes." },
+        { "text": "Rolling down the window and signaling." },
+        { "text": "Turning off the ignition and applying the hand brake." }
+      ]
+    },
+    {
+      "questionText": "What are the penalties for violating Ontario's Move Over law for the first time?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "A fine of $500 - $2000 and 3 demerit points" },
+        { "text": "Three demerit points and a fine of $3000" },
+        {
+          "text": "A fine of $400 - $2000 and 3 demerit points",
+          "correct": true
+        },
+        {
+          "text": "A fine of $1000 - $4000, one year of jail and a possible licence suspension"
+        }
+      ]
+    },
+    {
+      "questionText": "If you get caught for the first time driving with a suspended licence, you will get an additional 6 month suspension and also",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Either jail time or a fine or both", "correct": true },
+        { "text": "A fine between $1000 - $5000" },
+        { "text": "Six months of jail" },
+        { "text": "A fine between $1000 - $10 000" }
       ]
     }
   ]
