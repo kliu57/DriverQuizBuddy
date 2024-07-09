@@ -354,10 +354,10 @@
       "image": "",
       "options": [
         {
-          "text": "Turn form the far left lane into the left curb lane.",
+          "text": "Turn from the far left lane into the left curb lane.",
           "correct": true
         },
-        { "text": "Turn form the far left lane into the right curb lane." },
+        { "text": "Turn from the far left lane into the right curb lane." },
         { "text": "Turn from the far right lane into the left curb lane." },
         { "text": "Turn from the right lane into the right curb lane." }
       ]
@@ -1038,7 +1038,7 @@
     },
     {
       "questionText": "Some left turn lanes have their own traffic light to direct traffic. What does this light mean?",
-      "info": "When you see this signal and you are turning left you may face other vehicles form the opposite direction also making left turns.",
+      "info": "When you see this signal and you are turning left you may face other vehicles from the opposite direction also making left turns.",
       "image": "/assets/images/situation/red_light_left.jpg",
       "options": [
         {
@@ -1900,10 +1900,10 @@
       "info": "",
       "image": "",
       "options": [
-        { "text": "12+" },
-        { "text": "3+" },
-        { "text": "6+" },
-        { "text": "9+", "correct": true }
+        { "text": "12" },
+        { "text": "3" },
+        { "text": "6" },
+        { "text": "9", "correct": true }
       ]
     },
     {
@@ -2040,7 +2040,7 @@
           "correct": true
         },
         {
-          "text": "Licence cancellation and removal form the Graduated Licensing System but no fine"
+          "text": "Licence cancellation and removal from the Graduated Licensing System but no fine"
         },
         { "text": "A fine, licence suspension and 6 demerit points" }
       ]
@@ -2266,12 +2266,12 @@
       "image": "",
       "options": [
         {
-          "text": "Children weigh between 18kg and 36kg with height less than 145cm and under 8 years old",
+          "text": "Children weigh between 18 kg and 36 kg with height less than 145cm and under 8 years old",
           "correct": true
         },
         { "text": "Children under age 6" },
-        { "text": "Children weigh between 25kg and 50kg" },
-        { "text": "Children with heigh less than 130cm" }
+        { "text": "Children weigh between 25 kg and 50 kg" },
+        { "text": "Children with height less than 130 cm" }
       ]
     },
     {
@@ -2519,17 +2519,6 @@
         {
           "text": "A fine of $1000 - $4000, one year of jail and a possible licence suspension"
         }
-      ]
-    },
-    {
-      "questionText": "If you get caught for the first time driving with a suspended licence, you will get an additional 6 month suspension and also",
-      "info": "",
-      "image": "",
-      "options": [
-        { "text": "Either jail time or a fine or both", "correct": true },
-        { "text": "A fine between $1000 - $5000" },
-        { "text": "Six months of jail" },
-        { "text": "A fine between $1000 - $10 000" }
       ]
     }
   ]
