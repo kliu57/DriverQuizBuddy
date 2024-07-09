@@ -40,12 +40,21 @@ export class QuestionComponent {
       this.questionService.getSignQuestionsJson()
       .subscribe(res=>{
         this.questionList = res.questions;
+        this.questionList.forEach((question: any) => this.shuffleOptions(question.options));
       })
     } else {
       this.questionService.getRuleQuestionsJson()
       .subscribe(res=>{
         this.questionList = res.questions;
+        this.questionList.forEach((question: any) => this.shuffleOptions(question.options));
       })
+    }
+  }
+
+  shuffleOptions(options: any[]): void {
+    for (let i = options.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [options[i], options[j]] = [options[j], options[i]];
     }
   }
 
