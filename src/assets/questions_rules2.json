@@ -112,7 +112,7 @@
     {
       "questionText": "Why is there a double line here?",
       "info": "",
-      "image": "/assets/images/markings/double_yellow_lines2.jpg",
+      "image": "/assets/images/markings/double_yellow_lines.jpg",
       "options": [
         { "text": "There is no need for it - it is a mistake" },
         {
@@ -157,13 +157,13 @@
     {
       "questionText": "Would it be legal for vehicles to go around this tractor if it is safe to do so?",
       "info": "",
-      "image": "/assets/images/markings/double_yellow_lines4.jpg",
+      "image": "/assets/images/markings/double_yellow_lines3.jpg",
       "options": [{ "text": "Yes", "correct": true }, { "text": "No" }]
     },
     {
       "questionText": "Why are there double lines in this picture?",
       "info": "",
-      "image": "/assets/images/markings/double_yellow_lines3.jpg",
+      "image": "/assets/images/markings/double_yellow_lines2.jpg",
       "options": [
         { "text": "All of these answers are correct", "correct": true },
         { "text": "There are hidden intersections" },
