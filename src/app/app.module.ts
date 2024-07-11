@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { GtagModule } from 'angular-gtag';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -33,10 +34,11 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     ChangeBgDirective,
     SidenavListComponent,
     ShareComponent,
-    AboutusComponent
+    AboutusComponent,
   ],
   imports: [
     BrowserModule,
+    GtagModule.forRoot({ trackingId: 'G-3ZF3DQD885', trackPageviews: true }),
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
@@ -50,9 +52,8 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     MatSelectModule,
     MatFormFieldModule,
     MatDialogModule,
-  
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
