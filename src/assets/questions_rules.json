@@ -488,7 +488,7 @@
     {
       "questionText": "Two solid yellow painted lines on a roadway as in this diagram do which of the following?",
       "info": "Steer clear of solid painted road markings that are around fixed objects to avoid a collision.",
-      "image": "/assets/images/markings/double_yellow_lines4.jpg",
+      "image": "/assets/images/markings/double_yellow_lines.jpg",
       "options": [
         { "text": "Help in calculating distances from one exit to the next." },
         { "text": "Act as left and right turn lane markings." },
@@ -1039,7 +1039,7 @@
     {
       "questionText": "Some left turn lanes have their own traffic light to direct traffic. What does this light mean?",
       "info": "When you see this signal and you are turning left you may face other vehicles from the opposite direction also making left turns.",
-      "image": "/assets/images/situation/red_light_left.jpg",
+      "image": "/assets/images/lights/red_light_green_left.jpg",
       "options": [
         {
           "text": "Pedestrians crossing the street towards the left may cross."
@@ -1119,7 +1119,7 @@
     {
       "questionText": "What do advanced green lights tell you?",
       "info": "When facing an advanced green light, oncoming traffic faces a red light, enabling you to turn left, go straight or turn right from the appropriate lane.",
-      "image": "/assets/images/situation/advanced_green_light.jpg",
+      "image": "/assets/images/lights/advanced_green_light.jpg",
       "options": [
         {
           "text": "You have the right-of-way to go in any direction in the intersection from the correct lane.",
