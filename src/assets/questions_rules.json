@@ -419,7 +419,7 @@
     {
       "questionText": "To make a U-turn you must be able to see how far in both directions?",
       "info": "Never make a U-turn on a curve, hill, railway crossing, bridge, tunnel or where your view is blocked It is illegal to do so.",
-      "image": "/assets/images/signs/uturn.jpg",
+      "image": "",
       "options": [
         { "text": "50 m." },
         { "text": "100 m." },
