@@ -63,12 +63,12 @@
         <div class="child"><a mat-flat-button routerLink="/aboutus">About Us</a></div>
         &nbsp;&nbsp;
         <div class="child">
-          <a href="https://github.com/kliu57/DriverQuizBuddy" mat-icon-button class="nav-icon" aria-label="github icon">
+          <a href="https://github.com/kliu57/DriverQuizBuddy" target="_blank" mat-icon-button class="nav-icon" aria-label="github icon">
             <mat-icon class="custom-icon" svgIcon="github"></mat-icon>
           </a>
         </div>
         <div class="child">
-          <button (click)="onShare()" mat-icon-button class="nav-icon" aria-label="share icon">
+          <button (click)="copyLinkToClipBoard()" mat-icon-button class="nav-icon" aria-label="share icon">
             <mat-icon class="icon">share</mat-icon>
           </button>
         </div>

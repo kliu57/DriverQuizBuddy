@@ -2,6 +2,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { MatDialogConfig } from '@angular/material/dialog';
 import { ShareComponent } from '../share/share.component';
+import { ClipboardService } from '../clipboard.service';
 
 @Component({
   selector: 'app-header',
@@ -10,7 +11,9 @@ import { ShareComponent } from '../share/share.component';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private dialog: MatDialog) {}
+  constructor(private dialog: MatDialog, private clipboardService: ClipboardService) {}
+
+  url: string = 'https://driver-quiz-buddy.vercel.app';
   
   onShare() {
     // const dialogConfig = new MatDialogConfig();
@@ -33,5 +36,9 @@ export class HeaderComponent implements OnInit {
   public onToggleSidenav = () => {
     console.log("triggered");
     this.sidenavToggle.emit();
+  }
+
+  copyLinkToClipBoard() {
+    this.clipboardService.copyTextToClipboard(this.url);
   }
 }

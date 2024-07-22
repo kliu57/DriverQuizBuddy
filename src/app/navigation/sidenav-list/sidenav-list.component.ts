@@ -1,4 +1,5 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { ClipboardService } from '../../clipboard.service';
 
 @Component({
   selector: 'app-sidenav-list',
@@ -8,7 +9,9 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 export class SidenavListComponent implements OnInit {
   @Output() sidenavClose = new EventEmitter();
 
-  constructor() { }
+  constructor(private clipboardService: ClipboardService) { }
+
+  url: string = 'https://driver-quiz-buddy.vercel.app';
 
   ngOnInit() {
   }
@@ -17,4 +20,7 @@ export class SidenavListComponent implements OnInit {
     this.sidenavClose.emit();
   }
 
+  copyLinkToClipBoard() {
+    this.clipboardService.copyTextToClipboard(this.url);
+  }
 }

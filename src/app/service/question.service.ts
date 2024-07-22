@@ -15,4 +15,8 @@ export class QuestionService {
   getRuleQuestionsJson(){
     return this.http.get<any>("assets/questions_rules.json");
   }
+
+  getMotorQuestionsJson(){
+    return this.http.get<any>("assets/questions_motor.json");
+  }
 }

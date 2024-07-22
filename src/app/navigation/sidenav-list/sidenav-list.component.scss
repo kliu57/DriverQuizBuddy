@@ -11,3 +11,9 @@ a:hover, a:active{
     display: inline-block;
     padding-left: 6px;
 }
+
+.icon-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
