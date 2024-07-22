@@ -1,0 +1,405 @@
+{
+  "questions": [
+    {
+      "questionText": "With an M1 license, when are you allowed to drive?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Weekdays" },
+        { "text": "At night" },
+        { "text": "Weekends" },
+        {
+          "text": "Only during daylight hours — one-half hour before sunrise to one-half hour after sunset",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If you have a Class M2 (M) licence, are you able to drive a two-wheeled motorcycle, limited-speed motorcycle, or moped?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Yes" },
+        { "text": "Only with supervision" },
+        { "text": "No", 
+          "correct": true },
+        { "text": "During daylight hours" }
+      ]
+    },
+    {
+      "questionText": "Driving for long periods in cold weather can cause...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Improved awareness" },
+        { "text": "None of these" },
+        {
+          "text": "Severe chill and fatigue",
+          "correct": true
+        },
+        { "text": "Distractions" }
+      ]
+    },
+    {
+      "questionText": "What is the minimum age to drive a motorcycle in Ontario?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "15" },
+        { "text": "16",
+          "correct": true 
+        },
+        { "text": "18" },
+        { "text": "17" }
+      ]
+    },
+    {
+      "questionText": "Once you pass the vision and knowledge tests, you get a Class M1 license and enter Level One. You must stay at Level One for a minimum of...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "30 days" },
+        { "text": "90 days" },
+        {
+          "text": "60 days",
+          "correct": true
+        },
+        { "text": "6 months" }
+      ]
+    },
+    {
+      "questionText": "If you pass the test on a three-wheeled motorcycle, you get an M (M) licence, which allows you to drive...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Any 2-wheeled vehicle" },
+        { "text": "None of these" },
+        { "text": "Motor tricycles and motorcycles"},
+        { "text": "Motor tricycles on public roads",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Are you allowed to carry passengers with an M1 license?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Yes" },
+        {
+          "text": "No",
+          "correct": true
+        },
+        { "text": "Only on city roads" },
+        { "text": "Only a supervisor rider" }
+      ]
+    },
+    {
+      "questionText": "If you have a valid Class M2, M2(L), or M2(M) licence, you may also drive Class G vehicles under the conditions that apply to...?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "A Class G1 license",
+          "correct": true
+        },
+        { "text": "None of these" },
+        { "text": "A Class G license" },
+        { "text": "A Class G2 license" }
+      ]
+    },
+    {
+      "questionText": "Which statement is FALSE? Consider wearing protective equipment such as...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Body armour" },
+        { "text": "Back protectors" },
+        { "text": "Kidney belts" },
+        {
+          "text": "Reflectors",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is the most common cause of traffic collisions?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Driver error",
+          "correct": true
+        },
+        { "text": "Weather conditions" },
+        { "text": "Road defects" },
+        { "text": "Mechanical failure" }
+      ]
+    },
+    {
+      "questionText": "Before taking the Level Two test on a motorcycle that is not limited-speed, you must complete a declaration of...?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Highway driving experience",
+          "correct": true
+        },
+        { "text": "All of these" },
+        { "text": "Zero night driving time" },
+        { "text": "Minimum practice hours" }
+      ]
+    },
+    {
+      "questionText": "A ministry-approved motorcycle safety course has a course certificate valid for...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "120 days" },
+        { "text": "6 months", "correct": true },
+        { "text": "90 days" },
+        { "text": "60 days" }
+      ]
+    },
+    {
+      "questionText": "The M1 license is only valid for how many days?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "90 days", "correct": true },
+        { "text": "60 days" },
+        { "text": "120 days" },
+        { "text": "6 months" }
+      ]
+    },
+    {
+      "questionText": "How should a helmet feel once you put it on?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Loose below the chin" },
+        { "text": "None of these" },
+        { "text": "Loose around the ears" },
+        {
+          "text": "Snug all around the head",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What should happen when you release the throttle?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "It should spring back completely to the idle position",
+          "correct": true
+        },
+        { "text": "It should go forward" },
+        { "text": "None of these" },
+        { "text": "It should remain in the same position" }
+      ]
+    },
+    {
+      "questionText": "Choose boots that are sturdy and...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "High enough heels" },
+        { "text": "Clean" },
+        { "text": "All of these" },
+        {
+          "text": "High enough to protect your ankles",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If you pass a ministry-approved motorcycle safety course, you can reduce the time spent at Level Two by how much?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "2 months" },
+        { "text": "6 months" },
+        { "text": "4 months", "correct": true },
+        { "text": "Nothing" }
+      ]
+    },
+    {
+      "questionText": "What will make you more visible to other drivers on the road?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Headlights" },
+        {
+          "text": "Bright colours and reflective items",
+          "correct": true
+        },
+        { "text": "Hazard lights" },
+        { "text": "All of these" }
+      ]
+    },
+    {
+      "questionText": "Which statement is FALSE? Gauntlet gloves that extend over your wrists are recommended because they protect your...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Your wrists" },
+        { "text": "Your fingers" },
+        {
+          "text": "Your arms",
+          "correct": true
+        },
+        { "text": "Your knuckles" }
+      ]
+    },
+    {
+      "questionText": "The rear brake lever is...",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Behind the right foot peg" },
+        { "text": "On the left handlebar" },
+        {
+          "text": "Near the right foot rest",
+          "correct": true
+        },
+        { "text": "On the left foot rest" }
+      ]
+    },
+    {
+      "questionText": "You may stay at Level Two for a maximum of how long from the day you pass your Level One road test?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "2 years" },
+        { "text": "22 months" },
+        { "text": "4 years" },
+        {
+          "text": "5 years",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How many road tests must you pass to gain a full motorcycle license?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "2",
+          "correct": true
+        },
+        { "text": "1" },
+        { "text": "None, just a written test" },
+        { "text": "3" }
+      ]
+    },
+    {
+      "questionText": "At level two, are you allowed to drive at night?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Only during clear weather" },
+        { "text": "Only within city limits" },
+        {
+          "text": "Yes",
+          "correct": true
+        },
+        { "text": "No" }
+      ]
+    },
+    {
+      "questionText": "Level Two lasts a minimum of how many months from the day you obtain your M2 or M2 (L), or M2 (M) license?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "24 months" },
+        { "text": "22 months", "correct": true },
+        { "text": "6 months" },
+        { "text": "12 months" }
+      ]
+    },
+    {
+      "questionText": "If you pass the road test on a motorcycle that is not three-wheeled or limited-speed, you get which type of license?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Class M",
+          "correct": true
+        },
+        { "text": "Class M2" },
+        { "text": "Class M(L)" },
+        { "text": "Class M2(L)" }
+      ]
+    },
+    {
+      "questionText": "The shift lever should only be used when...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "While the engine is revving" },
+        { "text": "The clutch is engaged" },
+        { "text": "While cruising along" },
+        {
+          "text": "The clutch is disengaged",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How many types of vehicles for which you require a motorcycle class license to drive on public roads in Ontario?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "2" },
+        { "text": "3" },
+        {
+          "text": "4",
+          "correct": true
+        },
+        { "text": "1" }
+      ]
+    },
+    {
+      "questionText": "How long does the entire Graduated Licensing System last in Ontario?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "36 months" },
+        { "text": "24 months" },
+        { "text": "18 months" },
+        {
+          "text": "20 months",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Will a driver have their Class M licence restricted to the type of vehicle they bring to the road test?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "No" },
+        { "text": "Not with a medical exemption" },
+        { "text": "Yes", "correct": true },
+        { "text": "Depends on the vehicle" }
+      ]
+    },
+    {
+      "questionText": "The clutch lever is on...?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "The left handlebar",
+          "correct": true
+        },
+        { "text": "The left foot rest" },
+        { "text": "The right foot rest" },
+        { "text": "The right handlebar" }
+      ]
+    }
+  ]
+}

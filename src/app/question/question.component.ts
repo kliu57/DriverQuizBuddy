@@ -42,8 +42,14 @@ export class QuestionComponent {
         this.questionList = res.questions;
         this.questionList.forEach((question: any) => this.shuffleOptions(question.options));
       })
-    } else {
+    } else if (this.quizName === "Rules of the Road") {
       this.questionService.getRuleQuestionsJson()
+      .subscribe(res=>{
+        this.questionList = res.questions;
+        this.questionList.forEach((question: any) => this.shuffleOptions(question.options));
+      })
+    } else {
+      this.questionService.getMotorQuestionsJson()
       .subscribe(res=>{
         this.questionList = res.questions;
         this.questionList.forEach((question: any) => this.shuffleOptions(question.options));
