@@ -11,6 +11,8 @@ import { ShareComponent } from '../share/share.component';
 export class HeaderComponent implements OnInit {
 
   constructor(private dialog: MatDialog) {}
+
+  url: string = 'https://driver-quiz-buddy.vercel.app';
   
   onShare() {
     // const dialogConfig = new MatDialogConfig();
@@ -33,5 +35,13 @@ export class HeaderComponent implements OnInit {
   public onToggleSidenav = () => {
     console.log("triggered");
     this.sidenavToggle.emit();
+  }
+
+  copyLinkToClipBoard(): void {
+    navigator.clipboard.writeText(this.url).then(() => {
+      console.log('URL copied to clipboard!');
+    }).catch(err => {
+      console.error('Failed to copy: ', err);
+    });
   }
 }
