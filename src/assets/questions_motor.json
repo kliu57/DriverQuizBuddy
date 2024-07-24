@@ -400,6 +400,423 @@
         { "text": "The right foot rest" },
         { "text": "The right handlebar" }
       ]
+    },
+    {
+      "questionText": "The high-beam light glows what colour when the high beam headlight is on?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Yellow" },
+        {
+          "text": "Blue",
+          "correct": true
+        },
+        { "text": "Green" },
+        { "text": "Brown" }
+      ]
+    },
+    {
+      "questionText": "Should you always check the condition of the vehicle before you drive it?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes",
+          "correct": true
+        },
+        { "text": "No" },
+        { "text": "Monthly" },
+        { "text": "Once a week" }
+      ]
+    },
+    {
+      "questionText": "Do the headlight and tail light come on automatically when the ignition is switched on and the engine is running?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes",
+          "correct": true
+        },
+        { "text": "Only if you add this as a feature" },
+        { "text": "Only with much older motorcycles" },
+        { "text": "No" }
+      ]
+    },
+    {
+      "questionText": "Which statement is FALSE? Check your tires for the following...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Tread" },
+        { "text": "Pressure" },
+        { "text": "Damage" },
+        {
+          "text": "Size",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Begin by making sure your vehicle is not too heavy or large for you to drive comfortably. Sitting on the seat, you should be able to place your feet...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Slightly touching the ground" },
+        { "text": "On the foot pegs" },
+        {
+          "text": "Flat on the ground",
+          "correct": true
+        },
+        { "text": "On the ground after tilting the motorcycle" }
+      ]
+    },
+    {
+      "questionText": "Some motorcycles have a kick-start lever located...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Behind the right footrest" },
+        { "text": "Above the left footrest" },
+        {
+          "text": "Above the right footrest",
+          "correct": true
+        },
+        { "text": "Behind the left footrest" }
+      ]
+    },
+    {
+      "questionText": "Which statement is FALSE? When checking cables, you should check...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "For broken strands" },
+        { "text": "For binding" },
+        { "text": "For kinks" },
+        {
+          "text": "The length",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "To shift up, twist the throttle as you...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Push in the clutch" },
+        { "text": "None of these" },
+        { "text": "Lift up with your toe" },
+        {
+          "text": "Pull in the clutch",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Make sure all levers, pedals and switches are in good condition, operate properly, and...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Ease forward when you let go" },
+        { "text": "Maintained in the released position when you let go" },
+        { "text": "None of these" },
+        {
+          "text": "Spring back to the original position when you let go",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How much stopping power does the front brake provide?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "¼" },
+        { "text": "¾", "correct": true },
+        { "text": "100%" },
+        { "text": "½" }
+      ]
+    },
+    {
+      "questionText": "Where is a centre stand usually located?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "On the right side" },
+        { "text": "At the rear of the motorcycle" },
+        {
+          "text": "Underneath the centre of the frame",
+          "correct": true
+        },
+        { "text": "On the left side" }
+      ]
+    },
+    {
+      "questionText": "When do you release the electric starter button?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "None of these" },
+        { "text": "Once the motorcycle begins to move" },
+        {
+          "text": "As soon as you hear the engine fire",
+          "correct": true
+        },
+        { "text": "Once you feel pressure from the clutch lever" }
+      ]
+    },
+    {
+      "questionText": "The switch to turn the headlight from low beam to high beam is usually on...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "The right footpeg" },
+        { "text": "The right handlebar" },
+        {
+          "text": "The left handlebar",
+          "correct": true
+        },
+        { "text": "The left footpeg" }
+      ]
+    },
+    {
+      "questionText": "When checking the chassis, what should you look for?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Loose bolts",
+          "correct": true
+        },
+        { "text": "All of these" },
+        { "text": "Grease" },
+        { "text": "Rust" }
+      ]
+    },
+    {
+      "questionText": "When is the choke used?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "To help shut off the engine" },
+        { "text": "None of these" },
+        {
+          "text": "To help start a cold engine",
+          "correct": true
+        },
+        { "text": "To keep the engine running" }
+      ]
+    },
+    {
+      "questionText": "To start, make sure your motorcycle is in which gear?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Reverse" },
+        { "text": "It doesn't matter as long as the brake is applied" },
+        {
+          "text": "Neutral",
+          "correct": true
+        },
+        { "text": "1st" }
+      ]
+    },
+    {
+      "questionText": "How do you pull the front brake lever smoothly?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "The palm of your hand" },
+        { "text": "Anyway that gets the job done" },
+        { "text": "Using the index finger" },
+        {
+          "text": "Using all fingers",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Most modern limited-speed motorcycles have a type of automatic transmission called...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Continuously automatic transmission" },
+        { "text": "Automatic adjustable transmission" },
+        { "text": "Automatic variable transmission" },
+        {
+          "text": "Continuously variable transmission",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "To maintain your balance, keep your feet...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "One foot down" },
+        { "text": "Right foot ahead of the brake" },
+        { "text": "Behind the footrests" },
+        {
+          "text": "Firmly on the footrests",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How should you hold the handlebars to keep you from increasing your speed by mistake?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "With your wrists straight" },
+        { "text": "With your wrists high" },
+        { "text": "With your wrists level" },
+        {
+          "text": "With arms low",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "'Push' steering will cause the motorcycle, and you, to do what?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Remain upright" },
+        { "text": "Lean backwards" },
+        { "text": "Lean in the opposite direction you wish to turn" },
+        {
+          "text": "Lean in the direction you wish to turn",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is another phrase for 'push' steering?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "'Pull' steering" },
+        {
+          "text": "Counter' steering",
+          "correct": true
+        },
+        { "text": "'Lean' steering" },
+        { "text": "'Opposite' steering" }
+      ]
+    },
+    {
+      "questionText": "The engine kill switch is used...?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "In an emergency to stop the engine quickly",
+          "correct": true
+        },
+        { "text": "To routinely start the engine" },
+        { "text": "To disengage the clutch" },
+        { "text": "To balance the fuel/air mixture" }
+      ]
+    },
+    {
+      "questionText": "Why should you not shift gears while you are turning?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "It may cause a sudden decrease in power" },
+        {
+          "text": "It may cause a skid",
+          "correct": true
+        },
+        { "text": "All of these" },
+        { "text": "It may cause excess power" }
+      ]
+    },
+    {
+      "questionText": "If you do not apply enough throttle, what can the motorcycle do when you release the clutch?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Rev" },
+        {
+          "text": "Jerk",
+          "correct": true
+        },
+        { "text": "Stop" },
+        { "text": "Stall" }
+      ]
+    },
+    {
+      "questionText": "The fuel supply may be controlled by what?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "An electronic switch" },
+        { "text": "A pump" },
+        { "text": "None of these" },
+        {
+          "text": "A manually operated valve",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How do you manually switch off the signal after each turn or lane change?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "With your thumb",
+          "correct": true
+        },
+        { "text": "With your right foot" },
+        { "text": "With your left foot" },
+        { "text": "It switches off automatically" }
+      ]
+    },
+    {
+      "questionText": "Do you need to lean while turning?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes",
+          "correct": true
+        },
+        { "text": "No" },
+        { "text": "Only at high speed" },
+        { "text": "Only at low speed" }
+      ]
+    },
+    {
+      "questionText": "How should you adjust the mirrors?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "You should see the lane behind you and as much of the other lanes on the road as possible",
+          "correct": true
+        },
+        { "text": "You should not see any part of your body" },
+        { "text": "Above eye level" },
+        { "text": "You should see a small part of your rear wheel" }
+      ]
+    },
+    {
+      "questionText": "Generally, you start a motorcycle (not a limited-speed motorcycle) by turning the ignition switch on and making sure the engine kill switch is...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Not in the accessory position" },
+        { "text": "Not in the first position" },
+        { "text": "Not in the 'on' position" },
+        {
+          "text": "Not in the 'off' position",
+          "correct": true
+        }
+      ]
     }
   ]
 }
