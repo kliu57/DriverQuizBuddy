@@ -17,6 +17,6 @@ export class QuestionService {
   }
 
   getMotorQuestionsJson(){
-    return this.http.get<any>("assets/questions_motor.json");
+    return this.http.get<any>("http://localhost:3000/api/motor");
   }
 }
