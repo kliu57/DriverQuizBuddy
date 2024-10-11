@@ -1,0 +1,1225 @@
+{
+  "questions": [
+    {
+      "questionText": "With an M1 license, when are you allowed to drive?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Weekdays" },
+        { "text": "At night" },
+        { "text": "Weekends" },
+        {
+          "text": "Only during daylight hours — one-half hour before sunrise to one-half hour after sunset",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If you have a Class M2 (M) licence, are you able to drive a two-wheeled motorcycle, limited-speed motorcycle, or moped?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Yes" },
+        { "text": "Only with supervision" },
+        { "text": "No", 
+          "correct": true },
+        { "text": "During daylight hours" }
+      ]
+    },
+    {
+      "questionText": "Driving for long periods in cold weather can cause...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Improved awareness" },
+        { "text": "None of these" },
+        {
+          "text": "Severe chill and fatigue",
+          "correct": true
+        },
+        { "text": "Distractions" }
+      ]
+    },
+    {
+      "questionText": "What is the minimum age to drive a motorcycle in Ontario?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "15" },
+        { "text": "16",
+          "correct": true 
+        },
+        { "text": "18" },
+        { "text": "17" }
+      ]
+    },
+    {
+      "questionText": "Once you pass the vision and knowledge tests, you get a Class M1 license and enter Level One. You must stay at Level One for a minimum of...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "30 days" },
+        { "text": "90 days" },
+        {
+          "text": "60 days",
+          "correct": true
+        },
+        { "text": "6 months" }
+      ]
+    },
+    {
+      "questionText": "If you pass the test on a three-wheeled motorcycle, you get an M (M) licence, which allows you to drive...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Any 2-wheeled vehicle" },
+        { "text": "None of these" },
+        { "text": "Motor tricycles and motorcycles"},
+        { "text": "Motor tricycles on public roads",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Are you allowed to carry passengers with an M1 license?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Yes" },
+        {
+          "text": "No",
+          "correct": true
+        },
+        { "text": "Only on city roads" },
+        { "text": "Only a supervisor rider" }
+      ]
+    },
+    {
+      "questionText": "If you have a valid Class M2, M2(L), or M2(M) licence, you may also drive Class G vehicles under the conditions that apply to...?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "A Class G1 license",
+          "correct": true
+        },
+        { "text": "None of these" },
+        { "text": "A Class G license" },
+        { "text": "A Class G2 license" }
+      ]
+    },
+    {
+      "questionText": "Which statement is FALSE? Consider wearing protective equipment such as...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Body armour" },
+        { "text": "Back protectors" },
+        { "text": "Kidney belts" },
+        {
+          "text": "Reflectors",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is the most common cause of traffic collisions?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Driver error",
+          "correct": true
+        },
+        { "text": "Weather conditions" },
+        { "text": "Road defects" },
+        { "text": "Mechanical failure" }
+      ]
+    },
+    {
+      "questionText": "Before taking the Level Two test on a motorcycle that is not limited-speed, you must complete a declaration of...?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Highway driving experience",
+          "correct": true
+        },
+        { "text": "All of these" },
+        { "text": "Zero night driving time" },
+        { "text": "Minimum practice hours" }
+      ]
+    },
+    {
+      "questionText": "A ministry-approved motorcycle safety course has a course certificate valid for...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "120 days" },
+        { "text": "6 months", "correct": true },
+        { "text": "90 days" },
+        { "text": "60 days" }
+      ]
+    },
+    {
+      "questionText": "The M1 license is only valid for how many days?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "90 days", "correct": true },
+        { "text": "60 days" },
+        { "text": "120 days" },
+        { "text": "6 months" }
+      ]
+    },
+    {
+      "questionText": "How should a helmet feel once you put it on?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Loose below the chin" },
+        { "text": "None of these" },
+        { "text": "Loose around the ears" },
+        {
+          "text": "Snug all around the head",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What should happen when you release the throttle?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "It should spring back completely to the idle position",
+          "correct": true
+        },
+        { "text": "It should go forward" },
+        { "text": "None of these" },
+        { "text": "It should remain in the same position" }
+      ]
+    },
+    {
+      "questionText": "Choose boots that are sturdy and...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "High enough heels" },
+        { "text": "Clean" },
+        { "text": "All of these" },
+        {
+          "text": "High enough to protect your ankles",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If you pass a ministry-approved motorcycle safety course, you can reduce the time spent at Level Two by how much?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "2 months" },
+        { "text": "6 months" },
+        { "text": "4 months", "correct": true },
+        { "text": "Nothing" }
+      ]
+    },
+    {
+      "questionText": "What will make you more visible to other drivers on the road?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Headlights" },
+        {
+          "text": "Bright colours and reflective items",
+          "correct": true
+        },
+        { "text": "Hazard lights" },
+        { "text": "All of these" }
+      ]
+    },
+    {
+      "questionText": "Which statement is FALSE? Gauntlet gloves that extend over your wrists are recommended because they protect your...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Your wrists" },
+        { "text": "Your fingers" },
+        {
+          "text": "Your arms",
+          "correct": true
+        },
+        { "text": "Your knuckles" }
+      ]
+    },
+    {
+      "questionText": "The rear brake lever is...",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Behind the right foot peg" },
+        { "text": "On the left handlebar" },
+        {
+          "text": "Near the right foot rest",
+          "correct": true
+        },
+        { "text": "On the left foot rest" }
+      ]
+    },
+    {
+      "questionText": "You may stay at Level Two for a maximum of how long from the day you pass your Level One road test?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "2 years" },
+        { "text": "22 months" },
+        { "text": "4 years" },
+        {
+          "text": "5 years",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How many road tests must you pass to gain a full motorcycle license?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "2",
+          "correct": true
+        },
+        { "text": "1" },
+        { "text": "None, just a written test" },
+        { "text": "3" }
+      ]
+    },
+    {
+      "questionText": "At level two, are you allowed to drive at night?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Only during clear weather" },
+        { "text": "Only within city limits" },
+        {
+          "text": "Yes",
+          "correct": true
+        },
+        { "text": "No" }
+      ]
+    },
+    {
+      "questionText": "Level Two lasts a minimum of how many months from the day you obtain your M2 or M2 (L), or M2 (M) license?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "24 months" },
+        { "text": "22 months", "correct": true },
+        { "text": "6 months" },
+        { "text": "12 months" }
+      ]
+    },
+    {
+      "questionText": "If you pass the road test on a motorcycle that is not three-wheeled or limited-speed, you get which type of license?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Class M",
+          "correct": true
+        },
+        { "text": "Class M2" },
+        { "text": "Class M(L)" },
+        { "text": "Class M2(L)" }
+      ]
+    },
+    {
+      "questionText": "The shift lever should only be used when...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "While the engine is revving" },
+        { "text": "The clutch is engaged" },
+        { "text": "While cruising along" },
+        {
+          "text": "The clutch is disengaged",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How many types of vehicles for which you require a motorcycle class license to drive on public roads in Ontario?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "2" },
+        { "text": "3" },
+        {
+          "text": "4",
+          "correct": true
+        },
+        { "text": "1" }
+      ]
+    },
+    {
+      "questionText": "How long does the entire Graduated Licensing System last in Ontario?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "36 months" },
+        { "text": "24 months" },
+        { "text": "18 months" },
+        {
+          "text": "20 months",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Will a driver have their Class M licence restricted to the type of vehicle they bring to the road test?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "No" },
+        { "text": "Not with a medical exemption" },
+        { "text": "Yes", "correct": true },
+        { "text": "Depends on the vehicle" }
+      ]
+    },
+    {
+      "questionText": "The clutch lever is on...?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "The left handlebar",
+          "correct": true
+        },
+        { "text": "The left foot rest" },
+        { "text": "The right foot rest" },
+        { "text": "The right handlebar" }
+      ]
+    },
+    {
+      "questionText": "The high-beam light glows what colour when the high beam headlight is on?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Yellow" },
+        {
+          "text": "Blue",
+          "correct": true
+        },
+        { "text": "Green" },
+        { "text": "Brown" }
+      ]
+    },
+    {
+      "questionText": "Should you always check the condition of the vehicle before you drive it?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes",
+          "correct": true
+        },
+        { "text": "No" },
+        { "text": "Monthly" },
+        { "text": "Once a week" }
+      ]
+    },
+    {
+      "questionText": "Do the headlight and tail light come on automatically when the ignition is switched on and the engine is running?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes",
+          "correct": true
+        },
+        { "text": "Only if you add this as a feature" },
+        { "text": "Only with much older motorcycles" },
+        { "text": "No" }
+      ]
+    },
+    {
+      "questionText": "Which statement is FALSE? Check your tires for the following...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Tread" },
+        { "text": "Pressure" },
+        { "text": "Damage" },
+        {
+          "text": "Size",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Begin by making sure your vehicle is not too heavy or large for you to drive comfortably. Sitting on the seat, you should be able to place your feet...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Slightly touching the ground" },
+        { "text": "On the foot pegs" },
+        {
+          "text": "Flat on the ground",
+          "correct": true
+        },
+        { "text": "On the ground after tilting the motorcycle" }
+      ]
+    },
+    {
+      "questionText": "Some motorcycles have a kick-start lever located...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Behind the right footrest" },
+        { "text": "Above the left footrest" },
+        {
+          "text": "Above the right footrest",
+          "correct": true
+        },
+        { "text": "Behind the left footrest" }
+      ]
+    },
+    {
+      "questionText": "Which statement is FALSE? When checking cables, you should check...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "For broken strands" },
+        { "text": "For binding" },
+        { "text": "For kinks" },
+        {
+          "text": "The length",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "To shift up, twist the throttle as you...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Push in the clutch" },
+        { "text": "None of these" },
+        { "text": "Lift up with your toe" },
+        {
+          "text": "Pull in the clutch",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Make sure all levers, pedals and switches are in good condition, operate properly, and...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Ease forward when you let go" },
+        { "text": "Maintained in the released position when you let go" },
+        { "text": "None of these" },
+        {
+          "text": "Spring back to the original position when you let go",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How much stopping power does the front brake provide?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "¼" },
+        { "text": "¾", "correct": true },
+        { "text": "100%" },
+        { "text": "½" }
+      ]
+    },
+    {
+      "questionText": "Where is a centre stand usually located?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "On the right side" },
+        { "text": "At the rear of the motorcycle" },
+        {
+          "text": "Underneath the centre of the frame",
+          "correct": true
+        },
+        { "text": "On the left side" }
+      ]
+    },
+    {
+      "questionText": "When do you release the electric starter button?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "None of these" },
+        { "text": "Once the motorcycle begins to move" },
+        {
+          "text": "As soon as you hear the engine fire",
+          "correct": true
+        },
+        { "text": "Once you feel pressure from the clutch lever" }
+      ]
+    },
+    {
+      "questionText": "The switch to turn the headlight from low beam to high beam is usually on...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "The right footpeg" },
+        { "text": "The right handlebar" },
+        {
+          "text": "The left handlebar",
+          "correct": true
+        },
+        { "text": "The left footpeg" }
+      ]
+    },
+    {
+      "questionText": "When checking the chassis, what should you look for?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Loose bolts",
+          "correct": true
+        },
+        { "text": "All of these" },
+        { "text": "Grease" },
+        { "text": "Rust" }
+      ]
+    },
+    {
+      "questionText": "When is the choke used?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "To help shut off the engine" },
+        { "text": "None of these" },
+        {
+          "text": "To help start a cold engine",
+          "correct": true
+        },
+        { "text": "To keep the engine running" }
+      ]
+    },
+    {
+      "questionText": "To start, make sure your motorcycle is in which gear?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Reverse" },
+        { "text": "It doesn't matter as long as the brake is applied" },
+        {
+          "text": "Neutral",
+          "correct": true
+        },
+        { "text": "1st" }
+      ]
+    },
+    {
+      "questionText": "How do you pull the front brake lever smoothly?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "The palm of your hand" },
+        { "text": "Anyway that gets the job done" },
+        { "text": "Using the index finger" },
+        {
+          "text": "Using all fingers",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Most modern limited-speed motorcycles have a type of automatic transmission called...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Continuously automatic transmission" },
+        { "text": "Automatic adjustable transmission" },
+        { "text": "Automatic variable transmission" },
+        {
+          "text": "Continuously variable transmission",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "To maintain your balance, keep your feet...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "One foot down" },
+        { "text": "Right foot ahead of the brake" },
+        { "text": "Behind the footrests" },
+        {
+          "text": "Firmly on the footrests",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How should you hold the handlebars to keep you from increasing your speed by mistake?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "With your wrists straight" },
+        { "text": "With your wrists high" },
+        { "text": "With your wrists level" },
+        {
+          "text": "With arms low",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "'Push' steering will cause the motorcycle, and you, to do what?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Remain upright" },
+        { "text": "Lean backwards" },
+        { "text": "Lean in the opposite direction you wish to turn" },
+        {
+          "text": "Lean in the direction you wish to turn",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is another phrase for 'push' steering?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "'Pull' steering" },
+        {
+          "text": "Counter' steering",
+          "correct": true
+        },
+        { "text": "'Lean' steering" },
+        { "text": "'Opposite' steering" }
+      ]
+    },
+    {
+      "questionText": "The engine kill switch is used...?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "In an emergency to stop the engine quickly",
+          "correct": true
+        },
+        { "text": "To routinely start the engine" },
+        { "text": "To disengage the clutch" },
+        { "text": "To balance the fuel/air mixture" }
+      ]
+    },
+    {
+      "questionText": "Why should you not shift gears while you are turning?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "It may cause a sudden decrease in power" },
+        {
+          "text": "All of these",
+          "correct": true
+        },
+        { "text": "It may cause a skid" },
+        { "text": "It may cause excess power" }
+      ]
+    },
+    {
+      "questionText": "If you do not apply enough throttle, what can the motorcycle do when you release the clutch?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Rev" },
+        {
+          "text": "Jerk",
+          "correct": true
+        },
+        { "text": "Stop" },
+        { "text": "Stall" }
+      ]
+    },
+    {
+      "questionText": "The fuel supply may be controlled by what?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "An electronic switch" },
+        { "text": "A pump" },
+        { "text": "None of these" },
+        {
+          "text": "A manually operated valve",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "How do you manually switch off the signal after each turn or lane change?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "With your thumb",
+          "correct": true
+        },
+        { "text": "With your right foot" },
+        { "text": "With your left foot" },
+        { "text": "It switches off automatically" }
+      ]
+    },
+    {
+      "questionText": "Do you need to lean while turning?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes",
+          "correct": true
+        },
+        { "text": "No" },
+        { "text": "Only at high speed" },
+        { "text": "Only at low speed" }
+      ]
+    },
+    {
+      "questionText": "How should you adjust the mirrors?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "You should see the lane behind you and as much of the other lanes on the road as possible",
+          "correct": true
+        },
+        { "text": "You should not see any part of your body" },
+        { "text": "Above eye level" },
+        { "text": "You should see a small part of your rear wheel" }
+      ]
+    },
+    {
+      "questionText": "Generally, you start a motorcycle (not a limited-speed motorcycle) by turning the ignition switch on and making sure the engine kill switch is...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Not in the accessory position" },
+        { "text": "Not in the first position" },
+        { "text": "Not in the 'on' position" },
+        {
+          "text": "Not in the 'off' position",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If behind a large vehicle, where should you stop?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Where the driver is still able to see you in the driver-side mirror",
+          "correct": true
+        },
+        { "text": "2 seconds behind" },
+        { "text": "Directly behind to reduce vacuum" },
+        { "text": "As close to the shoulder as possible to provide an escape route" }
+      ]
+    },
+    {
+      "questionText": "Do you need to wear brightly coloured clothing and a helmet in the daytime?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "No" },
+        { "text": "If it's all you have" },
+        { "text": "Only in poor light conditions" },
+        {
+          "text": "Yes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Do you need to signal whenever you change lanes whether someone else is around or not?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes",
+          "correct": true
+        },
+        { "text": "Just at night" },
+        { "text": "In bright conditions such as when there is glare" },
+        { "text": "No" }
+      ]
+    },
+    {
+      "questionText": "Should you apply both front and rear brakes every time you slow down or stop?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "No" },
+        { "text": "Only on rough roads" },
+        { "text": "In wet conditions only" },
+        {
+          "text": "Yes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Why should you look beyond the vehicle in front of you?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "All of these",
+          "correct": true
+        },
+        { "text": "For others that are stopping or turning ahead" },
+        { "text": "To notice the road conditions" },
+        { "text": "To see the speed limit" }
+      ]
+    },
+    {
+      "questionText": "Which statement is FALSE? If your motorcycle or moped has a centre stand, follow these steps to park it...",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Stand beside the right side of the motorcycle or moped and hold onto both handgrips",
+          "correct": true
+        },
+        { "text": "Balance the vehicle upright and use one hand to grasp the frame under the saddle" },
+        { "text": "Using your right foot, lower the centre stand until you feel it touch the ground" },
+        { "text": "With your right foot securely placed on the centre stand, push down and back on the stand with your foot while pulling the motorcycle back with your arms" }
+      ]
+    },
+    {
+      "questionText": "Should you always turn your head and check over your shoulder before you turn or change lanes?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "Yes",
+          "correct": true
+        },
+        { "text": "No" },
+        { "text": "Only while in traffic" },
+        { "text": "In poor conditions" }
+      ]
+    },
+    {
+      "questionText": "Why should you approach intersections slowly?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "You won't blend into the background as easily" },
+        { "text": "All of these",
+          "correct": true
+        },
+        { "text": "You can make a quick stop or a quick turn" },
+        { "text": "The others can spot you easier" }
+      ]
+    },
+    {
+      "questionText": "Why is it dangerous to forget to turn a signal off as it is to forget to turn it on?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "A driver may think that you plan to turn or make a lane change",
+          "correct": true
+        },
+        { "text": "No one will believe any other time you signal" },
+        { "text": "All of these" },
+        { "text": "It is illegal" }
+      ]
+    },
+    {
+      "questionText": "Which statement is FALSE? It is especially important to check your mirrors in the following situations...",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Before you change lanes" },
+        { "text": "Before accelerating",
+          "correct": true
+        },
+        { "text": "Before you have to slow down or stop suddenly or when you are stopped at an intersection" },
+        { "text": "Before you make a turn" }
+      ]
+    },
+    {
+      "questionText": "Why is it important to communicate with other drivers?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "To make sure they see you and know what you are doing",
+          "correct": true
+        },
+        { "text": "To show your frustration" },
+        { "text": "All of these" },
+        { "text": "Because it's the law" }
+      ]
+    },
+    {
+      "questionText": "How do you know another driver can see you when you are passing them?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "If you are ahead of them" },
+        { "text": "You can see them in your mirror" },
+        {
+          "text": "If you can see a driver in their mirror, the driver can see you",
+          "correct": true
+        },
+        { "text": "If you are beside them" }
+      ]
+    },
+    {
+      "questionText": "When you are parked or stopped at the side of the road and want to join traffic, why should you angle your motorcycle across the road?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "All of these",
+          "correct": true
+        },
+        { "text": "To make it easier to leave" },
+        { "text": "To make you more visible" },
+        { "text": "So that you can see in both directions" }
+      ]
+    },
+    {
+      "questionText": "How long should you remain in another driver's blind spot?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "As little time as possible",
+          "correct": true
+        },
+        { "text": "No more than 5 seconds" },
+        { "text": "No longer than 4 seconds" },
+        { "text": "Up to 6 seconds" }
+      ]
+    },
+    {
+      "questionText": "When you approach an intersection with a vehicle waiting to pull out, why should you move toward the centre of the road?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "All of these",
+          "correct": true
+        },
+        { "text": "So that you are in the other driver's line of sight" },
+        { "text": "To give yourself more escape routes" },
+        { "text": "To improve your visibility" }
+      ]
+    },
+    {
+      "questionText": "Do not look at one place for more than...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Four seconds" },
+        { "text": "Two seconds",
+          "correct": true
+        },
+        { "text": "Half a second" },
+        { "text": "One second" }
+      ]
+    },
+    {
+      "questionText": "Skilled drivers have very few surprises on the road because they...?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "See and understand possible problems before getting to them",
+          "correct": true
+        },
+        { "text": "Follow the lead of other drivers and riders" },
+        { "text": "Listen to traffic reports before riding" },
+        { "text": "All of these" }
+      ]
+    },
+    {
+      "questionText": "Why should you check the roadside?",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "All of these",
+          "correct": true
+        },
+        { "text": "To watch for vehicles that may leave the curb or enter from side streets or driveways" },
+        { "text": "To look for road defects" },
+        { "text": "To look for your next turn" }
+      ]
+    },
+    {
+      "questionText": "Do you need to use your turn signals even when what you plan to do is obvious?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Yes",
+          "correct": true
+        },
+        { "text": "Only at night" },
+        { "text": "Only if you feel the other driver is too close" },
+        { "text": "No" }
+      ]
+    },
+    {
+      "questionText": "For a vehicle on your left or an oncoming vehicle with a left-turn signal on, you should...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Move to the far right",
+          "correct": true
+        },
+        { "text": "Stay in your current position" },
+        { "text": "None of these" },
+        { "text": "Flash your headlight" }
+      ]
+    },
+    {
+      "questionText": "When stopped, keep both brakes on and...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Your left foot on the ground",
+          "correct": true
+        },
+        { "text": "Your right foot on the ground" },
+        { "text": "Shift out of first gear" },
+        { "text": "Turn off the engine" }
+      ]
+    },
+    {
+      "questionText": "Should you balance at a low speed instead of coming to a complete stop?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "No",
+          "correct": true
+        },
+        { "text": "Yes" },
+        { "text": "Only if weather conditions allow for it" },
+        { "text": "Once you gain enough experience" }
+      ]
+    },
+    {
+      "questionText": "How often should you check your mirrors?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Every 5 to 7 seconds",
+          "correct": true
+        },
+        { "text": "Every 3 to 4 seconds" },
+        { "text": "When traffic is behind you" },
+        { "text": "Every 10 seconds" }
+      ]
+    },
+    {
+      "questionText": "Where do most collisions between motorcycles or mopeds and other vehicles happen?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Intersections",
+          "correct": true
+        },
+        { "text": "Leaving the curb" },
+        { "text": "Parking lots" },
+        { "text": "Highways" }
+      ]
+    },
+    {
+      "questionText": "Learn to look far ahead of where you are driving in the city, such as...?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Look one-half to one full block ahead",
+          "correct": true
+        },
+        { "text": "Look two blocks ahead" },
+        { "text": "Look 4 seconds ahead" },
+        { "text": "Look 2 seconds ahead" }
+      ]
+    },
+    {
+      "questionText": "Can you make yourself more visible by moving from one side of the lane to the other?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Yes",
+          "correct": true
+        },
+        { "text": "Not really" },
+        { "text": "Only on bright days" },
+        { "text": "Not in traffic" }
+      ]
+    },
+    {
+      "questionText": "What should you do at a blind intersection after stopping?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Ease forward past obstructions to see if anything is coming",
+          "correct": true
+        },
+        { "text": "Never turn left across the path of oncoming traffic" },
+        { "text": "Proceed forward slower than normal to allow other road users a chance to see you" },
+        { "text": "Always turn right to allow you to get up to speed" }
+      ]
+    },
+    {
+      "questionText": "What should you do in a blind curve, where you cannot see all the way around?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Move to the side of the lane where you can see as much as possible of the road ahead",
+          "correct": true
+        },
+        { "text": "Slow down a lot" },
+        { "text": "Plan your route to travel in a different road" },
+        { "text": "Stay on the inside of the curve" }
+      ]
+    },
+    {
+      "questionText": "If your turn signals or brake lights are not working, what should you do?",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Make it obvious that you're turning and slowing down" },
+        { "text": "Look in the direction you want to go so others will know your intentions" },
+        { "text": "None of these" },
+        { "text": "Use arm signals",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "When braking hard, keep the motorcycle or moped...",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "Moving sideways" },
+        { "text": "Leaning backward as much as possible" },
+        { "text": "None of these" },
+        { "text": "As vertical as possible",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}
