@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { QuestionService } from '../service/question.service';
 import { interval } from 'rxjs';
 import { ElementRef, Renderer2 } from '@angular/core';
@@ -37,6 +37,46 @@ export class QuestionComponent {
   feedback: string = '';
   isCorrect: boolean = false;
   formattedMathAnswer: SafeHtml = '';
+  selectedOptionIndex: number = 0;
+
+  // Handle keyboard navigation
+  @HostListener('window:keydown', ['$event'])
+  handleKeyPress(event: KeyboardEvent) {
+    if (this.isExactMatch || this.isQuestionAnswered) return;
+
+    const numOptions =
+      this.questionList[this.currentQuestion]?.options?.length || 0;
+
+    switch (event.key) {
+      case 'ArrowUp':
+        event.preventDefault();
+        this.selectedOptionIndex =
+          (this.selectedOptionIndex - 1 + numOptions) % numOptions;
+        this.focusOption(this.selectedOptionIndex);
+        break;
+      case 'ArrowDown':
+        event.preventDefault();
+        this.selectedOptionIndex = (this.selectedOptionIndex + 1) % numOptions;
+        this.focusOption(this.selectedOptionIndex);
+        break;
+    }
+  }
+
+  focusOption(index: number) {
+    setTimeout(() => {
+      const element = document.querySelector(
+        `[data-index="${index}"]`
+      ) as HTMLElement;
+      if (element) {
+        element.focus();
+      }
+    });
+  }
+
+  handleAnswer(currentQno: number, option: any, index: number, event: Event) {
+    const element = event.target as HTMLElement;
+    this.answer(currentQno, option, index, { target: element });
+  }
 
   constructor(
     private questionService: QuestionService,
@@ -74,11 +114,20 @@ export class QuestionComponent {
       // First handle fully parenthesized expressions
       .replace(/\(([^()]*)\)\/\(([^()]*)\)/g, '\\frac{($1)}{($2)}')
       // Handle parenthesized numerator
-      .replace(/\(([^()]*)\)\/([-]?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)/g, '\\frac{($1)}{$2}')
+      .replace(
+        /\(([^()]*)\)\/([-]?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)/g,
+        '\\frac{($1)}{$2}'
+      )
       // Handle parenthesized denominator
-      .replace(/([-]?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)\/\(([^()]*)\)/g, '\\frac{$1}{($3)}')
+      .replace(
+        /([-]?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)\/\(([^()]*)\)/g,
+        '\\frac{$1}{($3)}'
+      )
       // Finally handle single terms on both sides (including optional negative signs and exponents)
-      .replace(/([-]?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)\/(-?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)/g, '\\frac{$1}{$3}');
+      .replace(
+        /([-]?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)\/(-?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)/g,
+        '\\frac{$1}{$3}'
+      );
 
     const mathHtml = `<div class="math-preview">\\(${formattedInput}\\)</div>`;
     this.formattedMathAnswer = this.sanitizer.bypassSecurityTrustHtml(mathHtml);
@@ -86,7 +135,7 @@ export class QuestionComponent {
     setTimeout(() => {
       if (window.MathJax) {
         window.MathJax.typesetPromise?.([
-          this.el.nativeElement.querySelector('.math-preview')
+          this.el.nativeElement.querySelector('.math-preview'),
         ]).catch((err: any) => console.log('MathJax error:', err));
       }
     });
@@ -207,6 +256,8 @@ export class QuestionComponent {
       setTimeout(() => this.renderMath(), 100);
     }
     this.getProgressPercent();
+    this.selectedOptionIndex = 0;
+    this.focusOption(0);
   }
 
   previousQuestion() {
@@ -219,9 +270,11 @@ export class QuestionComponent {
       this.isQuestionAnswered = false;
     }
     setTimeout(() => this.renderMath(), 100);
+    this.selectedOptionIndex = 0;
+    this.focusOption(0);
   }
 
-  answer(currentQno: number, option: any, index: number) {
+  answer(currentQno: number, option: any, index: number, event: any) {
     if (this.isQuestionAnswered) return;
 
     if (option.correct) {
@@ -233,21 +286,26 @@ export class QuestionComponent {
 
     this.stopCounter();
     this.isQuestionAnswered = true;
-    setTimeout(() => this.renderMath(), 100);
 
-    // disable all the options
+    setTimeout(() => {
+      if (window.MathJax) {
+        window.MathJax.typesetPromise?.().catch((err: any) =>
+          console.log('MathJax error:', err)
+        );
+      }
+    }, 100);
 
-    // get index of correct answer
+    // Get index of correct answer
     const answerIndex = this.questionList[
       this.currentQuestion
     ].options.findIndex((opt: { correct: boolean }) => opt.correct === true);
 
-    // get element of correct answer
+    // Get element of correct answer
     const answerElement = this.el.nativeElement
       .querySelector('.options')
       .children[answerIndex].querySelector('div');
 
-    // format that element with green bg
+    // Format that element with green bg
     this.render.setStyle(answerElement, 'background', 'green');
     this.render.setStyle(answerElement, 'color', '#fff');
     this.render.setStyle(answerElement, 'border', '2px solid grey');

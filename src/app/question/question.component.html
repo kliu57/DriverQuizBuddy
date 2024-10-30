@@ -37,9 +37,11 @@
       <!-- Multiple Choice Mode -->
       <div class="options" *ngIf="!isExactMatch">
         <ol *ngFor="let option of questionList[currentQuestion]?.options; index as i">
-          <li (click)="answer(currentQuestion, option, i);">
+          <li>
             <div appChangeBg [isCorrect]="option.correct" [question]="questionList[currentQuestion]" [selectedIndex]="i"
-              [isQuestionAnswered]="isQuestionAnswered" class="card" [innerHTML]="option.text">
+              [isQuestionAnswered]="isQuestionAnswered" class="card" [tabindex]="0" [attr.data-index]="i"
+              (click)="handleAnswer(currentQuestion, option, i, $event)"
+              (keyup.enter)="handleAnswer(currentQuestion, option, i, $event)" [innerHTML]="option.text">
             </div>
           </li>
         </ol>
@@ -47,18 +49,14 @@
 
       <!-- Text Input Mode -->
       <div class="answer-section p-3" *ngIf="isExactMatch">
-        <!-- Displaying User Input -->
-        <!-- <div class="math-container mt-2 p-2" style="min-height: 36px;">
-          <div [innerHTML]="formattedMathAnswer"></div>
-        </div> -->
         <div class="math-container mt-2 p-2" style="min-height: 36px; font-size: 1.5rem;">
           <div [innerHTML]="formattedMathAnswer"></div>
         </div>
 
         <div class="form-group">
           <input type="text" [formControl]="userAnswer" class="form-control"
-                 placeholder="Type your answer here (e.g., x^2 for x²)"
-                 [readonly]="isQuestionAnswered">
+            placeholder="Type your answer here (e.g., x^2 for x²)" [readonly]="isQuestionAnswered"
+            (keyup.enter)="submitTextAnswer()">
         </div>
 
         <div class="mt-3">
