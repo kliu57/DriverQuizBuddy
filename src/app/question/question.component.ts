@@ -138,6 +138,10 @@ export class QuestionComponent {
     }
 
     this.stopCounter();
+
+    setTimeout(() => {
+      this.renderMath();
+    }, 100);
   }
 
   nextQuestion() {
@@ -185,6 +189,7 @@ export class QuestionComponent {
 
     this.stopCounter();
     this.isQuestionAnswered = true;
+    setTimeout(() => this.renderMath(), 100);
 
     // disable all the options
 
@@ -219,6 +224,8 @@ export class QuestionComponent {
           ].options.find((opt: any) => opt.correct);
           this.feedback = `Time's up! The correct answer is: ${correctOption.text}`;
           this.incorrectAnswer++;
+
+          setTimeout(() => this.renderMath(), 100);
         } else {
           // get index of correct answer
           const answerIndex = this.questionList[

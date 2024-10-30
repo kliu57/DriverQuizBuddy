@@ -14,15 +14,8 @@
       "info": "",
       "image": "",
       "options": [
-        { "text": "(-b+-\\sqrt(b^2-4ac))/(2a)", "correct": true }
-      ]
-    },
-        {
-      "questionText": "Quadratic formula\n\\(f(x)=ax^2+bx+c x=\\)",
-      "info": "",
-      "image": "",
-      "options": [
-        { "text": "(-b+-\\sqrt(b^2-4ac))/(2a)", "correct": true }
+        { "text": "\\(\\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\)", "correct": true },
+        { "text": "(-b+-\\sqrt(b^2-4ac)))/(2a)", "correct": true }
       ]
     }
   ]
