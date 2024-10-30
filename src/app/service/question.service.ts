@@ -19,4 +19,8 @@ export class QuestionService {
   getMotorQuestionsJson(){
     return this.http.get<any>("assets/questions_motor.json");
   }
+
+  getMHF4UFormulasQuestionsJson(){
+    return this.http.get<any>("assets/questions_MHF4U_formulas.json");
+  }
 }

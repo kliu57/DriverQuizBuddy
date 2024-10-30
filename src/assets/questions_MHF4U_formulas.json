@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "questionText": "Difference of squares formula\na^2-b^2=",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "(a+b)(a-b)", "correct": true },
+        { "text": "(a-b)(a+b)" }
+      ]
+    },
+    {
+      "questionText": "Quadratic formula f(x)=ax^2+bx+c x=",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "(-b+-\\sqrt(b^2-4ac))/(2a)", "correct": true }
+      ]
+    }
+  ]
+}
