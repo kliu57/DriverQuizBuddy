@@ -4,6 +4,8 @@ import { interval } from 'rxjs';
 import { ElementRef, Renderer2 } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
+import { distinctUntilChanged } from 'rxjs/operators';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 declare global {
   interface Window {
@@ -29,22 +31,64 @@ export class QuestionComponent {
   progress: string = '0';
   isQuizCompleted: boolean = false;
   isQuestionAnswered: boolean = false;
-
-  // Properties for text input mode
+  useTimer: boolean = true;
   isExactMatch: boolean = false;
   userAnswer = new FormControl('');
   feedback: string = '';
   isCorrect: boolean = false;
+  formattedMathAnswer: SafeHtml = '';
 
   constructor(
     private questionService: QuestionService,
     private el: ElementRef,
     private render: Renderer2,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private sanitizer: DomSanitizer
   ) {
     this.route.queryParams.subscribe((params) => {
       this.quizName = params['quiz'];
       this.isExactMatch = this.quizName === 'MHF4U Formulas';
+      this.useTimer = this.quizName !== 'MHF4U Formulas';
+    });
+
+    // Subscribe to user input changes
+    this.userAnswer.valueChanges
+      .pipe(distinctUntilChanged())
+      .subscribe((value) => {
+        if (value) {
+          this.formatMathAnswer(value);
+        } else {
+          this.formattedMathAnswer = '';
+        }
+      });
+  }
+
+  formatMathAnswer(input: string) {
+    let formattedInput = input;
+
+    // Convert \sqrt() to \sqrt{}
+    formattedInput = formattedInput.replace(/\\sqrt\((.*?)\)/g, '\\sqrt{$1}');
+
+    // Convert divisions to \frac
+    formattedInput = formattedInput
+      // First handle fully parenthesized expressions
+      .replace(/\(([^()]*)\)\/\(([^()]*)\)/g, '\\frac{($1)}{($2)}')
+      // Handle parenthesized numerator
+      .replace(/\(([^()]*)\)\/([-]?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)/g, '\\frac{($1)}{$2}')
+      // Handle parenthesized denominator
+      .replace(/([-]?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)\/\(([^()]*)\)/g, '\\frac{$1}{($3)}')
+      // Finally handle single terms on both sides (including optional negative signs and exponents)
+      .replace(/([-]?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)\/(-?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)/g, '\\frac{$1}{$3}');
+
+    const mathHtml = `<div class="math-preview">\\(${formattedInput}\\)</div>`;
+    this.formattedMathAnswer = this.sanitizer.bypassSecurityTrustHtml(mathHtml);
+
+    setTimeout(() => {
+      if (window.MathJax) {
+        window.MathJax.typesetPromise?.([
+          this.el.nativeElement.querySelector('.math-preview')
+        ]).catch((err: any) => console.log('MathJax error:', err));
+      }
     });
   }
 
@@ -210,6 +254,8 @@ export class QuestionComponent {
   }
 
   startCounter() {
+    if (!this.useTimer) return;
+
     this.interval$ = interval(1000).subscribe((val) => {
       this.counter--;
       if (this.counter === 0) {
@@ -252,10 +298,13 @@ export class QuestionComponent {
   }
 
   stopCounter() {
-    this.interval$.unsubscribe();
+    if (this.interval$) {
+      this.interval$.unsubscribe();
+    }
   }
 
   resetCounter() {
+    if (!this.useTimer) return;
     this.stopCounter();
     this.counter = 30;
     this.startCounter();
