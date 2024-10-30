@@ -5,6 +5,12 @@ import { ElementRef, Renderer2 } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 
+declare global {
+  interface Window {
+    MathJax: any;
+  }
+}
+
 @Component({
   selector: 'app-question',
   templateUrl: './question.component.html',
@@ -42,10 +48,25 @@ export class QuestionComponent {
     });
   }
 
+  renderMath() {
+    if (window.MathJax) {
+      window.MathJax.typesetPromise?.()?.catch((err: any) =>
+        console.log('MathJax error:', err)
+      );
+    }
+  }
+
   ngOnInit(): void {
     this.name = localStorage.getItem('name')!;
     this.getAllQuestions();
     this.startCounter();
+    setTimeout(() => {
+      this.renderMath();
+    }, 1000);
+  }
+
+  ngAfterViewInit() {
+    this.renderMath();
   }
 
   getAllQuestions() {
@@ -135,6 +156,7 @@ export class QuestionComponent {
       }
 
       this.resetCounter();
+      setTimeout(() => this.renderMath(), 100);
     }
     this.getProgressPercent();
   }
@@ -148,6 +170,7 @@ export class QuestionComponent {
       this.isCorrect = false;
       this.isQuestionAnswered = false;
     }
+    setTimeout(() => this.renderMath(), 100);
   }
 
   answer(currentQno: number, option: any, index: number) {

@@ -25,10 +25,11 @@
         <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [ngStyle]="{'width':progress+'%'}"
           aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
+
       <div class="question">
         <div class="card">
-          <h3>{{questionList[currentQuestion]?.questionText}}</h3>
-          <img src={{questionList[currentQuestion]?.image}}
+          <h3 [innerHTML]="questionList[currentQuestion]?.questionText"></h3>
+          <img *ngIf="questionList[currentQuestion]?.image" [src]="questionList[currentQuestion]?.image"
             style="max-height: 200px; width: auto; height: auto; object-fit: contain;">
         </div>
       </div>
