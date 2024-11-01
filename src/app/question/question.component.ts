@@ -42,7 +42,21 @@ export class QuestionComponent {
 
   @HostListener('window:keydown', ['$event'])
   handleKeyPress(event: KeyboardEvent) {
-    // Handle left/right navigation regardless of focus or question state
+    const focusedElement = document.activeElement;
+    const isInTextField =
+      focusedElement?.tagName === 'INPUT' ||
+      focusedElement?.tagName === 'TEXTAREA';
+
+    // If we're in the text field, only handle Enter key
+    if (isInTextField) {
+      if (event.key === 'Enter') {
+        // Handle Enter key for exact match submission
+        // Your existing enter key logic for exact match
+      }
+      return;
+    }
+
+    // Handle left/right navigation for all other cases
     if (event.key === 'ArrowLeft') {
       event.preventDefault();
       if (this.currentQuestion > 0) {
@@ -65,7 +79,6 @@ export class QuestionComponent {
       this.questionList[this.currentQuestion]?.options?.length || 0;
 
     // Only handle option navigation if we're not focused on navigation buttons
-    const focusedElement = document.activeElement;
     const isNavigationButton = focusedElement?.tagName === 'BUTTON';
 
     if (!isNavigationButton) {

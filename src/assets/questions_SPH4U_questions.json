@@ -1,0 +1,24 @@
+{
+  "logo": "/assets/images/logos/math_logo.png",
+  "questions": [
+    {
+      "questionText": "Difference of squares formula\n\\(a^2-b^2=\\)",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "(a+b)(a-b)", "correct": true },
+        { "text": "(a-b)(a+b)" }
+      ]
+    },
+    {
+      "questionText": "Quadratic formula\n\\(f(x)=ax^2+bx+c\\)\n\\(x=\\)",
+      "info": "",
+      "image": "",
+      "options": [
+        { "text": "\\(\\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\)", "correct": true },
+        { "text": "(-b+-\\sqrt(b^2-4ac))/(2a)" },
+        { "text": "(-b\\pm\\sqrt(b^2-4ac))/(2a)" }
+      ]
+    }
+  ]
+}
