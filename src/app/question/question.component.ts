@@ -42,6 +42,23 @@ export class QuestionComponent {
 
   @HostListener('window:keydown', ['$event'])
   handleKeyPress(event: KeyboardEvent) {
+    // Handle left/right navigation regardless of focus or question state
+    if (event.key === 'ArrowLeft') {
+      event.preventDefault();
+      if (this.currentQuestion > 0) {
+        this.previousQuestion();
+      }
+      return;
+    }
+    if (event.key === 'ArrowRight') {
+      event.preventDefault();
+      if (this.currentQuestion < this.questionList.length - 1) {
+        this.nextQuestion();
+      }
+      return;
+    }
+
+    // Only handle up/down/enter if we're not in exact match mode and question isn't answered
     if (this.isExactMatch || this.isQuestionAnswered) return;
 
     const numOptions =
