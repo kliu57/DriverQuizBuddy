@@ -2,7 +2,7 @@
   "logo": "/assets/images/logos/math_logo.png",
   "questions": [
     {
-      "questionText": "Linear equation\n`f(x)=`",
+      "questionText": "Linear equation\nf(x)=",
       "info": "",
       "image": "",
       "options": [
@@ -16,44 +16,35 @@
       ]
     },
     {
-      "questionText": "Quadratic equation\n`f(x)=`",
+      "questionText": "Quadratic equation\nf(x)=",
       "info": "",
       "image": "",
       "options": [
         {
           "text": "`ax^2+bx+c`",
           "correct": true
-        },
-        {
-          "text": "ax^2+bx+c"
         }
       ]
     },
     {
-      "questionText": "Cubic equation\n`f(x)=`",
+      "questionText": "Cubic equation\nf(x)=",
       "info": "",
       "image": "",
       "options": [
         {
           "text": "`ax^3+bx^2+cx+d`",
           "correct": true
-        },
-        {
-          "text": "ax^3+bx^2+cx+d"
         }
       ]
     },
     {
-      "questionText": "Quadratic formula\n`f(x)=ax^2+bx+c`\n`x=`",
+      "questionText": "Quadratic formula\n`f(x)=ax^2+bx+c`\nx=",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "`\\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}`",
+          "text": "`(-b+-\\sqrt(b^2-4ac))/(2a)`",
           "correct": true
-        },
-        {
-          "text": "(-b+-\\sqrt(b^2-4ac))/(2a)"
         },
         {
           "text": "(-b\\pm\\sqrt(b^2-4ac))/(2a)"
@@ -61,7 +52,7 @@
       ]
     },
     {
-      "questionText": "Simple trinomial equation\n`y=`",
+      "questionText": "Simple trinomial equation\ny=",
       "info": "",
       "image": "",
       "options": [
@@ -69,24 +60,18 @@
           "text": "`x^2+bx+c`"
         },
         {
-          "text": "x^2+bx+c"
-        },
-        {
           "text": "x^2+ax+b"
         }
       ]
     },
     {
-      "questionText": "Complex trinomial equation\n`y=`",
+      "questionText": "Complex trinomial equation\ny=",
       "info": "",
       "image": "",
       "options": [
         {
           "text": "`ax^2+bx+c`",
           "correct": true
-        },
-        {
-          "text": "ax^2+bx+c"
         }
       ]
     },
@@ -112,14 +97,11 @@
         {
           "text": "`(ax)^2+2abx+b^2`",
           "correct": true
-        },
-        {
-          "text": "(ax)^2+2abx+b^2"
         }
       ]
     },
     {
-      "questionText": "Factor theorem\n`\\text{When } f(x)=0\\text{, _____ is a factor of }f(x)\\text{ where }n \\in \\mathbb{R}`",
+      "questionText": "Factor theorem\nWhen f(x)=0, _____ is a factor of f(x) where n `\\in \\mathbb{R}`",
       "info": "",
       "image": "",
       "options": [
@@ -130,7 +112,7 @@
       ]
     },
     {
-      "questionText": "Remainder theorem\n`\\text{For a polynomial } f(x)\\text{, the remainder of } \\frac{f(x)}{(x-n)} \\text{ is}`",
+      "questionText": "Remainder theorem\nFor a polynomial f(x), the remainder of `\\frac{f(x)}{(x-n)}` is",
       "info": "",
       "image": "",
       "options": [
@@ -141,7 +123,7 @@
       ]
     },
     {
-      "questionText": "Remainder theorem\n`\\text{For a polynomial } f(x)\\text{, if }f(n)=0\\text{ then _____ is a factor of }f(x)`",
+      "questionText": "Remainder theorem\nFor a polynomial f(x), if f(n)=0, then _____ is a factor of f(x)",
       "info": "",
       "image": "",
       "options": [
@@ -152,7 +134,7 @@
       ]
     },
     {
-      "questionText": "Remainder theorem\n`\\text{For a polynomial } f(x)\\text{, if }f(n)\\ne0\\text{ then _____ is not a factor of }f(x)`",
+      "questionText": "Remainder theorem\nFor a polynomial f(x), if f(n)`\\ne`0, then _____ is not a factor of f(x)",
       "info": "",
       "image": "",
       "options": [
@@ -170,9 +152,6 @@
         {
           "text": "`(ax)^2+2abx+b^2`",
           "correct": true
-        },
-        {
-          "text": "(ax)^2+2abx+b^2"
         }
       ]
     },
@@ -184,9 +163,6 @@
         {
           "text": "`a^3+3a^2b+3ab^2+b^3`",
           "correct": true
-        },
-        {
-          "text": "a^3+3a^2b+3ab^2+b^3"
         }
       ]
     },
@@ -200,10 +176,6 @@
           "correct": true
         },
         {
-          "text": "a[k(x-d)]^3+c",
-          "correct": true
-        },
-        {
           "text": "a(k(x-d))^3+c"
         }
       ]
@@ -214,11 +186,8 @@
       "image": "",
       "options": [
         {
-          "text": "`a \\log_b [k(x-d)] + c`",
+          "text": "`alog_b[k(x-d)]+c`",
           "correct": true
-        },
-        {
-          "text": "alog_b[k(x-d)]+c"
         },
         {
           "text": "alog_b(k(x-d))+c"
@@ -355,11 +324,8 @@
       "image": "",
       "options": [
         {
-          "text": "`(\\frac{x}{y}+d, ay+c)`",
+          "text": "`(x/y+d, ay+c)`",
           "correct": true
-        },
-        {
-          "text": "(x/y+d, ay+c)"
         },
         {
           "text": "(x/y+d,ay+c)"
@@ -372,11 +338,8 @@
       "image": "",
       "options": [
         {
-          "text": "`\\frac{\\text{max} - \\text{min}}{2}`",
+          "text": "`(max-min)/2`",
           "correct": true
-        },
-        {
-          "text": "(max-min)/2"
         },
         {
           "text": "(maximum-minimum)/2"
@@ -392,11 +355,8 @@
       "image": "",
       "options": [
         {
-          "text": "`\\frac{\\text{max} + \\text{min}}{2}`",
+          "text": "`(max+min)/2`",
           "correct": true
-        },
-        {
-          "text": "(max+min)/2"
         },
         {
           "text": "(maximum+minimum)/2"
@@ -412,7 +372,7 @@
       "image": "",
       "options": [
         {
-          "text": "`\\frac{2\\pi}{|k|}`",
+          "text": "`(2\\pi)/|k|`",
           "correct": true
         },
         {
@@ -423,9 +383,6 @@
         },
         {
           "text": "(2\\pi)/(k)"
-        },
-        {
-          "text": "(2\\pi)/|k|"
         }
       ]
     },
@@ -441,7 +398,7 @@
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nStart point is (_____, 0)",
+      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nStart point is (___, 0)",
       "info": "",
       "image": "",
       "options": [
@@ -526,42 +483,34 @@
       "image": "",
       "options": [
         {
-          "text": "`\\frac{1}{n}`",
+          "text": "`1/n`",
           "correct": true
-        },
-        {
-          "text": "1/n"
         }
       ]
     },
     {
-      "questionText": "Rational numbers can be written in the form _____, where `b\\ne0` and a, b are integers",
+      "questionText": "Rational numbers can be written in the form _____, where b`\\ne`0 and a, b are integers",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "`\\frac{a}{b}`",
+          "text": "`a/b`",
           "correct": true
-        },
-        {
-          "text": "a/b"
         }
       ]
     },
     {
-      "questionText": "Rational functions are in the form _____, where `p(x), q(x)` are polynomials and `q(x)\\ne0`",
+      "questionText": "Rational functions are in the form _____, where p(x), q(x) are polynomials and q(x)`\\ne`0",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "`\\frac{p(x)}{q(x)}`",
+          "text": "`(p(x))/(q(x))`",
           "correct": true
         },
         {
-          "text": "p(x)/q(x)"
-        },
-        {
-          "text": "(p(x))/(q(x))"
+          "text": "p(x)/q(x)",
+          "correct": true
         }
       ]
     },
@@ -571,11 +520,8 @@
       "image": "",
       "options": [
         {
-          "text": "`\\frac{1}{f(x)}`",
+          "text": "`1/f(x)`",
           "correct": true
-        },
-        {
-          "text": "1/f(x)"
         }
       ]
     }

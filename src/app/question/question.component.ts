@@ -245,25 +245,26 @@ export class QuestionComponent {
     if (this.isQuestionAnswered) return;
 
     const currentQ = this.questionList[this.currentQuestion];
-    // Get all option texts in lowercase for comparison
+    // Normalize answers by removing backticks for comparison purposes only
     const possibleAnswers = currentQ.options.map((opt: any) =>
-      opt.text.toLowerCase().trim()
+      opt.text.replace(/`/g, '').toLowerCase().trim()
     );
-    const userText = this.userAnswer.value?.toLowerCase().trim() || '';
-    // Get the "correct" answer for feedback purposes
+    const userText = (this.userAnswer.value || '').replace(/`/g, '').toLowerCase().trim();
+
+    // Get the correct answer for feedback purposes, do not modify original with backticks
     const correctOption = currentQ.options.find((opt: any) => opt.correct);
 
     this.isQuestionAnswered = true;
 
-    // Check if user's answer matches any of the possible answers
     if (possibleAnswers.includes(userText)) {
       this.points++;
       this.correctAnswer++;
-      this.feedback = 'Correct!';
+      // Preserve AsciiMath notation in feedback for correct rendering
+      this.feedback = "Correct!";
       this.isCorrect = true;
     } else {
       this.incorrectAnswer++;
-      // Only show the official correct answer in feedback
+      // Show the official correct answer with AsciiMath notation preserved
       this.feedback = `Incorrect. The correct answer is: ${correctOption.text}`;
       this.isCorrect = false;
     }
