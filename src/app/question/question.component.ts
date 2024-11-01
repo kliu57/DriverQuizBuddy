@@ -40,7 +40,6 @@ export class QuestionComponent {
   formattedMathAnswer: SafeHtml = '';
   selectedOptionIndex: number = 0;
 
-  // Handle keyboard navigation
   @HostListener('window:keydown', ['$event'])
   handleKeyPress(event: KeyboardEvent) {
     if (this.isExactMatch || this.isQuestionAnswered) return;
@@ -48,33 +47,61 @@ export class QuestionComponent {
     const numOptions =
       this.questionList[this.currentQuestion]?.options?.length || 0;
 
-    switch (event.key) {
-      case 'ArrowUp':
-        event.preventDefault();
-        this.selectedOptionIndex =
-          (this.selectedOptionIndex - 1 + numOptions) % numOptions;
-        this.focusOption(this.selectedOptionIndex);
-        break;
-      case 'ArrowDown':
-        event.preventDefault();
-        this.selectedOptionIndex = (this.selectedOptionIndex + 1) % numOptions;
-        this.focusOption(this.selectedOptionIndex);
-        break;
+    // Only handle option navigation if we're not focused on navigation buttons
+    const focusedElement = document.activeElement;
+    const isNavigationButton = focusedElement?.tagName === 'BUTTON';
+
+    if (!isNavigationButton) {
+      switch (event.key) {
+        case 'ArrowUp':
+          event.preventDefault();
+          this.selectedOptionIndex =
+            (this.selectedOptionIndex - 1 + numOptions) % numOptions;
+          this.focusOption(this.selectedOptionIndex);
+          break;
+        case 'ArrowDown':
+          event.preventDefault();
+          this.selectedOptionIndex =
+            (this.selectedOptionIndex + 1) % numOptions;
+          this.focusOption(this.selectedOptionIndex);
+          break;
+        case 'Enter':
+          if (document.activeElement?.hasAttribute('data-index')) {
+            event.preventDefault();
+            const index = parseInt(
+              document.activeElement.getAttribute('data-index') || '0'
+            );
+            const option =
+              this.questionList[this.currentQuestion].options[index];
+            const clickEvent = new MouseEvent('click', {
+              bubbles: true,
+              cancelable: true,
+              view: window,
+            });
+            this.handleAnswer(this.currentQuestion, option, index, clickEvent);
+          }
+          break;
+      }
     }
   }
 
   focusOption(index: number) {
-    setTimeout(() => {
-      const element = document.querySelector(
-        `[data-index="${index}"]`
-      ) as HTMLElement;
-      if (element) {
-        element.focus();
-      }
-    });
+    if (index >= 0) {
+      setTimeout(() => {
+        const element = document.querySelector(
+          `[data-index="${index}"]`
+        ) as HTMLElement;
+        if (element) {
+          element.focus();
+        }
+      });
+    }
   }
 
   handleAnswer(currentQno: number, option: any, index: number, event: Event) {
+    if (this.isQuestionAnswered) return;
+    if (!event || !event.target) return;
+
     const element = event.target as HTMLElement;
     this.answer(currentQno, option, index, { target: element });
   }
@@ -258,11 +285,12 @@ export class QuestionComponent {
       }
 
       this.resetCounter();
-      setTimeout(() => this.renderMath(), 100);
+      setTimeout(() => {
+        this.renderMath();
+        this.selectedOptionIndex = -1; // Reset selection without focusing
+      }, 100);
     }
     this.getProgressPercent();
-    this.selectedOptionIndex = 0;
-    this.focusOption(0);
   }
 
   previousQuestion() {
@@ -272,11 +300,14 @@ export class QuestionComponent {
       this.userAnswer.setValue('');
       this.feedback = '';
       this.isCorrect = false;
-      this.isQuestionAnswered = false;
     }
-    setTimeout(() => this.renderMath(), 100);
-    this.selectedOptionIndex = 0;
-    this.focusOption(0);
+
+    this.isQuestionAnswered = false;
+    setTimeout(() => {
+      this.renderMath();
+      this.selectedOptionIndex = -1; // Reset selection without focusing
+    }, 100);
+    this.getProgressPercent();
   }
 
   answer(currentQno: number, option: any, index: number, event: any) {
