@@ -21,6 +21,7 @@ declare global {
 export class QuestionComponent {
   public name: string = '';
   public quizName: string = '';
+  public logoUrl: string = '';
   public questionList: any = [];
   public currentQuestion: number = 0;
   public points: number = 0;
@@ -165,6 +166,7 @@ export class QuestionComponent {
   getAllQuestions() {
     if (this.quizName === 'Road Signs') {
       this.questionService.getSignQuestionsJson().subscribe((res) => {
+        this.logoUrl = res.logo;
         this.questionList = res.questions;
         this.questionList.forEach((question: any) =>
           this.shuffleOptions(question.options)
@@ -172,6 +174,7 @@ export class QuestionComponent {
       });
     } else if (this.quizName === 'Rules of the Road') {
       this.questionService.getRuleQuestionsJson().subscribe((res) => {
+        this.logoUrl = res.logo;
         this.questionList = res.questions;
         this.questionList.forEach((question: any) =>
           this.shuffleOptions(question.options)
@@ -179,6 +182,7 @@ export class QuestionComponent {
       });
     } else if (this.quizName === 'MHF4U Formulas') {
       this.questionService.getMHF4UFormulasQuestionsJson().subscribe((res) => {
+        this.logoUrl = res.logo;
         this.questionList = res.questions;
         if (!this.isExactMatch) {
           this.questionList.forEach((question: any) =>
@@ -188,6 +192,7 @@ export class QuestionComponent {
       });
     } else {
       this.questionService.getMotorQuestionsJson().subscribe((res) => {
+        this.logoUrl = res.logo;
         this.questionList = res.questions;
         this.questionList.forEach((question: any) =>
           this.shuffleOptions(question.options)
