@@ -90,12 +90,12 @@
       ]
     },
     {
-      "questionText": "Factor a perfect square trinomial\n`(ax+b)^2=`",
+      "questionText": "Factor a perfect square trinomial\n`(ax)^2+2abx+b^2=`",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "`(ax)^2+2abx+b^2`",
+          "text": "`(ax+b)^2`",
           "correct": true
         }
       ]
@@ -108,6 +108,9 @@
         {
           "text": "(x-n)",
           "correct": true
+        },
+        {
+          "text": "x-n"
         }
       ]
     },
@@ -130,6 +133,9 @@
         {
           "text": "(x-n)",
           "correct": true
+        },
+        {
+          "text": "x-n"
         }
       ]
     },
@@ -141,6 +147,9 @@
         {
           "text": "(x-n)",
           "correct": true
+        },
+        {
+          "text": "x-n"
         }
       ]
     },
@@ -150,7 +159,7 @@
       "image": "",
       "options": [
         {
-          "text": "`(ax)^2+2abx+b^2`",
+          "text": "`(a-b)(a^2+ab+b^2)`",
           "correct": true
         }
       ]
@@ -200,11 +209,11 @@
       "image": "",
       "options": [
         {
-          "text": "asin[k(x-d)]+c]",
+          "text": "asin[k(x-d)]+c",
           "correct": true
         },
         {
-          "text": "asin(k(x-d)]+c)"
+          "text": "asin(k(x-d))+c"
         }
       ]
     },
@@ -324,11 +333,11 @@
       "image": "",
       "options": [
         {
-          "text": "`(x/y+d, ay+c)`",
+          "text": "`(x/k+d, ay+c)`",
           "correct": true
         },
         {
-          "text": "(x/y+d,ay+c)"
+          "text": "(x/k+d,ay+c)"
         }
       ]
     },
