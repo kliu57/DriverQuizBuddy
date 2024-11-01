@@ -280,8 +280,19 @@ export class QuestionComponent {
     if (option.correct) {
       this.points++;
       this.correctAnswer++;
+      this.styleOption(event.target, true);
     } else {
       this.incorrectAnswer++;
+      this.styleOption(event.target, false);
+
+      // Show the correct answer
+      const correctIndex = this.questionList[currentQno].options.findIndex(
+        (opt: { correct: boolean }) => opt.correct === true
+      );
+      const correctElement = this.el.nativeElement
+        .querySelector('.options')
+        .children[correctIndex].querySelector('div');
+      this.styleOption(correctElement, true);
     }
 
     this.stopCounter();
@@ -294,21 +305,17 @@ export class QuestionComponent {
         );
       }
     }, 100);
+  }
 
-    // Get index of correct answer
-    const answerIndex = this.questionList[
-      this.currentQuestion
-    ].options.findIndex((opt: { correct: boolean }) => opt.correct === true);
-
-    // Get element of correct answer
-    const answerElement = this.el.nativeElement
-      .querySelector('.options')
-      .children[answerIndex].querySelector('div');
-
-    // Format that element with green bg
-    this.render.setStyle(answerElement, 'background', 'green');
-    this.render.setStyle(answerElement, 'color', '#fff');
-    this.render.setStyle(answerElement, 'border', '2px solid grey');
+  private styleOption(element: HTMLElement, isCorrect: boolean) {
+    if (isCorrect) {
+      this.render.setStyle(element, 'background', '#008f00');
+      this.render.setStyle(element, 'color', '#fff');
+    } else {
+      this.render.setStyle(element, 'background', '#cc0000');
+      this.render.setStyle(element, 'color', '#fff');
+    }
+    this.render.setStyle(element, 'border', '2px solid grey');
   }
 
   startCounter() {

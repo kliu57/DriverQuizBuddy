@@ -1,62 +1,71 @@
-.card{
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px;
+.card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
 }
-li{
-    list-style-type: none;
-    cursor: pointer;
-    margin: 10px 0;
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 10px 0;
 }
-li .card:hover{
-    border: 1px solid blue;
+
+li .card {
+  border: 1px solid #dee2e6;
 }
-ol{
-    padding: 0;
+
+li .card:hover,
+li .card:focus-visible {
+  outline: 2px solid #80bdff;
+  outline-offset: -2px;
+  box-shadow: 0 0 0 2px #bfdeff;
+}
+
+ol {
+  padding: 0;
 }
 
 .disabled {
-    pointer-events:none; //This makes it not clickable
-    opacity:0.6;         //This grays it out to look disabled
+  pointer-events: none;
+  opacity: 0.6;
 }
 
 h1 {
-    font-weight: 900;
-    color: #353d44;
-    font-family: 'Nunito', sans-serif !important;
-    font-size: 2em;
+  font-weight: 900;
+  color: #353d44;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 2em;
 }
 
 h2 {
-    font-weight: 800;
-    color: #66a9e8;
-    font-size: 1.8em;
-    font-family: 'Nunito', sans-serif !important;
+  font-weight: 800;
+  color: #66a9e8;
+  font-size: 1.8em;
+  font-family: "Nunito", sans-serif !important;
 }
 
 h3 {
-    font-weight: 800;
-    color: #353d44;
-    font-size: 1.5em;
-    font-family: 'Nunito', sans-serif !important;
-
+  font-weight: 800;
+  color: #353d44;
+  font-size: 1.5em;
+  font-family: "Nunito", sans-serif !important;
 }
 
 h4 {
-    font-weight: 800;
-    color: #8b939c;
+  font-weight: 800;
+  color: #8b939c;
 }
 
 h5 {
-    font-weight: 800;
-    color: #353d44;
-    font-size: 1.2em;
+  font-weight: 800;
+  color: #353d44;
+  font-size: 1.2em;
 }
 
 span {
-    font-weight: 900;
-    color: #353d44;
-    font-size: 1.2em;
+  font-weight: 900;
+  color: #353d44;
+  font-size: 1.2em;
 }
 
 .question h3 {
