@@ -2,22 +2,11 @@
   "logo": "/assets/images/logos/math_logo.png",
   "questions": [
     {
-      "questionText": "The domain is",
+      "questionText": "",
       "info": "",
       "image": "",
       "options": [
-        { "text": "set possible x values for a given function", "correct": true },
-        { "text": "" }
-      ]
-    },
-    {
-      "questionText": "Quadratic formula\n\\(f(x)=ax^2+bx+c\\)\n\\(x=\\)",
-      "info": "",
-      "image": "",
-      "options": [
-        { "text": "\\(\\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\)", "correct": true },
-        { "text": "(-b+-\\sqrt(b^2-4ac))/(2a)" },
-        { "text": "(-b\\pm\\sqrt(b^2-4ac))/(2a)" }
+        { "text": "", "correct": true }
       ]
     }
   ]

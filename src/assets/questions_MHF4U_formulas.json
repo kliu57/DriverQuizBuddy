@@ -2,7 +2,7 @@
   "logo": "/assets/images/logos/math_logo.png",
   "questions": [
     {
-      "questionText": "Linear equation\n\\(f(x)=\\)",
+      "questionText": "Linear equation\n`f(x)=`",
       "info": "",
       "image": "",
       "options": [
@@ -16,12 +16,12 @@
       ]
     },
     {
-      "questionText": "Quadratic equation\n\\(f(x)=\\)",
+      "questionText": "Quadratic equation\n`f(x)=`",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "\\(ax^2+bx+c\\)",
+          "text": "`ax^2+bx+c`",
           "correct": true
         },
         {
@@ -30,12 +30,12 @@
       ]
     },
     {
-      "questionText": "Cubic equation\n\\(f(x)=\\)",
+      "questionText": "Cubic equation\n`f(x)=`",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "\\(ax^3+bx^2+cx+d\\)",
+          "text": "`ax^3+bx^2+cx+d`",
           "correct": true
         },
         {
@@ -44,12 +44,12 @@
       ]
     },
     {
-      "questionText": "Quadratic formula\n\\(f(x)=ax^2+bx+c\\)\n\\(x=\\)",
+      "questionText": "Quadratic formula\n`f(x)=ax^2+bx+c`\n`x=`",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "\\(\\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\)",
+          "text": "`\\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}`",
           "correct": true
         },
         {
@@ -61,12 +61,12 @@
       ]
     },
     {
-      "questionText": "Simple trinomial equation\n\\(y=\\)",
+      "questionText": "Simple trinomial equation\n`y=`",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "\\(x^2+bx+c\\)"
+          "text": "`x^2+bx+c`"
         },
         {
           "text": "x^2+bx+c"
@@ -77,12 +77,12 @@
       ]
     },
     {
-      "questionText": "Complex trinomial equation\n\\(y=\\)",
+      "questionText": "Complex trinomial equation\n`y=`",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "\\(ax^2+bx+c\\)",
+          "text": "`ax^2+bx+c`",
           "correct": true
         },
         {
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "questionText": "Factor with difference of squares\n\\(a^2-b^2=\\)",
+      "questionText": "Factor with difference of squares\n`a^2-b^2=`",
       "info": "",
       "image": "",
       "options": [
@@ -105,12 +105,12 @@
       ]
     },
     {
-      "questionText": "Factor a perfect square trinomial\n\\((ax+b)^2=\\)",
+      "questionText": "Factor a perfect square trinomial\n`(ax+b)^2=`",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "\\((ax)^2+2abx+b^2\\)",
+          "text": "`(ax)^2+2abx+b^2`",
           "correct": true
         },
         {
@@ -119,7 +119,7 @@
       ]
     },
     {
-      "questionText": "Factor theorem\n\\(\\text{When } f(x)=0\\text{, _____ is a factor of }f(x)\\text{ where }n \\in \\mathbb{R}\\)",
+      "questionText": "Factor theorem\n`\\text{When } f(x)=0\\text{, _____ is a factor of }f(x)\\text{ where }n \\in \\mathbb{R}`",
       "info": "",
       "image": "",
       "options": [
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "questionText": "Remainder theorem\n\\(\\text{For a polynomial } f(x)\\text{, the remainder of } \\frac{f(x)}{(x-n)} \\text{ is}\\)",
+      "questionText": "Remainder theorem\n`\\text{For a polynomial } f(x)\\text{, the remainder of } \\frac{f(x)}{(x-n)} \\text{ is}`",
       "info": "",
       "image": "",
       "options": [
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "questionText": "Remainder theorem\n\\(\\text{For a polynomial } f(x)\\text{, if }f(n)=0\\text{ then _____ is a factor of }f(x)\\)",
+      "questionText": "Remainder theorem\n`\\text{For a polynomial } f(x)\\text{, if }f(n)=0\\text{ then _____ is a factor of }f(x)`",
       "info": "",
       "image": "",
       "options": [
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "questionText": "Remainder theorem\n\\(\\text{For a polynomial } f(x)\\text{, if }f(n)\\ne0\\text{ then _____ is not a factor of }f(x)\\)",
+      "questionText": "Remainder theorem\n`\\text{For a polynomial } f(x)\\text{, if }f(n)\\ne0\\text{ then _____ is not a factor of }f(x)`",
       "info": "",
       "image": "",
       "options": [
@@ -163,12 +163,12 @@
       ]
     },
     {
-      "questionText": "Factor with difference in cubes\n\\(a^3-b^3=\\)",
+      "questionText": "Factor with difference in cubes\n`a^3-b^3=`",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "\\((ax)^2+2abx+b^2\\)",
+          "text": "`(ax)^2+2abx+b^2`",
           "correct": true
         },
         {
@@ -177,12 +177,12 @@
       ]
     },
     {
-      "questionText": "Expand a cubed binomial\n\\((a+b)^3=\\)",
+      "questionText": "Expand a cubed binomial\n`(a+b)^3=`",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "\\(a^3+3a^2b+3ab^2+b^3\\)",
+          "text": "`a^3+3a^2b+3ab^2+b^3`",
           "correct": true
         },
         {
@@ -196,7 +196,7 @@
       "image": "",
       "options": [
         {
-          "text": "\\(a[k(x-d)]^3+c\\)",
+          "text": "`a[k(x-d)]^3+c`",
           "correct": true
         },
         {
@@ -214,7 +214,7 @@
       "image": "",
       "options": [
         {
-          "text": "\\(a \\log_b [k(x-d)] + c\\)",
+          "text": "`a \\log_b [k(x-d)] + c`",
           "correct": true
         },
         {
@@ -240,7 +240,7 @@
       ]
     },
     {
-      "questionText": "Cubic function transformed \\(f(x)=a[k(x-d)]^3+c\\)\nWhat variable causes reflection in x-axis?",
+      "questionText": "Cubic function transformed `f(x)=a[k(x-d)]^3+c`\nWhat variable causes reflection in x-axis?",
       "info": "",
       "image": "",
       "options": [
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "questionText": "Cubic function transformed \\(f(x)=a[k(x-d)]^3+c\\)\nWhat variable causes reflection in y-axis?",
+      "questionText": "Cubic function transformed `f(x)=a[k(x-d)]^3+c`\nWhat variable causes reflection in y-axis?",
       "info": "",
       "image": "",
       "options": [
@@ -262,7 +262,7 @@
       ]
     },
     {
-      "questionText": "Cubic function transformed \\(f(x)=a[k(x-d)]^3+c\\)\nWhat variable causes vertical stretch/compression?",
+      "questionText": "Cubic function transformed `f(x)=a[k(x-d)]^3+c`\nWhat variable causes vertical stretch/compression?",
       "info": "",
       "image": "",
       "options": [
@@ -273,7 +273,7 @@
       ]
     },
     {
-      "questionText": "Cubic function transformed \\(f(x)=a[k(x-d)]^3+c\\)\na causes vertical stretch when |a| ___ 1",
+      "questionText": "Cubic function transformed `f(x)=a[k(x-d)]^3+c`\na causes vertical stretch when |a| ___ 1",
       "info": "",
       "image": "",
       "options": [
@@ -284,7 +284,7 @@
       ]
     },
     {
-      "questionText": "Cubic function transformed \\(f(x)=a[k(x-d)]^3+c\\)\na causes vertical compression when |a| ___ 1",
+      "questionText": "Cubic function transformed `f(x)=a[k(x-d)]^3+c`\na causes vertical compression when |a| ___ 1",
       "info": "",
       "image": "",
       "options": [
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "questionText": "Cubic function transformed \\(f(x)=a[k(x-d)]^3+c\\)\nWhat variable causes horizontal stretch/compression?",
+      "questionText": "Cubic function transformed `f(x)=a[k(x-d)]^3+c`\nWhat variable causes horizontal stretch/compression?",
       "info": "",
       "image": "",
       "options": [
@@ -306,7 +306,7 @@
       ]
     },
     {
-      "questionText": "Cubic function transformed \\(f(x)=a[k(x-d)]^3+c\\)\nk causes horizontal stretch when |k| ___ 1",
+      "questionText": "Cubic function transformed `f(x)=a[k(x-d)]^3+c`\nk causes horizontal stretch when |k| ___ 1",
       "info": "",
       "image": "",
       "options": [
@@ -317,7 +317,7 @@
       ]
     },
     {
-      "questionText": "Cubic function transformed \\(f(x)=a[k(x-d)]^3+c\\)\nk causes horizontal compression when |k| ___ 1",
+      "questionText": "Cubic function transformed `f(x)=a[k(x-d)]^3+c`\nk causes horizontal compression when |k| ___ 1",
       "info": "",
       "image": "",
       "options": [
@@ -328,7 +328,7 @@
       ]
     },
     {
-      "questionText": "Cubic function transformed \\(f(x)=a[k(x-d)]^3+c\\)\nWhat variable causes phase shift?",
+      "questionText": "Cubic function transformed `f(x)=a[k(x-d)]^3+c`\nWhat variable causes phase shift?",
       "info": "",
       "image": "",
       "options": [
@@ -339,7 +339,7 @@
       ]
     },
     {
-      "questionText": "Cubic function transformed \\(f(x)=a[k(x-d)]^3+c\\)\nWhat variable causes translation in y?",
+      "questionText": "Cubic function transformed `f(x)=a[k(x-d)]^3+c`\nWhat variable causes translation in y?",
       "info": "",
       "image": "",
       "options": [
@@ -355,7 +355,7 @@
       "image": "",
       "options": [
         {
-          "text": "\\((\\frac{x}{y}+d, ay+c)\\)",
+          "text": "`(\\frac{x}{y}+d, ay+c)`",
           "correct": true
         },
         {
@@ -372,7 +372,7 @@
       "image": "",
       "options": [
         {
-          "text": "\\(\\frac{\\text{max} - \\text{min}}{2}\\)",
+          "text": "`\\frac{\\text{max} - \\text{min}}{2}`",
           "correct": true
         },
         {
@@ -392,7 +392,7 @@
       "image": "",
       "options": [
         {
-          "text": "\\(\\frac{\\text{max} + \\text{min}}{2}\\)",
+          "text": "`\\frac{\\text{max} + \\text{min}}{2}`",
           "correct": true
         },
         {
@@ -412,7 +412,7 @@
       "image": "",
       "options": [
         {
-          "text": "\\(\\frac{2\\pi}{|k|}\\)",
+          "text": "`\\frac{2\\pi}{|k|}`",
           "correct": true
         },
         {
@@ -526,7 +526,7 @@
       "image": "",
       "options": [
         {
-          "text": "\\(\\frac{1}{n}\\)",
+          "text": "`\\frac{1}{n}`",
           "correct": true
         },
         {
@@ -535,12 +535,26 @@
       ]
     },
     {
-      "questionText": "Rational numbers are in the form _____, where \\(p(x), q(x)\\) are polynomials and \\(q(x)\\ne0\\)",
+      "questionText": "Rational numbers can be written in the form _____, where `b\\ne0` and a, b are integers",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "\\(\\frac{p(x)}{q(x)}\\)",
+          "text": "`\\frac{a}{b}`",
+          "correct": true
+        },
+        {
+          "text": "a/b"
+        }
+      ]
+    },
+    {
+      "questionText": "Rational functions are in the form _____, where `p(x), q(x)` are polynomials and `q(x)\\ne0`",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "`\\frac{p(x)}{q(x)}`",
           "correct": true
         },
         {
@@ -548,6 +562,20 @@
         },
         {
           "text": "(p(x))/(q(x))"
+        }
+      ]
+    },
+    {
+      "questionText": "The reciprocal of f(x) is",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "`\\frac{1}{f(x)}`",
+          "correct": true
+        },
+        {
+          "text": "1/f(x)"
         }
       ]
     }

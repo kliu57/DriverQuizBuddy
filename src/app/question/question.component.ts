@@ -162,32 +162,8 @@ export class QuestionComponent {
   }
 
   formatMathAnswer(input: string) {
-    let formattedInput = input;
-
-    // Convert \sqrt() to \sqrt{}
-    formattedInput = formattedInput.replace(/\\sqrt\((.*?)\)/g, '\\sqrt{$1}');
-
-    // Convert divisions to \frac
-    formattedInput = formattedInput
-      // First handle fully parenthesized expressions
-      .replace(/\(([^()]*)\)\/\(([^()]*)\)/g, '\\frac{($1)}{($2)}')
-      // Handle parenthesized numerator
-      .replace(
-        /\(([^()]*)\)\/([-]?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)/g,
-        '\\frac{($1)}{$2}'
-      )
-      // Handle parenthesized denominator
-      .replace(
-        /([-]?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)\/\(([^()]*)\)/g,
-        '\\frac{$1}{($3)}'
-      )
-      // Finally handle single terms on both sides (including optional negative signs and exponents)
-      .replace(
-        /([-]?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)\/(-?[a-zA-Z0-9](\^[a-zA-Z0-9()]+)?)/g,
-        '\\frac{$1}{$3}'
-      );
-
-    const mathHtml = `<div class="math-preview">\\(${formattedInput}\\)</div>`;
+    let formattedInput = '`' + input + '`';  // Enclose the input in backticks
+    const mathHtml = `<div class="math-preview">${formattedInput}</div>`;
     this.formattedMathAnswer = this.sanitizer.bypassSecurityTrustHtml(mathHtml);
 
     setTimeout(() => {
