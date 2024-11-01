@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 
@@ -26,6 +26,7 @@ import { MatDialogConfig } from '@angular/material/dialog';
 import { ShareComponent } from './share/share.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { TvoIlcComponent } from './tvo-ilc/tvo-ilc.component';
+import { VersusComponent } from './versus/versus.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { TvoIlcComponent } from './tvo-ilc/tvo-ilc.component';
     ShareComponent,
     AboutusComponent,
     TvoIlcComponent,
+    VersusComponent,
   ],
   imports: [
     BrowserModule,
@@ -57,6 +59,7 @@ import { TvoIlcComponent } from './tvo-ilc/tvo-ilc.component';
     NgxGoogleAnalyticsModule.forRoot('G-3ZF3DQD885'),
     NgxGoogleAnalyticsRouterModule,
     ReactiveFormsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

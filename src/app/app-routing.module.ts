@@ -5,6 +5,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { TvoIlcComponent } from './tvo-ilc/tvo-ilc.component';
 import { ShareComponent } from './share/share.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { VersusComponent } from './versus/versus.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'welcome', pathMatch:"full"},
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path:"tvo-ilc", component:TvoIlcComponent},
   {path:"question", component:QuestionComponent},
   {path:"share", component:ShareComponent},
-  {path:"aboutus", component:AboutusComponent}
+  {path:"aboutus", component:AboutusComponent},
+  {path:"versus", component:VersusComponent}
 ];
 
 @NgModule({

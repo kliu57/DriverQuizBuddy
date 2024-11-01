@@ -1,0 +1,44 @@
+<!-- versus.component.html -->
+<div class="versus-container">
+  <!-- Name Input -->
+  <div *ngIf="!isNameSubmitted" class="name-input">
+    <label for="nameInput">Please enter your name:</label>
+    <input id="nameInput" type="text" [(ngModel)]="userName" (keyup)="onNameSubmit($event)"
+      placeholder="Enter your name" autocomplete="off">
+  </div>
+
+  <!-- After Name Submission -->
+  <div *ngIf="isNameSubmitted" class="game-content">
+    <div class="welcome-message">
+      Welcome, {{ userName }}!
+    </div>
+
+    <!-- Initial State - Show Play Button -->
+    <div *ngIf="gameState.status === 'initial'" class="play-button">
+      <button (click)="joinQueue()">Play against another human</button>
+    </div>
+
+    <!-- Waiting State -->
+    <div *ngIf="gameState.status === 'waiting'" class="waiting-message">
+      Waiting for opponent...
+    </div>
+
+    <!-- Playing State - Show Game Buttons -->
+    <div *ngIf="gameState.status === 'playing'" class="game-buttons">
+      <button (click)="makeChoice('rock')">Rock</button>
+      <button (click)="makeChoice('paper')">Paper</button>
+      <button (click)="makeChoice('scissors')">Scissors</button>
+    </div>
+
+    <!-- Results State -->
+    <div *ngIf="gameState.status === 'results'" class="results">
+      <div class="choices">
+        <p>Your choice: {{ gameState.playerChoice }}</p>
+        <p>Opponent's choice: {{ gameState.opponentChoice }}</p>
+      </div>
+      <div class="result-message">
+        {{ getResultMessage() }}
+      </div>
+    </div>
+  </div>
+</div>
