@@ -162,7 +162,7 @@ export class QuestionComponent {
   }
 
   formatMathAnswer(input: string) {
-    let formattedInput = '`' + input + '`';  // Enclose the input in backticks
+    let formattedInput = '`' + input + '`'; // Enclose the input in backticks
     const mathHtml = `<div class="math-preview">${formattedInput}</div>`;
     this.formattedMathAnswer = this.sanitizer.bypassSecurityTrustHtml(mathHtml);
 
@@ -249,7 +249,10 @@ export class QuestionComponent {
     const possibleAnswers = currentQ.options.map((opt: any) =>
       opt.text.replace(/`/g, '').toLowerCase().trim()
     );
-    const userText = (this.userAnswer.value || '').replace(/`/g, '').toLowerCase().trim();
+    const userText = (this.userAnswer.value || '')
+      .replace(/`/g, '')
+      .toLowerCase()
+      .trim();
 
     // Get the correct answer for feedback purposes, do not modify original with backticks
     const correctOption = currentQ.options.find((opt: any) => opt.correct);
@@ -260,7 +263,7 @@ export class QuestionComponent {
       this.points++;
       this.correctAnswer++;
       // Preserve AsciiMath notation in feedback for correct rendering
-      this.feedback = "Correct!";
+      this.feedback = 'Correct!';
       this.isCorrect = true;
     } else {
       this.incorrectAnswer++;
@@ -416,6 +419,36 @@ export class QuestionComponent {
     this.stopCounter();
     this.counter = 30;
     this.startCounter();
+  }
+
+  resetQuestion() {
+    this.isQuestionAnswered = false;
+    this.feedback = '';
+    this.isCorrect = false;
+    this.selectedOptionIndex = -1;
+
+    if (this.isExactMatch) {
+      this.userAnswer.setValue('');
+      this.formattedMathAnswer = '';
+    } else {
+      const optionElements =
+        this.el.nativeElement.querySelectorAll('.options .card');
+      optionElements.forEach((element: HTMLElement) => {
+        this.render.removeStyle(element, 'background');
+        this.render.removeStyle(element, 'color');
+        this.render.removeStyle(element, 'border');
+      });
+
+      this.shuffleOptions(this.questionList[this.currentQuestion].options);
+    }
+
+    if (this.useTimer) {
+      this.resetCounter();
+    }
+
+    setTimeout(() => {
+      this.renderMath();
+    }, 100);
   }
 
   resetQuiz() {

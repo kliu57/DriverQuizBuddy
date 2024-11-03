@@ -43,7 +43,14 @@
       "image": "",
       "options": [
         {
-          "text": "`(-b+-\\sqrt(b^2-4ac))/(2a)`",
+          "text": "`(-bpmsqrt(b^2-4ac))/(2a)`",
+          "correct": true
+        },
+        {
+          "text": "(-b+-sqrt(b^2-4ac))/(2a)"
+        },
+        {
+          "text": "(-b+-\\sqrt(b^2-4ac))/(2a)",
           "correct": true
         },
         {
@@ -101,7 +108,7 @@
       ]
     },
     {
-      "questionText": "Factor theorem\nWhen f(x)=0, _____ is a factor of f(x) where n `\\in \\mathbb{R}`",
+      "questionText": "Factor theorem\nWhen f(x)=0, _____ is a factor of f(x) where n `in R`",
       "info": "",
       "image": "",
       "options": [
@@ -115,7 +122,7 @@
       ]
     },
     {
-      "questionText": "Remainder theorem\nFor a polynomial f(x), the remainder of `\\frac{f(x)}{(x-n)}` is",
+      "questionText": "Remainder theorem\nFor a polynomial f(x), the remainder of `f(x)/(x-n)` is",
       "info": "",
       "image": "",
       "options": [
@@ -140,7 +147,7 @@
       ]
     },
     {
-      "questionText": "Remainder theorem\nFor a polynomial f(x), if f(n)`\\ne`0, then _____ is not a factor of f(x)",
+      "questionText": "Remainder theorem\nFor a polynomial f(x), if f(n)`ne`0, then _____ is not a factor of f(x)",
       "info": "",
       "image": "",
       "options": [
@@ -381,7 +388,20 @@
       "image": "",
       "options": [
         {
-          "text": "`(2\\pi)/|k|`",
+          "text": "`(2pi)/|k|`",
+          "correct": true
+        },
+        {
+          "text": "(2pi)/(|k|)"
+        },
+        {
+          "text": "(2pi)/k"
+        },
+        {
+          "text": "(2pi)/(k)"
+        },
+        {
+          "text": "(2\\pi)/|k|",
           "correct": true
         },
         {
@@ -498,7 +518,7 @@
       ]
     },
     {
-      "questionText": "Rational numbers can be written in the form _____, where b`\\ne`0 and a, b are integers",
+      "questionText": "Rational numbers can be written in the form _____, where b`ne`0 and a, b are integers",
       "info": "",
       "image": "",
       "options": [
@@ -509,7 +529,7 @@
       ]
     },
     {
-      "questionText": "Rational functions are in the form _____, where p(x), q(x) are polynomials and q(x)`\\ne`0",
+      "questionText": "Rational functions are in the form _____, where p(x), q(x) are polynomials and q(x)`ne`0",
       "info": "",
       "image": "",
       "options": [
