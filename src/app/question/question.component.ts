@@ -50,8 +50,19 @@ export class QuestionComponent {
     // If we're in the text field, only handle Enter key
     if (isInTextField) {
       if (event.key === 'Enter') {
-        // Handle Enter key for exact match submission
-        // Your existing enter key logic for exact match
+        if (document.activeElement?.hasAttribute('data-index')) {
+          event.preventDefault();
+          const index = parseInt(
+            document.activeElement.getAttribute('data-index') || '0'
+          );
+          const option = this.questionList[this.currentQuestion].options[index];
+          const clickEvent = new MouseEvent('click', {
+            bubbles: true,
+            cancelable: true,
+            view: window,
+          });
+          this.handleAnswer(this.currentQuestion, option, index, clickEvent);
+        }
       }
       return;
     }
@@ -354,6 +365,9 @@ export class QuestionComponent {
   }
 
   private styleOption(element: HTMLElement, isCorrect: boolean) {
+    // First reduce padding to compensate for the border increase
+    this.render.setStyle(element, 'padding', '9px');
+
     if (isCorrect) {
       this.render.setStyle(element, 'background', '#008f00');
       this.render.setStyle(element, 'color', '#fff');
@@ -437,6 +451,7 @@ export class QuestionComponent {
         this.render.removeStyle(element, 'background');
         this.render.removeStyle(element, 'color');
         this.render.removeStyle(element, 'border');
+        this.render.setStyle(element, 'padding', '10px');
       });
 
       this.shuffleOptions(this.questionList[this.currentQuestion].options);
