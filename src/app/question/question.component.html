@@ -46,6 +46,12 @@
           </li>
         </ol>
       </div>
+      <div class="feedback-section mt-3" *ngIf="feedback && !isExactMatch">
+        <div class="alert alert-info d-flex align-items-center">
+          <span class="material-icons" style="font-size: 18px; color: #0c5460; margin-right: 10px;">info_outline</span>
+          <div [innerHTML]="feedback"></div>
+        </div>
+      </div>
 
       <!-- Text Input Mode -->
       <div class="answer-section p-3" *ngIf="isExactMatch">
@@ -64,9 +70,9 @@
             [disabled]="isQuestionAnswered || !userAnswer.value">
             Submit Answer
           </button>
-        </div>
-        <div *ngIf="feedback" class="mt-3 p-3" [ngClass]="{'alert-success': isCorrect, 'alert-danger': !isCorrect}"
-          class="alert" [innerHTML]="feedback">
+          <div class="alert mt-3" *ngIf="feedback" [ngClass]="{'alert-success': isCorrect, 'alert-danger': !isCorrect}"
+            [innerHTML]="feedback">
+          </div>
         </div>
       </div>
 

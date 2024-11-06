@@ -1,7 +1,6 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener, ElementRef, Renderer2 } from '@angular/core';
 import { QuestionService } from '../service/question.service';
 import { interval } from 'rxjs';
-import { ElementRef, Renderer2 } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { distinctUntilChanged } from 'rxjs/operators';
@@ -160,7 +159,6 @@ export class QuestionComponent {
       this.useTimer = this.quizName !== 'MHF4U Formulas';
     });
 
-    // Subscribe to user input changes
     this.userAnswer.valueChanges
       .pipe(distinctUntilChanged())
       .subscribe((value) => {
@@ -173,7 +171,7 @@ export class QuestionComponent {
   }
 
   formatMathAnswer(input: string) {
-    let formattedInput = '`' + input + '`'; // Enclose the input in backticks
+    let formattedInput = '`' + input + '`';
     const mathHtml = `<div class="math-preview">${formattedInput}</div>`;
     this.formattedMathAnswer = this.sanitizer.bypassSecurityTrustHtml(mathHtml);
 
@@ -279,7 +277,7 @@ export class QuestionComponent {
     } else {
       this.incorrectAnswer++;
       // Show the official correct answer with AsciiMath notation preserved
-      this.feedback = `Incorrect. The correct answer is: ${correctOption.text}`;
+      this.feedback = `Answer:&nbsp; ${correctOption.text}`;
       this.isCorrect = false;
     }
 
@@ -292,6 +290,7 @@ export class QuestionComponent {
 
   nextQuestion() {
     this.currentQuestion++;
+    this.feedback = '';
 
     if (this.currentQuestion === this.questionList.length) {
       this.isQuizCompleted = true;
@@ -308,7 +307,7 @@ export class QuestionComponent {
       this.resetCounter();
       setTimeout(() => {
         this.renderMath();
-        this.selectedOptionIndex = -1; // Reset selection without focusing
+        this.selectedOptionIndex = -1;
       }, 100);
     }
     this.getProgressPercent();
@@ -338,11 +337,11 @@ export class QuestionComponent {
       this.points++;
       this.correctAnswer++;
       this.styleOption(event.target, true);
+      this.feedback = '';
     } else {
       this.incorrectAnswer++;
       this.styleOption(event.target, false);
 
-      // Show the correct answer
       const correctIndex = this.questionList[currentQno].options.findIndex(
         (opt: { correct: boolean }) => opt.correct === true
       );
@@ -350,6 +349,12 @@ export class QuestionComponent {
         .querySelector('.options')
         .children[correctIndex].querySelector('div');
       this.styleOption(correctElement, true);
+
+      if (this.questionList[currentQno].info) {
+        this.feedback = this.questionList[currentQno].info;
+      } else {
+        this.feedback = '';
+      }
     }
 
     this.stopCounter();
@@ -393,7 +398,7 @@ export class QuestionComponent {
           const correctOption = this.questionList[
             this.currentQuestion
           ].options.find((opt: any) => opt.correct);
-          this.feedback = `Time's up! The correct answer is: ${correctOption.text}`;
+          this.feedback = `Time's up! Answer:&nbsp; ${correctOption.text}`;
           this.incorrectAnswer++;
 
           setTimeout(() => this.renderMath(), 100);
