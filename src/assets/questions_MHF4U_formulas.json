@@ -7,7 +7,7 @@
       "image": "",
       "options": [
         {
-          "text": "pir^2h",
+          "text": "`pir^2h`",
           "correct": true
         },
         {
@@ -21,7 +21,7 @@
       "image": "",
       "options": [
         {
-          "text": "1/3pir^2h",
+          "text": "`1/3pir^2h`",
           "correct": true
         },
         {
@@ -35,7 +35,7 @@
       "image": "",
       "options": [
         {
-          "text": "(4pir^3)/3",
+          "text": "`(4pir^3)/3`",
           "correct": true
         },
         {
@@ -63,7 +63,7 @@
       "image": "",
       "options": [
         {
-          "text": "ax^2+bx+c",
+          "text": "`ax^2+bx+c`",
           "correct": true
         }
       ]
@@ -74,7 +74,7 @@
       "image": "",
       "options": [
         {
-          "text": "ax^3+bx^2+cx+d",
+          "text": "`ax^3+bx^2+cx+d`",
           "correct": true
         }
       ]
@@ -85,15 +85,14 @@
       "image": "",
       "options": [
         {
-          "text": "(-bpmsqrt(b^2-4ac))/(2a)",
+          "text": "`(-bpmsqrt(b^2-4ac))/(2a)`",
           "correct": true
         },
         {
           "text": "(-b+-sqrt(b^2-4ac))/(2a)"
         },
         {
-          "text": "(-b+-\\sqrt(b^2-4ac))/(2a)",
-          "correct": true
+          "text": "`(-b+-\\sqrt(b^2-4ac))/(2a)`"
         },
         {
           "text": "(-b\\pm\\sqrt(b^2-4ac))/(2a)"
@@ -106,7 +105,7 @@
       "image": "",
       "options": [
         {
-          "text": "x^2+bx+c",
+          "text": "`x^2+bx+c`",
           "correct": true
         },
         {
@@ -120,7 +119,7 @@
       "image": "",
       "options": [
         {
-          "text": "ax^2+bx+c",
+          "text": "`ax^2+bx+c`",
           "correct": true
         }
       ]
@@ -145,7 +144,7 @@
       "image": "",
       "options": [
         {
-          "text": "(ax+b)^2",
+          "text": "`(ax+b)^2`",
           "correct": true
         }
       ]
@@ -209,7 +208,7 @@
       "image": "",
       "options": [
         {
-          "text": "(a-b)(a^2+ab+b^2)",
+          "text": "`(a-b)(a^2+ab+b^2)`",
           "correct": true
         }
       ]
@@ -220,7 +219,7 @@
       "image": "",
       "options": [
         {
-          "text": "a^3+3a^2b+3ab^2+b^3",
+          "text": "`a^3+3a^2b+3ab^2+b^3`",
           "correct": true
         }
       ]
@@ -231,7 +230,7 @@
       "image": "",
       "options": [
         {
-          "text": "a[k(x-d)]^3+c",
+          "text": "`a[k(x-d)]^3+c`",
           "correct": true
         },
         {
@@ -245,7 +244,7 @@
       "image": "",
       "options": [
         {
-          "text": "alog_b[k(x-d)]+c",
+          "text": "`alog_b[k(x-d)]+c`",
           "correct": true
         },
         {
@@ -259,7 +258,7 @@
       "image": "",
       "options": [
         {
-          "text": "asin[k(x-d)]+c",
+          "text": "`asin[k(x-d)]+c`",
           "correct": true
         },
         {
@@ -383,7 +382,7 @@
       "image": "",
       "options": [
         {
-          "text": "(x/k+d, ay+c)",
+          "text": "`(x/k+d, ay+c)`",
           "correct": true
         },
         {
@@ -397,7 +396,7 @@
       "image": "",
       "options": [
         {
-          "text": "(maximum-minimum)/2",
+          "text": "`(maximum-minimum)/2`",
           "correct": true
         },
         {
@@ -414,7 +413,7 @@
       "image": "",
       "options": [
         {
-          "text": "(maximum+minimum)/2",
+          "text": "`(maximum+minimum)/2`",
           "correct": true
         },
         {
@@ -431,7 +430,7 @@
       "image": "",
       "options": [
         {
-          "text": "(2pi)/|k|",
+          "text": "`(2pi)/|k|`",
           "correct": true
         },
         {
@@ -444,8 +443,7 @@
           "text": "(2pi)/(k)"
         },
         {
-          "text": "(2\\pi)/|k|",
-          "correct": true
+          "text": "`(2\\pi)/|k|`"
         },
         {
           "text": "(2\\pi)/(|k|)"
@@ -555,7 +553,7 @@
       "image": "",
       "options": [
         {
-          "text": "1/n",
+          "text": "`1/n`",
           "correct": true
         }
       ]
@@ -566,7 +564,7 @@
       "image": "",
       "options": [
         {
-          "text": "1/f(x)",
+          "text": "`1/f(x)`",
           "correct": true
         }
       ]
@@ -625,8 +623,7 @@
           "correct": true
         },
         {
-          "text": "min",
-          "correct": true
+          "text": "min"
         }
       ]
     },
@@ -650,7 +647,7 @@
       "image": "",
       "options": [
         {
-          "text": "a/b",
+          "text": "`a/b`",
           "correct": true
         }
       ]
@@ -661,12 +658,11 @@
       "image": "",
       "options": [
         {
-          "text": "(p(x))/(q(x))",
+          "text": "`(p(x))/(q(x))`",
           "correct": true
         },
         {
-          "text": "p(x)/q(x)",
-          "correct": true
+          "text": "`p(x)/q(x)`"
         }
       ]
     },
@@ -712,7 +708,7 @@
       "image": "",
       "options": [
         {
-          "text": "a/d",
+          "text": "`a/d`",
           "correct": true
         }
       ]

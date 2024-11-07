@@ -260,8 +260,16 @@ export class QuestionComponent {
     if (this.isQuestionAnswered) return;
 
     const currentQ = this.questionList[this.currentQuestion];
-    const possibleAnswers = currentQ.options.map((opt: any) => opt.text.trim());
-    const userText = (this.userAnswer.value || '').trim();
+
+    // Normalize answers by removing backticks for comparison purposes only
+    const possibleAnswers = currentQ.options.map((opt: any) =>
+      opt.text.replace(/`/g, '').toLowerCase().trim()
+    );
+    const userText = (this.userAnswer.value || '')
+      .replace(/`/g, '')
+      .toLowerCase()
+      .trim();
+
     const correctOption = currentQ.options.find((opt: any) => opt.correct);
     this.isQuestionAnswered = true;
 
@@ -272,7 +280,7 @@ export class QuestionComponent {
       this.isCorrect = true;
     } else {
       this.incorrectAnswer++;
-      this.feedback = `Answer:&nbsp; \`${correctOption.text}\``;
+      this.feedback = `Answer:&nbsp; ${correctOption.text}`;
       this.isCorrect = false;
     }
 
