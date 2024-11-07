@@ -631,13 +631,16 @@
       ]
     },
     {
-      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\nif f(x) has 0 turning points then g(x) has \u2581\u2581\u2581 turning points",
+      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\nif f(x) has 0 turning points then g(x) has \u2581 turning points",
       "info": "",
       "image": "",
       "options": [
         {
           "text": "0",
           "correct": true
+        },
+        {
+          "text": "no"
         }
       ]
     },
@@ -704,12 +707,12 @@
       ]
     },
     {
-      "questionText": "For rational function `f(x)=(p(x))/(q(x))`,\nIf degree of p(x) = degree of q(x),\nHorizontal asymptote is `y=(\"\u2581\u2581\u2581 of\" \\ p(x))/(\"\u2581\u2581\u2581 of\" \\ q(x))`",
+      "questionText": "For rational function `f(x)=(ax^2+bx+c)/(dx^2+ex+f)`,\nHorizontal asymptote is y=",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "leading coefficient",
+          "text": "a/d",
           "correct": true
         }
       ]
@@ -736,9 +739,6 @@
         },
         {
           "text": "no"
-        },
-        {
-          "text": "none"
         }
       ]
     }
