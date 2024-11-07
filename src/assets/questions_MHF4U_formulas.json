@@ -80,7 +80,7 @@
       ]
     },
     {
-      "questionText": "Quadratic formula\n`f(x)=ax^2+bx+c`\nx=",
+      "questionText": "Quadratic formula\n`ax^2+bx+c=0`\nx=",
       "info": "",
       "image": "",
       "options": [
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "questionText": "Factor theorem\nWhen f(x)=0, \u2581\u2581\u2581 is a factor of f(x) where n `in R`",
+      "questionText": "Factor theorem\nWhen f(x)=0, \u2581\u2581\u2581 is a factor of f(x) where n `in RR`",
       "info": "",
       "image": "",
       "options": [
@@ -561,6 +561,87 @@
       ]
     },
     {
+      "questionText": "Reciprocal of f(x) is",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "1/f(x)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\nx-intercepts of f(x) are \u2581\u2581\u2581 of g(x)",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "vertical asymptotes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\nintervals of increase of f(x) are \u2581\u2581\u2581 of g(x)",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "intervals of decrease",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\npositive intervals of f(x) are \u2581\u2581\u2581 intervals of g(x)",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "positive",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\nhorizontal asymptote of g(x) is y=",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\nif f(x) has a maximum at x=a then g(x) has a \u2581\u2581\u2581 at x=a",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "minimum",
+          "correct": true
+        },
+        {
+          "text": "min",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\nif f(x) has 0 turning points then g(x) has \u2581\u2581\u2581 turning points",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
       "questionText": "Rational numbers can be written in the form \u2581\u2581, where b`ne`0 and a, b are integers",
       "info": "",
       "image": "",
@@ -587,13 +668,77 @@
       ]
     },
     {
-      "questionText": "The reciprocal of f(x) is",
+      "questionText": "For rational function `f(x)=(p(x))/(q(x))`,\nzeroes of p(x) are \u2581\u2581\u2581 of f(x)",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "1/f(x)",
+          "text": "x-intercepts",
           "correct": true
+        },
+        {
+          "text": "x intercepts"
+        }
+      ]
+    },
+    {
+      "questionText": "For rational function `f(x)=(p(x))/(q(x))`,\n`D={x\\inRR|xne \\`\u2581\u2581\u2581 `\"of\" \\ f(x)}`",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "vertical asymptotes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For rational function `f(x)=(p(x))/(q(x))`,\n`R={y\\inRR|yne \\`\u2581\u2581\u2581 `\"of\" \\ f(x)}`",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "horizontal asymptotes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For rational function `f(x)=(p(x))/(q(x))`,\nIf degree of p(x) = degree of q(x),\nHorizontal asymptote is `y=(\"\u2581\u2581\u2581 of\" \\ p(x))/(\"\u2581\u2581\u2581 of\" \\ q(x))`",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "leading coefficient",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For rational function `f(x)=(p(x))/(q(x))`,\nIf degree of p(x) < degree of q(x),\nHorizontal asymptote is `y=`\u2581",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For rational function `f(x)=(p(x))/(q(x))`,\nIf degree of p(x) > degree of q(x),\nThere are \u2581 horizontal asymptotes",
+      "info": "",
+      "image": "",
+      "options": [
+        {
+          "text": "0",
+          "correct": true
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "none"
         }
       ]
     }
