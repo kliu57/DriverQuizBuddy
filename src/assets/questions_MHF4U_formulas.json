@@ -133,6 +133,9 @@
         {
           "text": "(a+b)(a-b)",
           "correct": true
+        },
+        {
+          "text": "(a-b)(a+b)"
         }
       ]
     },
