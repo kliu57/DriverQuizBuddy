@@ -1,4 +1,10 @@
-import { Component, OnInit, HostListener, ElementRef, Renderer2 } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  HostListener,
+  ElementRef,
+  Renderer2,
+} from '@angular/core';
 import { QuestionService } from '../service/question.service';
 import { interval } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
@@ -254,30 +260,19 @@ export class QuestionComponent {
     if (this.isQuestionAnswered) return;
 
     const currentQ = this.questionList[this.currentQuestion];
-    // Normalize answers by removing backticks for comparison purposes only
-    const possibleAnswers = currentQ.options.map((opt: any) =>
-      opt.text.replace(/`/g, '').toLowerCase().trim()
-    );
-    const userText = (this.userAnswer.value || '')
-      .replace(/`/g, '')
-      .toLowerCase()
-      .trim();
-
-    // Get the correct answer for feedback purposes, do not modify original with backticks
+    const possibleAnswers = currentQ.options.map((opt: any) => opt.text.trim());
+    const userText = (this.userAnswer.value || '').trim();
     const correctOption = currentQ.options.find((opt: any) => opt.correct);
-
     this.isQuestionAnswered = true;
 
     if (possibleAnswers.includes(userText)) {
       this.points++;
       this.correctAnswer++;
-      // Preserve AsciiMath notation in feedback for correct rendering
       this.feedback = 'Correct!';
       this.isCorrect = true;
     } else {
       this.incorrectAnswer++;
-      // Show the official correct answer with AsciiMath notation preserved
-      this.feedback = `Answer:&nbsp; ${correctOption.text}`;
+      this.feedback = `Answer:&nbsp; \`${correctOption.text}\``;
       this.isCorrect = false;
     }
 
@@ -318,14 +313,15 @@ export class QuestionComponent {
 
     if (this.isExactMatch) {
       this.userAnswer.setValue('');
-      this.feedback = '';
       this.isCorrect = false;
     }
 
+    this.feedback = '';
     this.isQuestionAnswered = false;
+
     setTimeout(() => {
       this.renderMath();
-      this.selectedOptionIndex = -1; // Reset selection without focusing
+      this.selectedOptionIndex = -1;
     }, 100);
     this.getProgressPercent();
   }
@@ -370,7 +366,6 @@ export class QuestionComponent {
   }
 
   private styleOption(element: HTMLElement, isCorrect: boolean) {
-    // First reduce padding to compensate for the border increase
     this.render.setStyle(element, 'padding', '9px');
 
     if (isCorrect) {
@@ -398,7 +393,7 @@ export class QuestionComponent {
           const correctOption = this.questionList[
             this.currentQuestion
           ].options.find((opt: any) => opt.correct);
-          this.feedback = `Time's up! Answer:&nbsp; ${correctOption.text}`;
+          this.feedback = `Time's up! Answer:&nbsp; \`${correctOption.text}\``;
           this.incorrectAnswer++;
 
           setTimeout(() => this.renderMath(), 100);
