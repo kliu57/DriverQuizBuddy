@@ -132,9 +132,6 @@
         {
           "text": "(a+b)(a-b)",
           "correct": true
-        },
-        {
-          "text": "(a-b)(a+b)"
         }
       ]
     },
@@ -396,11 +393,11 @@
       "image": "",
       "options": [
         {
-          "text": "(max-min)/2",
+          "text": "(maximum-minimum)/2",
           "correct": true
         },
         {
-          "text": "(maximum-minimum)/2"
+          "text": "(max-min)/2"
         },
         {
           "text": "(max-min)/(2)"
@@ -413,11 +410,11 @@
       "image": "",
       "options": [
         {
-          "text": "(max+min)/2",
+          "text": "(maximum+minimum)/2",
           "correct": true
         },
         {
-          "text": "(maximum+minimum)/2"
+          "text": "(max+min)/2"
         },
         {
           "text": "(max+min)/(2)"
