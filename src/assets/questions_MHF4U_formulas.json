@@ -101,12 +101,13 @@
       ]
     },
     {
-      "questionText": "Simple trinomial equation\ny=",
+      "questionText": "Simple trinomial equation\nf(x)=",
       "info": "",
       "image": "",
       "options": [
         {
-          "text": "x^2+bx+c"
+          "text": "x^2+bx+c",
+          "correct": true
         },
         {
           "text": "x^2+ax+b"
@@ -114,7 +115,7 @@
       ]
     },
     {
-      "questionText": "Complex trinomial equation\ny=",
+      "questionText": "Complex trinomial equation\nf(x)=",
       "info": "",
       "image": "",
       "options": [
