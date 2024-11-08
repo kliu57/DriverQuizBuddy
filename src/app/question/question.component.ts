@@ -177,6 +177,11 @@ export class QuestionComponent {
   }
 
   formatMathAnswer(input: string) {
+    if (!this.questionList[this.currentQuestion]?.needPreview) {
+      this.formattedMathAnswer = '';
+      return;
+    }
+
     let formattedInput = '`' + input + '`';
     const mathHtml = `<div class="math-preview">${formattedInput}</div>`;
     this.formattedMathAnswer = this.sanitizer.bypassSecurityTrustHtml(mathHtml);
