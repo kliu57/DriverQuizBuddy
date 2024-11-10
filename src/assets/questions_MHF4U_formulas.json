@@ -164,7 +164,7 @@
       "questionText": "Factor theorem\nWhen f(x)=0, \u2581\u2581\u2581 is a factor of f(x) where n `in RR`",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
           "text": "(x-n)",
@@ -179,7 +179,7 @@
       "questionText": "Remainder theorem\nFor a polynomial f(x), the remainder of `f(x)/(x-n)` is",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
           "text": "f(n)",
@@ -191,7 +191,7 @@
       "questionText": "Remainder theorem\nFor a polynomial f(x), if f(n)=0, then \u2581\u2581\u2581 is a factor of f(x)",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
           "text": "(x-n)",
@@ -206,7 +206,7 @@
       "questionText": "Remainder theorem\nFor a polynomial f(x), if f(n)`ne`0, then \u2581\u2581\u2581 is not a factor of f(x)",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
           "text": "(x-n)",
@@ -518,7 +518,7 @@
       "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nmin=",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
           "text": "c-a",
@@ -530,7 +530,7 @@
       "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nmax=",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
           "text": "c+a",

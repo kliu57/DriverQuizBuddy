@@ -5,6 +5,7 @@
       "questionText": "",
       "info": "",
       "image": "",
+      "needPreview": true,
       "options": [
         { "text": "", "correct": true }
       ]
