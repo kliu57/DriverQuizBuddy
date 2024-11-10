@@ -48,7 +48,7 @@
       </div>
       <div class="feedback-section mt-3" *ngIf="feedback && !isExactMatch">
         <div class="alert alert-info d-flex align-items-center">
-          <span class="material-icons" style="font-size: 18px; color: #0c5460; margin-right: 10px;">info_outline</span>
+          <span class="material-icons" style="font-size: 18px ; color: #0c5460; margin-right: 10px;">info_outline</span>
           <div [innerHTML]="feedback"></div>
         </div>
       </div>
@@ -60,9 +60,8 @@
         </div>
 
         <div class="form-group">
-          <input #answerInput type="text" [formControl]="userAnswer" class="form-control"
-            placeholder="Type your answer here" aria-label="Answer input" [readonly]="isQuestionAnswered"
-            (keyup.enter)="submitTextAnswer()">
+          <input #answerInput type="text" [formControl]="userAnswer" class="form-control" [attr.data-index]="0"
+            [tabindex]="0" [readonly]="isQuestionAnswered">
         </div>
 
         <div class="mt-3">

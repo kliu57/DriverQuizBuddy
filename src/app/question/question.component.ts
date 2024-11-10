@@ -54,19 +54,22 @@ export class QuestionComponent {
       focusedElement?.tagName === 'INPUT' ||
       focusedElement?.tagName === 'TEXTAREA';
 
-    // If we're in the text field, only handle Enter key
-    if (isInTextField) {
-      if (event.key === 'Tab' && this.isExactMatch) {
+    if (event.key === 'Tab') {
+      if (this.isExactMatch) {
         event.preventDefault();
-        if (this.answerInput) {
-          this.answerInput.nativeElement.focus();
-        }
-        return;
+        this.selectedOptionIndex = 0;
+        this.focusOption(this.selectedOptionIndex);
       }
+      return;
+    }
 
+    if (isInTextField) {
       if (event.key === 'Enter') {
-        if (document.activeElement?.hasAttribute('data-index')) {
-          event.preventDefault();
+        event.preventDefault();
+        if (this.isExactMatch) {
+          this.submitTextAnswer();
+          (document.activeElement as HTMLElement).blur();
+        } else if (document.activeElement?.hasAttribute('data-index')) {
           const index = parseInt(
             document.activeElement.getAttribute('data-index') || '0'
           );
@@ -77,10 +80,9 @@ export class QuestionComponent {
             view: window,
           });
           this.handleAnswer(this.currentQuestion, option, index, clickEvent);
-        } else {
-          this.submitTextAnswer();
           (document.activeElement as HTMLElement).blur();
         }
+        return;
       }
       return;
     }
@@ -324,9 +326,9 @@ export class QuestionComponent {
         this.feedback = '';
         this.isCorrect = false;
       }
+      (document.activeElement as HTMLElement)?.blur();
 
       this.resetCounter();
-      (document.activeElement as HTMLElement)?.blur();
 
       setTimeout(() => {
         this.renderMath();
@@ -343,10 +345,10 @@ export class QuestionComponent {
       this.userAnswer.setValue('');
       this.isCorrect = false;
     }
+    (document.activeElement as HTMLElement).blur();
 
     this.feedback = '';
     this.isQuestionAnswered = false;
-    (document.activeElement as HTMLElement).blur();
 
     setTimeout(() => {
       this.renderMath();
@@ -485,12 +487,11 @@ export class QuestionComponent {
 
       this.shuffleOptions(this.questionList[this.currentQuestion].options);
     }
+    (document.activeElement as HTMLElement).blur();
 
     if (this.useTimer) {
       this.resetCounter();
     }
-
-    (document.activeElement as HTMLElement).blur();
 
     setTimeout(() => {
       this.renderMath();
