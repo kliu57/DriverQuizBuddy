@@ -60,8 +60,8 @@
         </div>
 
         <div class="form-group">
-          <input type="text" [formControl]="userAnswer" class="form-control"
-            placeholder="Type your answer here (e.g., x^2 for x²)" [readonly]="isQuestionAnswered"
+          <input #answerInput type="text" [formControl]="userAnswer" class="form-control"
+            placeholder="Type your answer here" aria-label="Answer input" [readonly]="isQuestionAnswered"
             (keyup.enter)="submitTextAnswer()">
         </div>
 

@@ -4,6 +4,7 @@ import {
   HostListener,
   ElementRef,
   Renderer2,
+  ViewChild,
 } from '@angular/core';
 import { QuestionService } from '../service/question.service';
 import { interval } from 'rxjs';
@@ -24,6 +25,7 @@ declare global {
   styleUrl: './question.component.scss',
 })
 export class QuestionComponent {
+  @ViewChild('answerInput') answerInput!: ElementRef;
   public name: string = '';
   public quizName: string = '';
   public logoUrl: string = '';
@@ -54,6 +56,14 @@ export class QuestionComponent {
 
     // If we're in the text field, only handle Enter key
     if (isInTextField) {
+      if (event.key === 'Tab' && this.isExactMatch) {
+        event.preventDefault();
+        if (this.answerInput) {
+          this.answerInput.nativeElement.focus();
+        }
+        return;
+      }
+
       if (event.key === 'Enter') {
         if (document.activeElement?.hasAttribute('data-index')) {
           event.preventDefault();
@@ -67,6 +77,9 @@ export class QuestionComponent {
             view: window,
           });
           this.handleAnswer(this.currentQuestion, option, index, clickEvent);
+        } else {
+          this.submitTextAnswer();
+          (document.activeElement as HTMLElement).blur();
         }
       }
       return;
@@ -313,6 +326,8 @@ export class QuestionComponent {
       }
 
       this.resetCounter();
+      (document.activeElement as HTMLElement)?.blur();
+
       setTimeout(() => {
         this.renderMath();
         this.selectedOptionIndex = -1;
@@ -331,6 +346,7 @@ export class QuestionComponent {
 
     this.feedback = '';
     this.isQuestionAnswered = false;
+    (document.activeElement as HTMLElement).blur();
 
     setTimeout(() => {
       this.renderMath();
@@ -473,6 +489,8 @@ export class QuestionComponent {
     if (this.useTimer) {
       this.resetCounter();
     }
+
+    (document.activeElement as HTMLElement).blur();
 
     setTimeout(() => {
       this.renderMath();
