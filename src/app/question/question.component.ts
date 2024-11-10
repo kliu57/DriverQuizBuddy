@@ -55,10 +55,14 @@ export class QuestionComponent {
       focusedElement?.tagName === 'TEXTAREA';
 
     if (event.key === 'Tab') {
-      if (this.isExactMatch) {
-        event.preventDefault();
-        this.selectedOptionIndex = 0;
-        this.focusOption(this.selectedOptionIndex);
+      event.preventDefault();
+      if (this.isExactMatch && !this.isQuestionAnswered) {
+        if (document.activeElement === this.answerInput.nativeElement) {
+          (document.activeElement as HTMLElement).blur();
+        } else {
+          this.selectedOptionIndex = 0;
+          this.focusOption(this.selectedOptionIndex);
+        }
       }
       return;
     }
