@@ -10,7 +10,7 @@ import { QuestionService } from '../service/question.service';
 import { interval } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
-import { distinctUntilChanged } from 'rxjs/operators';
+import { distinctUntilChanged, debounceTime } from 'rxjs/operators';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 declare global {
@@ -185,7 +185,10 @@ export class QuestionComponent {
     });
 
     this.userAnswer.valueChanges
-      .pipe(distinctUntilChanged())
+      .pipe(
+        debounceTime(200),
+        distinctUntilChanged()
+      )
       .subscribe((value) => {
         if (value) {
           this.formatMathAnswer(value);
