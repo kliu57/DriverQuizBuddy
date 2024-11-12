@@ -46,6 +46,9 @@ export class QuestionComponent {
   isCorrect: boolean = false;
   formattedMathAnswer: SafeHtml = '';
   selectedOptionIndex: number = 0;
+  formattedMathAnswerA: SafeHtml = '';
+  formattedMathAnswerB: SafeHtml = '';
+  previewToggle: boolean = true;
 
   @HostListener('window:keydown', ['$event'])
   handleKeyPress(event: KeyboardEvent) {
@@ -185,34 +188,45 @@ export class QuestionComponent {
     });
 
     this.userAnswer.valueChanges
-      .pipe(
-        debounceTime(200),
-        distinctUntilChanged()
-      )
+      .pipe(debounceTime(150), distinctUntilChanged())
       .subscribe((value) => {
-        if (value) {
-          this.formatMathAnswer(value);
-        } else {
-          this.formattedMathAnswer = '';
-        }
+        this.formatMathAnswer(value || '');
       });
   }
 
   formatMathAnswer(input: string) {
     if (!this.questionList[this.currentQuestion]?.needPreview) {
-      this.formattedMathAnswer = '';
+      this.formattedMathAnswerA = '';
+      this.formattedMathAnswerB = '';
+      return;
+    }
+
+    if (!input.trim()) {
+      this.formattedMathAnswerA = '';
+      this.formattedMathAnswerB = '';
       return;
     }
 
     let formattedInput = '`' + input + '`';
-    const mathHtml = `<div class="math-preview">${formattedInput}</div>`;
-    this.formattedMathAnswer = this.sanitizer.bypassSecurityTrustHtml(mathHtml);
+    const mathHtml = `<div>${formattedInput}</div>`;
+    const newContent = this.sanitizer.bypassSecurityTrustHtml(mathHtml);
+
+    if (this.previewToggle) {
+      this.formattedMathAnswerB = newContent;
+    } else {
+      this.formattedMathAnswerA = newContent;
+    }
 
     setTimeout(() => {
       if (window.MathJax) {
+        const selector = this.previewToggle ? '.preview-b' : '.preview-a';
         window.MathJax.typesetPromise?.([
-          this.el.nativeElement.querySelector('.math-preview'),
-        ]).catch((err: any) => console.log('MathJax error:', err));
+          this.el.nativeElement.querySelector(selector),
+        ])
+          .then(() => {
+            this.previewToggle = !this.previewToggle;
+          })
+          .catch((err: any) => console.log('MathJax error:', err));
       }
     });
   }
@@ -478,6 +492,8 @@ export class QuestionComponent {
     this.feedback = '';
     this.isCorrect = false;
     this.selectedOptionIndex = -1;
+    this.formattedMathAnswerA = '';
+    this.formattedMathAnswerB = '';
 
     if (this.isExactMatch) {
       this.userAnswer.setValue('');

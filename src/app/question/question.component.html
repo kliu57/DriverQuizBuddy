@@ -56,7 +56,14 @@
       <!-- Text Input Mode -->
       <div class="answer-section" *ngIf="isExactMatch">
         <div class="math-container mt-2 p-2" style="min-height: 36px; font-size: 1.5rem;">
-          <div [innerHTML]="formattedMathAnswer"></div>
+          <div class="math-preview-container">
+            <div class="math-preview preview-a" [style.display]="previewToggle ? 'block' : 'none'"
+              [innerHTML]="formattedMathAnswerA">
+            </div>
+            <div class="math-preview preview-b" [style.display]="!previewToggle ? 'block' : 'none'"
+              [innerHTML]="formattedMathAnswerB">
+            </div>
+          </div>
         </div>
 
         <div class="form-group">
