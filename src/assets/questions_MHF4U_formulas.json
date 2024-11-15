@@ -2,6 +2,36 @@
   "logo": "/assets/images/logos/math_logo.png",
   "questions": [
     {
+      "questionText": "Circumference of a circle\nC=",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`2pir`",
+          "correct": true
+        },
+        {
+          "text": "2\\pir"
+        }
+      ]
+    },
+    {
+      "questionText": "Surface area of a cylinder\nSA=",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`2pir^2+2pirh`",
+          "correct": true
+        },
+        {
+          "text": "2\\pir^2+2\\pirh"
+        }
+      ]
+    },
+    {
       "questionText": "Volume of a cylinder\n`V_\"cylinder\"=`",
       "info": "",
       "image": "",
@@ -47,6 +77,216 @@
       ]
     },
     {
+      "questionText": "The domain is the set all all possible \u2581-values for a given function",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "x",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The range is the set all all possible \u2581-values for a given function",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "y",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Finite differences are differences between consecutive \u2581-values",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "y",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For `f(x)=x^n`, the \u2581\u2581th differences are equal",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "n",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For a polynomial of degree d where d is even, the minimum number of x-intercepts is",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For a polynomial of degree d where d is odd, the minimum number of x-intercepts is",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "1",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For a polynomial of degree d, the maximum number of x-intercepts is",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "d",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For a polynomial of degree d where d is even, there must be an \u2581 number of x-intercepts",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "even",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For a polynomial of degree d where d is odd, there must be an \u2581 number of x-intercepts",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "odd",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For a polynomial of degree d where d is even, the minimum number of turning points is",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "1",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For a polynomial of degree d where d is odd, the minimum number of turning points is",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For a polynomial of degree d, the maximum number of turning points is",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "d-1",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For a polynomial of degree d where d is even, there must be an \u2581 number of turning points",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "odd",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For a polynomial of degree d where d is odd, there must be an \u2581 number of turning points",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "even",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For a polynomial in factored form `f(x)=a(x-q)^m(x-r)^n...`\nIf m=1, then at x=q the graph \u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "goes straight through the x-axis",
+          "correct": true
+        },
+        {
+          "text": "goes straight through"
+        },
+        {
+          "text": "goes through the x-axis"
+        }
+      ]
+    },
+    {
+      "questionText": "For a polynomial in factored form `f(x)=a(x-q)^m(x-r)^n...`\nIf m=2, then at x=q the graph \u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "bounces",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For a polynomial in factored form `f(x)=a(x-q)^m(x-r)^n...`\nIf m=3, then at x=q the graph \u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "flattens",
+          "correct": true
+        }
+      ]
+    },
+    {
       "questionText": "Linear equation\nf(x)=",
       "info": "",
       "image": "",
@@ -69,6 +309,30 @@
       "options": [
         {
           "text": "`ax^2+bx+c`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For quadratic equation `f(x)=ax^2+bx+c`\nThe x-value of the vertex is x=",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`-b/(2a)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Vertex form of the quadratic formula is f(x)=\nwhere (h, k) gives the vertex of the parabola",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`a(x-h)^2+k`",
           "correct": true
         }
       ]
@@ -149,6 +413,21 @@
       ]
     },
     {
+      "questionText": "A trinomial is a perfect square trinomial when\nthe second term equals 2 times the \u2581\u2581\u2581 of the first term and the \u2581\u2581\u2581 of the third term",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "square root",
+          "correct": true
+        },
+        {
+          "text": "root"
+        }
+      ]
+    },
+    {
       "questionText": "Factor a perfect square trinomial\n`(ax)^2+2abx+b^2=`",
       "info": "",
       "image": "",
@@ -156,6 +435,18 @@
       "options": [
         {
           "text": "`(ax+b)^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "To factor a complex trinomial `ax^2+bx+c=`\nfind two numbers whose product is \u2581\u2581 and whose sum is b",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "ac",
           "correct": true
         }
       ]
@@ -218,6 +509,30 @@
       ]
     },
     {
+      "questionText": "Rational root theorem\nFor `a_nx^n+a_(n-1)x^(n-1)+...+a_1x+a_0=0` and any rational solution `p/q`,\np must be a factor of",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`a_0`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Rational root theorem\nFor `a_nx^n+a_(n-1)x^(n-1)+...+a_1x+a_0=0` and any rational solution `p/q`,\nq must be a factor of",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`a_n`",
+          "correct": true
+        }
+      ]
+    },
+    {
       "questionText": "Factor with difference in cubes\n`a^3-b^3=`",
       "info": "",
       "image": "",
@@ -275,7 +590,7 @@
       "questionText": "Sine function transformed equation f(x)=",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
           "text": "`asin[k(x-d)]+c`",
@@ -283,6 +598,45 @@
         },
         {
           "text": "asin(k(x-d))+c"
+        }
+      ]
+    },
+    {
+      "questionText": "For any f(x), the transformed equation is f(x)=",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "af[k(x-d)]+c",
+          "correct": true
+        },
+        {
+          "text": "af(k(x-d))+c"
+        }
+      ]
+    },
+    {
+      "questionText": "For transformed equation f(x)=af[k(x-d)]+c,\nvariables a and c affect the \u2581-values",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "y",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For transformed equation f(x)=af[k(x-d)]+c,\nvariables k and d affect the \u2581-values",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "x",
+          "correct": true
         }
       ]
     },
@@ -422,7 +776,19 @@
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nAmplitude=",
+      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nExpress amplitude in terms of a. Amplitude=",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "|a|",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nExpress amplitude in terms of maximum and minimum. Amplitude=",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -515,25 +881,68 @@
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nmin=",
+      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nminimum=",
       "info": "",
       "image": "",
       "needPreview": false,
       "options": [
         {
-          "text": "c-a",
+          "text": "c-|a|",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nmax=",
+      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nmaximum=",
       "info": "",
       "image": "",
       "needPreview": false,
       "options": [
         {
-          "text": "c+a",
+          "text": "c+|a|",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nfrequency=",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`k/(2pi)`",
+          "correct": true
+        },
+        {
+          "text": "k/(2\\pi)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nTwo sinusoidal functions are in phase if they have the same \u2581 value",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "c",
+          "correct": true
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "questionText": "If two sinusoidal functions are in phase and have the same frequency,\nthe amplitude of the combined function will be the \u2581 of the individual amplitudes",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "sum",
           "correct": true
         }
       ]
@@ -609,6 +1018,30 @@
       "options": [
         {
           "text": "`1/f(x)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Another way to express `a^-n` is",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/a^n`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Another way to express `root(n)(a)` is",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/a^n`",
           "correct": true
         }
       ]
@@ -793,6 +1226,450 @@
         },
         {
           "text": "no"
+        }
+      ]
+    },
+    {
+      "questionText": "For exponential function `f(x)=ab^x`, y is the \u2581\u2581\u2581 value",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "future",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For exponential function `f(x)=ab^x`, a is the \u2581\u2581\u2581 value",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "initial",
+          "correct": true
+        },
+        {
+          "text": "start"
+        }
+      ]
+    },
+    {
+      "questionText": "For exponential function `f(x)=ab^x`, b is 1 plus the \u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "growth rate",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For exponential function `f(x)=ab^x`, x is the \u2581\u2581\u2581 it has grown",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "number of times",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For `f(x)=ab^x` the y-intercept is y=\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "a",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For `f(x)=b^x` if `b>0`, then the graph is \u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "increasing",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For `f(x)=b^x` if `0<b<1`, then the graph is \u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "decreasing",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For `f(x)=b^x` if `b>1`, the \u2581\u2581\u2581 b is the faster the rate of increase",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "larger",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For `f(x)=b^x` if `0 < b < 1`, the \u2581\u2581\u2581 b is the faster the rate of decrease",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "smaller",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The domain of `f(x)=b^x` is the \u2581\u2581\u2581 of `g(x)=log_bx` and vice versa",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "range",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `f(x)=b^x` is increasing on an interval then `g(x)=log_bx` is \u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "increasing",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`y=log_bx` where `b>0, b ne 1, x>0`\ny is defined as \u2581\u2581\u2581\u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "the power we need to raise b to get x",
+          "correct": true
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "questionText": "`y=log_bx` where `b>0, b ne 1, x>0`\ny is called the \u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "exponent",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`y=log_bx` where `b>0, b ne 1, x>0`\nx is called the \u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "argument",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`y=log_bx` where `b>0, b ne 1, x>0`\nConvert to exponential form",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "b^y=x",
+          "correct": true
+        },
+        {
+          "text": "x=b^y"
+        }
+      ]
+    },
+    {
+      "questionText": "`y=b^x` where `b>0, b ne 1, x>0`\nConvert to logarithmic form",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "x=log_by",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Natural exponential function f(x)=",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`e^x`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`y=e^x` where `x>0`\nConvert to natural logarithmic form",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`e^y=x`",
+          "correct": true
+        },
+        {
+          "text": "`x=e^y`"
+        }
+      ]
+    },
+    {
+      "questionText": "`log_b(b^x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "x",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`ln(e^x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "x",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`b^(log_bx)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "x",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`e^lnx=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "x",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "pH=",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "-log[H+]",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "pH=-log[H+] where [H+] is the hydrogen concentration in \u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "mol/L",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Acidic means pH\u25817",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "<",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Alkaline or basic means pH\u25817",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": ">",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Magnitude of earthquake M=",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`log(I/I_0)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Magnitude of earthquake `M=log(I/I_0)` where `I/I_0` is the \u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "intensity",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Magnitude of earthquake `M=log(I/I_0)` where `I_0` is the \u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "reference",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Decibel L=",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`10log(I/I_0)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Decibel `L=10log(I/I_0)` where I is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "intensity",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Decibel `L=10log(I/I_0)`\nwhere `I_0` is the intensity of sound at the threshold which is \u2581\u2581 `W\"/\"m^2`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`10^12`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Product rule\n`log_b(mn)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`log_bm+log_bn`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Quotient rule\n`log_b(m/n)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`log_bm-log_bn`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Power rule\n`nlog_bm=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`log_b(m^n)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Base change formula\n`log_bm=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`log_dm/log_db`",
+          "correct": true
         }
       ]
     }
