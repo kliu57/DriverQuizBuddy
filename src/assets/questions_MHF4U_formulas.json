@@ -2,6 +2,36 @@
   "logo": "/assets/images/logos/math_logo.png",
   "questions": [
     {
+      "questionText": "To convert degrees to radians, multiply by",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "`pi/180`",
+          "correct": true
+        },
+        {
+          "text": "\\pi/180"
+        }
+      ]
+    },
+    {
+      "questionText": "To convert radians to degrees, multiply by",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "`180/pi`",
+          "correct": true
+        },
+        {
+          "text": "180/\\pi"
+        }
+      ]
+    },
+    {
       "questionText": "Circumference of a circle\nC=",
       "info": "",
       "image": "",
@@ -1666,6 +1696,138 @@
       "options": [
         {
           "text": "`log_dm/log_db`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "cscx=",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/sinx`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "secx=",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/cosx`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "cotx=",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/tanx`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Express in terms of sin and cos\ntanx=",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`sinx/cosx`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Express in terms of sin and cos\ncotx=",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`cosx/sinx`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`sin(pi/4)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/sqrt(2)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`cos(pi/4)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/sqrt(2)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`tan(pi/4)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "1",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`sin(pi/3)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "sqrt(3)/2",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`cos(pi/3)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "1/2",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`tan(pi/3)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "sqrt(3)",
           "correct": true
         }
       ]
