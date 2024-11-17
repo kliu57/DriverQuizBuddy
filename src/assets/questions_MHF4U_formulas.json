@@ -5,7 +5,7 @@
       "questionText": "To convert degrees to radians, multiply by",
       "info": "",
       "image": "",
-      "needPreview": false,
+      "needPreview": true,
       "options": [
         {
           "text": "`pi/180`",
@@ -20,7 +20,7 @@
       "questionText": "To convert radians to degrees, multiply by",
       "info": "",
       "image": "",
-      "needPreview": false,
+      "needPreview": true,
       "options": [
         {
           "text": "`180/pi`",
@@ -1803,7 +1803,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "sqrt(3)/2",
+          "text": "`sqrt(3)/2`",
           "correct": true
         }
       ]
@@ -1815,7 +1815,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "1/2",
+          "text": "`1/2`",
           "correct": true
         }
       ]
@@ -1827,8 +1827,341 @@
       "needPreview": true,
       "options": [
         {
-          "text": "sqrt(3)",
+          "text": "`sqrt(3)`",
           "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Sum/Difference Formula for Sine\n`sin(A+-B)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`sinAcosB+-cosAsinB`",
+          "correct": true
+        },
+        {
+          "text": "sinAcosBpmcosAsinB"
+        }
+      ]
+    },
+    {
+      "questionText": "Sum/Difference Formula for Cosine\n`cos(A+-B)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`cosAcosB+-sinAsinB`",
+          "correct": true
+        },
+        {
+          "text": "cosAcosBpmsinAsinB"
+        }
+      ]
+    },
+    {
+      "questionText": "Sum Formula for Tangent\n`tan(A+B)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(tanA+tanB)/(1-tanAtanB)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Difference Formula for Tangent\n`tan(A-B)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(tanA-tanB)/(1+tanAtanB)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Express in terms of sine only\n`sin(A+B)sin(A-B)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`sin^2A-sin^2B`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Express in terms of cosine only\n`sin(A+B)sin(A-B)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`cos^2B-cos^2A`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Express in terms of `sinA`, `sinB`, and `cosA` only\n`cos(A+B)cos(A-B)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`cos^2A-sin^2A-sin^2B`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Express in terms of `sinA` and `cosB` only\n`cos(A+B)cos(A-B)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`cos^2B-sin^2A`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Compound angle formula\n`sinx=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`sin(x+2pi)`",
+          "correct": true
+        },
+        {
+          "text": "sin(x+2\\pi)"
+        }
+      ]
+    },
+    {
+      "questionText": "Compound angle formula\n`cosx=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`cos(x+2pi)`",
+          "correct": true
+        },
+        {
+          "text": "cos(x+2\\pi)"
+        }
+      ]
+    },
+    {
+      "questionText": "Compound angle formula\n`tanx=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`tan(x+pi)`",
+          "correct": true
+        },
+        {
+          "text": "tan(x+\\pi)"
+        }
+      ]
+    },
+    {
+      "questionText": "Compound angle formula\n`sin(-x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "-sinx",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Compound angle formula\n`cos(-x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "cosx",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Compound angle formula\n`tan(-x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "-tanx",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Compound angle formula\n`sinx=cos(`\u2581\u2581\u2581`)`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`-x+pi/2`",
+          "correct": true
+        },
+        {
+          "text": "-x+\\pi/2"
+        }
+      ]
+    },
+    {
+      "questionText": "Compound angle formula\n`cosx=sin(`\u2581\u2581\u2581`)`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`+-x+pi/2`",
+          "correct": true
+        },
+        {
+          "text": "pmx+pi/2"
+        },
+        {
+          "text": "+-x+\\pi/2"
+        },
+        {
+          "text": "pmx+\\pi/2"
+        }
+      ]
+    },
+    {
+      "questionText": "Compound angle formula\n`tanx=cot(`\u2581\u2581\u2581`)`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`-x+pi/2`",
+          "correct": true
+        },
+        {
+          "text": "-x+\\pi/2"
+        }
+      ]
+    },
+    {
+      "questionText": "Double angle formula\n`sin(2x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "2sinxcosx",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double angle formula. Express in terms of cosine and sine\n`cos(2x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`cos^2x-sin^2x`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double angle formula. Express in terms of cosine only\n`cos(2x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`2cos^2x-1`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double angle formula. Express in terms of sine only\n`cos(2x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1-2sin^2x`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Sine Law. Express in terms of side `b` and angle `B`\n`a/sinA=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`b/sinB`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Cosine Law\n`c^2=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`a^2+b^2-2abcosC`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double angle formula\n`tan(2x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(2tanx)/(1-2tanx)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Average rate of change of f(x) over interval `[x_1, x_2]` is",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(f(x_2)-f(x_1))/(x_2-x_1)`",
+          "correct": true
+        },
+        {
+          "text": "`(y_2-y_1)/(x_2-x_1)`"
         }
       ]
     }
