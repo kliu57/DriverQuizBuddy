@@ -86,7 +86,7 @@
       ]
     },
     {
-      "questionText": "`limit=constant/infty=`",
+      "questionText": "limit `=\"constant\"/infty=`",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "questionText": "`limit=infty/constant=`",
+      "questionText": "limit `=infty/\"constant\"=`",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "questionText": "`limit=constant/0`",
+      "questionText": "limit `=\"constant\"/0=`",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -170,7 +170,7 @@
       ]
     },
     {
-      "questionText": "Constant Multiple Rule\nIf `g(x)=af(x)`  where `a` is a constant,\nThen g'(x)=",
+      "questionText": "Constant Multiple Rule\nIf `g(x)=af(x)`  where `a` is a constant,\nThen `g'(x)=`",
       "info": "",
       "image": "",
       "needPreview": false,

@@ -49,6 +49,7 @@ export class QuestionComponent {
   formattedMathAnswerA: SafeHtml = '';
   formattedMathAnswerB: SafeHtml = '';
   previewToggle: boolean = true;
+  exactMatchQuizzes = ['MHF4U Formulas', 'MCV4U Formulas', 'SPH4U Formulas'];
 
   @HostListener('window:keydown', ['$event'])
   handleKeyPress(event: KeyboardEvent) {
@@ -183,8 +184,8 @@ export class QuestionComponent {
   ) {
     this.route.queryParams.subscribe((params) => {
       this.quizName = params['quiz'];
-      this.isExactMatch = this.quizName === 'MHF4U Formulas';
-      this.useTimer = this.quizName !== 'MHF4U Formulas';
+      this.isExactMatch = this.exactMatchQuizzes.includes(this.quizName);
+      this.useTimer = !this.exactMatchQuizzes.includes(this.quizName);
     });
 
     this.userAnswer.valueChanges
@@ -269,16 +270,24 @@ export class QuestionComponent {
           this.shuffleOptions(question.options)
         );
       });
-    } else if (this.quizName === 'MHF4U Formulas') {
-      this.questionService.getMHF4UFormulasQuestionsJson().subscribe((res) => {
-        this.logoUrl = res.logo;
-        this.questionList = res.questions;
-        if (!this.isExactMatch) {
-          this.questionList.forEach((question: any) =>
-            this.shuffleOptions(question.options)
-          );
-        }
-      });
+    } else if (this.exactMatchQuizzes.includes(this.quizName)) {
+      const getQuestionsMethod = {
+        'MHF4U Formulas': this.questionService.getMHF4UFormulasQuestionsJson(),
+        'MCV4U Formulas': this.questionService.getMCV4UFormulasQuestionsJson(),
+        'SPH4U Formulas': this.questionService.getSPH4UFormulasQuestionsJson(),
+      }[this.quizName];
+
+      if (getQuestionsMethod) {
+        getQuestionsMethod.subscribe((res) => {
+          this.logoUrl = res.logo;
+          this.questionList = res.questions;
+          if (!this.isExactMatch) {
+            this.questionList.forEach((question: any) =>
+              this.shuffleOptions(question.options)
+            );
+          }
+        });
+      }
     } else {
       this.questionService.getMotorQuestionsJson().subscribe((res) => {
         this.logoUrl = res.logo;

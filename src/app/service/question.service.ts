@@ -23,4 +23,12 @@ export class QuestionService {
   getMHF4UFormulasQuestionsJson(){
     return this.http.get<any>("assets/questions_MHF4U_formulas.json");
   }
+
+  getMCV4UFormulasQuestionsJson(){
+    return this.http.get<any>("assets/questions_MCV4U_formulas.json");
+  }
+
+  getSPH4UFormulasQuestionsJson(){
+    return this.http.get<any>("assets/questions_SPH4U_formulas.json");
+  }
 }
