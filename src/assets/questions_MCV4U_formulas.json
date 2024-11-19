@@ -2,12 +2,231 @@
   "logo": "/assets/images/logos/math_logo.png",
   "questions": [
     {
-      "questionText": "",
+      "questionText": "The marginal cost is the \u2581\u2581\u2581 of the cost function",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "derivative",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A secant line is used to find the \u2581\u2581\u2581 rate of change",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "average",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A tangent line is used to find the \u2581\u2581\u2581 rate of change",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "instantaneous",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "For a function `f(x)`, `f'(a)` is the \u2581\u2581\u2581 at `x=a`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "slope of the tangent line",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The equation of the tangent line at `P(x_1, y_1)` is `y=`",
       "info": "",
       "image": "",
       "needPreview": true,
       "options": [
-        { "text": "", "correct": true }
+        {
+          "text": "`m(x-x_1)+y_1`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The equation of the tangent line at `P(x_1, y_1)` is `y=m(x-x_1)+y_1`\nwhere `(x_1, y_1)` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "tangent point",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The equation of the tangent line at `P(x_1, y_1)` is `y=m(x-x_1)+y_1`\nwhere `m` is the value of the derivative when `x=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`x_1`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`limit=constant/infty=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`limit=infty/constant=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`infty`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`limit=constant/0`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`infty`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`lim_(x->infty)(a+a/x)^x=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`e^a`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Sum Rule for limits\n`lim_(x->c)(a(x)+b(x))=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`lim_(x->c)a(x)+lim_(x->c)b(x)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Derivative by first principle\n`f'(x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`lim_(h->0)((f(x+h)-f(x))/h)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Constant Rule\nIf `f(x)=c` where `c` is a constant,\nThen `f'(x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Constant Multiple Rule\nIf `g(x)=af(x)`  where `a` is a constant,\nThen g'(x)=",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "af'(x)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Power Rule\nIf `f(x)=x^n`,\nThen `f'(x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`nx^(n-1)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Product Rule\nIf `F(x)=f(x)g(x)`,\nThen `F'(x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "f'(x)g(x)+f(x)g'(x)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Chain Rule\nIf `F(x)=f(g(x))`,\nThen `F'(x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "f'(g(x))g'(x)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Quotient Rule\nIf `F(x)=f(x)/g(x)`\nThen `F'(x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(f'(x)g(x)-f(x)g'(x))/[g(x)]^2`",
+          "correct": true
+        }
       ]
     }
   ]
