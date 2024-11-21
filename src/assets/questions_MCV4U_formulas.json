@@ -228,6 +228,201 @@
           "correct": true
         }
       ]
+    },
+    {
+      "questionText": "`a_av=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`Deltav/t`",
+          "correct": true
+        },
+        {
+          "text": "(v_f-v_i)/t"
+        }
+      ]
+    },
+    {
+      "questionText": "displacement`=s(t)`\nvelocity`=v(t)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "s'(t)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "displacement`=s(t)`\nacceleration`=a(t)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "s''(t)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `f'(c)=0` then `c` is a \u2581\u2581\u2581 of f(x)",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "critical number",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "First Derivative Test\nFor critical number `c` of `f(x)`,\nIf `f'(x)` changes from positive to negative at `c`, then `f(x)` has a \u2581\u2581\u2581 at `c`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "maximum",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "First Derivative Test\nFor critical number `c` of `f(x)`,\nIf `f'(x)` changes from negative to positive at `c`, then `f(x)` has a \u2581\u2581\u2581 at `c`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "minimum",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Test for concavity\nIf `f''(x)>0` for all `x` in the interval,\nThen `f(x)` is concave \u2581\u2581\u2581 on the interval",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "up",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Test for concavity\nIf `f''(x)<0` for all `x` in the interval,\nThen `f(x)` is concave \u2581\u2581\u2581 on the interval",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "down",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Second Derivative Test\nIf `f'(x)=0` and `f''(x)<0` then there is a \u2581\u2581\u2581 at `x`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "maximum",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Second Derivative Test\nIf `f'(x)=0` and `f''(x)>0` then there is a \u2581\u2581\u2581 at `x`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "minimum",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Non-existence of limits\nA limit does not exist at `a` if \u2581\u2581\u2581 where `L=lim_(x->a^-)f(x)` and `M=lim_(x->a^+)f(x)`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "LneM",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`f(x)` is continuous iff\n`lim_(x->a)f(x)` exists and `lim_(x->a)f(x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "f(a)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A \u2581\u2581\u2581 `f'(x)` may be a maximum or minimum of `f(x)`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "x-intercept",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Positive intervals of `f'(x)` are intervals of \u2581\u2581\u2581 of `f(x)`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "increase",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Negative intervals of `f'(x)` are intervals of \u2581\u2581\u2581 of `f(x)`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "decrease",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "x-intercepts of `f''(x)` may be \u2581\u2581\u2581 of `f(x)`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "inflection points",
+          "correct": true
+        }
+      ]
     }
   ]
 }
