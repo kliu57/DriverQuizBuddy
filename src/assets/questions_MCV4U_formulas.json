@@ -236,7 +236,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`Deltav/t`",
+          "text": "`(Deltav)/t`",
           "correct": true
         },
         {
@@ -359,8 +359,11 @@
       "needPreview": true,
       "options": [
         {
-          "text": "LneM",
+          "text": "L!=M",
           "correct": true
+        },
+        {
+          "text": "L ne M"
         }
       ]
     },
@@ -377,10 +380,10 @@
       ]
     },
     {
-      "questionText": "A \u2581\u2581\u2581 `f'(x)` may be a maximum or minimum of `f(x)`",
+      "questionText": "An \u2581\u2581\u2581 `f'(x)` may be a maximum or minimum of `f(x)`",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
           "text": "x-intercept",
@@ -416,10 +419,157 @@
       "questionText": "x-intercepts of `f''(x)` may be \u2581\u2581\u2581 of `f(x)`",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
           "text": "inflection points",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`f(x)=sinx`\n`f'(x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "cosx",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`f(x)=cosx`\n`f'(x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "-sinx",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`f(x)=tanx`\n`f'(x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`sec^2x`",
+          "correct": true
+        },
+        {
+          "text": "1/cos^2x"
+        }
+      ]
+    },
+    {
+      "questionText": "`e=2.71828183...`\nThis is \u2581\u2581\u2581 number",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "Euler's",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `f(x)=e^x`\nThen `f'(x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`e^x`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `f(x)=log_ax`\nThen `f'(x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/(xlna)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `f(x)=lnx`\nThen `f'(x)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/x`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Natural growth function\n`y=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`Ce^(kt)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Natural growth function `y=Ce^(kt)`\n`C`, a constant, is the \u2581\u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "initial amount",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Natural growth function `y=Ce^(kt)`\nIf `k`\u2581`0` then there is growth",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": ">",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Natural growth function `y=Ce^(kt)`\nIf `k`\u2581`0` then there is decay",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "<",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Natural growth function `y=Ce^(kt)`\n`y` is the \u2581\u2581\u2581 at time `t`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "quantity",
           "correct": true
         }
       ]
