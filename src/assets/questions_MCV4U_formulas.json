@@ -416,13 +416,13 @@
       ]
     },
     {
-      "questionText": "x-intercepts of `f''(x)` may be \u2581\u2581\u2581 of `f(x)`",
+      "questionText": "An x-intercept of `f''(x)` may be an \u2581\u2581\u2581 of `f(x)`",
       "info": "",
       "image": "",
       "needPreview": false,
       "options": [
         {
-          "text": "inflection points",
+          "text": "inflection point",
           "correct": true
         }
       ]
@@ -570,6 +570,309 @@
       "options": [
         {
           "text": "quantity",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Distance formula `AB=`\u2581\u2581\u2581\nwhere `A=P(x_1,y_1)` and `B=P(x_2,y_2)`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`sqrt((x_2-x_1)^2+(y_2-y_1)^2)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `vec u=[u_1,u_2]` and `vec v=[v_1,v_2]`\nthen `vec u+vec v=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`[u_1+v_1,u_2+v_2]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `vec u=[u_1,u_2]` and `k in RR`\nthen `kvec u=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`[ku_1,ku_2]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Let `P_1(x_1,y_1)` and `P_2(x_2,y_2)` be two points on the coordinate plane\nThen `vec(P_1P_2)=[x_2-x_1,y_2-y_1]`\nAnd then `|vec(P_1P_2)|=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`sqrt((x_2-x_1)^2+(y_2-y_1)^2)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `theta` is the angle to the x-axis and `|vec F|` is the magnitude of the force\nthen the horizontal component is `|vec F_h|=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`|vec F|costheta`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `theta` is the angle to the x-axis and `|vec F|` is the magnitude of the force\nthen the vertical component is `|vec F_v|=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`|vec F|sintheta`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Given vectors `vec a` and `vec b`, the dot product is\n`vec a cdot vec b=`\u2581\u2581\u2581\nwhere `theta` is the angle between `vec a` and `vec b` when the vectors are tail to tail",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`|vec a||vec b|costheta`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Given `vec a=[a_1,a_2]` and `vec b=[b_1,b_2]`\n`vec a cdot vec b=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`a_1b_1+a_2b_2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `vec F` is the force applied to an object and `vec s` is the object's displacement\nThen `W=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`|vec F||vec s|costheta`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`vec u` and `vec v` are perpendicular if",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`vec u cdot vec v=0`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`vec u cdot vec u=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`|vec u|^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`vec u cdot (vec v+vec w)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`vec u cdot vec v + vec u cdot vec w`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If the angle between `vec v` and `vec u` is less than `90^@`,\nThen `|proj_(vec u)vec v|=|vec v|costheta` or",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(vec u cdot vec v)/|vec u|`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If the angle between `vec v` and `vec u` is between `90^@` and `180^@`,\nThen `|proj_(vec u)vec v|=-|vec v|costheta` or",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`-(vec u cdot vec v)/|vec u|`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If the angle between `vec v` and `vec u` equals `90^@`,\nThen `|proj_(vec u)vec v|=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `vec u` is orthogonal to `vec v` then `vec u cdot vec v=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`vec u times vec v=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(|vec u||vec v|sintheta)hat n`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Right hand rule is used to determine the direction of the vector resulting from the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "cross product",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Given `vec a=[a_1,a_2,a_3]` and `vec b=[b_1,b_2,b_3]`\nThen vec a times vec b=",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`[a_2b_3-a_3b_2,a_3b_1-a_1b_3,a_1b_2,a_2b_1]`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The volume of the parallelepiped defined by `vec u, vec v, vec w` is `V=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`|vec w cdot vec u times vec v|`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The scalar form of the line is",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "Ax+By+C=0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The directional vector is `vec m=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "[run,rise]",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The vector form of the line is `[x,y]=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`[x_0,y_0]+t[m_1,m_2]`",
+          "correct": true
+        },
+        {
+          "text": "[x_0,y_0]+t[run,rise]"
+        }
+      ]
+    },
+    {
+      "questionText": "For `[x,y]=[x_0,y_0]+t[m_1,m_2]`,\nThe parametric equation for `x` is `x=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "x_0+tm_1",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "To find the symmetric equation, first rearrange the parametric equations for \u2581\u2581",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "t",
           "correct": true
         }
       ]
