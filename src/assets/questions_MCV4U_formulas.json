@@ -152,7 +152,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`lim_(h->0)((f(x+h)-f(x))/h)`",
+          "text": "`lim_(h->0)(f(x+h)-f(x))/h`",
           "correct": true
         }
       ]
@@ -230,7 +230,7 @@
       ]
     },
     {
-      "questionText": "`a_av=`",
+      "questionText": "`a_(av)=`",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -245,7 +245,7 @@
       ]
     },
     {
-      "questionText": "displacement`=s(t)`\nvelocity`=v(t)=`",
+      "questionText": "displacement `=s(t)`\nvelocity `=v(t)=`",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -257,7 +257,7 @@
       ]
     },
     {
-      "questionText": "displacement`=s(t)`\nacceleration`=a(t)=`",
+      "questionText": "displacement `=s(t)`\nacceleration `=a(t)=`",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -353,7 +353,7 @@
       ]
     },
     {
-      "questionText": "Non-existence of limits\nA limit does not exist at `a` if \u2581\u2581\u2581 where `L=lim_(x->a^-)f(x)` and `M=lim_(x->a^+)f(x)`",
+      "questionText": "Non-existence of limits\nA limit does not exist at `a` if \u2581\u2581\u2581\nwhere `L=lim_(x->a^-)f(x)` and `M=lim_(x->a^+)f(x)`",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -380,7 +380,7 @@
       ]
     },
     {
-      "questionText": "An \u2581\u2581\u2581 `f'(x)` may be a maximum or minimum of `f(x)`",
+      "questionText": "An \u2581\u2581\u2581 of `f'(x)` may be a maximum or minimum of `f(x)`",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -571,11 +571,14 @@
         {
           "text": "quantity",
           "correct": true
+        },
+        {
+          "text": "amount"
         }
       ]
     },
     {
-      "questionText": "Distance formula `AB=`\u2581\u2581\u2581\nwhere `A=P(x_1,y_1)` and `B=P(x_2,y_2)`",
+      "questionText": "Distance formula\nThe distance between two points `AB=`\u2581\u2581\u2581\nwhere `A=P(x_1,y_1)` and `B=P(x_2,y_2)`",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -713,7 +716,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`vec u cdot vec v + vec u cdot vec w`",
+          "text": "`vec u cdot vec v+vec u cdot vec w`",
           "correct": true
         }
       ]
@@ -755,13 +758,13 @@
       ]
     },
     {
-      "questionText": "If `vec u` is orthogonal to `vec v` then `vec u cdot vec v=`",
+      "questionText": "If `vec u` is orthogonal to `vec v` if",
       "info": "",
       "image": "",
       "needPreview": false,
       "options": [
         {
-          "text": "0",
+          "text": "vec u cdot vec v=0",
           "correct": true
         }
       ]
@@ -791,13 +794,13 @@
       ]
     },
     {
-      "questionText": "Given `vec a=[a_1,a_2,a_3]` and `vec b=[b_1,b_2,b_3]`\nThen vec a times vec b=",
+      "questionText": "Given `vec a=[a_1,a_2,a_3]` and `vec b=[b_1,b_2,b_3]`\nThen `vec a times vec b=`",
       "info": "",
       "image": "",
       "needPreview": true,
       "options": [
         {
-          "text": "`[a_2b_3-a_3b_2,a_3b_1-a_1b_3,a_1b_2,a_2b_1]`",
+          "text": "`[a_2b_3-a_3b_2,a_3b_1-a_1b_3,a_1b_2-a_2b_1]`",
           "correct": true
         }
       ]
@@ -866,7 +869,7 @@
       ]
     },
     {
-      "questionText": "To find the symmetric equation, first rearrange the parametric equations for \u2581\u2581",
+      "questionText": "`x=x_0+tm_1`\n`y=y_0+tm_2`\nTo find the symmetric equation, first rearrange the parametric equations for \u2581\u2581",
       "info": "",
       "image": "",
       "needPreview": false,
