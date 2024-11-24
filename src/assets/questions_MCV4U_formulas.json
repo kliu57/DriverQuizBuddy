@@ -746,13 +746,25 @@
       ]
     },
     {
-      "questionText": "If the angle between `vec v` and `vec u` equals `90^@`,\nThen `|proj_(vec u)vec v|=`",
+      "questionText": "If the angle between `vec v` and `vec u` equals `90^@`,\nThen `proj_(vec u)vec v=`",
       "info": "",
       "image": "",
       "needPreview": false,
       "options": [
         {
           "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "We do not know the angle between `vec v` and `vec u`\n`proj_(vec u)vec v=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "((vec v cdot vec u)/(vec u cdot vec u))vec u",
           "correct": true
         }
       ]
