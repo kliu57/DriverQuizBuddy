@@ -764,7 +764,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "((vec v cdot vec u)/(vec u cdot vec u))vec u",
+          "text": "`((vec v cdot vec u)/(vec u cdot vec u))vec u`",
           "correct": true
         }
       ]
