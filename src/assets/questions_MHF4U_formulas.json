@@ -939,11 +939,8 @@
       "needPreview": false,
       "options": [
         {
-          "text": "c",
+          "text": "d",
           "correct": true
-        },
-        {
-          "text": ""
         }
       ]
     },
