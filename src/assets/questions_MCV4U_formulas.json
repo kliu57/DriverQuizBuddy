@@ -758,7 +758,7 @@
       ]
     },
     {
-      "questionText": "We do not know the angle between `vec v` and `vec u`\n`proj_(vec u)vec v=`",
+      "questionText": "`proj_(vec u)vec v=|vec v|costheta(1/|vec u|vec u)` or",
       "info": "",
       "image": "",
       "needPreview": true,
