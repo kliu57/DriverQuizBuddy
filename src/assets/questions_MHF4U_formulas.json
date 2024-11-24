@@ -1056,7 +1056,7 @@
       ]
     },
     {
-      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\nx-intercepts of f(x) are \u2581\u2581\u2581 of g(x)",
+      "questionText": "For `f(x)` and its reciprocal `g(x)=1/f(x)`,\nx-intercepts of `f(x)` are \u2581\u2581\u2581 of `g(x)`",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -1068,7 +1068,7 @@
       ]
     },
     {
-      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\nintervals of increase of f(x) are \u2581\u2581\u2581 of g(x)",
+      "questionText": "For `f(x)` and its reciprocal `g(x)=1/f(x)`,\nintervals of increase of `f(x)` are \u2581\u2581\u2581 of `g(x)`",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -1080,7 +1080,7 @@
       ]
     },
     {
-      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\npositive intervals of f(x) are \u2581\u2581\u2581 intervals of g(x)",
+      "questionText": "For `f(x)` and its reciprocal `g(x)=1/f(x)`,\npositive intervals of `f(x)` are \u2581\u2581\u2581 intervals of `g(x)`",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -1092,7 +1092,7 @@
       ]
     },
     {
-      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\nhorizontal asymptote of g(x) is y=",
+      "questionText": "For `f(x)` and its reciprocal `g(x)=1/f(x)`,\nhorizontal asymptote of `g(x)` is `y=`",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -1104,7 +1104,7 @@
       ]
     },
     {
-      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\nif f(x) has a maximum at x=a then g(x) has a \u2581\u2581\u2581 at x=a",
+      "questionText": "For `f(x)` and its reciprocal `g(x)=1/f(x)`,\nif `f(x)` has a maximum at `x=a` then `g(x)` has a \u2581\u2581\u2581 at `x=a`",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -1119,7 +1119,7 @@
       ]
     },
     {
-      "questionText": "For f(x) and its reciprocal `g(x)=1/f(x)`,\nif f(x) has 0 turning points then g(x) has \u2581 turning points",
+      "questionText": "For `f(x)` and its reciprocal `g(x)=1/f(x)`,\nif f(x) has 0 turning points then `g(x)` has \u2581 turning points",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -1134,7 +1134,7 @@
       ]
     },
     {
-      "questionText": "Rational numbers can be written in the form \u2581\u2581, where b`ne`0 and a, b are integers",
+      "questionText": "Rational numbers can be written in the form \u2581\u2581, where `b ne 0` and `a, b` are integers",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -1146,7 +1146,7 @@
       ]
     },
     {
-      "questionText": "Rational functions are in the form \u2581\u2581, where p(x), q(x) are polynomials and q(x)`ne`0",
+      "questionText": "Rational functions are in the form \u2581\u2581, where `p(x), q(x)` are polynomials and `q(x) ne 0`",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -1161,7 +1161,7 @@
       ]
     },
     {
-      "questionText": "For rational function `f(x)=(p(x))/(q(x))`,\nzeroes of p(x) are \u2581\u2581\u2581 of f(x)",
+      "questionText": "For rational function `f(x)=(p(x))/(q(x))`,\nzeroes of `p(x)` are \u2581\u2581\u2581 of `f(x)`",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -1239,7 +1239,7 @@
       ]
     },
     {
-      "questionText": "For exponential function `f(x)=ab^x`, y is the \u2581\u2581\u2581 value",
+      "questionText": "For exponential function `f(x)=ab^x`, `f(x)` is the \u2581\u2581\u2581 value",
       "info": "",
       "image": "",
       "needPreview": false,
