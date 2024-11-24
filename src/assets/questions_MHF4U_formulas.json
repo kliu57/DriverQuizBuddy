@@ -506,21 +506,6 @@
       ]
     },
     {
-      "questionText": "Remainder theorem\nFor a polynomial f(x), if f(n)=0, then \u2581\u2581\u2581 is a factor of f(x)",
-      "info": "",
-      "image": "",
-      "needPreview": false,
-      "options": [
-        {
-          "text": "(x-n)",
-          "correct": true
-        },
-        {
-          "text": "x-n"
-        }
-      ]
-    },
-    {
       "questionText": "Remainder theorem\nFor a polynomial f(x), if f(n)`ne`0, then \u2581\u2581\u2581 is not a factor of f(x)",
       "info": "",
       "image": "",
