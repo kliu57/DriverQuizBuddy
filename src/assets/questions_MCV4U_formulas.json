@@ -773,10 +773,10 @@
       "questionText": "If `vec u` is orthogonal to `vec v` if",
       "info": "",
       "image": "",
-      "needPreview": false,
+      "needPreview": true,
       "options": [
         {
-          "text": "vec u cdot vec v=0",
+          "text": "`vec u cdot vec v=0`",
           "correct": true
         }
       ]
@@ -875,7 +875,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "x_0+tm_1",
+          "text": "`x_0+tm_1`",
           "correct": true
         }
       ]
