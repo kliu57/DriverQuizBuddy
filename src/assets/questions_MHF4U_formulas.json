@@ -788,7 +788,7 @@
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nExpress amplitude in terms of a. Amplitude=",
+      "questionText": "Sinusoidal function `f(x)=asin[k(x-d)]+c]`\nExpress amplitude in terms of a. Amplitude=",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -800,7 +800,7 @@
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nExpress amplitude in terms of maximum and minimum. Amplitude=",
+      "questionText": "Sinusoidal function `f(x)=asin[k(x-d)]+c]`\nExpress amplitude in terms of maximum and minimum. Amplitude=",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -818,7 +818,7 @@
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nc=",
+      "questionText": "Sinusoidal function `f(x)=asin[k(x-d)]+c]`\nc=",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -836,7 +836,7 @@
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nPeriod=",
+      "questionText": "Sinusoidal function `f(x)=asin[k(x-d)]+c]`\nPeriod=",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -869,7 +869,7 @@
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nAxis is y=",
+      "questionText": "Sinusoidal function `f(x)=asin[k(x-d)]+c]`\nAxis is y=",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -881,7 +881,7 @@
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nStart point is (\u2581, 0)",
+      "questionText": "Sinusoidal function `f(x)=asin[k(x-d)]+c]`\nStart point is (\u2581, 0)",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -893,7 +893,7 @@
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nminimum=",
+      "questionText": "Sinusoidal function `f(x)=asin[k(x-d)]+c]`\nminimum=",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -905,7 +905,7 @@
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nmaximum=",
+      "questionText": "Sinusoidal function `f(x)=asin[k(x-d)]+c]`\nmaximum=",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -917,7 +917,7 @@
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nfrequency=",
+      "questionText": "Sinusoidal function `f(x)=asin[k(x-d)]+c]`\nfrequency=",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -933,7 +933,7 @@
       ]
     },
     {
-      "questionText": "Sinusoidal function f(x)=asin[k(x-d)]+c]\nTwo sinusoidal functions are in phase if they have the same \u2581 value",
+      "questionText": "Sinusoidal function `f(x)=asin[k(x-d)]+c]`\nTwo sinusoidal functions are in phase if they have the same \u2581 value",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -1050,7 +1050,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`1/a^n`",
+          "text": "`a^(1/n)`",
           "correct": true
         }
       ]
