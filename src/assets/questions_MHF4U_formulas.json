@@ -1671,7 +1671,7 @@
       ]
     },
     {
-      "questionText": "Base change formula\n`log_bm=`",
+      "questionText": "Base change formula. Convert to a new base, `d`\n`log_bm=`",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -1815,32 +1815,50 @@
       ]
     },
     {
-      "questionText": "Sum/Difference Formula for Sine\n`sin(A+-B)=`",
+      "questionText": "Sum Formula for Sine\n`sin(A+B)=`",
       "info": "",
       "image": "",
       "needPreview": true,
       "options": [
         {
-          "text": "`sinAcosB+-cosAsinB`",
+          "text": "`sinAcosB+cosAsinB`",
           "correct": true
-        },
-        {
-          "text": "sinAcosBpmcosAsinB"
         }
       ]
     },
     {
-      "questionText": "Sum/Difference Formula for Cosine\n`cos(A+-B)=`",
+      "questionText": "Difference Formula for Sine\n`sin(A-B)=`",
       "info": "",
       "image": "",
       "needPreview": true,
       "options": [
         {
-          "text": "`cosAcosB+-sinAsinB`",
+          "text": "`sinAcosB-cosAsinB`",
           "correct": true
-        },
+        }
+      ]
+    },
+    {
+      "questionText": "Sum Formula for Cosine\n`cos(A+B)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
         {
-          "text": "cosAcosBpmsinAsinB"
+          "text": "`cosAcosB-sinAsinB`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Difference Formula for Cosine\n`cos(A-B)=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`cosAcosB+sinAsinB`",
+          "correct": true
         }
       ]
     },
