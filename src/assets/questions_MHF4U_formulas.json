@@ -1290,7 +1290,7 @@
       ]
     },
     {
-      "questionText": "For `f(x)=ab^x` the y-intercept is y=\u2581",
+      "questionText": "For `f(x)=ab^x` the y-intercept is `y=`\u2581",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -1314,7 +1314,7 @@
       ]
     },
     {
-      "questionText": "For `f(x)=b^x` if `0<b<1`, then the graph is \u2581\u2581\u2581",
+      "questionText": "For `f(x)=b^x` if `0 < b < 1`, then the graph is \u2581\u2581\u2581",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -1334,6 +1334,12 @@
         {
           "text": "larger",
           "correct": true
+        },
+        {
+          "text": "greater"
+        },
+        {
+          "text": "bigger"
         }
       ]
     },
