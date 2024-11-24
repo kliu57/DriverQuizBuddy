@@ -569,7 +569,7 @@
       ]
     },
     {
-      "questionText": "Cubic function transformed equation f(x)=",
+      "questionText": "Cubic function transformed equation `f(x)=`",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -584,7 +584,7 @@
       ]
     },
     {
-      "questionText": "Log function transformed equation f(x)=",
+      "questionText": "Log function transformed equation `f(x)=`",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -599,7 +599,7 @@
       ]
     },
     {
-      "questionText": "Sine function transformed equation f(x)=",
+      "questionText": "Sine function transformed equation `f(x)=`",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -614,7 +614,7 @@
       ]
     },
     {
-      "questionText": "For any f(x), the transformed equation is g(x)=",
+      "questionText": "For any `f(x)`, the transformed equation is `g(x)=`",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -629,7 +629,7 @@
       ]
     },
     {
-      "questionText": "For transformed equation f(x)=af[k(x-d)]+c,\nvariables a and c affect the \u2581-values",
+      "questionText": "For transformed equation `g(x)=af[k(x-d)]+c`,\nvariables `a` and `c` affect the \u2581-values",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -641,7 +641,7 @@
       ]
     },
     {
-      "questionText": "For transformed equation f(x)=af[k(x-d)]+c,\nvariables k and d affect the \u2581-values",
+      "questionText": "For transformed equation `g(x)=af[k(x-d)]+c`,\nvariables `k` and `d` affect the \u2581-values",
       "info": "",
       "image": "",
       "needPreview": false,
