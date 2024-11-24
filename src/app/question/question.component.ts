@@ -315,7 +315,7 @@ export class QuestionComponent {
     const possibleAnswers = currentQ.options.map((opt: any) =>
       opt.text.replace(/`/g, '').toLowerCase().trim()
     );
-    const userText = (this.userAnswer.value || '')
+    const userText = (this.userAnswer.value ?? '')
       .replace(/`/g, '')
       .toLowerCase()
       .trim();

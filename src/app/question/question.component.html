@@ -72,8 +72,7 @@
         </div>
 
         <div class="mt-3 mb-4">
-          <button class="btn btn-primary" (click)="submitTextAnswer()"
-            [disabled]="isQuestionAnswered || !userAnswer.value">
+          <button class="btn btn-primary" (click)="submitTextAnswer()" [disabled]="isQuestionAnswered">
             Submit Answer
           </button>
           <div class="alert mt-3" *ngIf="feedback" [ngClass]="{'alert-success': isCorrect, 'alert-danger': !isCorrect}"

@@ -71,3 +71,7 @@ span {
 .question h3 {
   white-space: pre-line;
 }
+
+.btn:disabled {
+  pointer-events: none;
+}
