@@ -428,7 +428,7 @@
       "questionText": "Factor with difference of squares\n`a^2-b^2=`",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
           "text": "(a+b)(a-b)",
@@ -479,7 +479,7 @@
       ]
     },
     {
-      "questionText": "Factor theorem\nWhen f(x)=0, \u2581\u2581\u2581 is a factor of f(x) where n `in RR`",
+      "questionText": "Factor theorem\nWhen `f(n)=0`, \u2581\u2581\u2581 is a factor of `f(x)` where `n in RR`",
       "info": "",
       "image": "",
       "needPreview": false,
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "questionText": "Remainder theorem\nFor a polynomial f(x), the remainder of `f(x)/(x-n)` is",
+      "questionText": "Remainder theorem\nFor a polynomial `f(x)`, the remainder of `f(x)/(x-n)` is",
       "info": "",
       "image": "",
       "needPreview": false,
