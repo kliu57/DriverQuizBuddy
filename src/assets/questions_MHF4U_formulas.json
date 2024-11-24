@@ -1461,11 +1461,8 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`e^y=x`",
+          "text": "`x=lny`",
           "correct": true
-        },
-        {
-          "text": "`x=e^y`"
         }
       ]
     },
