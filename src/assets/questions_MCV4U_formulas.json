@@ -927,6 +927,42 @@
           "correct": true
         }
       ]
+    },
+    {
+      "questionText": "Given a plane in scalar form, we can find a direction vector by taking the cross product of the \u2581\u2581\u2581 and any other vector",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "normal",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The distance between a point `(x_0,y_0,z_0)` and a plane `Ax+By+Cz+D` is `d=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`|Ax_0+By_0+Cz_0+D|/sqrt(A^2+B^2+C^2)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Given normal vector `[A, B, C]` and point `(x_0, y_0, z_0)`,\nThe scalar equation of a plane is",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`A(x-x_0)+B(y-y_0)+C(z-z_0)=0`",
+          "correct": true
+        }
+      ]
     }
   ]
 }
