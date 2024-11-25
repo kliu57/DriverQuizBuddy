@@ -903,6 +903,18 @@
           "correct": true
         }
       ]
+    },
+    {
+      "questionText": "For a plane `Ax+By+Cz+D=0` what is the normal vector?",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "[A,B,C]",
+          "correct": true
+        }
+      ]
     }
   ]
 }
