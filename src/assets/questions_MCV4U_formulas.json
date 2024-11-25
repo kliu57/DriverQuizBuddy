@@ -915,6 +915,18 @@
           "correct": true
         }
       ]
+    },
+    {
+      "questionText": "Given a plane in vector form, we can find the normal vector by taking the \u2581\u2581\u2581 of the two directions",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "cross product",
+          "correct": true
+        }
+      ]
     }
   ]
 }
