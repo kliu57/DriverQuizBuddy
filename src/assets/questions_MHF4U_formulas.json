@@ -2232,7 +2232,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`y in RR|y>=c`",
+          "text": "`y in RR|y >= c`",
           "correct": true
         }
       ]
@@ -2244,7 +2244,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`y in RR|y<=c`",
+          "text": "`y in RR|y <= c`",
           "correct": true
         }
       ]
@@ -2268,7 +2268,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`x in RR|x>=d`",
+          "text": "`x in RR|x >= d`",
           "correct": true
         }
       ]
@@ -2280,7 +2280,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`x in RR|x<=d`",
+          "text": "`x in RR|x <= d`",
           "correct": true
         }
       ]
@@ -2304,7 +2304,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`y in RR|y>=c`",
+          "text": "`y in RR|y >= c`",
           "correct": true
         }
       ]
@@ -2316,7 +2316,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`y in RR|y<=c`",
+          "text": "`y in RR|y <= c`",
           "correct": true
         }
       ]
@@ -2376,7 +2376,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`y in RR|y>c`",
+          "text": "`y in RR|y > c`",
           "correct": true
         }
       ]
@@ -2388,7 +2388,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`y in RR|y<c`",
+          "text": "`y in RR|y < c`",
           "correct": true
         }
       ]
@@ -2412,7 +2412,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`x in RR|x>d`",
+          "text": "`x in RR|x > d`",
           "correct": true
         }
       ]
@@ -2424,7 +2424,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`x in RR|x<d`",
+          "text": "`x in RR|x < d`",
           "correct": true
         }
       ]
@@ -2460,7 +2460,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`y in RR|min<=y<=max`",
+          "text": "`y in RR|min <= y <= max`",
           "correct": true
         }
       ]
@@ -2472,7 +2472,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`y in RR|c-a<=y<=c+a`",
+          "text": "`y in RR|c-a <= y <= c+a`",
           "correct": true
         }
       ]
