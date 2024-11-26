@@ -2151,7 +2151,7 @@
       ]
     },
     {
-      "questionText": "Average rate of change of f(x) over interval `[x_1, x_2]` is",
+      "questionText": "Average rate of change of `f(x)` over interval `[x_1, x_2]` is",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -2162,6 +2162,318 @@
         },
         {
           "text": "`(y_2-y_1)/(x_2-x_1)`"
+        }
+      ]
+    },
+    {
+      "questionText": "Given `Deltax=0.0001`, the instantaneous rate of change of `f(x)` is",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(f(x+0.0001)-f(x))/0.0001`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The domain of a linear function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`x in RR`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The range of a linear function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`y in RR`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The domain of a quadratic function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`x in RR`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The range of a quadratic function is dependent on whether the variable \u2581 is positive or negative",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "a",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `a` is positive, the range of a quadratic function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`y in RR|y>=c`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `a` is negative, the range of a quadratic function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`y in RR|y<=c`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The domain of a square root function is dependent on whether the variable \u2581 is positive or negative",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "k",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `k` is positive, the domain of a square root function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`x in RR|x>=d`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `k` is negative, the domain of a square root function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`x in RR|x<=d`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The range of a square root function is dependent on whether the variable \u2581 is positive or negative",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "a",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `a` is positive, the range of a square root function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`y in RR|y>=c`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `a` is negative, the range of a square root function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`y in RR|y<=c`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The domain of a rational function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`x in RR|x ne d`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The range of a rational function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`y in RR|y ne c`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The domain of an exponential function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`x in RR`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The range of an exponential function is dependent on whether the variable \u2581 is positive or negative",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "a",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `a` is positive, the range of an exponential function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`y in RR|y>c`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `a` is negative, the range of an exponential function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`y in RR|y<c`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The range of a logarithmic function is dependent on whether the variable \u2581 is positive or negative",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "k",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `k` is positive, the domain of a logarithmic function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`x in RR|x>d`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "If `k` is negative, the domain of a logarithmic function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`x in RR|x<d`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The range of a logarithmic function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`y in RR`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The domain of a sinusoidal function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`x in RR`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Express with max and min. The range of a quadratic function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`y in RR|min<=y<=max`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Express in one or more variables: `a, k, d, c`. The range of a quadratic function is `{`\u2581\u2581\u2581`}`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`y in RR|c-a<=y<=c+a`",
+          "correct": true
         }
       ]
     }
