@@ -107,6 +107,18 @@
       ]
     },
     {
+      "questionText": "The arc length `s` of a circle is `s=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`rtheta`",
+          "correct": true
+        }
+      ]
+    },
+    {
       "questionText": "The domain is the set all all possible \u2581-values for a given function",
       "info": "",
       "image": "",
