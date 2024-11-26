@@ -2472,7 +2472,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`y in RR|c-a <= y <= c+a`",
+          "text": "`y in RR|c-|a| <= y <= c+|a|`",
           "correct": true
         }
       ]
