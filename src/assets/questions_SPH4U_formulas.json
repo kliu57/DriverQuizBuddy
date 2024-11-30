@@ -2,12 +2,960 @@
   "logo": "/assets/images/logos/math_logo.png",
   "questions": [
     {
-      "questionText": "",
+      "questionText": "`vec v=`",
       "info": "",
       "image": "",
       "needPreview": true,
       "options": [
-        { "text": "", "correct": true }
+        {
+          "text": "`vec d/t`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`v_f=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`vec v_i+vec at`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Formula as a function of `vec v_i, vec v_f, t`\n`vec d=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/2(vec v_i+vec v_f)t`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Formula as a function of `vec v_i, vec a, t`\n`vec d=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`vec v_it+1/2vec at^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Formula as a function of `vec v_f, vec a, t`\n`vec d=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`vec v_ft-1/2vec at^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Formula as a function of `vec v_i, vec a, d`\n`(vec v_f)^2=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(v_i)^2+2ad`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`vec F_\"net\"=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`mvec a`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Formula as a function of `vec F_1, vec F_2, vec F_3`\n`vec F_\"net\"=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`vec F_1+vec F_2+vec F_3`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Force is measured in",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`kgm/s^2`",
+          "correct": true
+        },
+        {
+          "text": "N"
+        }
+      ]
+    },
+    {
+      "questionText": "Gravitational force as a function of `m, g`\n`F_g=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "mg",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Acceleration due to gravity `g=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`9.8 m/s^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Force of friction `F_f=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`muF_N`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "`mu` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "coefficient of friction",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Normal force always acts \u2581\u2581\u2581 to the surfaces in contact",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "perpendicular",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Hook's Law\nElastic force `F_e=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "-kx",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Hook's Law\n`k` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "spring constant",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Circular motion\n`v=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(2pir)/T`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Circular motion\n`v=(2pir)/T`\n`T` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "time of one revolution",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Circular motion\n`T=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/f`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Circular motion\n`f` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "number of revolutions in one second",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Circular motion\n`f` is measured in",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "Hz",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Centripetal force as a function of `m, a_c`\n`F_c=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`ma_c`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Centripetal acceleration as a function of `v, r`\n`a_c=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`v^2/r`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Centripetal force as a function of `m, v, r`\n`F_c=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(mv^2)/r`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Centripetal acceleration as a function of `r, f`\n`a_c=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`4pi^2rf^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Centripetal acceleration as a function of `r, T`\n`a_c=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(4pi^2r)/T^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Momentum `vec p=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`mvec v`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Momentum `vec p` is measured in",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "kgm/s",
+          "correct": true
+        },
+        {
+          "text": "Ns"
+        }
+      ]
+    },
+    {
+      "questionText": "Conservation of momentum is",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`vec(p_(T_i))=vec(p_(T_f))`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Work as a function of `E`\n`W=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`DeltaE`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Work as a function of `F, d, theta`\n`W=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`Fdcostheta`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Kinetic energey `E_k=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/2mv^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Gravitational potential energy `E_g=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "mgh",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Elastic potential energy `E_e=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/2k(Deltax)^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Conservation of energy is",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`E_(T_i)=E_(T_f)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Gravitational force as a function of `G, m_1, m_2, r`\n`F_g=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(Gm_1m_2)/r^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Universal gravitational constant `G=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`6.67 times 10^-11 Nm^2/\"kg\"^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Gravitational field strength `g=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(GM)/r^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Velocity of a satellite `v=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`sqrt((GM)/r)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Velocity of a satellite `v=sqrt((GM)/r)`\n`r` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "radius of the orbit",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Coulomb's law\nElectric force `F_E=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(kq_1q_2)/r^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Coulomb's law\nElectric force `F_E=(kq_1q_2)/r^2`\n`k=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`8.99 times 10^9 (Nm^2)/\"kg\"^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Coulomb's law\nElectric force `F_E=(kq_1q_2)/r^2`\n`k=8.99 times 10^9 (Nm^2)/\"kg\"^2` is known as",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "Coulomb's constant",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Coulomb's law\nElectric force `F_E=(kq_1q_2)/r^2`\n`F_E` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "magnitude of the electric force",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Coulomb's law\nElectric force `F_E=(kq_1q_2)/r^2`\n`q_1, q_2` are the magnitudes of the charges, measured in",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "C",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Coulomb's law\nElectric force `F_E=(kq_1q_2)/r^2`\n`r` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "distance from the centre of one charge to the centre of the other charge",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The direction of electric field lines represent",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "the direction of electric force acting on a test charge",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Electric field strength as a function of `vec F_E, q \" (test charge)\"`\n`vec epsilon=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`vec F_E/q`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Electric field strength `vec epsilon` is measured in",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "N/C",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Electric field strength as a function of `k, q_\"source\", r`\n`vec epsilon=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(kq_\"source\")/r^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Electric potential energy stored by two-point charges `E_E=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(kq_1q_2)/r`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Electric potential energy stored by two-point charges `E_E=(kq_1q_2)/r`\nIf charges are opposite, `E_E` will be",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "negative",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Electric potential as a function of `E_E, q`\n`V=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`E_E/q`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Electric potential `V=E_E/q`\n`V`, the electric potential, is",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "the potential energy per unit of a positive charge",
+          "correct": true
+        },
+        {
+          "text": "a measure of how much electric potential energy is associated with a charge, q, at a particular location within an electric field"
+        }
+      ]
+    },
+    {
+      "questionText": "Electric potential `V=E_E/q`\n`V` is measured in",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "V",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Electric potential as a function of `k, q_\"source\", r`\n`V=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(kq_\"source\")/r`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Electric field strength as a function of `DeltaV, r`\n`vec epsilon=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`DeltaV/r`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "``",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "``",
+          "correct": true
+        }
       ]
     }
   ]
