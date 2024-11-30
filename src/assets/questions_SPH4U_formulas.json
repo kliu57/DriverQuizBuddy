@@ -488,6 +488,66 @@
       ]
     },
     {
+      "questionText": "The mass of the earth `m_E=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`5.98 times 10^24 kg`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The radius of the earth `r_E=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`6.38 times 10^6 m`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The mass of the sun `m_S=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1.99 times 10^30 kg`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The radius of the sun `r_S=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`6.96 times 10^8 m`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The mass of the moon `m_E=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`7.35 times 10^22 kg`",
+          "correct": true
+        }
+      ]
+    },
+    {
       "questionText": "Coulomb's law\nElectric force `F_E=`",
       "info": "",
       "image": "",
@@ -683,217 +743,589 @@
       ]
     },
     {
-      "questionText": "Electric field strength as a function of `DeltaV, r`\n`vec epsilon=`",
+      "questionText": "Magnitude of electric field strength as a function of `DeltaV, r`\n`epsilon=`",
       "info": "",
       "image": "",
       "needPreview": true,
       "options": [
         {
-          "text": "`DeltaV/r`",
+          "text": "`(DeltaV)/r`",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Change in electric potential energy `DeltaE=`",
       "info": "",
       "image": "",
       "needPreview": true,
       "options": [
         {
-          "text": "``",
+          "text": "`qDeltaV`",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Magnitude of magnetic force `F_M=`",
       "info": "",
       "image": "",
       "needPreview": true,
       "options": [
         {
-          "text": "``",
+          "text": "`qvBsintheta`",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Magnitude of magnetic force `F_M=qvBsintheta`\n`B` is the",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "strength of the magnetic field",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Magnitude of magnetic force `F_M=qvBsintheta`\n`B` is the strength of the magnetic field, measured in",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "T",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Magnitude of magnetic force `F_M=qvBsintheta`\n`theta` is the",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "angle between the magnetic field and the velocity of the charged particle",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=`",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "ILB",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`I` is the",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "current in the conducting wire",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`I` is the current in the conducting wire, measured in",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "A",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`L` is the",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "length of wire in a magnetic field",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`B` is the",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "strength of the magnetic field",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`B` is the strength of the magnetic field, measured in",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "T",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Direction of magnetic force\nIn applying the right-hand rule, your thumb points to the",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "direction of the charge",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Direction of magnetic force\nIn applying the right-hand rule, your fingers points to the",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "direction of the magnetic field",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Direction of magnetic force\nIn applying the right-hand rule, for a positive charge, the magnetic force is",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "coming out of your palm",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Direction of magnetic force\nIn applying the right-hand rule, for a negative charge, the magnetic force is",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "going into your palm",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "The charge of an electron `e=`",
       "info": "",
       "image": "",
       "needPreview": true,
       "options": [
         {
-          "text": "``",
+          "text": "`1.60 times 10^-19 C`",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "The mass of an electron `m_e=`",
       "info": "",
       "image": "",
       "needPreview": true,
       "options": [
         {
-          "text": "``",
+          "text": "`9.11 times 10^-31 kg`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The mass of a proton `m_p=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1.67 times 10^-27 kg`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The mass of a neutron `m_n=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1.67 times 10^-27 kg`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Universal wave equation `v=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`flambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The speed of light as a function of `lambda, f`\n`c=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`flambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The speed of light is `c=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`3.00 times 10^8 m/s`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The approximate range of visible light is from",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "380nm-740nm",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Wavelength (`lambda`) is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "length of one complete cycle",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Frequency (`f`) is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "number of cycles that can occur over a given period of time",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Dispersion is when",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "different wavelengths of light are refracted at different angles",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The difference between mechanical waves and electromagnetic waves is that",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "electromagnetic waves do not need a medium to transfer energy",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The difference between longitudinal waves and transverse waves is that",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "transverse waves oscillate perpendicular to the direction of wave travel while longitudinal waves oscillate parallel to the direction of wave travel",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Wave fronts are the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "leading edge of a continuous crest or trough",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Wave rays are",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "imaginary straight lines perpendicular to wave fronts",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - nodal line (minima)\nGeneral path difference formula for destructive interference\n`|P_nS_1-P_nS_2|=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(n-1/2)lambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - nodal line (minima)\n`|P_nS_1-P_nS_2|` is the absolute value of path difference from",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "one source to a point on a nodal line and a second source to the same point",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - nodal line (minima)\nFor minima (nodal lines), the path difference must be",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "odd multiples of `lambda/2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - anti-nodal line (maxima)\nGeneral path difference formula for constructive interference\n`|P_mS_1-P_mS_2|=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`mlambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - anti-nodal line (maxima)\n`|P_mS_1-P_mS_2|` is the absolute value of path difference from",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "one source to a point on an anti-nodal line and a second source to the same point",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - anti-nodal line (maxima)\nFor maxima (anti-nodal lines), the path difference must be",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "whole multiples of `lambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - nodal line (minima)\n`dsintheta_n=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(n-1/2)lambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - nodal line (minima)\n`dsintheta_n=(n-1/2)lambda`\n`theta_n` is the angle between the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "right bisector and the line connecting the midpoint between the sources and a point on a nodal line",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - anti-nodal line (maxima)\n`dsintheta_m=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`mlambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - anti-nodal line (maxima)\n`dsintheta_m=mlambda`\n`theta_m` is the angle between the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "right bisector and the line connecting the midpoint between the sources and a point on an anti-nodal line",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - nodal line (minima)\n`(dx_n)/L=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(n-1/2)lambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - nodal line (minima)\n`(dx_n)/L=(n-1/2)lambda`\n`d` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "distance between the sources (slits)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - nodal line (minima)\n`(dx_n)/L=(n-1/2)lambda`\n`x_n` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "distance from a point on a nodal line to the right bisector",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - nodal line (minima)\n`(dx_n)/L=(n-1/2)lambda`\n`L` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "distance from the slits to the screen",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference - anti-nodal line (maxima)\n`(dx_m)/L=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`mlambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference\nFor the central maximum (central bright fringe), `m=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference\n`Deltax=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(lambdaL)/d`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Double slit interference\n`Deltax=(lambdaL)/d`\n`Deltax` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "distance between two consecutive nodal or anti-nodal fringes on a screen",
           "correct": true
         }
       ]
