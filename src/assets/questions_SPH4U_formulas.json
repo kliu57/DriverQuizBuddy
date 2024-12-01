@@ -98,7 +98,7 @@
       ]
     },
     {
-      "questionText": "Force is measured in",
+      "questionText": "Force is measured in `N`, or",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -106,9 +106,6 @@
         {
           "text": "`kgm/s^2`",
           "correct": true
-        },
-        {
-          "text": "N"
         }
       ]
     },
@@ -329,7 +326,7 @@
       ]
     },
     {
-      "questionText": "Momentum `vec p` is measured in",
+      "questionText": "Momentum `vec p` is measured in `Ns`, or",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -337,9 +334,6 @@
         {
           "text": "kgm/s",
           "correct": true
-        },
-        {
-          "text": "Ns"
         }
       ]
     },
@@ -380,7 +374,31 @@
       ]
     },
     {
-      "questionText": "Kinetic energey `E_k=`",
+      "questionText": "Work `W=Fdcostheta`\n`d` is the magnitude of the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "displacement",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Work `W=Fdcostheta`\n`theta` is the angle between the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "force vector and displacement vector",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Kinetic energy `E_k=`",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -755,7 +773,7 @@
       ]
     },
     {
-      "questionText": "Change in electric potential energy `DeltaE=`",
+      "questionText": "Change in electric potential energy `DeltaE_E=`",
       "info": "",
       "image": "",
       "needPreview": true,
@@ -1331,61 +1349,421 @@
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Single slit interference - nodal line (minima)\n`wsintheta_n=`",
       "info": "",
       "image": "",
       "needPreview": true,
       "options": [
         {
-          "text": "``",
+          "text": "`nlambda`",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Single slit interference - nodal line (minima)\n`wsintheta_n=nlambda`\n`w` is the",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "width of the slit opening",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Single slit interference - nodal line (minima)\n`wsintheta_n=nlambda`\n`theta_n` is the",
       "info": "",
       "image": "",
-      "needPreview": true,
+      "needPreview": false,
       "options": [
         {
-          "text": "``",
+          "text": "angle between the right bisector and the line connecting the slit to the dark fringe",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Single slit interference - anti-nodal line (maxima)\n`wsintheta_m=`",
       "info": "",
       "image": "",
       "needPreview": true,
       "options": [
         {
-          "text": "``",
+          "text": "`(m+1/2)lambda`",
           "correct": true
         }
       ]
     },
     {
-      "questionText": "``",
+      "questionText": "Single slit interference - nodal line (minima)\n`(wy_n)/L=`",
       "info": "",
       "image": "",
       "needPreview": true,
       "options": [
         {
-          "text": "``",
+          "text": "`nlambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Single slit interference - nodal line (minima)\n`(wy_n)/L=nlambda`\n`y_n` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "distance from the right bisector to a minimum (dark fringe)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Single slit interference - anti-nodal line (maxima)\n`(wy_m)/L=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(m+1/2)lambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Single slit interference\n`Deltay=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(lambdaL)/w`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Single slit interference\n`Deltay=(lambdaL)/w`\n`Deltay` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "distance between two consecutive(adjacent) nodes or anti-nodes on a screen",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Single slit interference\nThe width of the central maximum is",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`2Deltay`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Diffraction grating\nA diffraction grating is",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "a device containing a large number of equally spaced, parallel slits that act as individual light sources",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Diffraction grating\nThe difference between a transmission grating and a reflecting grating is",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "a transmission grating allows light to pass through while a reflection grating reflects light off its surface",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Diffraction grating\n`wsintheta_m=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`mlambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Diffraction grating\n`wsintheta_m=mlambda`\n`w` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "width between adjacent diffraction grating lines",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Diffraction grating\n`(wx_m)/L=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`mlambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Diffraction grating\nWidth between adjacent diffraction grating lines as a function of line density `N`\n`w=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "`1/N`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Stationary time (proper time) `t_s` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "time interval measured by an observer at rest relative to the time measurement",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Relativistic time `t_m` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "time interval measured by an observer at rest relative to the moving time measurement",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Lorentz factor `gamma=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`1/sqrt(1-v^2/c^2)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Relativistic time as a function of `gamma, t_s`\n`t_m=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`gammat_s`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Relativistic time as a function of `t_s, v, c`\n`t_m=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`t_s/sqrt(1-v^2/c^2)`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Relativistic time `t_m=t_s/sqrt(1-v^2/c^2)`\n`v` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "velocity of the object being measured",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Length contraction is when",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "an observer who is moving will measure smaller lengths than a stationary observer",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Relativistic length `L_m=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`L_s/gamma`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Relativistic mass `m_m=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`gammam_s`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Total relativistic energy of an object moving with a constant speed with respect to an inertial reference frame\n`E_\"Total\"=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`gammamc^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Total relativistic energy of an object at rest\n`E_\"rest\"=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`mc^2`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Planck's energy-frequency relation\nEnergy as a function of `h, f`\n`E_\"photon\"=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "`hf`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Energy as a function of `h, c, lambda`\n`E_\"photon\"=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`(hc)/lambda`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Planck's constant `h=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`6.63 times 10^-34 Js`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Photoelectric effect\n`E_k=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`E_\"photon\"-W`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Photoelectric effect\n`E_k=E_\"photon\"-W`\n`W` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "work function of a metal",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Photoelectric effect\n`W` the work function of a metal is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "minimum energy required to remove an electron from the surface of a solid metal",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Momentum of a photon as a function of `E_\"photon\", c`\n`p_\"photon\"=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`E_\"photon\"/c`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "de Broglie wavelength `lambda=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`h/p`",
           "correct": true
         }
       ]
