@@ -2,6 +2,126 @@
   "logo": "/assets/images/logos/math_logo.png",
   "questions": [
     {
+      "questionText": "Acceleration is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "rate at which an object's velocity or speed is changing. It can be a vector or a scalar.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A collision is an",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "interaction between two objects that may change velocity. Total momentum is conserved in a collision.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Force is a",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "vector quantity that, when unbalanced, can induce acceleration in an object. Examples are springs, gravity, electromagnetism.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Gravity is a",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "force through which two objects with mass attract each other, even if they aren't touching. Gravity is a field of force.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Magnetism is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "force experienced by a moving charge in a magnetic field. Magnets apply magnetism through charged particles.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A pendulum is an",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "object that repeats the same motion at predictable intervals, affected only by gravity. It is an example of simple harmonic motion.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Potential is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "energy possessed by an object that reflects its ability to do work due to its position or relationship with other objects. It can be gravitational, elastic, or electric.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A quark is a",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "subatomic particle. Quarks can be combined to form various elementary particles like protons and neutrons (but not electrons). Quarks are a part of the standard model.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "A wave is a",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "transfer of energy (usually) through a medium. Examples are sound waves and light waves.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Work is",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "energy done by applying a force over a displacement, or the potential to do so",
+          "correct": true
+        }
+      ]
+    },
+    {
       "questionText": "`vec v=`",
       "info": "",
       "image": "",
@@ -1619,7 +1739,7 @@
       "needPreview": false,
       "options": [
         {
-          "text": "an observer who is moving will measure smaller lengths than a stationary observer",
+          "text": "an observer who is moving measures smaller lengths than a stationary observer",
           "correct": true
         }
       ]
