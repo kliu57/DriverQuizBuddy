@@ -314,6 +314,18 @@
       ]
     },
     {
+      "questionText": "Hook's Law\n`k`, the spring constant, is measured in",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "N/m",
+          "correct": true
+        }
+      ]
+    },
+    {
       "questionText": "Circular motion\n`v=`",
       "info": "",
       "image": "",
