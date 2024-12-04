@@ -866,13 +866,13 @@
       ]
     },
     {
-      "questionText": "Electric potential `V=E_E/q`\n`V`, the electric potential, is",
+      "questionText": "Electric potential `V=E_E/q`\n`V`, the electric potential, is the",
       "info": "",
       "image": "",
       "needPreview": false,
       "options": [
         {
-          "text": "the potential energy per unit of a positive charge",
+          "text": "potential energy per unit of a positive charge",
           "correct": true
         },
         {
@@ -977,78 +977,6 @@
       ]
     },
     {
-      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=`",
-      "info": "",
-      "image": "",
-      "needPreview": false,
-      "options": [
-        {
-          "text": "ILB",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`I` is the",
-      "info": "",
-      "image": "",
-      "needPreview": false,
-      "options": [
-        {
-          "text": "current in the conducting wire",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`I` is the current in the conducting wire, measured in",
-      "info": "",
-      "image": "",
-      "needPreview": false,
-      "options": [
-        {
-          "text": "A",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`L` is the",
-      "info": "",
-      "image": "",
-      "needPreview": false,
-      "options": [
-        {
-          "text": "length of wire in a magnetic field",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`B` is the",
-      "info": "",
-      "image": "",
-      "needPreview": false,
-      "options": [
-        {
-          "text": "strength of the magnetic field",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`B` is the strength of the magnetic field, measured in",
-      "info": "",
-      "image": "",
-      "needPreview": false,
-      "options": [
-        {
-          "text": "T",
-          "correct": true
-        }
-      ]
-    },
-    {
       "questionText": "Direction of magnetic force\nIn applying the right-hand rule, your thumb points to the",
       "info": "",
       "image": "",
@@ -1097,7 +1025,79 @@
       ]
     },
     {
-      "questionText": "The charge of an electron `e=`",
+      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=`",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "ILB",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`I` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "current in the conducting wire",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`I` is the current in the conducting wire, measured in",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "A",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`L` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "length of the wire in a magnetic field",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`B` is the",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "strength of the magnetic field",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Magnetic force on a conducting wire `F_\"Mwire\"=ILB`\n`B` is the strength of the magnetic field, measured in",
+      "info": "",
+      "image": "",
+      "needPreview": false,
+      "options": [
+        {
+          "text": "T",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "The magnitude of the charge of a proton or electron is",
       "info": "",
       "image": "",
       "needPreview": true,
