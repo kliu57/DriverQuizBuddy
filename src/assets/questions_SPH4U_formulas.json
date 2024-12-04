@@ -470,6 +470,18 @@
       ]
     },
     {
+      "questionText": "`vec(F_\"net\")t=`",
+      "info": "",
+      "image": "",
+      "needPreview": true,
+      "options": [
+        {
+          "text": "`Deltavecp`",
+          "correct": true
+        }
+      ]
+    },
+    {
       "questionText": "Conservation of momentum is",
       "info": "",
       "image": "",
