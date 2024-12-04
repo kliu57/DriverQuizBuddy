@@ -728,7 +728,7 @@
       "needPreview": true,
       "options": [
         {
-          "text": "`8.99 times 10^9 (Nm^2)/\"kg\"^2`",
+          "text": "`8.99 times 10^9 (Nm^2)/C^2`",
           "correct": true
         }
       ]
