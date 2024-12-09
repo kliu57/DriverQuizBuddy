@@ -1,12 +1,8 @@
 <div class="share-container">
-  <input
-    #linkInput
-    type="text"
-    [value]="'https://driver-quiz-buddy.vercel.app'"
-    readonly
-    class="share-link"
-  >
-  <button (click)="copyLink(linkInput)">
-    {{ copied ? 'Copied!' : 'Copy' }}
+  <input #shareInput type="text" class="share-link" [value]="linkToShare" readonly>
+  <button (click)="copyLink(shareInput)">
+    <span class="material-icons" style="font-size: 18px;">
+      {{copied ? 'check' : 'content_copy'}}
+    </span>
   </button>
 </div>

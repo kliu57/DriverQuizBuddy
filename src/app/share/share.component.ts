@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './share.component.scss'
 })
 export class ShareComponent {
+  linkToShare = window.location.href;
   copied = false;
 
   copyLink(inputElement: HTMLInputElement): void {
