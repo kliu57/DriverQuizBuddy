@@ -1,0 +1,25 @@
+.share-container {
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+}
+
+.share-link {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 300px;
+}
+
+button {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
