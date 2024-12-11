@@ -1,8 +1,9 @@
-Share
+<h2 class="share-title">Share Now</h2>
+
 <div class="share-container">
-  <input #shareInput type="text" class="share-link" [value]="linkToShare" readonly>
+  <input #shareInput type="text" [value]="linkToShare" readonly class="share-link">
   <button (click)="copyLink(shareInput)">
-    <span class="material-icons" style="font-size: 18px;">
+    <span class="material-icons">
       {{copied ? 'check' : 'content_copy'}}
     </span>
   </button>

@@ -3,23 +3,30 @@
   gap: 8px;
   padding: 16px;
   align-items: center;
-  width: auto;
+  width: 100%;
   overflow: hidden;
 }
 
 .share-link {
   flex: 1;
   min-width: 0;
-  max-width: 600px;
   padding: 8px;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   border-radius: 4px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+  &:focus {
+    outline: none;
+    border: 2px solid #66afeb;
+  }
 }
 
 button {
   padding: 8px;
   background: transparent;
-  color: #007bff;
+  color: #66afeb;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -33,4 +40,12 @@ button {
 
 button:hover {
   background: #f0f0f0;
+}
+
+.share-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #66afeb;
+  margin: 0;
+  padding: 16px 16px 4px;
 }

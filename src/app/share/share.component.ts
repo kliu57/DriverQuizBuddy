@@ -3,10 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-share',
   templateUrl: './share.component.html',
-  styleUrl: './share.component.scss'
+  styleUrl: './share.component.scss',
 })
 export class ShareComponent {
-  linkToShare = window.location.href;
+  linkToShare = 'https://driver-quiz-buddy.vercel.app';
   copied = false;
 
   copyLink(inputElement: HTMLInputElement): void {
